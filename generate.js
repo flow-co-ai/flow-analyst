@@ -211,29 +211,11 @@ TOP PERFORMERS:
 ${data.topPerformers}
 
 INSTRUCTIONS:
-Use the web_search tool to find:
+Use the web_search tool to research:
 1. Current industry benchmarks for ${client.vertical} (cost per lead, conversion rate norms)
 2. Competitor or category-level trends in ${client.vertical} this month
 
-Then return ONLY valid JSON in this exact shape, no markdown fences:
-
-{
-  "verdict": "One sentence. Specific numbers. What happened this period.",
-  "diagnosis": "One sentence. Compare best vs worst channel. Name top campaign.",
-  "signals": [
-    { "headline": "Short specific headline with a real number", "detail": "One sentence of judgment. What it means." }
-  ],
-  "market_context": {
-    "benchmark":  { "label": "INDUSTRY BENCHMARK", "subheader": "Short italic one-liner", "body": "Paragraph using the web search findings." },
-    "seasonal":   { "label": "SEASONAL READ",       "subheader": "Short italic one-liner about what the season is doing to demand", "body": "Paragraph." },
-    "competitor": { "label": "COMPETITOR SIGNAL",   "subheader": "Short italic one-liner about what the market is doing", "body": "Paragraph using web search findings." }
-  },
-  "recommendations": [
-    { "number": "01", "title": "Specific recommendation", "detail": "One sentence. Framed as a suggestion." },
-    { "number": "02", "title": "...", "detail": "..." },
-    { "number": "03", "title": "...", "detail": "..." }
-  ]
-}
+Then call the emit_report tool with the structured findings. Do not write the report as text — only call emit_report.
 
 CRITICAL RULES:
 - Never use marketing acronyms (no CPL, no CPM, no ROAS, no CTR, no CAC, no LTV). Spell out everything ("cost per lead", "return on ad spend", etc).
@@ -245,52 +227,63 @@ CRITICAL RULES:
 - Return between 3 and 5 signals.`;
 }
 
+// --- Tool definitions ---
+
+const EMIT_REPORT_TOOL = {
+  name: 'emit_report',
+  description: 'Emit the structured weekly analyst report for this client.',
+  input_schema: {
+    type: 'object',
+    properties: {
+      verdict: { type: 'string' },
+      diagnosis: { type: 'string' },
+      signals: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            headline: { type: 'string' },
+            detail: { type: 'string' },
+          },
+          required: ['headline', 'detail'],
+        },
+        minItems: 3,
+        maxItems: 5,
+      },
+      market_context: {
+        type: 'object',
+        properties: {
+          benchmark:  { type: 'object', properties: { label: { type: 'string' }, subheader: { type: 'string' }, body: { type: 'string' } }, required: ['label', 'subheader', 'body'] },
+          seasonal:   { type: 'object', properties: { label: { type: 'string' }, subheader: { type: 'string' }, body: { type: 'string' } }, required: ['label', 'subheader', 'body'] },
+          competitor: { type: 'object', properties: { label: { type: 'string' }, subheader: { type: 'string' }, body: { type: 'string' } }, required: ['label', 'subheader', 'body'] },
+        },
+        required: ['benchmark', 'seasonal', 'competitor'],
+      },
+      recommendations: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            number: { type: 'string' },
+            title:  { type: 'string' },
+            detail: { type: 'string' },
+          },
+          required: ['number', 'title', 'detail'],
+        },
+        minItems: 3,
+        maxItems: 3,
+      },
+    },
+    required: ['verdict', 'diagnosis', 'signals', 'market_context', 'recommendations'],
+  },
+};
+
 // --- Response parsing ---
 
-// Bracket-balanced right-to-left scan: returns the substring of the last
-// complete top-level {...} object in `text`, or null if none found.
-function findLastJsonObject(text) {
-  let depth = 0;
-  let end = -1;
-  for (let i = text.length - 1; i >= 0; i--) {
-    const ch = text[i];
-    if (ch === '}') {
-      if (depth === 0) end = i;
-      depth++;
-    } else if (ch === '{') {
-      depth--;
-      if (depth === 0) return text.slice(i, end + 1);
-    }
-  }
-  return null;
-}
-
-// Concatenates all text blocks, strips fences, then extracts the LAST complete
-// JSON object via a bracket-balanced right-to-left walk.
-function extractJsonFromResponse(message) {
-  const textBlocks = message.content.filter(b => b.type === 'text');
-  if (!textBlocks.length) throw new Error('No text block found in API response');
-
-  // Concatenate all text blocks — the final answer may span multiple blocks
-  // when the model interleaves tool calls with prose.
-  const raw = textBlocks.map(b => b.text).join('\n').trim();
-
-  // Strip code fences that may wrap any individual JSON block
-  const stripped = raw
-    .replace(/```json\s*/gi, '')
-    .replace(/```\s*/gi, '')
-    .trim();
-
-  // Primary path: bracket-balanced walk to find the last complete {...}
-  const lastObj = findLastJsonObject(stripped);
-  if (lastObj) {
-    try { return JSON.parse(lastObj); } catch (_) { /* fall through */ }
-  }
-
-  // Fallback: try the whole stripped string (handles clean single-object responses)
-  try { return JSON.parse(stripped); } catch (_) { /* fall through */ }
-
-  throw new Error(`Could not parse JSON from response. Raw text: ${stripped.slice(0, 300)} ... ${stripped.slice(-300)}`);
+function extractToolUseInput(message) {
+  const toolUse = message.content.find(b => b.type === 'tool_use' && b.name === 'emit_report');
+  if (!toolUse) throw new Error('No emit_report tool_use block found in response');
+  return toolUse.input;
 }
 
 // --- Per-client report ---
@@ -306,11 +299,11 @@ async function generateClientReport(client, anthropic, period) {
     model: 'claude-opus-4-7',
     max_tokens: 8000,
     system: 'You are the senior analyst for Flow Company, a performance marketing agency. Write a client intelligence briefing. Plain English. No marketing acronyms.',
-    tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+    tools: [{ type: 'web_search_20250305', name: 'web_search' }, EMIT_REPORT_TOOL],
     messages: [{ role: 'user', content: userPrompt }],
   });
 
-  const parsed = extractJsonFromResponse(message);
+  const parsed = extractToolUseInput(message);
 
   const output = {
     client: client.slug,
