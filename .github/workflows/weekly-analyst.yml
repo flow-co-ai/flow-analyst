@@ -1,0 +1,39 @@
+name: Weekly Analyst
+
+on:
+  schedule:
+    # Every Monday at 12:00 UTC = 6am CST / 7am CDT (Chicago)
+    - cron: '0 12 * * 1'
+  workflow_dispatch: # allows manual "Run workflow" button in GitHub UI
+
+permissions:
+  contents: write # lets the bot commit analyst.json back to main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate analyst report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate.js
+
+      - name: Commit and push analyst.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add analyst.json
+          git diff --staged --quiet || git commit -m "Weekly analyst update: $(date +%Y-%m-%d)"
+          git push
