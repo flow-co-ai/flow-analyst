@@ -217,7 +217,29 @@ Use the web_search tool to research:
 
 Then call the emit_report tool with the structured findings. Do not write the report as text — only call emit_report.
 
-CRITICAL RULES:
+LENGTH RULES — STRICT, NON-NEGOTIABLE:
+- verdict: ONE sentence, maximum 25 words. The headline takeaway.
+- diagnosis: ONE sentence, maximum 30 words. The key insight with the most important number.
+- signals[].headline: maximum 8 words. Must contain a number.
+- signals[].detail: maximum 25 words. One sentence of judgment.
+- market_context.benchmark.subheader: maximum 10 words.
+- market_context.benchmark.body: maximum 40 words.
+- market_context.seasonal.subheader: maximum 10 words.
+- market_context.seasonal.body: maximum 40 words.
+- market_context.competitor.subheader: maximum 10 words.
+- market_context.competitor.body: maximum 40 words.
+- recommendations[].title: maximum 12 words.
+- recommendations[].detail: maximum 35 words.
+
+WRITING RULES:
+- Be ruthless. Cut every word that isn't load-bearing.
+- One idea per field. Do not stack multiple insights into one body.
+- Lead with the most important number or finding.
+- Skip throat-clearing ("Multiple 2026 industry reports place...", "Industry research consistently points to..."). Just say the thing.
+- No "however," "meanwhile," "on the bright side" — just the next sentence.
+- Skip the "what to do about it" inside body fields — that lives in recommendations.
+
+OTHER RULES:
 - Never use marketing acronyms (no CPL, no CPM, no ROAS, no CTR, no CAC, no LTV). Spell out everything ("cost per lead", "return on ad spend", etc).
 - Write for a small business owner. Plain English.
 - All metrics are LAST 28 DAYS ONLY. Frame everything as "this period".
@@ -298,7 +320,7 @@ async function generateClientReport(client, anthropic, period) {
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-7',
     max_tokens: 8000,
-    system: 'You are the senior analyst for Flow Company, a performance marketing agency. Write a client intelligence briefing. Plain English. No marketing acronyms.',
+    system: 'You are the senior analyst for Flow Company. Write extremely concise client briefings — short, scannable, one idea per field. Plain English. No marketing acronyms. If a sentence has more than 25 words, cut it. Brevity is the product.',
     tools: [{ type: 'web_search_20250305', name: 'web_search' }, EMIT_REPORT_TOOL],
     messages: [{ role: 'user', content: userPrompt }],
   });
