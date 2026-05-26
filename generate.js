@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { writeFileSync } from 'fs';
+import { writeFileSync, unlinkSync } from 'fs';
 
 const CLIENTS = [
   {
@@ -266,7 +266,7 @@ function extractJsonFromResponse(message) {
   } catch (e) {
     // Try to find a JSON object within the text in case there's surrounding prose
     const match = stripped.match(/\{[\s\S]*\}/);
-    if (!match) throw new Error(`Could not parse JSON from response. Raw text (first 500 chars): ${stripped.slice(0, 500)}`);
+    if (!match) throw new Error(`Could not parse JSON from response. Raw text: ${stripped.slice(0, 300)} ... ${stripped.slice(-300)}`);
     parsed = JSON.parse(match[0]);
   }
 
@@ -284,7 +284,7 @@ async function generateClientReport(client, anthropic, period) {
 
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-7',
-    max_tokens: 2000,
+    max_tokens: 8000,
     system: 'You are the senior analyst for Flow Company, a performance marketing agency. Write a client intelligence briefing. Plain English. No marketing acronyms.',
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
     messages: [{ role: 'user', content: userPrompt }],
@@ -323,6 +323,10 @@ async function main() {
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const period = getPeriod();
   console.log(`Period: ${period}\n`);
+
+  for (const client of CLIENTS) {
+    try { unlinkSync(`${client.slug}.json`); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+  }
 
   const failed = [];
 
