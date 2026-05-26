@@ -1,11 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-05-26T22:29:40.058Z",
+  "generatedAt": "2026-05-26T23:32:18.072Z",
   "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "The Eid Al-Adha Awareness push on Instagram is generating attention but very few sales. Over the last 28 days, the account delivered roughly 769 landing page views and only 7 add-to-cart actions, with 1 checkout started and a recorded purchase value of just $14. With Eid Al-Adha demand peaking in the next several days, the priority is converting the awareness you've already built into actual orders — not adding more reach.",
-  "diagnosis": "The \"Eid Qurbani Without the Hassle\" Instagram campaign is doing the top of the funnel job well: 1,317 reach entries logged, 1,526 unique clicks, and engagement on the new Picanha Kabobs creative reached 489 in the latest period — a sharp jump versus the 221 average. However, the funnel collapses between interest and purchase. Only 7 add-to-cart events and 1 initiated checkout were recorded in this period, and the cost per purchase landed at $204 on average (latest period $155). For a category where industry research pegs typical customer acquisition for food brands at $15–$35, this is roughly 5–10x what a DTC food brand should be paying to land a customer. The Google Business Profile is also losing signal: 0 new reviews, 0 calls, and 0 direction requests recorded this period despite a base of 419 lifetime reviews — meaning the local discovery channel that usually supports a butcher shop (\"zabiha halal meat near me\" is literally one of your tracked terms) is dormant heading into the single biggest holiday of your year.",
-  "signals": "[\n{\"headline\": \"Cost per purchase is running roughly 5x the food category norm\", \"detail\": \"Your average cost per purchase this period was $204 (latest period $155). <cite index=\"9-25\">Food and grocery customer acquisition typically runs $15–$35, the lowest of any vertical, driven by habitual repeat purchases.</cite> Even allowing for the holiday premium, the current spend-to-sale ratio means the Eid campaign is unlikely to be profitable as currently structured.\"},\n{\"headline\": \"Strong interest, almost no checkouts\", \"detail\": \"The campaign produced 769 landing page views and 1,526 unique clicks this period, but only 7 add-to-cart actions and 1 initiated checkout. That is a drop-off well below the food category norm — <cite index=\"7-23,7-24\">a 9.5% add-to-cart rate is the top of the funnel for food brands; below 9% suggests product pages need work — better photography, clearer pricing, more compelling descriptions.</cite>\"},\n{\"headline\": \"Google Business Profile went silent this period\", \"detail\": \"Zero new reviews, zero calls, and zero direction requests were recorded in the last 28 days, despite a lifetime base of 419 reviews. Local search ('zabiha halal meat near me') is exactly the query Eid shoppers in Hoffman Estates will use this week, and a stale profile suppresses you in those local results.\"},\n{\"headline\": \"The new Picanha Kabobs post is your best organic asset right now\", \"detail\": \"Media engagement hit 489 in the latest period versus the 28-day average of 221 — more than 2x the typical level. The 'New Cut Alert: Grass-Fed & Grass-Finished Organic Picanha Kabobs' creative is clearly resonating and should be leveraged in paid placement, not left as organic-only.\"},\n{\"headline\": \"Holiday demand is spiking industry-wide\", \"detail\": \"<cite index=\"16-3\">With Eid Al Adha just days away, the centuries-old tradition of Udhiya is experiencing a digital revolution, as retailers forecast demand to rise by as much as 200 per cent this year.</cite> <cite index=\"16-17,16-18\">Orders usually spike closer to Eid, peaking on the first day.</cite> The window to capture this is measured in days, not weeks.\"}\n]",
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"How Billy Doe Meats compares to the category\",\n\"subheader\": \"Food and beverage ecommerce benchmarks for 2026\",\n\"body\": \"Food brands convert better than most ecommerce categories. <cite index=\"4-23\">Food and beverage leads at 4.9–6.2% conversion rate, while luxury and jewelry sit at the bottom at 0.5–1%.</cite> <cite index=\"9-25\">Food and grocery customer acquisition runs $15–$35, the lowest of any vertical.</cite> Your current cost per purchase ($155–$204 in this period) is well outside that range, which signals the issue is not the offer or the audience — it's the path from ad click to completed checkout. <cite index=\"7-3,7-4\">A $35 acquisition cost threshold is critical for DTC food profitability — with a $68 average order value and $210 annual customer lifetime value, acquisition costs above $35 start squeezing margins uncomfortably.</cite>\"\n},\n\"seasonal\": {\n\"label\": \"Where we are in the Eid Al-Adha cycle\",\n\"subheader\": \"The holiday window is closing fast\",\n\"body\": \"Eid Al-Adha 2026 falls in the immediate days ahead, and demand is concentrated. <cite index=\"16-17,16-18\">Orders typically spike closer to Eid, peaking on the first day.</cite> <cite index=\"14-11,14-12\">Booking windows typically open 3–4 weeks before Eid, with reservations opening early to help lock in better prices and delivery slots.</cite> Retailers serving this category are seeing dramatic volume — <cite index=\"16-4,16-5\">one major hypermarket chain is expecting nearly 200 per cent growth in demand for Udhiya services during this Eid season.</cite> <cite index=\"12-7,12-8\">Demand is also shifting toward convenience: more demand for value-added and ready-to-cook products such as marinated meats, burger patties and sausages, reflecting changing household habits.</cite>\"\n},\n\"competitor\": {\n\"label\": \"What other halal meat brands are doing\",\n\"subheader\": \"Online ordering and delivery are the battleground\",\n\"body\": \"Direct competitors are leaning hard into convenience and clear, transparent pricing. <cite index=\"14-19\">Competitors are positioning their offering as 'everything handled online — clean, zabiha halal, and stress-free.'</cite> A US-based halal butcher is selling whole goat and whole lamb Qurbani shares at a flat $700 all-inclusive price covering slaughter, cutting and boxing, with full Zabiha supervision certification displayed prominently. <cite index=\"13-8\">Orders for sacrificial meat can be placed via butchery apps or even grocery apps,</cite> meaning convenience and a frictionless checkout are now table stakes. Brands that publish clear per-animal pricing, certification badges, and a defined delivery or pickup window are pulling ahead of brands that route shoppers to a generic shop page.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Consider rebuilding the Eid landing experience around a single Qurbani offer with transparent pricing\", \"detail\": \"Right now the Instagram ad sends traffic to a general site, and only 1 checkout was started this period from 769 landing page views. Worth testing a dedicated Eid Al-Adha landing page that shows three clear options (whole lamb, whole goat, share), the all-in price, the cut/pack details, the delivery window for Hoffman Estates and the surrounding area, and your halal certification. Competitors in this space lead with flat, all-inclusive pricing and clear cutoff dates — that transparency is what closes the gap between interest and purchase.\"},\n{\"number\": \"2\", \"title\": \"Consider reactivating the Google Business Profile this week\", \"detail\": \"The profile recorded 0 reviews, 0 calls, and 0 direction requests this period, yet 'zabiha halal meat near me' is one of your tracked search terms — exactly what local shoppers will type in the next several days. Worth posting a Google Business update about Eid availability, asking 5–10 recent customers for a fresh review, and confirming hours and phone (630-912-2127) are accurate. Local search is essentially free placement and you are not capturing it this period.\"},\n{\"number\": \"3\", \"title\": \"Test shifting paid spend behind the Picanha Kabobs creative and a convenience-led message\", \"detail\": \"The Picanha Kabobs post drove 489 engagements in the latest period — more than double the 28-day average of 221. That's a signal worth following. Consider running it as a paid placement alongside the Eid campaign, paired with a 'ready-to-cook, delivered before Eid' angle. Industry data shows <cite index=\"12-7,12-8\">demand is shifting toward value-added and ready-to-cook products such as marinated meats, burger patties and sausages,</cite> which fits this creative naturally and gives you a second message to test against the awareness ad that is currently absorbing most of the budget.\"}\n]"
+  "verdict": "Eid Al-Adha demand is landing, but acquisition costs are running roughly 6x the food category benchmark.",
+  "diagnosis": "Eid campaign drove 450 purchases this period, but cost per purchase of $204 is well above the $15–$35 food vertical norm.",
+  "signals": [
+    {
+      "headline": "Cost per purchase hit $204 this period",
+      "detail": "Latest day improved to $155, signaling the Eid creative is starting to find buyers as the holiday nears."
+    },
+    {
+      "headline": "392 leads captured at $7 each",
+      "detail": "Lead capture is the bright spot. Cost per lead sits well inside healthy food-brand ranges and feeds future email and retargeting."
+    },
+    {
+      "headline": "Only 7 add-to-carts vs 769 page views",
+      "detail": "Under 1% of landing page visitors are adding to cart. Product page or pricing friction is blocking the funnel."
+    },
+    {
+      "headline": "419 Google reviews but rating not surfacing",
+      "detail": "Review volume is a real asset for a local butcher. Star rating field is empty in the feed and worth verifying."
+    },
+    {
+      "headline": "Picanha Kabobs post drew 489 engagements",
+      "detail": "New cut announcement is the top organic moment this period. Worth amplifying with paid before Eid peak."
+    }
+  ],
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Food brands acquire customers for $15–$35",
+      "body": "Food and grocery is the cheapest DTC vertical for customer acquisition at $15–$35 per customer. Billy Doe's $204 cost per purchase this period sits roughly 6x above that range, even with the Eid lift."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Eid Al-Adha demand peaks in late May",
+      "body": "Online Qurbani and halal meat delivery demand is forecast to rise up to 200% versus last year, with orders spiking in the final days before Eid. Reservations typically open 3–4 weeks ahead."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "US halal players push free shipping and Zabiha",
+      "body": "Competitors like 4th Ave Halal Meat (free nationwide shipping, EBT online) and New England Meat Packing ($700 all-inclusive Zabiha Qurbani share) are leaning on transparent pricing and certification as the main hook."
+    }
+  },
+  "recommendations": [
+    {
+      "number": "1",
+      "title": "Test bundle pricing aimed at the free shipping threshold",
+      "detail": "Meat shoppers abandon carts at 81% largely due to shipping fees. Consider an Eid grill bundle that lifts order value over a free shipping line."
+    },
+    {
+      "number": "2",
+      "title": "Retarget the 392 leads with an Eid offer before peak",
+      "detail": "Cost per lead is healthy at $7. Worth testing an email and Instagram retargeting push to convert them before the final-days order spike."
+    },
+    {
+      "number": "3",
+      "title": "Put paid spend behind the Picanha Kabobs post",
+      "detail": "The new cut already earned 489 organic engagements. Consider boosting it as a Reel to a lookalike of recent purchasers while Eid intent is high."
+    }
+  ]
 }

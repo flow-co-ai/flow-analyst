@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-05-26T22:31:27.833Z",
+  "generatedAt": "2026-05-26T23:33:09.330Z",
   "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Paid Instagram is producing leads at a cost that holds up against legal industry norms, and the firm's reputation signals on Google are strong. The biggest opportunity is improving what happens after the click — landing page conversion and lead-to-client follow-up — rather than buying more traffic.",
-  "diagnosis": "This period, the Instagram lead generation campaign spent $2,246.44 and produced 110 leads, putting the cost per lead at roughly $20.42. That number is competitive with industry expectations for legal services on Meta this year. The single static ad (\"Static-1\") tied to the \"BWS - CROA - Lead Gen - 11 companies\" campaign delivered 39,108 impressions, 772 link clicks, and 655 landing page views, with roughly 1 in 6 landing page visitors becoming a lead. Alongside paid media, the Google Business Profile drove 109 phone call taps and 138 website clicks, and the firm holds a 5-star rating across 61 reviews — including a new five-star review this period from Diana D. praising attorney Mr. Daher. Organic Instagram remains tiny (26 followers, 4 profile visits, 2,434 accounts reached) and the CRM shows pipeline activity but limited new tagged \"client\" conversions visible in this window. The story: paid is the engine, local reputation is the trust layer, and organic social is the weakest link.",
+  "verdict": "Lead volume is strong and cheap, but Instagram following and conversion-to-client tracking remain blind spots.",
+  "diagnosis": "Instagram lead campaign delivered 110 leads at roughly $20 each this period — well below the $72-$164 legal benchmark.",
   "signals": [
     {
-      "headline": "Cost per lead came in around $20.42",
-      "detail": "Spend of $2,246.44 produced 110 leads through the Instagram lead generation campaign this period. That works out to roughly $20.42 per lead, which is in line with what the legal category is paying on Meta right now."
+      "headline": "110 leads at $20 each",
+      "detail": "Spent $2,246 to generate 110 leads this period. Cost per lead is roughly a third of the typical legal benchmark."
     },
     {
-      "headline": "Landing page is converting visitors at about 17%",
-      "detail": "Of 655 people who reached the landing page this period, 110 became leads. That's a healthy conversion rate for legal traffic — meaning the page is doing its job, and the bottleneck is more likely volume and lead quality than the page itself."
+      "headline": "655 landing page views, 110 leads",
+      "detail": "About 1 in 6 landing page visitors became a lead this period. Solid form conversion for a cold social audience."
     },
     {
-      "headline": "Only one creative is carrying the entire campaign",
-      "detail": "All 39,108 impressions and 110 leads came from a single static image ad. There is no creative rotation, which means when this ad fatigues, results will drop quickly with nothing ready to replace it."
+      "headline": "109 phone calls from Google profile",
+      "detail": "Local listing drove 109 calls this period with zero direction requests. Phone is the dominant intake channel."
     },
     {
-      "headline": "Google Business Profile is a quiet workhorse",
-      "detail": "The local profile generated 109 phone call taps, 138 website clicks, and 1,572 search and map impressions this period, alongside a perfect 5-star average across 61 reviews. This is essentially free, high-intent volume that complements the paid program."
+      "headline": "5.0 star rating across 61 reviews",
+      "detail": "Reputation is excellent and a new five-star review landed this period. Strong trust signal for paid traffic."
     },
     {
-      "headline": "Organic Instagram is barely contributing",
-      "detail": "The Instagram account has just 26 followers, 4 profile visits, and 2,434 accounts reached organically this period. The paid campaign is doing all the work; the organic presence isn't reinforcing it."
+      "headline": "Only 26 Instagram followers",
+      "detail": "Despite 34,263 people reached, the profile gained almost no followers. Ads are working but the organic presence is not."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Industry benchmarks",
-      "subheader": "How your numbers compare to legal services on Meta in 2026",
-      "body": "Independent benchmark reports place the cost per lead for law firms on Facebook and Instagram in a wide range this year. One widely cited 2026 projection puts the legal cost per lead at roughly $21, up from $18.17 in 2025 as competition intensifies. Other reports place legal cost per lead anywhere from $67 to over $250 depending on practice area and channel, with consumer-facing legal services like bankruptcy and debt-related work tending to land in the $35–$90 range. Your $20.42 this period sits at the favorable end of that spread. On conversion rate, attorneys and legal services average around 10.5% on Meta lead campaigns — your landing-page-to-lead rate of roughly 17% is meaningfully above that."
+      "label": "Benchmark",
+      "subheader": "Legal cost per lead on Meta",
+      "body": "Legal sits among the priciest verticals on Meta. Reported medians range from $72 to $164 per lead, with some 2026 projections near $21. This campaign's ~$20 cost per lead is at or below the best-case range."
     },
     "seasonal": {
-      "label": "Seasonal context",
-      "subheader": "What late spring usually looks like for consumer law",
-      "body": "Late April through May tends to be an active window for consumer debt and credit-related legal inquiries — tax season has just ended, consumers are reconciling balances, and credit collection activity typically picks up. Industry sources note that legal cost per lead can swing dramatically month to month (one analysis flagged a $123 jump between August and September last year), so locking in efficient performance now matters before summer competition rises. Holding cost per lead near $20 in this seasonal window is a strong baseline to defend."
+      "label": "Seasonal",
+      "subheader": "Spring debt-relief inquiry uptick",
+      "body": "Spring tax season and post-holiday credit card balances typically drive higher consumer interest in debt and collections relief. Demand for Fair Debt Collection help tends to climb April through June."
     },
     "competitor": {
-      "label": "Category trends",
-      "subheader": "What other consumer law firms are doing this month",
-      "body": "Across the legal category in 2026, three shifts stand out. First, firms are leaning harder into Google Business Profile, reviews, and local search because 93% of legal consumers research online before contacting a firm and reviews now influence conversion as much as referrals. Second, paid social click-through rates for law firms are projected to dip slightly (from 2.11% to about 2.0%) as more firms enter the auction, making creative quality the differentiator. Third, informational content offers ('What to do if a debt collector calls you') are outperforming direct 'Call Now' offers and reducing cost per lead by up to 45% when paired with retargeting. Single-creative campaigns like yours are increasingly vulnerable in this environment."
+      "label": "Competitor",
+      "subheader": "Firms shift toward Google Local Services",
+      "body": "Consumer law firms increasingly pair Meta ads with Google Local Services Ads, where you pay per lead and earn a Google Screened badge. Roughly 79% of legal consumers hire the first responsive attorney."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Consider testing two or three new ad creatives alongside Static-1",
-      "detail": "The entire campaign currently rides on one static image. Worth exploring a short video version (15–30 seconds of an attorney explaining consumer rights), a testimonial-style ad built from the Diana D. review, and an informational angle like 'What to do when debt collectors won't stop calling.' Industry data this year shows video and informational creative consistently outperform single-call-to-action static ads in the legal category. Even one new creative would reduce the risk of the campaign collapsing when Static-1 fatigues."
+      "title": "Track which leads become signed clients",
+      "detail": "Consider tagging the 110 leads in the CRM by outcome. Knowing the lead-to-client rate turns a $20 lead cost into a real cost-per-case number."
     },
     {
       "number": "02",
-      "title": "Test a Spanish-language ad variant for the consumer-rights audience",
-      "detail": "Search data shows the site is being found for the Spanish-language query 'derechos del consumidor en estados unidos,' and the Google Business Profile is already showing up as a translated result. That signals real Spanish-speaking demand that the current English-only ad isn't capturing. Worth running a small budget test (perhaps 15–20% of spend) with a Spanish creative pointing to a Spanish landing page to see if cost per lead improves."
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Worth exploring a small Google Local Services test. It pays per lead with the Google Screened badge, and the 5.0 star profile would rank well."
     },
     {
       "number": "03",
-      "title": "Build a simple review-request routine to widen the lead-to-client gap",
-      "detail": "The firm has a perfect 5-star rating across 61 reviews, and only one new review came in this period. Given that 88% of consumers trust online reviews as much as personal recommendations — and that figure rises to 93% for legal services — consider sending an automated text or email to every signed client asking for a Google review after their case wraps. Doubling the review count over the next quarter would strengthen both the local search ranking and the conversion rate of paid traffic that lands on the profile before calling."
+      "title": "Tighten phone response speed",
+      "detail": "Calls drove 109 contacts this period. Test how fast staff answer and call back missed calls — speed is the single biggest conversion lever in legal intake."
     }
   ]
 }

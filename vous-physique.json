@@ -1,64 +1,64 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-05-26T22:33:01.546Z",
+  "generatedAt": "2026-05-26T23:34:04.384Z",
   "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Spending is winding down with no visible results pipeline. The retargeting campaign on Facebook spent $599.22 over the last 28 days, but with no website, Google Business, social, or pipeline data flowing in, we cannot confirm a single lead was generated — and daily spend has now collapsed to under a dollar.",
-  "diagnosis": "Vous Physique ran one Facebook campaign this period — a retargeting campaign aimed at people who already know the brand — at an average of $28.53 per day. By the most recent day in the window, spend had fallen to $0.59, suggesting the campaign is either out of audience, out of budget, or paused. Because there is no data coming in from the website, Google Business Profile, social channels, or the customer pipeline, we have no way to confirm whether the $599.22 spent this period produced any trial bookings, calls, or memberships. In short: money went out the door, and we cannot see what came back in. This is the most urgent issue to fix before any spending decisions are made.",
+  "verdict": "Retargeting spend is fading to near zero with no leads, social, or pipeline data to judge results.",
+  "diagnosis": "This period spent $599 on Facebook retargeting, dropping from $28/day average to $0.59 on the latest day, with no conversion data attached.",
   "signals": [
     {
-      "headline": "Only one active paid campaign, and it is retargeting only",
-      "detail": "All $599.22 of spend this period went to a single Facebook campaign focused on people who already engaged with the brand. There is no campaign bringing in new audiences, which caps how many fresh leads the studio can generate."
+      "headline": "Facebook spend totaled $599 this period",
+      "detail": "All paid budget went to one retargeting campaign. No prospecting or new-audience layer is currently running."
     },
     {
-      "headline": "Daily spend has collapsed to $0.59",
-      "detail": "Average daily spend was $28.53 across the period, but the latest day shows just $0.59. That is a roughly 98% drop from the average and signals the campaign has effectively stopped delivering."
+      "headline": "Daily spend collapsed to $0.59",
+      "detail": "Latest day shows budget effectively switched off. Either intentional pause or a delivery issue worth checking immediately."
     },
     {
-      "headline": "No measurable results across the entire studio",
-      "detail": "Google Business Profile, organic social, and the customer pipeline all show no data this period. We cannot tell whether ad spend produced phone calls, form fills, trial sign-ups, or paying members."
+      "headline": "Zero lead or pipeline data tracked",
+      "detail": "No CRM, booking, or conversion signal is flowing in. Spend cannot be tied to trial sign-ups or members."
     },
     {
-      "headline": "Retargeting audiences typically shrink fast without fresh top-of-funnel activity",
-      "detail": "Retargeting only works if new people are continuously discovering the brand through other channels. With no awareness or new-audience campaigns running, the retargeting pool is likely drying up, which often shows up as falling daily spend."
+      "headline": "Retargeting-only mix, 100% of budget",
+      "detail": "Without a top-of-funnel feeder, retargeting audiences shrink. Lead volume will decay as warm pools exhaust."
     },
     {
-      "headline": "Industry conditions this period are unusually favorable — and the studio is not pressing the advantage",
-      "detail": "Independent benchmarks show fitness lead costs on Facebook are at their lowest point of the year in April and May. Competitors who are running new-audience campaigns right now are buying leads cheaply; Vous Physique is largely sitting this window out."
+      "headline": "No organic or local presence data",
+      "detail": "Google Business Profile and social activity are dark this period. Free discovery channels are unmeasured."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Industry Benchmark",
-      "subheader": "What a fitness studio should expect to pay for a lead on Facebook",
-      "body": "Across fitness and training centers, the typical cost to generate one lead through Facebook ads sits around <cite index=\"2-18\">$29.70 on average</cite>, though <cite index=\"2-5,2-6,2-7\">budget gyms tend to land between $8 and $15, mid-range facilities between $15 and $30, and premium or boutique studios between $25 and $50</cite>. Fitness also tends to convert well once leads come in — <cite index=\"4-5\">fitness studios see lead form conversion rates as high as 14.29%</cite>, well above the cross-industry average. Because we currently have no lead count for Vous Physique, we cannot compare the $599.22 spent this period against these numbers — fixing that visibility gap should come before any budget changes."
+      "label": "Benchmark",
+      "subheader": "Fitness leads typically run $15–$50",
+      "body": "Fitness averages around <cite index=\"2-18\">$29.70 cost per lead on Meta</cite>. <cite index=\"2-5,2-6,2-7\">Budget gyms see $8–$15, mid-range $15–$30, boutique studios $25–$50</cite>. <cite index=\"4-5\">Fitness conversion rates can reach 14.29%</cite>."
     },
     "seasonal": {
-      "label": "Seasonal Context",
-      "subheader": "Why this exact window matters",
-      "body": "This period (late April through late May) is historically the cheapest time of year to buy fitness leads on Facebook. <cite index=\"2-27,2-28,2-29\">The lowest lead costs typically appear in April at around $13.50, while July is the peak at $48.33; April and May can run as much as 64% below global averages, making it a prime time for aggressive lead acquisition</cite>. <cite index=\"2-31\">The fitness sector as a whole has actually seen lead costs decline about 20% year over year, bucking the broader trend</cite>. Translation for Vous Physique: pulling back spend right now means missing the most affordable lead-buying window of the calendar."
+      "label": "Seasonal",
+      "subheader": "Spring is the cheapest window",
+      "body": "<cite index=\"2-29\">April and May offer the best deals, with costs dipping up to 64% below global averages</cite>. <cite index=\"2-27\">July marks the peak at $48.33</cite>. Acquisition push now is well-timed."
     },
     "competitor": {
-      "label": "Competitor & Category Trends",
-      "subheader": "What other studios are leaning into this month",
-      "body": "Across the boutique fitness category, operators are shifting attention toward retention, community, and word-of-mouth rather than purely chasing new sign-ups. <cite index=\"20-22\">Word of mouth remains the top acquisition channel for 86% of studios</cite>, and <cite index=\"20-26,20-27\">studios that charge for intro offers — particularly ones with multiple classes — see stronger conversion rates than those offering free trials, with intro packs of more than three visits delivering maximum revenue impact</cite>. <cite index=\"18-1,18-2,18-3\">Pilates and reformer-based classes continue to grow, driven by demand for low-impact, strength-building workouts that improve mobility and longevity</cite>, and <cite index=\"20-5\">studio operators surveyed predict women's health and strength training will most influence boutique fitness in 2026</cite>. The takeaway: competitors are pairing paid ads with strong intro offers and community content — not relying on retargeting alone."
+      "label": "Competitor",
+      "subheader": "Studios shifting budget to retention",
+      "body": "<cite index=\"19-33,19-36,19-37\">Retention is overtaking acquisition as ad costs rise on Meta and competition intensifies</cite>. <cite index=\"11-26\">Studios saw cancellations drop 6% last year while gyms rose 8%</cite>."
     }
   },
   "recommendations": [
     {
-      "number": "1",
-      "title": "Fix tracking before adjusting spend",
-      "detail": "Before adding or cutting budget, consider getting visibility on what the current campaign is actually producing. That means confirming Facebook lead form submissions, website form fills, phone calls, and trial bookings are being tracked and reported. Without this, every dollar spent is a guess. This is worth doing in the next one to two weeks regardless of any other decision."
+      "number": "01",
+      "title": "Check why daily spend dropped to under a dollar",
+      "detail": "Confirm whether the pause was intentional. If not, check billing, budget caps, and ad approval status. Restart delivery before retargeting pools go cold."
     },
     {
-      "number": "2",
-      "title": "Test a new-audience campaign while lead costs are seasonally low",
-      "detail": "Because April and May are historically the cheapest months of the year to acquire fitness leads, it is worth exploring a small new-audience (not retargeting) campaign on Facebook to refill the funnel. A modest daily test budget — comparable to the $28.53 average daily spend already being used — would let you measure cost per lead against the roughly $25 to $50 range typical for boutique studios before committing to a larger investment."
+      "number": "02",
+      "title": "Add a prospecting campaign to feed retargeting",
+      "detail": "Retargeting alone burns out warm audiences. Test a small top-of-funnel video campaign now while spring costs sit near yearly lows."
     },
     {
-      "number": "3",
-      "title": "Pair any paid push with a paid intro offer, not a free trial",
-      "detail": "Category data suggests paid intro offers (especially packs of more than three classes) convert better than free trials because clients have skin in the game. Consider testing a paid intro pack as the offer behind any new ad campaign, and pair it with simple follow-up — a phone call or text within five minutes of sign-up — since fast follow-up is one of the strongest levers for turning leads into paying members."
+      "number": "03",
+      "title": "Connect lead tracking before scaling spend",
+      "detail": "Wire up form submissions or booking data into reporting. Without cost-per-lead visibility, judging this campaign against the $15–$50 fitness benchmark is impossible."
     }
   ]
 }

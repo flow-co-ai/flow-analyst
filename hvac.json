@@ -1,64 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-05-26T22:30:35.837Z",
+  "generatedAt": "2026-05-26T23:32:42.827Z",
   "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Spending is producing some activity, but very little of it is turning into booked work. Over the last 28 days, $2,115.77 in Instagram ads generated 9 leads through the platform's form, which works out to roughly $235 per lead — at the high end of what HVAC operators typically pay. Meanwhile, the local presence on Google (107 new reviews this period, all five stars) is the real engine driving phone calls and direction requests. The biggest risk right now: the customer pipeline shows $0 in opportunity value, which means leads are coming in but no one is being moved toward a booked job.",
-  "diagnosis": "The Instagram campaign \"AC Installation and Replacement\" is reaching people (78,716 impressions, 64,852 unique people reached) but the path from interest to booked job is leaking badly. Out of 587 clicks, only 86 were actual link clicks to your website, and the campaign produced 9 leads through the on-platform form at an average cost of about $235 each. That sits well above the typical $60–$229 range cited for HVAC businesses this year and is also above the roughly $144 average cost per lead reported for non-branded HVAC search campaigns industry-wide. On the bright side, your Google Business Profile is doing heavy lifting for free: 24 phone-call taps, 44 direction requests, 107 new reviews this period averaging 5 stars, and 934 total profile views across mobile and desktop search and maps. The disconnect: the customer pipeline in the CRM shows opportunities being created (one named contact came in from Facebook, another from your website form) but every single opportunity has a monetary value of $0 and status of \"open.\" That suggests leads are landing but no one is qualifying, pricing, or following up in a way that turns them into actual revenue. Industry research consistently points to response speed as the single biggest lever — 78% of homeowners hire the first company that gets back to them.",
+  "verdict": "Instagram ads are generating cheap leads, but the pipeline is leaking — zero booked revenue this period.",
+  "diagnosis": "You spent $2,116 for 9 leads at $5.05 each — well below industry norms — yet no opportunities closed to dollars.",
   "signals": [
     {
-      "headline": "Cost per lead from Instagram is running roughly $235",
-      "detail": "Spend of $2,115.77 produced 9 form leads this period. That's noticeably above the $60–$229 range cited for HVAC businesses in 2026, and well above the $144 average reported for non-branded HVAC search campaigns. The good news: the latest day shows a cost per lead of only $1.37, suggesting recent ad adjustments may be improving efficiency."
+      "headline": "9 leads at $5.05 each",
+      "detail": "Cost per lead is far under the $104–$153 HVAC benchmark. The volume is the bigger concern, not the price."
     },
     {
-      "headline": "Reviews are exploding and customers love the work",
-      "detail": "107 new reviews came in this period with an average rating of 5 stars. One recent reviewer specifically called out a complete AC and furnace replacement job as 'excellent,' 'professional,' and 'meticulous.' This is a serious competitive asset that most local HVAC competitors don't have."
+      "headline": "$0 in pipeline value",
+      "detail": "Every opportunity sits in open status with zero dollar value attached. Either deals aren't being qualified or values aren't being logged."
     },
     {
-      "headline": "The Google Business Profile is outperforming the paid ads",
-      "detail": "Without spending a dollar, your local listing produced 24 phone-call taps, 44 direction requests, 91 website clicks, and was shown 934 times across mobile and desktop search and maps. For a local services business, this is the highest-intent traffic you have."
+      "headline": "107 reviews, 5.0 average rating",
+      "detail": "Reputation is a real asset right now. Six new five-star reviews this period reinforce trust ahead of summer demand."
     },
     {
-      "headline": "The customer pipeline shows $0 in opportunity value",
-      "detail": "Leads are being created in the CRM (one from Facebook, one from the website contact form) but every opportunity is sitting open with no dollar amount attached. This means either no one is quoting these leads or quotes aren't being logged — both are revenue leaks."
+      "headline": "24 call clicks from Google",
+      "detail": "Local profile is driving phone interest. Direction requests at 44 suggest people are finding you, but call volume stays modest."
     },
     {
-      "headline": "Instagram engagement is thin compared to the reach",
-      "detail": "The account has 166 followers, just 8 new follower additions this period, 5 profile visits, and 14 total interactions across 98 posts. The ads are reaching people but the organic profile isn't converting that attention into ongoing audience."
+      "headline": "7.62% click-through rate on ads",
+      "detail": "Strong creative engagement on the AC summer ad. The hook works — the issue is downstream conversion to booked jobs."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Industry benchmarks",
-      "subheader": "What HVAC operators typically pay for a lead in 2026",
-      "body": "Multiple 2026 industry reports place the cost per lead for HVAC businesses in a wide band — roughly $60 to $229 for standard residential HVAC work, with non-branded paid search campaigns averaging around $144 per lead and general HVAC campaigns averaging about $198 per lead. AC repair campaigns specifically run higher, around $231 per lead. Your current Instagram cost per lead of roughly $235 sits at the top of that range, though your latest-day figure of $1.37 suggests strong improvement is possible. On Facebook and Instagram specifically, conversion rates for home improvement services are projected to land around 5.5% in 2026, and lead-focused ad campaigns typically see click-through rates around 2.5%."
+      "label": "Benchmark",
+      "subheader": "Your lead cost beats the industry",
+      "body": "HVAC cost per lead averages $104 blended and $149 for non-branded search in January 2026. Your $5.05 from Instagram is exceptional — but watch quality, not just price."
     },
     "seasonal": {
-      "label": "Seasonal context",
-      "subheader": "Late May is the start of the most expensive — and most lucrative — season",
-      "body": "The HVAC industry sees cost-per-click spikes in summer (cooling) and winter (heating), and conversion rates climb sharply when urgency rises (heatwaves, broken units). High-intent searches like 'AC repair near me' or 'emergency HVAC' can hit $22–$40 per click in competitive markets. The window from late May through August is when homeowners stop putting off AC replacement decisions, so budget pressure and lead volume both rise together. This is the right month to be aggressive — but only if the back-end (response time, quoting, follow-up) can handle the volume."
+      "label": "Seasonal",
+      "subheader": "Summer cooling demand ramps now",
+      "body": "Cost per click spikes in summer as cooling searches surge. Conversion rates climb when urgency rises, like heatwaves. Q2 is when ad budgets typically need to scale up."
     },
     "competitor": {
-      "label": "Competitive landscape",
-      "subheader": "Private-equity-backed HVAC consolidators are bidding up local ad costs",
-      "body": "The HVAC industry recorded 149 mergers and acquisitions in the most recent tracked period — a 12.9% increase year-over-year — with private equity firms buying up local operators and rolling them up into regional brands. These backed competitors have deeper pockets and are willing to overpay for leads in the short term to capture market share. For a local Crestwood-area operator, this means rising ad costs are likely to continue, and the defensible advantages are the things money can't buy quickly: a strong review reputation (which you have — 5-star average across 107 new reviews this period), fast phone response, and a recognizable local name."
+      "label": "Competitor",
+      "subheader": "Private equity rollups raising bid costs",
+      "body": "HVAC saw 149 mergers recently, up nearly 13% year-over-year. Private equity-backed competitors are willing to overpay for leads short-term to grab market share in your metro."
     }
   },
   "recommendations": [
     {
       "number": "1",
-      "title": "Consider fixing the lead-to-booked-job pipeline before adding more ad budget",
-      "detail": "Every opportunity in the CRM this period is showing $0 in value and 'open' status. Before spending more on Instagram, it's worth auditing what happens after a lead form is submitted: Who calls them? How fast? Is a quote being attached to the opportunity record? Industry data consistently shows that responding within 60 seconds dramatically increases the chance of winning the job, while waiting even five minutes cuts qualification rates by 80%. Test a simple change — assign one person to call every new lead within 10 minutes during business hours — and measure whether the number of opportunities with a real dollar value goes up over the next 28 days."
+      "title": "Audit the lead-to-booking handoff this week",
+      "detail": "78% of customers hire the first company that responds. With 9 leads and $0 booked, consider timing how fast Tonie and other leads got a callback."
     },
     {
       "number": "2",
-      "title": "Consider leaning harder into the Google Business Profile, which is already your best free channel",
-      "detail": "Without paid spend, your local listing produced 24 phone taps, 44 direction requests, and 91 website clicks this period, plus pulled in 107 new five-star reviews. Worth exploring: posting weekly updates on the profile (you have one recent post about honest recommendations — that's a strong angle), adding photos of completed installations, and asking every happy customer for a review with a direct link. Each review compounds your visibility in local search and maps, where homeowners with broken AC units are looking right now."
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Local Services Ads close at 18–32% for HVAC and charge per valid lead. Worth exploring as a complement to social, especially heading into summer cooling season."
     },
     {
       "number": "3",
-      "title": "Test a tighter Instagram ad that sends people to a faster booking path",
-      "detail": "The current ad 'Is your AC ready for summers?' is broad-targeted and routes through a free-estimate form. With 587 clicks producing only 9 leads through the platform's form, the drop-off is significant. Worth testing: a more specific offer (e.g., a fixed-price tune-up or a financing-focused message for replacements), paired with a click-to-call button instead of, or alongside, the form. Home improvement ads on Meta are projected to convert at around 5.5% in 2026, and a click-to-call route would also let you measure phone leads directly. Keep spend at roughly current levels while testing — don't scale until the cost-per-booked-job math works."
+      "title": "Add deal values to every opportunity in the CRM",
+      "detail": "Every open opportunity shows $0 value. Without dollars attached, you can't tell which lead source actually pays back. Consider a simple required field."
     }
   ]
 }

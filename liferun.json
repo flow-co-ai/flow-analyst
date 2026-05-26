@@ -1,64 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-05-26T22:32:16.856Z",
+  "generatedAt": "2026-05-26T23:33:37.063Z",
   "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Spending is happening, but the lead pipeline is essentially empty. Over the last 28 days, Liferun spent $1,217.49 and generated only 2 leads and 8 purchases through paid ads, while the main search campaign sits paused and the customer pipeline shows zero dollars in open opportunities. The business is producing activity but not converting it into revenue this period.",
-  "diagnosis": "The numbers tell a story of disconnection. The primary call campaign is paused, which means the strongest tool for a medical monitoring service (phone calls from older adults) is switched off. Despite 17,074 ad views and 815 clicks this period, only 2 leads were captured through ad tracking, and the local business profile recorded zero phone calls (only 26 direction requests). The customer pipeline shows 5 new opportunities created, all valued at $0 and all still in \"open\" status, suggesting no one is moving prospects forward to a quoted price or close. Meanwhile, Instagram profile visits are at zero, indicating no social presence is supporting the paid effort. The cost per lead of roughly $608 (spend divided by 2 tracked leads) is dramatically above the wellness and medical equipment range typical for this category.",
+  "verdict": "Strong return on spend, but the paused campaign and zero calls signal lost momentum that needs urgent action.",
+  "diagnosis": "Campaign is paused with only 2 leads and zero phone calls this period, despite $5,198 in purchase value tied to $1,217 spend.",
   "signals": [
     {
-      "headline": "The main call campaign is turned off",
-      "detail": "The 'BWS - April End - Call Campaign' shows a paused status. For a medical monitoring service targeting adults 45 to 65+, phone calls are typically the highest-intent action. Running zero call campaigns while spending on other ad types is likely the single biggest reason leads are scarce this period."
+      "headline": "Campaign paused mid-period",
+      "detail": "The search campaign targeting seniors 45-65+ is currently paused, halting any new lead flow from paid search."
     },
     {
-      "headline": "Spend is producing very few tracked leads",
-      "detail": "This period delivered $1,217.49 in spend, 17,074 ad views, and 815 clicks, but only 2 leads were recorded through the pixel. That works out to roughly $608 per lead, which is well above the typical wellness range."
+      "headline": "Only 2 leads in 28 days",
+      "detail": "Lead volume is too thin to judge performance. Cost per lead of $12 looks strong but sits on a tiny sample."
     },
     {
-      "headline": "Purchases happened, but volume is tiny",
-      "detail": "8 purchases worth $5,198.65 in total were tracked this period. That is a positive signal that the offer does convert, but the volume is too small to scale confidently, and we cannot tell from the data whether those were new customers or repeat buyers."
+      "headline": "8 purchases worth $5,198",
+      "detail": "Sales tied to ads returned about $4.30 for every $1 spent. The funnel works when traffic flows."
     },
     {
-      "headline": "The Google Business Profile is getting attention but no calls",
-      "detail": "26 people requested driving directions to the Bridgeview, IL location this period, but zero people tapped to call from the profile. For a medical monitoring business, that is a missed connection. The listed phone number is (800) 421-3366."
+      "headline": "Zero phone calls from Google profile",
+      "detail": "No call clicks this period despite a medical group listing. Seniors prefer to call. This is a major leak."
     },
     {
-      "headline": "The customer pipeline shows no dollar value",
-      "detail": "5 new opportunities were created this period, all tied to the same contact name (John Doe) with a generic email. Every opportunity is marked 'open' with $0 attached. Either the pipeline is not being filled with real prospects, or sales follow-up is not assigning values and stages."
+      "headline": "Pipeline value sitting at $0",
+      "detail": "Open opportunities in the CRM show no monetary value attached. Sales follow-up or deal tracking needs attention."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "What healthy looks like in medical and wellness right now",
-      "body": "Across the medical and wellness category in 2026, cost per lead varies widely by specialty. Wellness-focused providers often land near $98 per lead on the low end, while specialty medical equipment and facilities can run between $130 and $660 per lead. One industry source places healthcare search ad cost per lead at $141 for mental health and $102 for cosmetic surgery, with hospitals and clinics as low as $32. Conversion rates on healthcare search ads average around 8%, and landing pages in this category convert at about 5% at the median. Liferun's roughly $608 per tracked lead this period sits at the very top of the range, which suggests the issue is conversion, not click volume."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "What is happening in late April through May",
-      "body": "Late spring is historically a transitional window for medical and wellness advertising. Industry data shows healthcare ad costs typically build through the first quarter, soften slightly in April, then settle into a steady corridor through the summer. The November holiday surge is months away, so this is a relatively calm and predictable period to test new creative and landing pages without holiday cost inflation distorting results. It is also a good time to capture older adults who are planning summer travel and want monitoring in place before they leave home."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "What others in medical monitoring and senior wellness are doing",
-      "body": "Competitors in assisted living, elder care, and home monitoring services have seen cost per click rise roughly 32% year over year, reflecting more bidders entering this space. Around 79% of healthcare advertising dollars now go to digital channels. Organic search continues to deliver lower-cost leads (often $40 to $90) with stronger close rates than paid search in this category, so competitors who pair search ads with strong content and local profile management tend to win on overall cost. Call tracking is highlighted across the category as essential, since the majority of healthcare searches still drive phone calls rather than form fills."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Wellness cost per lead averages $98\",\n\"body\": \"<cite index=\"4-13\">B2C cost per lead in wellness starts around $98 and runs up to $661 for facilities.</cite> Liferun's $12 cost per lead beats the benchmark, but the 2-lead sample is too small to trust.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Healthcare ad costs climbing in 2026\",\n\"body\": \"<cite index=\"18-6\">Year-over-year cost per click in healthcare is up around 18%.</cite> Pausing campaigns now risks losing auction position when competition keeps rising into summer.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Senior care rivals bidding harder\",\n\"body\": \"<cite index=\"2-21\">Assisted living, elder, and home care services saw cost per click jump roughly 32% year over year.</cite> Expect more pressure on the medical monitoring keyword space.\"\n}\n}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Consider turning the call campaign back on",
-      "detail": "The paused 'BWS - April End - Call Campaign' is likely the most natural fit for a medical monitoring audience aged 45 to 65+, who tend to prefer calling over filling out forms. Worth exploring a controlled restart with a small daily budget, tight geographic targeting around Bridgeview and surrounding zip codes, and call tracking enabled so each ring can be tied back to spend. Even a modest call volume would likely beat the current 2 tracked leads from $1,217 in spend."
+      "number": "01",
+      "title": "Reactivate the paused search campaign",
+      "detail": "Consider turning the BWS search campaign back on. Every paused day loses high-intent senior traffic. Start with a small daily cap to retest before scaling."
     },
     {
-      "number": "2",
-      "title": "Test a landing page rebuild before adding more budget",
-      "detail": "With 815 clicks producing only 2 tracked leads this period, the bottleneck appears to be what happens after the click, not the click itself. Consider testing a simple, single-purpose page focused on one promise (for example, 'Stay Independent, Stay Protected' already tested as an ad title), with a large phone number, a short form, and trust signals like the (800) 421-3366 number and the medical group category. Healthcare landing pages convert at about 5% at the median, so even modest improvements here would substantially lower cost per lead."
+      "number": "02",
+      "title": "Fix the phone call gap on Google profile",
+      "detail": "Zero call clicks for a medical group serving seniors is unusual. Test a click-to-call button, verify the phone number displays correctly, and add call tracking."
     },
     {
-      "number": "3",
-      "title": "Clean up the customer pipeline and assign dollar values",
-      "detail": "All 5 opportunities this period are sitting at $0 in open status under what looks like a placeholder contact (John Doe, jhon@gmail.com). Worth exploring a quick audit with the sales team to confirm whether real prospects are being entered, to attach an expected monetary value to each opportunity, and to define what 'open,' 'working,' and 'won' look like. Without this, there is no way to tell whether ad spend is producing real pipeline or just clicks."
+      "number": "03",
+      "title": "Run more leads before judging cost per lead",
+      "detail": "Two leads is not a real signal. Worth running 30-60 more days at current settings to confirm the $12 cost per lead holds up."
     }
   ]
 }
