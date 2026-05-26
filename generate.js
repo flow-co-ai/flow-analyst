@@ -247,30 +247,50 @@ CRITICAL RULES:
 
 // --- Response parsing ---
 
-// Walks the content blocks, finds the last text block, strips fences, parses JSON.
+// Bracket-balanced right-to-left scan: returns the substring of the last
+// complete top-level {...} object in `text`, or null if none found.
+function findLastJsonObject(text) {
+  let depth = 0;
+  let end = -1;
+  for (let i = text.length - 1; i >= 0; i--) {
+    const ch = text[i];
+    if (ch === '}') {
+      if (depth === 0) end = i;
+      depth++;
+    } else if (ch === '{') {
+      depth--;
+      if (depth === 0) return text.slice(i, end + 1);
+    }
+  }
+  return null;
+}
+
+// Concatenates all text blocks, strips fences, then extracts the LAST complete
+// JSON object via a bracket-balanced right-to-left walk.
 function extractJsonFromResponse(message) {
   const textBlocks = message.content.filter(b => b.type === 'text');
   if (!textBlocks.length) throw new Error('No text block found in API response');
 
-  const raw = textBlocks[textBlocks.length - 1].text.trim();
-  // Strip optional ```json ... ``` fences
+  // Concatenate all text blocks — the final answer may span multiple blocks
+  // when the model interleaves tool calls with prose.
+  const raw = textBlocks.map(b => b.text).join('\n').trim();
+
+  // Strip code fences that may wrap any individual JSON block
   const stripped = raw
-    .replace(/^```json\s*/i, '')
-    .replace(/^```\s*/i, '')
-    .replace(/\s*```$/, '')
+    .replace(/```json\s*/gi, '')
+    .replace(/```\s*/gi, '')
     .trim();
 
-  let parsed;
-  try {
-    parsed = JSON.parse(stripped);
-  } catch (e) {
-    // Try to find a JSON object within the text in case there's surrounding prose
-    const match = stripped.match(/\{[\s\S]*\}/);
-    if (!match) throw new Error(`Could not parse JSON from response. Raw text: ${stripped.slice(0, 300)} ... ${stripped.slice(-300)}`);
-    parsed = JSON.parse(match[0]);
+  // Primary path: bracket-balanced walk to find the last complete {...}
+  const lastObj = findLastJsonObject(stripped);
+  if (lastObj) {
+    try { return JSON.parse(lastObj); } catch (_) { /* fall through */ }
   }
 
-  return parsed;
+  // Fallback: try the whole stripped string (handles clean single-object responses)
+  try { return JSON.parse(stripped); } catch (_) { /* fall through */ }
+
+  throw new Error(`Could not parse JSON from response. Raw text: ${stripped.slice(0, 300)} ... ${stripped.slice(-300)}`);
 }
 
 // --- Per-client report ---
