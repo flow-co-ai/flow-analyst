@@ -81,110 +81,232 @@ async function fetchSheet(sheetId, clientName) {
   return rows;
 }
 
-// --- Data summarization ---
+// --- Data extraction ---
+
+function round(n) { return Math.round(n * 100) / 100; }
 
 function toNumber(val) {
   const n = parseFloat(String(val).replace(/[$,%\s]/g, '').replace(/,/g, ''));
   return isNaN(n) ? null : n;
 }
 
-function round(n) { return Math.round(n * 100) / 100; }
-
-function summarizeRows(rows) {
-  if (!rows.length) return { note: 'No data available' };
-
+// Returns per-column aggregates: { colName: { type, total?, avg?, last } }
+function buildColumnSummary(rows) {
+  if (!rows.length) return {};
   const headers = Object.keys(rows[0]);
-
-  const numericCols = headers.filter(h => {
-    const hits = rows.filter(r => toNumber(r[h]) !== null).length;
-    return hits > rows.length * 0.5;
-  });
-
-  const summary = { rowCount: rows.length, columns: headers };
-
-  for (const col of numericCols) {
-    const vals = rows.map(r => toNumber(r[col])).filter(v => v !== null);
+  const summary = {};
+  for (const col of headers) {
+    const vals = rows.map(r => (r[col] ?? '').trim()).filter(v => v !== '');
     if (!vals.length) continue;
-    const sum = vals.reduce((a, b) => a + b, 0);
-    summary[`total_${col}`] = round(sum);
-    summary[`avg_${col}`]   = round(sum / vals.length);
-    summary[`min_${col}`]   = round(Math.min(...vals));
-    summary[`max_${col}`]   = round(Math.max(...vals));
-  }
-
-  // Week-over-week: if there's a date-like column, compare last row vs second-to-last
-  const dateCol = headers.find(h => /date|week|period/i.test(h));
-  if (dateCol && rows.length >= 2) {
-    const prev = rows[rows.length - 2];
-    const curr = rows[rows.length - 1];
-    const wow = {};
-    for (const col of numericCols) {
-      const p = toNumber(prev[col]);
-      const c = toNumber(curr[col]);
-      if (p !== null && c !== null && p !== 0) {
-        wow[col] = { previous: p, current: c, changePct: round(((c - p) / Math.abs(p)) * 100) };
-      }
+    const nums = vals.map(v => toNumber(v)).filter(n => n !== null);
+    if (nums.length > vals.length * 0.5) {
+      const sum = nums.reduce((a, b) => a + b, 0);
+      summary[col] = {
+        type: 'numeric',
+        total: round(sum),
+        avg: round(sum / nums.length),
+        last: round(nums[nums.length - 1]),
+      };
+    } else {
+      summary[col] = { type: 'text', last: vals[vals.length - 1] };
     }
-    if (Object.keys(wow).length) summary.weekOverWeek = wow;
   }
-
-  summary.mostRecentRows = rows.slice(-5);
-  summary.oldestRow = rows[0];
-
   return summary;
 }
 
-// --- Week label ---
+// Buckets column names into prompt sections by keyword match.
+// Unmatched columns fall into paidMedia (most common catch-all).
+function bucketColumns(headers, locationCol) {
+  const patterns = {
+    paidMedia:     /spend|budget|cost|lead|impression|(?<!call_)click|meta|facebook|google.?ad|adword|campaign|ad.?set|conversion|ads\b|\breach\b/i,
+    local:         /gbp|google.?business|business.?profile|phone.?call|call_click|\bcall\b|direction_request|map|review|listing|search.?appear/i,
+    organic:       /instagram|ig\b|organic|follower|reach|social|\bpost_|engagement|reel|story/i,
+    crm:           /crm|pipeline|opportunit|booked|deal|revenue|close|prospect|contract|\bcontact_/i,
+    topPerformers: /top|best|winner|performer|creative/i,
+  };
 
-function getWeekOf() {
-  const now = new Date();
-  const dow = now.getDay();
-  const monday = new Date(now);
-  monday.setDate(now.getDate() - ((dow + 6) % 7));
-  const sunday = new Date(monday);
-  sunday.setDate(monday.getDate() + 6);
+  const buckets = { paidMedia: [], local: [], organic: [], crm: [], topPerformers: [] };
+
+  for (const h of headers) {
+    if (h === locationCol) continue;
+    let placed = false;
+    for (const [section, regex] of Object.entries(patterns)) {
+      if (regex.test(h)) { buckets[section].push(h); placed = true; break; }
+    }
+    if (!placed) buckets.paidMedia.push(h); // unmatched → paid media
+  }
+
+  return buckets;
+}
+
+// Formats a list of columns from the summary into a readable string block.
+function formatSection(cols, summary) {
+  if (!cols.length) return 'No data available for this section.';
+  const lines = cols.map(col => {
+    const entry = summary[col];
+    if (!entry) return null;
+    if (entry.type === 'numeric') {
+      return `${col}: ${entry.total} total (avg ${entry.avg} per period, latest ${entry.last})`;
+    }
+    return `${col}: ${entry.last}`;
+  }).filter(Boolean);
+  return lines.length ? lines.join('\n') : 'No data available for this section.';
+}
+
+// Top-level extraction. Returns { location, paidMedia, local, organic, crm, topPerformers }.
+function extractClientData(rows) {
+  const empty = 'No data available.';
+  if (!rows.length) {
+    return { location: 'not specified', paidMedia: empty, local: empty, organic: empty, crm: empty, topPerformers: empty };
+  }
+
+  const headers = Object.keys(rows[0]);
+  const locationCol = headers.find(h => /^(location|city|state|address|region|market)$/i.test(h)) ?? null;
+  const location = locationCol ? (rows[rows.length - 1][locationCol] || 'not specified') : 'not specified';
+
+  const summary = buildColumnSummary(rows);
+  const buckets = bucketColumns(headers, locationCol);
+
+  return {
+    location,
+    paidMedia:     formatSection(buckets.paidMedia, summary),
+    local:         formatSection(buckets.local, summary),
+    organic:       formatSection(buckets.organic, summary),
+    crm:           formatSection(buckets.crm, summary),
+    topPerformers: formatSection(buckets.topPerformers, summary),
+  };
+}
+
+// --- 28-day period label ---
+
+function getPeriod() {
+  const end = new Date();
+  const start = new Date(end);
+  start.setDate(end.getDate() - 27); // 28 days inclusive
   const fmt = d => d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-  return `${fmt(monday)} – ${fmt(sunday)}`;
+  return `${fmt(start)} – ${fmt(end)}`;
+}
+
+// --- Prompt builder ---
+
+function buildUserPrompt(client, data, period) {
+  return `CLIENT: ${client.clientName}
+VERTICAL: ${client.vertical}
+LOCATION: ${data.location}
+PERIOD: Last 28 days (${period})
+
+PAID MEDIA (last 28 days):
+${data.paidMedia}
+
+LOCAL PRESENCE (Google Business Profile, last 28 days):
+${data.local}
+
+ORGANIC AND SOCIAL (last 28 days):
+${data.organic}
+
+CRM PIPELINE (last 28 days):
+${data.crm}
+
+TOP PERFORMERS:
+${data.topPerformers}
+
+INSTRUCTIONS:
+Use the web_search tool to find:
+1. Current industry benchmarks for ${client.vertical} (cost per lead, conversion rate norms)
+2. Competitor or category-level trends in ${client.vertical} this month
+
+Then return ONLY valid JSON in this exact shape, no markdown fences:
+
+{
+  "verdict": "One sentence. Specific numbers. What happened this period.",
+  "diagnosis": "One sentence. Compare best vs worst channel. Name top campaign.",
+  "signals": [
+    { "headline": "Short specific headline with a real number", "detail": "One sentence of judgment. What it means." }
+  ],
+  "market_context": {
+    "benchmark":  { "label": "INDUSTRY BENCHMARK", "subheader": "Short italic one-liner", "body": "Paragraph using the web search findings." },
+    "seasonal":   { "label": "SEASONAL READ",       "subheader": "Short italic one-liner about what the season is doing to demand", "body": "Paragraph." },
+    "competitor": { "label": "COMPETITOR SIGNAL",   "subheader": "Short italic one-liner about what the market is doing", "body": "Paragraph using web search findings." }
+  },
+  "recommendations": [
+    { "number": "01", "title": "Specific recommendation", "detail": "One sentence. Framed as a suggestion." },
+    { "number": "02", "title": "...", "detail": "..." },
+    { "number": "03", "title": "...", "detail": "..." }
+  ]
+}
+
+CRITICAL RULES:
+- Never use marketing acronyms (no CPL, no CPM, no ROAS, no CTR, no CAC, no LTV). Spell out everything ("cost per lead", "return on ad spend", etc).
+- Write for a small business owner. Plain English.
+- All metrics are LAST 28 DAYS ONLY. Frame everything as "this period".
+- Every number must come from the data provided. Never invent figures.
+- Recommendations are suggestions, never commitments. Frame as "consider", "test", "worth exploring".
+- Return EXACTLY 3 recommendations.
+- Return between 3 and 5 signals.`;
+}
+
+// --- Response parsing ---
+
+// Walks the content blocks, finds the last text block, strips fences, parses JSON.
+function extractJsonFromResponse(message) {
+  const textBlocks = message.content.filter(b => b.type === 'text');
+  if (!textBlocks.length) throw new Error('No text block found in API response');
+
+  const raw = textBlocks[textBlocks.length - 1].text.trim();
+  // Strip optional ```json ... ``` fences
+  const stripped = raw
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/\s*```$/, '')
+    .trim();
+
+  let parsed;
+  try {
+    parsed = JSON.parse(stripped);
+  } catch (e) {
+    // Try to find a JSON object within the text in case there's surrounding prose
+    const match = stripped.match(/\{[\s\S]*\}/);
+    if (!match) throw new Error(`Could not parse JSON from response. Raw text (first 500 chars): ${stripped.slice(0, 500)}`);
+    parsed = JSON.parse(match[0]);
+  }
+
+  return parsed;
 }
 
 // --- Per-client report ---
 
-async function generateClientReport(client, anthropic, weekOf) {
-  console.log(`\n--- ${client.clientName} (${client.slug}) ---`);
+async function generateClientReport(client, anthropic, period) {
+  process.stdout.write(`Processing ${client.slug}...`);
 
   const rows = await fetchSheet(client.sheetId, client.clientName);
-  const summary = summarizeRows(rows);
-  const dataPayload = JSON.stringify(summary, null, 2);
-  console.log(`  Payload: ${dataPayload.length} chars → calling Anthropic...`);
+  const data = extractClientData(rows);
+  const userPrompt = buildUserPrompt(client, data, period);
 
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-7',
-    max_tokens: 4000,
-    system: `You are a senior marketing analyst at Flow Company writing a weekly performance brief for one specific client. The client is ${client.clientName}, a ${client.vertical} business. Analyze only this client's paid media performance. Be specific, use real numbers from the data provided, flag what's working and what's not, and end with 3 prioritized recommendations tailored to this client's vertical. Write in clear plain English, not jargon. Format with markdown headers.`,
-    messages: [
-      {
-        role: 'user',
-        content:
-          `Here is ${client.clientName}'s paid media data for the week of ${weekOf}:\n\n` +
-          dataPayload +
-          `\n\nPlease produce the weekly analyst brief.`,
-      },
-    ],
+    max_tokens: 2000,
+    system: 'You are the senior analyst for Flow Company, a performance marketing agency. Write a client intelligence briefing. Plain English. No marketing acronyms.',
+    tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+    messages: [{ role: 'user', content: userPrompt }],
   });
 
-  const content = message.content[0].text;
-  console.log(`  Response: ${content.length} chars`);
+  const parsed = extractJsonFromResponse(message);
 
   const output = {
     client: client.slug,
     clientName: client.clientName,
     generatedAt: new Date().toISOString(),
-    weekOf,
-    content,
+    weekOf: period,
+    verdict: parsed.verdict,
+    diagnosis: parsed.diagnosis,
+    signals: parsed.signals,
+    market_context: parsed.market_context,
+    recommendations: parsed.recommendations,
   };
 
   writeFileSync(`${client.slug}.json`, JSON.stringify(output, null, 2));
-  console.log(`  Written: ${client.slug}.json`);
+  console.log(` ✓ ${client.slug} written`);
+  return true;
 }
 
 // --- Main ---
@@ -199,30 +321,25 @@ async function main() {
   console.log(`Started: ${new Date().toISOString()}`);
 
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  const weekOf = getWeekOf();
-  console.log(`Week of: ${weekOf}\n`);
+  const period = getPeriod();
+  console.log(`Period: ${period}\n`);
 
   const failed = [];
 
   for (const client of CLIENTS) {
     try {
-      await generateClientReport(client, anthropic, weekOf);
+      await generateClientReport(client, anthropic, period);
     } catch (err) {
-      console.error(`ERROR [${client.slug}]: ${err.message}`);
+      console.log(` ✗ ${client.slug} failed: ${err.message}`);
       failed.push(client.slug);
     }
   }
 
   const successCount = CLIENTS.length - failed.length;
-  console.log(`\n=== Generated ${successCount}/${CLIENTS.length} reports successfully ===`);
-  if (failed.length) {
-    console.log(`Failed clients: ${failed.join(', ')}`);
-  }
+  console.log(`\nGenerated ${successCount}/5 reports successfully`);
+  if (failed.length) console.log(`Failed: ${failed.join(', ')}`);
 
-  if (failed.length === CLIENTS.length) {
-    console.error('All reports failed. Exiting with code 1.');
-    process.exit(1);
-  }
+  if (failed.length === CLIENTS.length) process.exit(1);
 }
 
 main();
