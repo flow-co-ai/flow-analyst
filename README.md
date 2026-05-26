@@ -1,18 +1,42 @@
 # Flow Analyst — Weekly Report Worker
 
-This repo is a headless worker with one job: every Monday morning it fetches marketing data from five client Google Sheets, sends it to the Anthropic API for analysis, and commits the result as `analyst.json` to this repo. A separate dashboard reads that JSON file.
+This repo is a headless worker with one job: every Monday morning it fetches marketing data from five client Google Sheets, sends each client's data to the Anthropic API for individual analysis, and commits five per-client JSON files to this repo. A separate dashboard reads those JSON files.
 
 There is no frontend here — just a script and a scheduled GitHub Action.
 
 ---
 
-## Where the dashboard fetches the report
+## Per-client report URLs
+
+Each client gets its own JSON file at the repo root. Replace `flow-co-ai` with your actual GitHub org/username after you push this repo.
 
 ```
-https://raw.githubusercontent.com/USERNAME/flow-analyst/main/analyst.json
+https://raw.githubusercontent.com/flow-co-ai/flow-analyst/refs/heads/main/billy-doe.json
+https://raw.githubusercontent.com/flow-co-ai/flow-analyst/refs/heads/main/hvac.json
+https://raw.githubusercontent.com/flow-co-ai/flow-analyst/refs/heads/main/jcl.json
+https://raw.githubusercontent.com/flow-co-ai/flow-analyst/refs/heads/main/liferun.json
+https://raw.githubusercontent.com/flow-co-ai/flow-analyst/refs/heads/main/vous-physique.json
 ```
 
-Replace `USERNAME` with your actual GitHub username after you push this repo.
+| Slug | Client Name |
+|---|---|
+| `billy-doe` | Billy Doe Meats |
+| `hvac` | HVAC |
+| `jcl` | Justice Consumer Law |
+| `liferun` | Liferun |
+| `vous-physique` | Vous Physique |
+
+Each file has this shape:
+
+```json
+{
+  "client": "billy-doe",
+  "clientName": "Billy Doe Meats",
+  "generatedAt": "2026-05-26T12:00:00Z",
+  "weekOf": "May 25, 2026 – May 31, 2026",
+  "content": "...full markdown analyst output..."
+}
+```
 
 ---
 
