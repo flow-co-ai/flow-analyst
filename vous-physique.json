@@ -1,64 +1,64 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-05-26T23:34:04.384Z",
-  "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Retargeting spend is fading to near zero with no leads, social, or pipeline data to judge results.",
-  "diagnosis": "This period spent $599 on Facebook retargeting, dropping from $28/day average to $0.59 on the latest day, with no conversion data attached.",
+  "generatedAt": "2026-06-01T22:27:07.093Z",
+  "weekOf": "May 5, 2026 – June 1, 2026",
+  "verdict": "Retargeting spend is winding down with zero visible outcomes — you're flying blind on a $814 investment.",
+  "diagnosis": "Spend dropped to $10.75 on the latest day from a $24.66 daily average, with no lead, booking, or organic data to confirm results.",
   "signals": [
     {
-      "headline": "Facebook spend totaled $599 this period",
-      "detail": "All paid budget went to one retargeting campaign. No prospecting or new-audience layer is currently running."
+      "headline": "Total spend hit $813.77 this period",
+      "detail": "One Facebook retargeting campaign carried the entire paid budget across 28 days. No diversification, no backup channel."
     },
     {
-      "headline": "Daily spend collapsed to $0.59",
-      "detail": "Latest day shows budget effectively switched off. Either intentional pause or a delivery issue worth checking immediately."
+      "headline": "Daily spend collapsed 56% to $10.75",
+      "detail": "Latest day sits well below the $24.66 daily average. The campaign appears to be tapering, not scaling."
     },
     {
-      "headline": "Zero lead or pipeline data tracked",
-      "detail": "No CRM, booking, or conversion signal is flowing in. Spend cannot be tied to trial sign-ups or members."
+      "headline": "Zero lead or booking data tracked",
+      "detail": "No CRM pipeline, organic, or local data flowing in. Impossible to judge if the $813.77 produced any members."
     },
     {
-      "headline": "Retargeting-only mix, 100% of budget",
-      "detail": "Without a top-of-funnel feeder, retargeting audiences shrink. Lead volume will decay as warm pools exhaust."
+      "headline": "100% of budget on retargeting",
+      "detail": "Retargeting only works if a top-of-funnel audience exists. Without prospecting, the warm pool will dry up fast."
     },
     {
-      "headline": "No organic or local presence data",
-      "detail": "Google Business Profile and social activity are dark this period. Free discovery channels are unmeasured."
+      "headline": "Google Business Profile shows no activity",
+      "detail": "Missing local presence data means calls, direction requests, and map views are invisible. Likely a tracking gap, not zero demand."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Fitness leads typically run $15–$50",
-      "body": "Fitness averages around <cite index=\"2-18\">$29.70 cost per lead on Meta</cite>. <cite index=\"2-5,2-6,2-7\">Budget gyms see $8–$15, mid-range $15–$30, boutique studios $25–$50</cite>. <cite index=\"4-5\">Fitness conversion rates can reach 14.29%</cite>."
+      "subheader": "Premium studios pay $25–$50 per lead",
+      "body": "Boutique fitness studios on Facebook typically pay $25–$50 per lead, with the category averaging around $29.70. Without lead tracking, your $813.77 spend can't be measured against this."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Spring is the cheapest window",
-      "body": "<cite index=\"2-29\">April and May offer the best deals, with costs dipping up to 64% below global averages</cite>. <cite index=\"2-27\">July marks the peak at $48.33</cite>. Acquisition push now is well-timed."
+      "subheader": "May is the cheapest month for fitness leads",
+      "body": "Fitness lead costs hit their low in April and stay cheap through May, running up to 64% below global averages. You're advertising in the best window of the year."
     },
     "competitor": {
-      "label": "Competitor",
-      "subheader": "Studios shifting budget to retention",
-      "body": "<cite index=\"19-33,19-36,19-37\">Retention is overtaking acquisition as ad costs rise on Meta and competition intensifies</cite>. <cite index=\"11-26\">Studios saw cancellations drop 6% last year while gyms rose 8%</cite>."
+      "label": "Category",
+      "subheader": "Studios shift focus to retention",
+      "body": "Boutique operators are pulling back from acquisition-heavy models in 2026. Cancellations at studios dropped 6% last year while gyms saw an 8% rise — retention is winning."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Check why daily spend dropped to under a dollar",
-      "detail": "Confirm whether the pause was intentional. If not, check billing, budget caps, and ad approval status. Restart delivery before retargeting pools go cold."
+      "title": "Connect lead and booking tracking immediately",
+      "detail": "Consider wiring Facebook leads into a CRM and connecting Google Business Profile. Without this, you cannot tell if $813.77 produced one member or twenty."
     },
     {
       "number": "02",
-      "title": "Add a prospecting campaign to feed retargeting",
-      "detail": "Retargeting alone burns out warm audiences. Test a small top-of-funnel video campaign now while spring costs sit near yearly lows."
+      "title": "Test a small prospecting campaign alongside retargeting",
+      "detail": "Retargeting alone shrinks the audience over time. Worth exploring a $15–$20/day prospecting campaign to refill the top of the funnel while costs are seasonally low."
     },
     {
       "number": "03",
-      "title": "Connect lead tracking before scaling spend",
-      "detail": "Wire up form submissions or booking data into reporting. Without cost-per-lead visibility, judging this campaign against the $15–$50 fitness benchmark is impossible."
+      "title": "Add a qualifying question to the lead form",
+      "detail": "Fitness lead forms attract tire-kickers. Test one question like current workout frequency or budget to filter for serious prospects worth the sales follow-up."
     }
   ]
 }

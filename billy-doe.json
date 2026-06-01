@@ -1,64 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-05-26T23:32:18.072Z",
-  "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Eid Al-Adha demand is landing, but acquisition costs are running roughly 6x the food category benchmark.",
-  "diagnosis": "Eid campaign drove 450 purchases this period, but cost per purchase of $204 is well above the $15–$35 food vertical norm.",
+  "generatedAt": "2026-06-01T22:25:27.373Z",
+  "weekOf": "May 5, 2026 – June 1, 2026",
+  "verdict": "Retargeting spend is generating leads cheaply but failing to convert into profitable purchases this period.",
+  "diagnosis": "Cost per purchase hit $249.65 this period — roughly 5x the food DTC benchmark of $51, while return on ad spend stayed near zero.",
   "signals": [
     {
-      "headline": "Cost per purchase hit $204 this period",
-      "detail": "Latest day improved to $155, signaling the Eid creative is starting to find buyers as the holiday nears."
+      "headline": "Cost per purchase reached $249.65",
+      "detail": "Latest period cost to acquire a buyer is roughly 5x the food DTC benchmark. Unit economics are underwater."
     },
     {
-      "headline": "392 leads captured at $7 each",
-      "detail": "Lead capture is the bright spot. Cost per lead sits well inside healthy food-brand ranges and feeds future email and retargeting."
+      "headline": "555 pixel leads at $1.11 each",
+      "detail": "Lead capture is working cheaply on Instagram retargeting. The funnel breaks between lead and checkout."
     },
     {
-      "headline": "Only 7 add-to-carts vs 769 page views",
-      "detail": "Under 1% of landing page visitors are adding to cart. Product page or pricing friction is blocking the funnel."
+      "headline": "Only 2 checkouts initiated, 10 carts",
+      "detail": "Add-to-cart and checkout volume is tiny versus 1,063 landing page views. Product page or offer is not converting."
     },
     {
-      "headline": "419 Google reviews but rating not surfacing",
-      "detail": "Review volume is a real asset for a local butcher. Star rating field is empty in the feed and worth verifying."
+      "headline": "639 purchases, only $18 tracked revenue",
+      "detail": "Purchase value tracking looks broken or wildly under-reported. Cannot trust return on ad spend until pixel values are fixed."
     },
     {
-      "headline": "Picanha Kabobs post drew 489 engagements",
-      "detail": "New cut announcement is the top organic moment this period. Worth amplifying with paid before Eid peak."
+      "headline": "508 reviews, 0 new this period",
+      "detail": "Google Business Profile shows zero new reviews logged this period. Social proof momentum has stalled."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Food brands acquire customers for $15–$35",
-      "body": "Food and grocery is the cheapest DTC vertical for customer acquisition at $15–$35 per customer. Billy Doe's $204 cost per purchase this period sits roughly 6x above that range, even with the Eid lift."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Eid Al-Adha demand peaks in late May",
-      "body": "Online Qurbani and halal meat delivery demand is forecast to rise up to 200% versus last year, with orders spiking in the final days before Eid. Reservations typically open 3–4 weeks ahead."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "US halal players push free shipping and Zabiha",
-      "body": "Competitors like 4th Ave Halal Meat (free nationwide shipping, EBT online) and New England Meat Packing ($700 all-inclusive Zabiha Qurbani share) are leaning on transparent pricing and certification as the main hook."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Food DTC acquisition runs $15–$51 per customer\",\n\"body\": <cite index=\"6-41\">\"Food $51\"</cite> per customer is the typical DTC benchmark, with <cite index=\"10-1,10-32\">food category cost per acquisition ranging $15–$35</cite>. Billy Doe's latest $249.65 sits far above that band.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Grilling season drives May–June meat demand\",\n\"body\": \"Late spring is peak grilling and outdoor cooking demand. <cite index=\"11-25\">US consumers will spend $363.8 billion on grocery delivery in 2026</cite>, with subscription meat brands well positioned for the season.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"ButcherBox, Good Ranchers dominate category\",\n\"body\": <cite index=\"16-6\">ButcherBox generated more than $500 million in sales in 2024</cite>. <cite index=\"17-4\">Good Ranchers leads on American sourcing, USDA Prime/Choice, and free express shipping</cite>. Billy Doe needs a sharper sourcing or halal angle to stand out.\"\n}\n}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Test bundle pricing aimed at the free shipping threshold",
-      "detail": "Meat shoppers abandon carts at 81% largely due to shipping fees. Consider an Eid grill bundle that lifts order value over a free shipping line."
+      "number": "01",
+      "title": "Audit the Meta purchase pixel and value tracking",
+      "detail": "639 purchases reporting only $18 in value points to broken event setup. Worth fixing before scaling spend — current return on ad spend numbers cannot be trusted."
     },
     {
-      "number": "2",
-      "title": "Retarget the 392 leads with an Eid offer before peak",
-      "detail": "Cost per lead is healthy at $7. Worth testing an email and Instagram retargeting push to convert them before the final-days order spike."
+      "number": "02",
+      "title": "Test a prospecting campaign alongside retargeting",
+      "detail": "All spend currently flows to a single retargeting ad set. Consider testing cold audiences with grilling-season creative to refill the top of the funnel."
     },
     {
-      "number": "3",
-      "title": "Put paid spend behind the Picanha Kabobs post",
-      "detail": "The new cut already earned 489 organic engagements. Consider boosting it as a Reel to a lookalike of recent purchasers while Eid intent is high."
+      "number": "03",
+      "title": "Fix the lead-to-purchase gap with email and offer",
+      "detail": "555 leads captured but only 2 checkouts initiated. Test a welcome flow with a first-box discount or free shipping offer to convert leads into buyers."
     }
   ]
 }

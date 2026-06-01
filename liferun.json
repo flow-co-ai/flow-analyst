@@ -1,48 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-05-26T23:33:37.063Z",
-  "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Strong return on spend, but the paused campaign and zero calls signal lost momentum that needs urgent action.",
-  "diagnosis": "Campaign is paused with only 2 leads and zero phone calls this period, despite $5,198 in purchase value tied to $1,217 spend.",
+  "generatedAt": "2026-06-01T22:26:46.220Z",
+  "weekOf": "May 5, 2026 – June 1, 2026",
+  "verdict": "Strong unit economics, but the campaign is paused and lead volume has collapsed to two.",
+  "diagnosis": "Main search campaign is paused, killing impressions to zero this period despite a $12 cost per lead well under healthcare norms.",
   "signals": [
     {
-      "headline": "Campaign paused mid-period",
-      "detail": "The search campaign targeting seniors 45-65+ is currently paused, halting any new lead flow from paid search."
+      "headline": "Search campaign paused, 0 latest impressions",
+      "detail": "The BWS Search Campaign shows PAUSED status. Latest period impressions and clicks are zero. Pipeline is starving."
     },
     {
       "headline": "Only 2 leads in 28 days",
-      "detail": "Lead volume is too thin to judge performance. Cost per lead of $12 looks strong but sits on a tiny sample."
+      "detail": "Lead volume is critically low for a medical group. Two leads will not feed a sales pipeline."
     },
     {
-      "headline": "8 purchases worth $5,198",
-      "detail": "Sales tied to ads returned about $4.30 for every $1 spent. The funnel works when traffic flows."
+      "headline": "Cost per lead just $12",
+      "detail": "Cost per lead of $12.03 is far below medical category norms. The offer and targeting are working when ads run."
     },
     {
-      "headline": "Zero phone calls from Google profile",
-      "detail": "No call clicks this period despite a medical group listing. Seniors prefer to call. This is a major leak."
+      "headline": "$5,897 in tracked purchases",
+      "detail": "Nine purchases generated nearly $5,900 in value on $1,249 spend. Return on ad spend is roughly 4.7 to 1."
     },
     {
-      "headline": "Pipeline value sitting at $0",
-      "detail": "Open opportunities in the CRM show no monetary value attached. Sales follow-up or deal tracking needs attention."
+      "headline": "Zero call clicks, 33 direction requests",
+      "detail": "Google Business Profile drove 33 direction requests but no phone calls. Call tracking or click-to-call placement may be broken."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Wellness cost per lead averages $98\",\n\"body\": \"<cite index=\"4-13\">B2C cost per lead in wellness starts around $98 and runs up to $661 for facilities.</cite> Liferun's $12 cost per lead beats the benchmark, but the 2-lead sample is too small to trust.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Healthcare ad costs climbing in 2026\",\n\"body\": \"<cite index=\"18-6\">Year-over-year cost per click in healthcare is up around 18%.</cite> Pausing campaigns now risks losing auction position when competition keeps rising into summer.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Senior care rivals bidding harder\",\n\"body\": \"<cite index=\"2-21\">Assisted living, elder, and home care services saw cost per click jump roughly 32% year over year.</cite> Expect more pressure on the medical monitoring keyword space.\"\n}\n}",
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Medical cost per lead averages $57 to $98\", \"body\": \"<cite index=\"6-8\">Physicians and surgeons average $5 cost per click and $56.83 cost per lead in 2026.</cite> <cite index=\"3-13\">Wellness business-to-consumer cost per lead starts around $98.</cite> Liferun sits well below both at $12.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Senior care demand steady into summer\", \"body\": \"<cite index=\"12-11\">Expect aggressive expansion in home health and remote monitoring this year.</cite> Senior monitoring demand does not dip in late spring. Pausing the campaign now leaves leads on the table.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Rivals leaning into AI search and reviews\", \"body\": \"<cite index=\"14-24,14-25\">AI platforms like ChatGPT and Google AI Overviews are becoming a primary discovery surface for patients researching providers.</cite> <cite index=\"20-34\">Roughly 84% of patients read online reviews before choosing a provider.</cite>\"}}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Reactivate the paused search campaign",
-      "detail": "Consider turning the BWS search campaign back on. Every paused day loses high-intent senior traffic. Start with a small daily cap to retest before scaling."
+      "title": "Reactivate the paused search campaign immediately",
+      "detail": "The BWS Search Campaign is paused with strong economics. Consider relaunching with the same V4 ad and 'medical monitoring services' keyword before momentum decays further."
     },
     {
       "number": "02",
-      "title": "Fix the phone call gap on Google profile",
-      "detail": "Zero call clicks for a medical group serving seniors is unusual. Test a click-to-call button, verify the phone number displays correctly, and add call tracking."
+      "title": "Fix call tracking on Google Business Profile",
+      "detail": "Direction requests hit 33 but call clicks are zero. Test the phone number link, verify tracking, and confirm (800) 421-3366 is clickable on mobile."
     },
     {
       "number": "03",
-      "title": "Run more leads before judging cost per lead",
-      "detail": "Two leads is not a real signal. Worth running 30-60 more days at current settings to confirm the $12 cost per lead holds up."
+      "title": "Test scaling spend to grow lead volume",
+      "detail": "With cost per lead at $12 and return on ad spend near 4.7 to 1, worth exploring a 50% budget increase once the campaign is live again."
     }
   ]
 }

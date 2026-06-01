@@ -1,64 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-05-26T23:32:42.827Z",
-  "weekOf": "April 29, 2026 – May 26, 2026",
-  "verdict": "Instagram ads are generating cheap leads, but the pipeline is leaking — zero booked revenue this period.",
-  "diagnosis": "You spent $2,116 for 9 leads at $5.05 each — well below industry norms — yet no opportunities closed to dollars.",
+  "generatedAt": "2026-06-01T22:25:54.467Z",
+  "weekOf": "May 5, 2026 – June 1, 2026",
+  "verdict": "Awareness campaign is burning cash heading into peak AC season; switch objective to leads before summer demand peaks.",
+  "diagnosis": "Cost per lead hit roughly $374 over 28 days — more than double the $149 non-branded HVAC benchmark — because the campaign is set to awareness, not bookings.",
   "signals": [
     {
-      "headline": "9 leads at $5.05 each",
-      "detail": "Cost per lead is far under the $104–$153 HVAC benchmark. The volume is the bigger concern, not the price."
+      "headline": "Cost per lead near $374 this period",
+      "detail": "Nine leads from $3,369 in spend. Industry benchmark is around $149 for non-branded HVAC search."
     },
     {
-      "headline": "$0 in pipeline value",
-      "detail": "Every opportunity sits in open status with zero dollar value attached. Either deals aren't being qualified or values aren't being logged."
+      "headline": "Zero revenue tracked from 9 leads",
+      "detail": "Open opportunities show $0 monetary value. Either deals are unworked, untracked, or the leads are low-intent awareness clicks."
     },
     {
-      "headline": "107 reviews, 5.0 average rating",
-      "detail": "Reputation is a real asset right now. Six new five-star reviews this period reinforce trust ahead of summer demand."
+      "headline": "Frequency at 1.11 across 88,590 reach",
+      "detail": "Same people seeing the ad barely more than once. Awareness objective is spreading impressions thin instead of converting warm prospects."
     },
     {
-      "headline": "24 call clicks from Google",
-      "detail": "Local profile is driving phone interest. Direction requests at 44 suggest people are finding you, but call volume stays modest."
+      "headline": "Google Profile pulled 31 calls, 48 directions",
+      "detail": "Free local presence outproduced paid leads for direct contact. The 5-star rating across 150 reviews is your strongest asset."
     },
     {
-      "headline": "7.62% click-through rate on ads",
-      "detail": "Strong creative engagement on the AC summer ad. The hook works — the issue is downstream conversion to booked jobs."
+      "headline": "Only 5 Instagram profile visits this period",
+      "detail": "Paid impressions are not driving brand discovery. The awareness campaign is not building an organic audience either."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Your lead cost beats the industry",
-      "body": "HVAC cost per lead averages $104 blended and $149 for non-branded search in January 2026. Your $5.05 from Instagram is exceptional — but watch quality, not just price."
+      "label": "BENCHMARK",
+      "subheader": "HVAC cost per lead sits near $149",
+      "body": "Non-branded HVAC search leads averaged $149 in early 2026. Your $374 cost per lead this period runs roughly 2.5x that benchmark. Local Services Ads typically deliver leads at $25 to $75."
     },
     "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Summer cooling demand ramps now",
-      "body": "Cost per click spikes in summer as cooling searches surge. Conversion rates climb when urgency rises, like heatwaves. Q2 is when ad budgets typically need to scale up."
+      "label": "SEASONAL",
+      "subheader": "Summer cooling demand is peaking now",
+      "body": "HVAC click costs spike in summer as cooling searches surge. AC repair searches convert hardest in June and July. Awareness spend works better in shoulder months, not when homeowners are actively buying."
     },
     "competitor": {
-      "label": "Competitor",
-      "subheader": "Private equity rollups raising bid costs",
-      "body": "HVAC saw 149 mergers recently, up nearly 13% year-over-year. Private equity-backed competitors are willing to overpay for leads short-term to grab market share in your metro."
+      "label": "COMPETITOR",
+      "subheader": "Speed-to-lead is the industry weak spot",
+      "body": "Only 17% of HVAC businesses respond to leads within an hour — the slowest of any trade. Fast responders close jobs at much higher rates. This is a winnable gap for you."
     }
   },
   "recommendations": [
     {
-      "number": "1",
-      "title": "Audit the lead-to-booking handoff this week",
-      "detail": "78% of customers hire the first company that responds. With 9 leads and $0 booked, consider timing how fast Tonie and other leads got a callback."
+      "number": "01",
+      "title": "Switch campaign objective from awareness to leads",
+      "detail": "Consider changing the Summer campaign goal to lead generation or conversions. Awareness optimizes for cheap impressions, not phone calls. Same budget should produce more booked jobs at lower cost per lead."
     },
     {
-      "number": "2",
-      "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "Local Services Ads close at 18–32% for HVAC and charge per valid lead. Worth exploring as a complement to social, especially heading into summer cooling season."
+      "number": "02",
+      "title": "Test Google Local Services Ads alongside Meta",
+      "detail": "Worth exploring LSAs given your 5-star rating across 150 reviews. Industry data shows $25 to $75 per lead on that channel — potentially one-fifth your current cost."
     },
     {
-      "number": "3",
-      "title": "Add deal values to every opportunity in the CRM",
-      "detail": "Every open opportunity shows $0 value. Without dollars attached, you can't tell which lead source actually pays back. Consider a simple required field."
+      "number": "03",
+      "title": "Tighten lead response time to under one hour",
+      "detail": "Only 17% of HVAC businesses respond within the hour. With 9 paid leads sitting at $0 revenue, faster follow-up could be the biggest lever before increasing spend."
     }
   ]
 }
