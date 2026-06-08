@@ -1,48 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-06-01T22:26:46.220Z",
-  "weekOf": "May 5, 2026 – June 1, 2026",
-  "verdict": "Strong unit economics, but the campaign is paused and lead volume has collapsed to two.",
-  "diagnosis": "Main search campaign is paused, killing impressions to zero this period despite a $12 cost per lead well under healthcare norms.",
+  "generatedAt": "2026-06-08T19:56:16.806Z",
+  "weekOf": "May 12, 2026 – June 8, 2026",
+  "verdict": "Campaign is paused with weak lead flow, but purchase revenue still beats spend nearly 5-to-1.",
+  "diagnosis": "Spend of $1,249 produced only 2 leads at $624 each — far above the $98 wellness benchmark, while purchases delivered $5,897.",
   "signals": [
     {
-      "headline": "Search campaign paused, 0 latest impressions",
-      "detail": "The BWS Search Campaign shows PAUSED status. Latest period impressions and clicks are zero. Pipeline is starving."
-    },
-    {
       "headline": "Only 2 leads in 28 days",
-      "detail": "Lead volume is critically low for a medical group. Two leads will not feed a sales pipeline."
+      "detail": "Lead volume is critically low against $1,249 spend, signaling a tracking gap or broken intake path."
     },
     {
-      "headline": "Cost per lead just $12",
-      "detail": "Cost per lead of $12.03 is far below medical category norms. The offer and targeting are working when ads run."
+      "headline": "Purchase revenue hit $5,897",
+      "detail": "Nine purchases generated nearly 5x the ad spend, suggesting the offer converts when traffic lands."
     },
     {
-      "headline": "$5,897 in tracked purchases",
-      "detail": "Nine purchases generated nearly $5,900 in value on $1,249 spend. Return on ad spend is roughly 4.7 to 1."
+      "headline": "846 clicks, 138 landing page views",
+      "detail": "Roughly 1 in 6 clicks actually loaded the page — a major drop-off worth investigating."
     },
     {
-      "headline": "Zero call clicks, 33 direction requests",
-      "detail": "Google Business Profile drove 33 direction requests but no phone calls. Call tracking or click-to-call placement may be broken."
+      "headline": "Main search campaign is paused",
+      "detail": "The BWS Search Campaign is currently off, which explains flat recent impressions and click activity."
+    },
+    {
+      "headline": "Zero call clicks from Google Business",
+      "detail": "For a senior safety product with a phone-based audience, zero profile calls is a missed channel."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Medical cost per lead averages $57 to $98\", \"body\": \"<cite index=\"6-8\">Physicians and surgeons average $5 cost per click and $56.83 cost per lead in 2026.</cite> <cite index=\"3-13\">Wellness business-to-consumer cost per lead starts around $98.</cite> Liferun sits well below both at $12.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Senior care demand steady into summer\", \"body\": \"<cite index=\"12-11\">Expect aggressive expansion in home health and remote monitoring this year.</cite> Senior monitoring demand does not dip in late spring. Pausing the campaign now leaves leads on the table.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Rivals leaning into AI search and reviews\", \"body\": \"<cite index=\"14-24,14-25\">AI platforms like ChatGPT and Google AI Overviews are becoming a primary discovery surface for patients researching providers.</cite> <cite index=\"20-34\">Roughly 84% of patients read online reviews before choosing a provider.</cite>\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Wellness cost per lead averages $98",
+      "body": "Consumer wellness leads average around $98, with broader healthcare landing near $120. At $624 per lead this period, Liferun is paying roughly 6x the category norm."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Senior safety demand steady in spring",
+      "body": "Medical alert and senior care searches hold steady through late spring. Summer travel season often lifts family-driven inquiries for aging parents living alone."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Senior care click costs rising 32%",
+      "body": "Assisted living and elder care click costs jumped about 32% year over year. Competitors are bidding aggressively on terms like 'life alert,' squeezing smaller advertisers."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Reactivate the paused search campaign immediately",
-      "detail": "The BWS Search Campaign is paused with strong economics. Consider relaunching with the same V4 ad and 'medical monitoring services' keyword before momentum decays further."
+      "title": "Audit lead tracking before relaunching paid spend",
+      "detail": "Only 2 leads against 846 clicks suggests broken conversion tracking or form issues. Consider verifying pixel fires and form submissions before turning campaigns back on."
     },
     {
       "number": "02",
-      "title": "Fix call tracking on Google Business Profile",
-      "detail": "Direction requests hit 33 but call clicks are zero. Test the phone number link, verify tracking, and confirm (800) 421-3366 is clickable on mobile."
+      "title": "Test a call-focused campaign for the 65+ audience",
+      "detail": "The Google Business profile shows zero call clicks despite a listed phone number. Worth testing call extensions and call-only ads given the senior demographic."
     },
     {
       "number": "03",
-      "title": "Test scaling spend to grow lead volume",
-      "detail": "With cost per lead at $12 and return on ad spend near 4.7 to 1, worth exploring a 50% budget increase once the campaign is live again."
+      "title": "Shift budget toward the purchase-converting path",
+      "detail": "Purchases returned $5,897 on $1,249 spent. Consider reallocating to whichever ad set or keyword drove those nine sales rather than lead-focused variants."
     }
   ]
 }

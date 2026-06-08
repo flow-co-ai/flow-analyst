@@ -1,48 +1,32 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-06-01T22:26:21.311Z",
-  "weekOf": "May 5, 2026 – June 1, 2026",
-  "verdict": "Paid lead engine is significantly outperforming legal benchmarks; focus now shifts to lead quality and intake speed.",
-  "diagnosis": "Cost per lead this period is roughly $23 — far below the $72–$164 legal industry range on Meta — driven by 126 leads from $2,949 spend.",
+  "generatedAt": "2026-06-08T19:55:54.903Z",
+  "weekOf": "May 12, 2026 – June 8, 2026",
+  "verdict": "Lead engine is working. Cost per lead beats benchmarks. Fix intake speed and Instagram presence to capture more value.",
+  "diagnosis": "Facebook campaign produced 142 leads at roughly $24 each this period — well below the $649 legal average and the $27 Facebook lead benchmark.",
   "signals": [
     {
-      "headline": "126 leads at $23 each this period",
-      "detail": "Cost per lead sits roughly 3x below the legal category average on Meta. The debt collector angle is converting cold audiences efficiently."
+      "headline": "142 leads at $24 each",
+      "detail": "Facebook campaign delivered 142 leads on $3,471 spend this period. Cost per lead sits well under legal industry norms."
     },
     {
-      "headline": "111 phone calls from Google profile",
-      "detail": "Local presence is generating meaningful direct calls with zero direction requests. Phone is the dominant intake channel right now."
+      "headline": "844 landing page views, 1,055 clicks",
+      "detail": "Roughly 80% of clicks reach the landing page. Drop-off from page view to lead form is the bottleneck worth fixing."
     },
     {
-      "headline": "5-star review pushes total to 61",
-      "detail": "Reputation is intact and trending positive. New reviewer specifically named the attorney, which strengthens local search ranking signals."
+      "headline": "115 calls from Google profile",
+      "detail": "Google Business Profile drove 115 call clicks this period. Local presence is a meaningful second channel beyond paid social."
     },
     {
-      "headline": "2,005 clicks but only 781 landing page views",
-      "detail": "Roughly 60% of clicks never reach the landing page. Page speed or redirect issues are likely leaking paid traffic before conversion."
+      "headline": "61 reviews at 5.0 stars",
+      "detail": "Review base hit 61 with a perfect average and a fresh five-star testimonial this period. Strong trust signal for new prospects."
     },
     {
-      "headline": "Instagram following stuck at 26",
-      "detail": "Organic social is dormant with only 4 profile visits. Paid traffic is not translating into owned audience growth."
+      "headline": "Only 27 Instagram followers",
+      "detail": "Organic Instagram is essentially dormant despite paid activity on the account. Audience is not compounding between campaigns."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal Meta cost per lead: $72–$164\",\n\"body\": \"<cite index=\"18-8\">Superads benchmark data shows legal Facebook cost per lead at roughly $72</cite>, while <cite index=\"14-8\">across all countries, legal averaged $164 over the period</cite>. Your $23 figure sits well below both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Legal costs cooled sharply in early 2026\",\n\"body\": \"<cite index=\"14-14\">Legal cost per lead reset abruptly in January 2026, dropping 60%</cite> after a late-2025 surge. The current spring window is the cheapest auction environment in over a year.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Most firms ignore cost per signed case\",\n\"body\": \"<cite index=\"8-37,8-38\">Cost per lead ignores everything between the click and the case. The metric that drives growth is cost per signed case</cite>. Competitors over-index on lead volume; intake speed wins.\"\n}\n}",
-  "recommendations": [
-    {
-      "number": "01",
-      "title": "Fix the click-to-landing-page drop-off",
-      "detail": "Only 781 of 2,005 clicks reached the page. Test page load speed on mobile and check for redirect issues. Recovering half that gap could lift leads meaningfully."
-    },
-    {
-      "number": "02",
-      "title": "Tighten intake speed on inbound calls",
-      "detail": "With 111 call clicks and 126 form leads, response time decides revenue. Consider a 5-minute callback rule and after-hours coverage to convert more contacts into signed cases."
-    },
-    {
-      "number": "03",
-      "title": "Test a retargeting layer for blog readers",
-      "detail": "Worth exploring a small retargeting budget against website visitors. Industry data suggests this approach can cut lead costs further while improving lead intent and quality."
-    }
-  ]
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Your $24 cost per lead beats the field\",\n\"body\": \"Facebook lead ads averaged <cite index=\"13-9\">$27.66 per lead across industries</cite> in 2025, projected to rise toward $29–31 in 2026. Blended legal cost per lead sits near <cite index=\"5-2\">$649 on average</cite>.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Response speed decides June conversions\",\n\"body\": \"<cite index=\"16-26\">Leads contacted within five minutes are 21 times more likely to convert than those contacted after 30 minutes</cite>. With 142 leads this period, intake speed matters more than volume.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Consumer law firms converting 14% on average\",\n\"body\": \"<cite index=\"16-9\">The average law firm converts 14% of inquiries into signed clients</cite>, while top firms hit 40–50% using fast response and CRM follow-up. Most peers lose deals at intake, not at the ad.\"\n}\n}",
+  "recommendations": "[\n{\"number\": \"01\", \"title\": \"Time every lead response and aim for under five minutes\", \"detail\": \"Of 142 leads this period, speed-to-call likely decides half. Consider a five-minute response standard with text plus call, since <cite index=\"16-21\">79% of consumers hire the first attorney who responds helpfully</cite>.\"},\n{\"number\": \"02\", \"title\": \"Test a second ad creative against Static-2\", \"detail\": \"One ad is carrying the campaign. Worth testing a video or testimonial variant using the new Diana D. five-star review to refresh creative before fatigue lifts cost per lead.\"},\n{\"number\": \"03\", \"title\": \"Post to Instagram weekly to compound paid spend\", \"detail\": \"Followers sit at 27 despite active paid campaigns. Consider two weekly posts on debt collector rights to convert ad impressions into a lasting audience.\"}\n]"
 }

@@ -1,48 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-06-01T22:25:27.373Z",
-  "weekOf": "May 5, 2026 – June 1, 2026",
-  "verdict": "Retargeting spend is generating leads cheaply but failing to convert into profitable purchases this period.",
-  "diagnosis": "Cost per purchase hit $249.65 this period — roughly 5x the food DTC benchmark of $51, while return on ad spend stayed near zero.",
+  "generatedAt": "2026-06-08T19:54:54.094Z",
+  "weekOf": "May 12, 2026 – June 8, 2026",
+  "verdict": "Paid Instagram is bleeding cash on a paused campaign delivering purchases at 10x the industry cost.",
+  "diagnosis": "Cost per purchase sits at $301 this period, roughly 10x the ecommerce Meta benchmark, while the lead campaign is paused.",
   "signals": [
     {
-      "headline": "Cost per purchase reached $249.65",
-      "detail": "Latest period cost to acquire a buyer is roughly 5x the food DTC benchmark. Unit economics are underwater."
+      "headline": "Cost per purchase hit $301",
+      "detail": "Each sale this period cost roughly ten times the $30 ecommerce benchmark for Meta. Spend is not converting efficiently."
     },
     {
-      "headline": "555 pixel leads at $1.11 each",
-      "detail": "Lead capture is working cheaply on Instagram retargeting. The funnel breaks between lead and checkout."
+      "headline": "Only 2 checkouts from 23 cart adds",
+      "detail": "Fewer than 1 in 10 cart adds reached checkout this period. The checkout flow is the biggest leak right now."
     },
     {
-      "headline": "Only 2 checkouts initiated, 10 carts",
-      "detail": "Add-to-cart and checkout volume is tiny versus 1,063 landing page views. Product page or offer is not converting."
+      "headline": "Frequency reached 3.18 per user",
+      "detail": "The same 1,873 people saw ads three times each. Audience is too small and creative fatigue is likely setting in."
     },
     {
-      "headline": "639 purchases, only $18 tracked revenue",
-      "detail": "Purchase value tracking looks broken or wildly under-reported. Cannot trust return on ad spend until pixel values are fixed."
+      "headline": "Campaign status shows PAUSED",
+      "detail": "The Premium Box Awareness campaign is currently paused. Spend continues elsewhere with no active lead engine running."
     },
     {
-      "headline": "508 reviews, 0 new this period",
-      "detail": "Google Business Profile shows zero new reviews logged this period. Social proof momentum has stalled."
+      "headline": "607 pixel leads captured",
+      "detail": "Lead volume held up this period despite the paused state. The form funnel still works when traffic arrives."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Food DTC acquisition runs $15–$51 per customer\",\n\"body\": <cite index=\"6-41\">\"Food $51\"</cite> per customer is the typical DTC benchmark, with <cite index=\"10-1,10-32\">food category cost per acquisition ranging $15–$35</cite>. Billy Doe's latest $249.65 sits far above that band.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Grilling season drives May–June meat demand\",\n\"body\": \"Late spring is peak grilling and outdoor cooking demand. <cite index=\"11-25\">US consumers will spend $363.8 billion on grocery delivery in 2026</cite>, with subscription meat brands well positioned for the season.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"ButcherBox, Good Ranchers dominate category\",\n\"body\": <cite index=\"16-6\">ButcherBox generated more than $500 million in sales in 2024</cite>. <cite index=\"17-4\">Good Ranchers leads on American sourcing, USDA Prime/Choice, and free express shipping</cite>. Billy Doe needs a sharper sourcing or halal angle to stand out.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Meat brands cost 10x the category norm",
+      "body": "Ecommerce cost per purchase on Meta averages around $30 this year. Food and beverage advertisers see the lowest cost per thousand impressions at roughly $8. Billy Doe's $301 cost per purchase is far above both."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Grill season demand rising into summer",
+      "body": "Late spring and early summer drive peak meat purchase intent as outdoor cooking season opens. Bundle offers tied to grilling occasions are a known lever to lift average order value above the $120 free shipping threshold typical for the category."
+    },
+    "competitor": {
+      "label": "Category",
+      "subheader": "DTC meat has 81% cart abandonment",
+      "body": "Meat is the toughest DTC food category. Cart abandonment runs near 81%, well above the 61% food average, driven by shipping costs and food safety concerns. Brand search and content marketing carry most conversions."
+    }
+  },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Audit the Meta purchase pixel and value tracking",
-      "detail": "639 purchases reporting only $18 in value points to broken event setup. Worth fixing before scaling spend — current return on ad spend numbers cannot be trusted."
+      "number": "1",
+      "title": "Fix the checkout before reactivating spend",
+      "detail": "Only 2 of 23 cart adds reached checkout. Consider testing guest checkout, clearer shipping costs, and a bundle that hits the free shipping threshold before unpausing ads."
     },
     {
-      "number": "02",
-      "title": "Test a prospecting campaign alongside retargeting",
-      "detail": "All spend currently flows to a single retargeting ad set. Consider testing cold audiences with grilling-season creative to refill the top of the funnel."
+      "number": "2",
+      "title": "Refresh creative and broaden the audience",
+      "detail": "Frequency of 3.18 on a reach of 1,873 signals fatigue. Worth testing new Reels creative tied to grill season and expanding the audience to lower repeat exposure."
     },
     {
-      "number": "03",
-      "title": "Fix the lead-to-purchase gap with email and offer",
-      "detail": "555 leads captured but only 2 checkouts initiated. Test a welcome flow with a first-box discount or free shipping offer to convert leads into buyers."
+      "number": "3",
+      "title": "Shift budget toward retention and brand search",
+      "detail": "DTC meat lives on repeat buyers and brand search. Consider redirecting some paid budget into email flows and SEO content while paid efficiency is being rebuilt."
     }
   ]
 }

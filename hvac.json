@@ -1,64 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-06-01T22:25:54.467Z",
-  "weekOf": "May 5, 2026 – June 1, 2026",
-  "verdict": "Awareness campaign is burning cash heading into peak AC season; switch objective to leads before summer demand peaks.",
-  "diagnosis": "Cost per lead hit roughly $374 over 28 days — more than double the $149 non-branded HVAC benchmark — because the campaign is set to awareness, not bookings.",
+  "generatedAt": "2026-06-08T19:55:22.477Z",
+  "weekOf": "May 12, 2026 – June 8, 2026",
+  "verdict": "Ad spend is leaking; Google Business Profile is the bright spot carrying real customer demand.",
+  "diagnosis": "Instagram ads cost $459 per lead this period — roughly 3x the home services benchmark, with zero tracked revenue in the pipeline.",
   "signals": [
     {
-      "headline": "Cost per lead near $374 this period",
-      "detail": "Nine leads from $3,369 in spend. Industry benchmark is around $149 for non-branded HVAC search."
+      "headline": "9 leads from $4,129 spend",
+      "detail": "Instagram campaign produced just 9 leads in 28 days. Cost per lead landed near $459 — well above industry norms."
     },
     {
-      "headline": "Zero revenue tracked from 9 leads",
-      "detail": "Open opportunities show $0 monetary value. Either deals are unworked, untracked, or the leads are low-intent awareness clicks."
+      "headline": "33 calls from Google Profile",
+      "detail": "Google Business Profile drove 33 call clicks and 59 direction requests. This is the channel actually generating customer contact."
     },
     {
-      "headline": "Frequency at 1.11 across 88,590 reach",
-      "detail": "Same people seeing the ad barely more than once. Awareness objective is spreading impressions thin instead of converting warm prospects."
+      "headline": "12 new 5-star reviews this period",
+      "detail": "Reviews keep flowing in at a perfect 5-star average. This is a competitive moat most local rivals do not have."
     },
     {
-      "headline": "Google Profile pulled 31 calls, 48 directions",
-      "detail": "Free local presence outproduced paid leads for direct contact. The 5-star rating across 150 reviews is your strongest asset."
+      "headline": "0 dollars tracked in pipeline",
+      "detail": "Opportunity monetary value reads zero across all open deals. Sales outcomes are not being logged, so true return is invisible."
     },
     {
-      "headline": "Only 5 Instagram profile visits this period",
-      "detail": "Paid impressions are not driving brand discovery. The awareness campaign is not building an organic audience either."
+      "headline": "121 link clicks from 131,684 views",
+      "detail": "Click-through on the ad is thin. The creative is reaching people but not compelling them to take the next step."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "BENCHMARK",
-      "subheader": "HVAC cost per lead sits near $149",
-      "body": "Non-branded HVAC search leads averaged $149 in early 2026. Your $374 cost per lead this period runs roughly 2.5x that benchmark. Local Services Ads typically deliver leads at $25 to $75."
+      "subheader": "HVAC cost per lead sits near $100-$229",
+      "body": "Industry data for 2026 puts blended HVAC cost per lead between $100 and $229, with Google Local Services Ads as low as $25-$75. This account is running roughly 3x that range."
     },
     "seasonal": {
       "label": "SEASONAL",
-      "subheader": "Summer cooling demand is peaking now",
-      "body": "HVAC click costs spike in summer as cooling searches surge. AC repair searches convert hardest in June and July. Awareness spend works better in shoulder months, not when homeowners are actively buying."
+      "subheader": "Peak AC replacement demand window now",
+      "body": "19% of homeowners are weighing new heating or cooling systems in 2026, with cooling season search intent peaking June through August. Demand timing favors aggressive booking, not just awareness."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "Speed-to-lead is the industry weak spot",
-      "body": "Only 17% of HVAC businesses respond to leads within an hour — the slowest of any trade. Fast responders close jobs at much higher rates. This is a winnable gap for you."
+      "label": "CATEGORY",
+      "subheader": "Speed-to-lead decides who wins",
+      "body": "78% of home services customers hire the first company that responds. Five-minute response time can lift conversion by 391%. Most competitors take days, leaving an opening."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Switch campaign objective from awareness to leads",
-      "detail": "Consider changing the Summer campaign goal to lead generation or conversions. Awareness optimizes for cheap impressions, not phone calls. Same budget should produce more booked jobs at lower cost per lead."
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Consider shifting part of the Instagram budget into Google Local Services Ads. Benchmark cost per lead runs $25-$75 there, versus $459 currently. The 5-star review base should rank well."
     },
     {
       "number": "02",
-      "title": "Test Google Local Services Ads alongside Meta",
-      "detail": "Worth exploring LSAs given your 5-star rating across 150 reviews. Industry data shows $25 to $75 per lead on that channel — potentially one-fifth your current cost."
+      "title": "Fix pipeline tracking before adding more spend",
+      "detail": "Worth logging actual job value against each lead source. Without revenue tracking, there is no way to prove which channel is profitable. This blocks every other decision."
     },
     {
       "number": "03",
-      "title": "Tighten lead response time to under one hour",
-      "detail": "Only 17% of HVAC businesses respond within the hour. With 9 paid leads sitting at $0 revenue, faster follow-up could be the biggest lever before increasing spend."
+      "title": "Refresh the ad creative and offer",
+      "detail": "Test a new static or short video with a sharper hook — free tune-up, financing, or same-day service. Current creative drew 928 clicks but only 9 leads."
     }
   ]
 }

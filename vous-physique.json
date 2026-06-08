@@ -1,64 +1,60 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-06-01T22:27:07.093Z",
-  "weekOf": "May 5, 2026 – June 1, 2026",
-  "verdict": "Retargeting spend is winding down with zero visible outcomes — you're flying blind on a $814 investment.",
-  "diagnosis": "Spend dropped to $10.75 on the latest day from a $24.66 daily average, with no lead, booking, or organic data to confirm results.",
+  "generatedAt": "2026-06-08T19:56:38.909Z",
+  "weekOf": "May 12, 2026 – June 8, 2026",
+  "verdict": "Retargeting spend is steady but we're flying blind without lead, conversion, or revenue data to judge results.",
+  "diagnosis": "Vous Physique spent $1,062.69 on one Facebook retargeting campaign this period, with daily spend dropping from $22.61 average to $12.28 latest.",
   "signals": [
     {
-      "headline": "Total spend hit $813.77 this period",
-      "detail": "One Facebook retargeting campaign carried the entire paid budget across 28 days. No diversification, no backup channel."
+      "headline": "Total spend hit $1,062.69 this period",
+      "detail": "All ad budget ran through one Facebook retargeting campaign. No diversification across prospecting or other channels."
     },
     {
-      "headline": "Daily spend collapsed 56% to $10.75",
-      "detail": "Latest day sits well below the $24.66 daily average. The campaign appears to be tapering, not scaling."
+      "headline": "Daily spend fell 46% to $12.28",
+      "detail": "Latest daily spend is well below the $22.61 period average. Budget pacing is slowing, not scaling."
     },
     {
-      "headline": "Zero lead or booking data tracked",
-      "detail": "No CRM pipeline, organic, or local data flowing in. Impossible to judge if the $813.77 produced any members."
+      "headline": "Zero lead or revenue data tracked",
+      "detail": "No conversions, calls, or pipeline tied to spend. Impossible to judge if $1,062.69 produced any members."
     },
     {
-      "headline": "100% of budget on retargeting",
-      "detail": "Retargeting only works if a top-of-funnel audience exists. Without prospecting, the warm pool will dry up fast."
-    },
-    {
-      "headline": "Google Business Profile shows no activity",
-      "detail": "Missing local presence data means calls, direction requests, and map views are invisible. Likely a tracking gap, not zero demand."
+      "headline": "Only 1 campaign running across 28 days",
+      "detail": "Retargeting alone cannot fill the funnel. Without cold prospecting, the retargeting pool dries up."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Premium studios pay $25–$50 per lead",
-      "body": "Boutique fitness studios on Facebook typically pay $25–$50 per lead, with the category averaging around $29.70. Without lead tracking, your $813.77 spend can't be measured against this."
+      "subheader": "Fitness leads run $15–$50 on Facebook",
+      "body": "Boutique studio cost per lead typically lands between $25 and $50 on Meta. Fitness conversion rates on lead forms reach 14%, the highest of any vertical. Vous Physique has no lead data to compare."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "May is the cheapest month for fitness leads",
-      "body": "Fitness lead costs hit their low in April and stay cheap through May, running up to 64% below global averages. You're advertising in the best window of the year."
+      "subheader": "May–June is a cheap window for fitness ads",
+      "body": "April and May are the cheapest months of the year for fitness lead costs, running up to 64% below the global average. July spikes sharply. The window to acquire cheaply is closing fast."
     },
     "competitor": {
-      "label": "Category",
-      "subheader": "Studios shift focus to retention",
-      "body": "Boutique operators are pulling back from acquisition-heavy models in 2026. Cancellations at studios dropped 6% last year while gyms saw an 8% rise — retention is winning."
+      "label": "Competitor",
+      "subheader": "Studios shifting budget to retention",
+      "body": "Boutique operators are pulling spend from acquisition toward member retention, community events, and Pilates or hybrid strength formats. Studios with strong community retain members 30–50% longer."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Connect lead and booking tracking immediately",
-      "detail": "Consider wiring Facebook leads into a CRM and connecting Google Business Profile. Without this, you cannot tell if $813.77 produced one member or twenty."
+      "title": "Install lead and revenue tracking immediately",
+      "detail": "Connect Facebook lead forms or website conversions back to spend. Without this, every other decision is a guess. Worth doing before adding any new budget."
     },
     {
       "number": "02",
-      "title": "Test a small prospecting campaign alongside retargeting",
-      "detail": "Retargeting alone shrinks the audience over time. Worth exploring a $15–$20/day prospecting campaign to refill the top of the funnel while costs are seasonally low."
+      "title": "Test a cold prospecting campaign alongside retargeting",
+      "detail": "Retargeting alone shrinks over time. Consider a small prospecting test with a low-friction offer like a free week or intro class while June costs stay low."
     },
     {
       "number": "03",
-      "title": "Add a qualifying question to the lead form",
-      "detail": "Fitness lead forms attract tire-kickers. Test one question like current workout frequency or budget to filter for serious prospects worth the sales follow-up."
+      "title": "Lock in spend before July cost spike",
+      "detail": "Fitness ad costs jump sharply in July. Consider front-loading June budget to capture cheaper leads before the seasonal increase hits."
     }
   ]
 }
