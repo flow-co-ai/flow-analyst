@@ -1,32 +1,48 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-06-08T19:55:54.903Z",
-  "weekOf": "May 12, 2026 – June 8, 2026",
-  "verdict": "Lead engine is working. Cost per lead beats benchmarks. Fix intake speed and Instagram presence to capture more value.",
-  "diagnosis": "Facebook campaign produced 142 leads at roughly $24 each this period — well below the $649 legal average and the $27 Facebook lead benchmark.",
+  "generatedAt": "2026-06-15T21:50:48.299Z",
+  "weekOf": "May 19, 2026 – June 15, 2026",
+  "verdict": "Paid lead engine is working — $25 per lead beats legal benchmarks by 3x. Scale carefully.",
+  "diagnosis": "154 leads at $3,847 spend means roughly $25 per lead, far below the $72–$190 range typical for legal services this year.",
   "signals": [
     {
-      "headline": "142 leads at $24 each",
-      "detail": "Facebook campaign delivered 142 leads on $3,471 spend this period. Cost per lead sits well under legal industry norms."
+      "headline": "154 leads from $3,847 spend",
+      "detail": "Cost per lead landed near $25 this period — strong for a consumer law firm running Meta lead ads."
     },
     {
-      "headline": "844 landing page views, 1,055 clicks",
-      "detail": "Roughly 80% of clicks reach the landing page. Drop-off from page view to lead form is the bottleneck worth fixing."
+      "headline": "Click-through rate hit 4.2%",
+      "detail": "2,488 clicks on 58,870 impressions doubles the legal category average. Creative is resonating with the targeted audience."
     },
     {
-      "headline": "115 calls from Google profile",
-      "detail": "Google Business Profile drove 115 call clicks this period. Local presence is a meaningful second channel beyond paid social."
+      "headline": "897 landing page views, 144 pixel leads",
+      "detail": "Roughly 16% of page viewers convert. Healthy intake funnel — landing page is doing its job."
     },
     {
-      "headline": "61 reviews at 5.0 stars",
-      "detail": "Review base hit 61 with a perfect average and a fresh five-star testimonial this period. Strong trust signal for new prospects."
+      "headline": "135 calls from Google profile",
+      "detail": "Local presence is driving meaningful phone volume on top of paid. Two new 5-star reviews reinforce trust signals."
     },
     {
-      "headline": "Only 27 Instagram followers",
-      "detail": "Organic Instagram is essentially dormant despite paid activity on the account. Audience is not compounding between campaigns."
+      "headline": "Instagram reach 3,569, only 28 followers",
+      "detail": "Paid is exposing the brand but organic following is not growing. Profile is leaking attention."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Your $24 cost per lead beats the field\",\n\"body\": \"Facebook lead ads averaged <cite index=\"13-9\">$27.66 per lead across industries</cite> in 2025, projected to rise toward $29–31 in 2026. Blended legal cost per lead sits near <cite index=\"5-2\">$649 on average</cite>.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Response speed decides June conversions\",\n\"body\": \"<cite index=\"16-26\">Leads contacted within five minutes are 21 times more likely to convert than those contacted after 30 minutes</cite>. With 142 leads this period, intake speed matters more than volume.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Consumer law firms converting 14% on average\",\n\"body\": \"<cite index=\"16-9\">The average law firm converts 14% of inquiries into signed clients</cite>, while top firms hit 40–50% using fast response and CRM follow-up. Most peers lose deals at intake, not at the ad.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"01\", \"title\": \"Time every lead response and aim for under five minutes\", \"detail\": \"Of 142 leads this period, speed-to-call likely decides half. Consider a five-minute response standard with text plus call, since <cite index=\"16-21\">79% of consumers hire the first attorney who responds helpfully</cite>.\"},\n{\"number\": \"02\", \"title\": \"Test a second ad creative against Static-2\", \"detail\": \"One ad is carrying the campaign. Worth testing a video or testimonial variant using the new Diana D. five-star review to refresh creative before fatigue lifts cost per lead.\"},\n{\"number\": \"03\", \"title\": \"Post to Instagram weekly to compound paid spend\", \"detail\": \"Followers sit at 27 despite active paid campaigns. Consider two weekly posts on debt collector rights to convert ad impressions into a lasting audience.\"}\n]"
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal cost per lead runs $72 to $190\",\n\"body\": \"<cite index=\"5-15\">Legal services show a median cost per lead of $164, while other reports average $72</cite>. <cite index=\"13-3\">Meta legal services average around $187 per lead in 2026</cite>. Your $25 is exceptional.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Costs typically climb into late year\",\n\"body\": \"<cite index=\"5-19\">Legal services experience dramatic swings, ranging from $67 to $254 per lead</cite>. Summer months tend to be quieter and cheaper. Lock in volume now before Q4 auction pressure hits.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Spanish-speaking audiences cost 40-60% less\",\n\"body\": \"<cite index=\"16-1\">Law firms targeting Spanish-speaking communities see 40% to 60% lower cost per lead on Meta due to less advertiser competition</cite>. Your Spanish search query data suggests this audience is reachable.\"\n}\n}",
+  "recommendations": [
+    {
+      "number": "01",
+      "title": "Increase budget on the winning lead campaign",
+      "detail": "Cost per lead is roughly one-third of the category benchmark. Consider raising daily spend 25-40% on the active CROA campaign while creative still performs."
+    },
+    {
+      "number": "02",
+      "title": "Test a Spanish-language ad set",
+      "detail": "Organic data shows Spanish consumer-rights searches. A dedicated Spanish creative could meaningfully lower cost per lead and open a less crowded auction."
+    },
+    {
+      "number": "03",
+      "title": "Fix the Instagram profile leak",
+      "detail": "Reach hit 3,569 but only 28 followers. Worth testing a stronger bio, pinned reel explaining services, and a clear call to follow."
+    }
+  ]
 }
