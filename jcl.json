@@ -1,48 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-06-15T21:50:48.299Z",
-  "weekOf": "May 19, 2026 – June 15, 2026",
-  "verdict": "Paid lead engine is working — $25 per lead beats legal benchmarks by 3x. Scale carefully.",
-  "diagnosis": "154 leads at $3,847 spend means roughly $25 per lead, far below the $72–$190 range typical for legal services this year.",
+  "generatedAt": "2026-06-22T21:35:39.304Z",
+  "weekOf": "May 26, 2026 – June 22, 2026",
+  "verdict": "Lead engine is working: cost per lead beats industry, reviews and calls back it up.",
+  "diagnosis": "Spent $4,356 to generate 165 leads at roughly $26 each, comfortably under the $72 legal-services benchmark, with 10 new five-star reviews reinforcing trust.",
   "signals": [
     {
-      "headline": "154 leads from $3,847 spend",
-      "detail": "Cost per lead landed near $25 this period — strong for a consumer law firm running Meta lead ads."
+      "headline": "165 leads at about $26 each",
+      "detail": "Meta lead-gen campaign produced 165 form submissions on $4,356 spend, well below typical legal-vertical costs."
     },
     {
-      "headline": "Click-through rate hit 4.2%",
-      "detail": "2,488 clicks on 58,870 impressions doubles the legal category average. Creative is resonating with the targeted audience."
+      "headline": "10 new five-star reviews this period",
+      "detail": "Google profile now sits at 253 total reviews with a perfect 5.0 average rating, strong social proof for debt-relief seekers."
     },
     {
-      "headline": "897 landing page views, 144 pixel leads",
-      "detail": "Roughly 16% of page viewers convert. Healthy intake funnel — landing page is doing its job."
+      "headline": "129 phone calls from Google profile",
+      "detail": "Local search drove meaningful inbound calls, the highest-intent action for a debt-relief prospect."
     },
     {
-      "headline": "135 calls from Google profile",
-      "detail": "Local presence is driving meaningful phone volume on top of paid. Two new 5-star reviews reinforce trust signals."
+      "headline": "972 landing page views at $4.48",
+      "detail": "Roughly 36% of clicks reached the page, healthy for a paid social funnel in a sensitive category."
     },
     {
-      "headline": "Instagram reach 3,569, only 28 followers",
-      "detail": "Paid is exposing the brand but organic following is not growing. Profile is leaking attention."
+      "headline": "Instagram following stuck at 28",
+      "detail": "Organic social is essentially dormant; reach of 4,176 is not converting to follows or profile visits."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal cost per lead runs $72 to $190\",\n\"body\": \"<cite index=\"5-15\">Legal services show a median cost per lead of $164, while other reports average $72</cite>. <cite index=\"13-3\">Meta legal services average around $187 per lead in 2026</cite>. Your $25 is exceptional.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Costs typically climb into late year\",\n\"body\": \"<cite index=\"5-19\">Legal services experience dramatic swings, ranging from $67 to $254 per lead</cite>. Summer months tend to be quieter and cheaper. Lock in volume now before Q4 auction pressure hits.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Spanish-speaking audiences cost 40-60% less\",\n\"body\": \"<cite index=\"16-1\">Law firms targeting Spanish-speaking communities see 40% to 60% lower cost per lead on Meta due to less advertiser competition</cite>. Your Spanish search query data suggests this audience is reachable.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Legal lead costs run $21 to $72",
+      "body": "Industry trackers put 2026 Meta cost per lead for legal services between $21 and $72, with some reports citing $120+ for competitive markets. Your $26 sits at the efficient end."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Summer debt stress drives demand",
+      "body": "Consumer Chapter 7 filings rose 15% year over year in 2025, and summer months typically see elevated debt-relief search volume as households face mid-year credit card balances."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Firms shifting to exclusive lead buys",
+      "body": "Debt-relief competitors increasingly pay premium prices for exclusive, pre-qualified leads with $20,000+ debt loads. Your in-house Meta funnel is cheaper but needs strong qualification questions to match quality."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Increase budget on the winning lead campaign",
-      "detail": "Cost per lead is roughly one-third of the category benchmark. Consider raising daily spend 25-40% on the active CROA campaign while creative still performs."
+      "title": "Add qualifying questions to the lead form",
+      "detail": "Consider asking debt amount and timeline inside the Meta form. Filters out tire-kickers and pushes the 165 leads closer to the $20K+ debt profile competitors pay premiums for."
     },
     {
       "number": "02",
-      "title": "Test a Spanish-language ad set",
-      "detail": "Organic data shows Spanish consumer-rights searches. A dedicated Spanish creative could meaningfully lower cost per lead and open a less crowded auction."
+      "title": "Test a five-minute callback rule for new leads",
+      "detail": "Debt-relief prospects contact the first firm that answers. Worth testing whether faster intake on the 165 monthly leads lifts retainer conversion without spending more on ads."
     },
     {
       "number": "03",
-      "title": "Fix the Instagram profile leak",
-      "detail": "Reach hit 3,569 but only 28 followers. Worth testing a stronger bio, pinned reel explaining services, and a clear call to follow."
+      "title": "Repurpose five-star reviews into ad creative",
+      "detail": "Ten new five-star reviews this period are unused ad fuel. Test a static or short video ad featuring a real review against the current Static-2 creative."
     }
   ]
 }

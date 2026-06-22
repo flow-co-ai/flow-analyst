@@ -1,48 +1,48 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-06-15T21:50:21.731Z",
-  "weekOf": "May 19, 2026 – June 15, 2026",
-  "verdict": "Hiring campaign is delivering applicants cheaply, but customer-side sales pipeline shows zero revenue this period.",
-  "diagnosis": "Spent $5,107 on a hiring campaign producing 13 leads at $43 each, while the customer sales pipeline generated $0 in opportunity value.",
+  "generatedAt": "2026-06-22T21:35:09.985Z",
+  "weekOf": "May 26, 2026 – June 22, 2026",
+  "verdict": "Cost per lead is far above industry norm; the Google Business Profile is doing the heavy lifting.",
+  "diagnosis": "Spend of $4,994 produced 21 leads at $238 each — well above the roughly $92 industry average for HVAC.",
   "signals": [
     {
-      "headline": "13 hiring leads at $43 each",
-      "detail": "Cost per applicant beats most home services benchmarks. Carlos Martin (3-5 years experience) is the latest applicant from Facebook."
+      "headline": "21 leads cost $4,994 this period",
+      "detail": "Instagram spend produced only 21 leads. That works out to roughly $238 per lead — well above local home services norms."
     },
     {
-      "headline": "$0 in open sales pipeline",
-      "detail": "Every open opportunity this period carries zero dollar value. Sales-side lead generation is missing entirely from paid spend."
+      "headline": "5-star average across 779 reviews",
+      "detail": "Reputation is a clear strength. Five-star average and steady new reviews give the profile strong trust signals for local searchers."
     },
     {
-      "headline": "37 calls, 73 direction requests",
-      "detail": "Google Business Profile is doing real work. Reviews averaged a perfect 5 stars across 10 new reviews this period."
+      "headline": "49 calls and 68 direction requests",
+      "detail": "The Google Business Profile drove 49 calls and 68 direction requests. Organic local presence is outperforming paid Instagram on intent."
     },
     {
-      "headline": "168 link clicks from 153K impressions",
-      "detail": "Instagram reach is wide but shallow. Click-through to the website stays well under one percent."
+      "headline": "1,171 clicks but only 234 link clicks",
+      "detail": "Most clicks did not reach the website. The gap suggests the ad creative gets taps but fails to push users to take action."
     },
     {
-      "headline": "168 Instagram followers, 110 follows",
-      "detail": "Audience is small for a paid account. Organic growth added only 10 followers in 28 days."
+      "headline": "Zero booked revenue tracked this period",
+      "detail": "Pipeline value sits at $0 with opportunities still open. Either tracking is broken or leads are not being closed promptly."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"HVAC lead costs vary widely by channel\", \"body\": \"<cite index=\"8-3\">LocaliQ benchmarks put HVAC search ads near $45 per lead</cite>. <cite index=\"9-2,9-3\">Google Ads averages $100-$110 blended, with non-branded search around $149</cite>. Your $43 applicant cost sits at the low end.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Summer cooling drives peak HVAC demand\", \"body\": \"<cite index=\"5-6\">HVAC keyword costs spike during summer cooling and winter heating periods</cite>. June is prime AC repair season, yet zero customer-acquisition spend is running while the hiring campaign absorbs the budget.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Speed and reviews decide who wins\", \"body\": \"<cite index=\"14-9\">66% of home services say lead follow-up is a major challenge</cite>. <cite index=\"8-5\">CallRail reports 14% missed-call rates and 78% of customers hire whoever responds first</cite>.\"}}",
+  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"HVAC cost per lead around $92 to $153\",\n    \"body\": \"<cite index=\"3-8\">HVAC sits near $92 per lead</cite> on the low end. <cite index=\"5-1\">The broader HVAC average sits around $153</cite>. This account's $238 per lead is well above both figures.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"Summer cooling pushes click costs higher\",\n    \"body\": \"<cite index=\"11-1,11-2\">HVAC click costs spike in summer cooling and winter heating, so bids and budgets need to lift during those peaks</cite>. June falls inside that cooling peak window.\"\n  },\n  \"competitor\": {\n    \"label\": \"Competitor\",\n    \"subheader\": \"Local Services Ads run $25 to $75 per lead\",\n    \"body\": \"<cite index=\"15-23\">Local Services Ads typically deliver leads at $25 to $75, and you only pay when a verified lead contacts you</cite>. Most competitors are leaning here rather than Instagram forms.\"\n  }\n}",
   "recommendations": [
     {
-      "number": "01",
-      "title": "Launch a parallel summer AC repair campaign",
-      "detail": "Consider redirecting a portion of the $5,107 hiring budget toward booked-job acquisition. June is peak cooling season and the current pipeline shows zero customer opportunities."
+      "number": "1",
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Consider shifting part of the Instagram budget to Local Services Ads. Lead costs in that channel typically run $25 to $75, far below the $238 seen here."
     },
     {
-      "number": "02",
-      "title": "Test Google Local Services Ads for booked jobs",
-      "detail": "Worth exploring given your 5-star reviews and 37 call clicks. Local Services Ads typically run $25-$75 per lead and reward strong review profiles."
+      "number": "2",
+      "title": "Fix lead follow-up and pipeline tracking",
+      "detail": "Opportunity value sits at $0 with leads still open. Worth auditing speed-to-call and making sure booked jobs flow back into the CRM as revenue."
     },
     {
-      "number": "03",
-      "title": "Tighten Instagram targeting around Orland Park radius",
-      "detail": "153K impressions produced only 168 link clicks. Test tighter creative or audience around the 10-mile Orland Park zone before expanding spend."
+      "number": "3",
+      "title": "Rework the Instant Form for cooling-season intent",
+      "detail": "Test creative built around emergency AC repair and tune-up offers. Summer urgency tends to lift conversion when the ad matches the homeowner's immediate need."
     }
   ]
 }
