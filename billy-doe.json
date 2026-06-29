@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-06-22T21:34:43.692Z",
-  "weekOf": "May 26, 2026 – June 22, 2026",
-  "verdict": "Retargeting campaign is bleeding budget with broken purchase tracking and dismal return this period.",
-  "diagnosis": "Spend is running with almost no purchase tracking — only 28 in purchase value against thousands in spend this period.",
+  "generatedAt": "2026-06-29T15:39:36.192Z",
+  "weekOf": "June 2, 2026 – June 29, 2026",
+  "verdict": "Tiny $13 ad spend produced 24 purchases worth $4,500 — proof of concept, but volume is the missing piece.",
+  "diagnosis": "The Muslim Subscription Box campaign is converting efficiently on a paper-thin budget; underfunding, not creative, is now the ceiling on growth.",
   "signals": [
     {
-      "headline": "Cost per purchase hit $288 this period",
-      "detail": "Average cost to drive one purchase sits at $288, with the latest data point at $192. Far above category norms for meat."
+      "headline": "Only $13.21 spent in 28 days",
+      "detail": "Paid budget is too small to learn or scale. Meta needs roughly 50 conversions weekly to optimize properly."
     },
     {
-      "headline": "Only 26 add-to-carts in 28 days",
-      "detail": "Retargeting ads generated just 26 add-to-carts and 2 checkouts started. Mid-funnel is barely moving despite active spend."
+      "headline": "24 purchases generated $4,500 revenue",
+      "detail": "Average order value near $187 is strong for DTC meat. The subscription box offer is clearly resonating with the audience."
     },
     {
-      "headline": "1,221 landing page views, 26 carts",
-      "detail": "Roughly 2% of landing page viewers add to cart. Product page or offer is not converting warm Instagram traffic."
+      "headline": "66 add-to-carts, only 24 purchases",
+      "detail": "Roughly one in three cart adds becomes a sale. Checkout friction or shipping cost is leaking revenue."
     },
     {
-      "headline": "601 reviews, 0 new this period",
-      "detail": "Google profile shows 601 lifetime reviews but zero collected in the last 28 days. Local trust signal is going stale."
+      "headline": "952 new follows, 6,628 total",
+      "detail": "Audience growth is healthy this period. Organic interest is building faster than paid spend can capture it."
     },
     {
-      "headline": "Instagram engagement up to 434 latest",
-      "detail": "Organic post engagement jumped to 434 in the latest period versus a 262 average. One creative direction is clearly resonating."
+      "headline": "270 reviews logged this period",
+      "detail": "Strong local trust signal on Google. Worth surfacing on product pages and ad creative to lift conversion."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Food and beverage converts highest of any vertical",
-      "body": "Food and beverage leads ecommerce verticals at around 6.22% visitor-to-order, while the all-store median is closer to 1.4%. DTC food customer acquisition cost typically runs $45 to $53."
+      "subheader": "Food DTC cost per sale runs $45–$53",
+      "body": "Food and beverage has the lowest customer acquisition cost in DTC at $45–$53. Instagram cost per purchase for ecommerce typically lands between $15 and $60 depending on order value and funnel."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Subscription meat demand strong heading into summer",
-      "body": "Grocery delivery spending in the US is projected at $363.8 billion in 2026, and roughly 40% of consumers have tried subscription or on-demand food. Grilling season favors box bundles."
+      "subheader": "Q1–Q2 is the cheapest ad window",
+      "body": "Instagram cost per thousand impressions hit a January 2026 low of $15.74 before Q4 spikes 30–50%. Summer is the best value window to test creative and build audiences before fall."
     },
     "competitor": {
-      "label": "Competitor",
-      "subheader": "ButcherBox-style subscription model still dominant",
-      "body": "Subscription box meat brands lean on monthly curated boxes, loyalty perks, and authentic sourcing stories. Ethnic and halal-specialty meat is a fast-growing niche, with ethnic food projected at 7.43% annual growth."
+      "label": "Category",
+      "subheader": "Subscription meat boxes face rising costs",
+      "body": "88% of subscription brands report higher acquisition costs in 2025. Meal kit churn runs 12–18% monthly, so winning brands lean on email and SMS, which drive 30–35% of revenue."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Audit purchase tracking before spending another dollar",
-      "detail": "Purchase value shows only $28 against heavy spend. Verify the Meta pixel, conversions API, and Shopify event mapping. Numbers cannot be trusted until this is fixed."
+      "title": "Scale the Muslim Subscription Box budget meaningfully",
+      "detail": "Consider raising daily spend to at least $30–$50 so Meta can exit the learning phase. Current $0.50/day spend is too thin to gather reliable signal."
     },
     {
       "number": "02",
-      "title": "Test a bundle offer to lift cart rate",
-      "detail": "Only 26 add-to-carts from 1,221 page views this period. Consider a grill-season bundle or a free-shipping threshold to push warm retargeting traffic over the line."
+      "title": "Fix the cart-to-purchase drop with checkout testing",
+      "detail": "Two-thirds of add-to-carts never convert. Test free shipping thresholds, express checkout, and an exit-intent offer. Each point of recovery is direct revenue."
     },
     {
       "number": "03",
-      "title": "Restart review collection on Google profile",
-      "detail": "Zero new reviews this period despite 601 lifetime. Worth testing a post-delivery email or SMS asking happy customers to leave a Google review."
+      "title": "Test Reels placement and short-form video creative",
+      "detail": "Reels run roughly 20–40% cheaper than Feed this year. Worth shifting budget toward vertical video featuring product close-ups and customer reviews."
     }
   ]
 }

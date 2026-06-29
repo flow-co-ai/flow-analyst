@@ -1,60 +1,60 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-06-22T21:36:23.866Z",
-  "weekOf": "May 26, 2026 – June 22, 2026",
-  "verdict": "Spend collapsed to near zero this period; without lead tracking, we can't prove the $1,608 worked.",
-  "diagnosis": "Facebook spend totaled $1,608 over 28 days but daily spend dropped to $2.77 — well below the $10/day learning threshold.",
+  "generatedAt": "2026-06-29T15:41:27.016Z",
+  "weekOf": "June 2, 2026 – June 29, 2026",
+  "verdict": "One Facebook campaign ran this period with $1,831 spent and no lead or conversion data to evaluate performance.",
+  "diagnosis": "Spend collapsed from $16.50 daily average to $2.90 on the latest day, suggesting the PCOS and Postpartum campaign is winding down or paused.",
   "signals": [
     {
-      "headline": "Total spend $1,608 over 28 days",
-      "detail": "One active Facebook interest campaign carried all paid activity this period."
+      "headline": "Total spend this period: $1,831",
+      "detail": "All budget routed through one Facebook lead campaign targeting PCOS and postpartum personas. No diversification across audiences or channels."
     },
     {
-      "headline": "Latest daily spend just $2.77",
-      "detail": "Daily pacing has nearly stopped. Algorithm cannot optimize at this level."
+      "headline": "Daily spend dropped 82% to $2.90",
+      "detail": "Latest day spend fell far below the $16.50 period average. Campaign appears to be tapering off or hitting a budget cap."
     },
     {
-      "headline": "Zero lead or conversion data tracked",
-      "detail": "No pipeline, organic, or local data flowing. Cannot calculate cost per lead this period."
+      "headline": "Zero lead or conversion data",
+      "detail": "No CRM, organic, or local data flowing in. Impossible to judge cost per lead or whether spend produced members."
     },
     {
-      "headline": "Average $18.70 per day in period",
-      "detail": "Below the $30/day threshold most studios need for consistent lead flow."
+      "headline": "224,886 impressions delivered",
+      "detail": "Reach is healthy for a niche persona campaign. Whether those eyes turned into bookings remains unknown without pipeline data."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Fitness cost per lead around $29",
-      "body": "<cite index=\"3-22\">Fitness averages $29.70 cost per lead on Meta in 2026.</cite> <cite index=\"3-8,3-9,3-10\">Budget gyms run $8–$15, mid-range $15–$30, boutique studios $25–$50.</cite>"
+      "subheader": "Fitness cost per lead sits near $29 on Meta",
+      "body": "Fitness studios on Meta average around $29.70 per lead in 2026. Boutique studios typically run $25 to $50 per lead. Conversion rates on Meta lead forms reach 14% in fitness — the highest of any vertical."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Spring is the cheapest window",
-      "body": "<cite index=\"3-30,3-31,3-32\">Fitness cost per lead bottoms near $13.50 in April and May before spiking to $48 in July.</cite> This period sits inside the cheapest lead window of the year."
+      "subheader": "June is a cheap lead month",
+      "body": "Fitness cost per lead hit $17 in June 2026, roughly 51% below the global Meta benchmark. April through June is the cheapest stretch of the year for fitness lead acquisition."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Pilates and hybrid formats dominate",
-      "body": "<cite index=\"14-2,14-3\">Pilates and reformer classes keep growing on demand for low-impact, strength-building workouts.</cite> <cite index=\"14-14\">Pilates now represents over 43% of primary studio modalities.</cite>"
+      "subheader": "Studios shifting budget toward retention",
+      "body": "Boutique operators are moving away from acquisition-heavy spending. Cancellations dropped 6% at studios last year while gyms rose 8%. Pilates, recovery, and community programming are pulling the most demand in 2026."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Restore daily spend to at least $30",
-      "detail": "<cite index=\"8-9\">The starting sweet spot for local fitness studios is roughly $30 per day, or $900 per month.</cite> Current $2.77/day starves the algorithm."
+      "title": "Connect CRM and booking data to the dashboard",
+      "detail": "Without lead counts or trial bookings, the $1,831 spent this period cannot be judged. Consider wiring up pipeline data before the next reporting cycle."
     },
     {
       "number": "02",
-      "title": "Install lead tracking before scaling further",
-      "detail": "Without lead counts or pipeline data, we cannot tell if spend is working. Consider Meta instant forms plus a simple intake log before increasing budget."
+      "title": "Test holding daily spend steady through June",
+      "detail": "Fitness lead costs are at their yearly low this month. Worth exploring whether restoring the $16 daily pace captures cheap leads before July prices rise."
     },
     {
       "number": "03",
-      "title": "Test a Pilates or hybrid class hook",
-      "detail": "<cite index=\"14-1,14-2,14-3\">Pilates and reformer-based classes continue to grow on demand for low-impact, strength-building workouts.</cite> Worth testing as a creative angle against the current interest targeting."
+      "title": "Test a second creative angle beyond PCOS and postpartum",
+      "detail": "One persona carries all the risk. Consider testing a low-barrier offer like a free week pass or intro pack to broaden reach without abandoning the niche."
     }
   ]
 }
