@@ -1,48 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-06-29T15:40:06.646Z",
-  "weekOf": "June 2, 2026 – June 29, 2026",
-  "verdict": "Lead costs sit near industry average, but pipeline value is zero — revenue tracking is the gap to fix.",
-  "diagnosis": "This period delivered 30 leads at $158 each from $4,733 in Instagram spend, but zero dollars are attached to any opportunity in your CRM.",
+  "generatedAt": "2026-07-06T15:23:12.391Z",
+  "weekOf": "June 9, 2026 – July 6, 2026",
+  "verdict": "Lead flow is steady but expensive; strong reviews and call volume aren't being converted into tracked revenue.",
+  "diagnosis": "This period delivered 40 leads at $211 each — above the $149 non-branded search benchmark and near the $231 AC-repair average.",
   "signals": [
     {
-      "headline": "30 leads at $158 each",
-      "detail": "Cost per lead landed near the home services average for Facebook and Instagram ads this period. Volume is steady, not exceptional."
+      "headline": "40 leads at $211 each",
+      "detail": "Meta spend hit $8,453 for 40 leads this period. Cost per lead runs roughly 40% above the non-branded search benchmark."
     },
     {
-      "headline": "Zero revenue tracked on 30 leads",
-      "detail": "Every opportunity shows $0 value and 'open' status. You cannot calculate return on ad spend without job values entered."
+      "headline": "27 new 5-star reviews landed",
+      "detail": "Google Business Profile added 27 reviews at a perfect 5-star average. Reputation is a real competitive asset right now."
     },
     {
-      "headline": "49 calls, 82 direction requests",
-      "detail": "Google Business Profile drove strong local intent this period. Direction requests outpaced calls, suggesting walk-in or scheduled visits."
+      "headline": "82 call clicks from Google",
+      "detail": "Google Business Profile drove 82 direct calls and 80 direction requests this period. Local search is quietly your best channel."
     },
     {
-      "headline": "858 reviews at 5.0 stars",
-      "detail": "Reputation is a major asset. This is well above what most local competitors carry and should be leveraged in ads."
+      "headline": "$0 revenue tracked in pipeline",
+      "detail": "Every opportunity shows $0 value. You cannot judge return on ad spend until job values get logged in the CRM."
     },
     {
-      "headline": "Latest day shows zero spend",
-      "detail": "Most recent day reports no impressions or spend. Check whether the campaign paused, hit budget, or has a reporting delay."
+      "headline": "464 link clicks, 40 leads",
+      "detail": "Roughly 9% of link clicks became leads. Landing page or form is converting, but volume is thin at 17 clicks per day."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Your $158 lead cost is normal\",\n\"body\": \"Facebook leads for HVAC <cite index=\"8-25\">range $35 to $150 with booking rates of 20 to 35%</cite>. <cite index=\"9-1\">Industry-wide HVAC cost per lead sits around $153 in 2026</cite>. You are in range.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Summer is peak AC demand\",\n\"body\": \"<cite index=\"7-23\">Cost per click spikes in summer for cooling services and conversion rates climb when urgency increases, like during a heatwave</cite>. June is prime time to push AC repair and replacement offers hard.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Google Local Services Ads cost less\",\n\"body\": \"<cite index=\"18-83\">HVAC and plumbing leads on Google Local Services Ads run $25 to $80</cite> in 2026. <cite index=\"9-24,9-25\">78% of customers go with the first company that responds, and responding within 60 seconds increases conversions by 391%</cite>.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Your cost per lead sits above industry average",
+      "body": "The 2026 HVAC blended cost per lead is around $104, with non-branded search averaging $149 and AC repair campaigns hitting $231. Your $211 sits in the expensive zone for the category."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Peak AC demand window is now",
+      "body": "Summer is when HVAC phones ring hardest and install calendars fill fast. Homeowners delay until systems fail in the heat, which compresses demand and drives paid competition up sharply."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Equipment costs rising across every brand",
+      "body": "Multiple manufacturers announced 3-10% July 2026 price hikes on parts and equipment. Financing offers and maintenance plans are becoming the main lever competitors use to close bigger tickets."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix revenue tracking in your CRM before scaling spend",
-      "detail": "Every opportunity shows $0. Consider requiring a job value field on every lead so you can see which ads produce real revenue, not just form fills."
+      "title": "Fix revenue tracking inside the CRM",
+      "detail": "Every opportunity shows $0. Consider logging job value at close so you can see which ads actually produce paying customers, not just form fills."
     },
     {
       "number": "02",
-      "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "Worth exploring given your 5-star rating across 858 reviews. Lead costs on that channel typically run $25 to $80 for HVAC, well below your current $158."
+      "title": "Test Google Local Services Ads alongside Meta",
+      "detail": "Google Business Profile already drove 82 calls this period. Local Services Ads typically run $25-$75 per lead — worth testing against the current $211 Meta cost."
     },
     {
       "number": "03",
-      "title": "Audit speed-to-lead on the 30 Meta form fills",
-      "detail": "Consider timing how fast someone calls each lead back. Responding within a minute can lift conversion meaningfully, especially for AC inquiries in peak summer."
+      "title": "Split the campaign by service line",
+      "detail": "One broad HVAC campaign can cost around 27% more per lead. Consider separating AC install, tune-ups, and repair into dedicated ad sets with matching landing pages."
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-06-29T15:40:38.037Z",
-  "weekOf": "June 2, 2026 – June 29, 2026",
-  "verdict": "Paid Instagram is delivering 181 leads at roughly $27 each — well below legal industry norms.",
-  "diagnosis": "$4,880 in spend produced 181 leads and 1,052 landing page views this period, beating the $67–$254 legal benchmark range on Meta.",
+  "generatedAt": "2026-07-06T15:23:41.094Z",
+  "weekOf": "June 9, 2026 – July 6, 2026",
+  "verdict": "Paid leads are flowing at a fair price, but the brand engine around them is underbuilt.",
+  "diagnosis": "Meta lead ads produced 196 leads at $27.90 each this period — right at industry norms, but Instagram presence and organic reach remain thin.",
   "signals": [
     {
-      "headline": "181 leads at $27 each",
-      "detail": "Cost per lead sits well under legal category averages this period. The Instagram lead campaign is the workhorse driving pipeline."
+      "headline": "196 leads at $27.90 each",
+      "detail": "Meta lead forms delivered steady volume this period at a cost close to the projected legal benchmark."
     },
     {
-      "headline": "10 new five-star reviews added",
-      "detail": "Google profile gained 10 reviews this period, all five stars, lifting total to 253. Trust signal is strengthening fast."
+      "headline": "145 new 5-star reviews landed",
+      "detail": "Google reviews grew to 937 total at a perfect 5.0 average — a major trust signal for prospects."
     },
     {
-      "headline": "123 phone calls from Google",
-      "detail": "Call clicks from the Google Business Profile show local search demand. Direction requests stayed at zero — phone is the channel."
+      "headline": "126 calls from Google profile",
+      "detail": "The Google Business Profile drove direct phone leads this period without any paid support behind it."
     },
     {
-      "headline": "1,386 link clicks, 1,052 page views",
-      "detail": "Roughly 76% of clicks reach the landing page. Drop-off is reasonable but worth tightening for cheaper leads."
+      "headline": "Only 28 Instagram followers",
+      "detail": "The paid account has almost no organic audience, so every lead depends on ad spend continuing."
     },
     {
-      "headline": "Instagram followers stuck at 28",
-      "detail": "Organic Instagram presence is essentially dormant. Paid is carrying everything — no owned audience to fall back on."
+      "headline": "1,121 landing page views logged",
+      "detail": "Roughly 1 in 6 landing page viewers became a lead this period — a healthy form conversion rate."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Legal Meta cost per lead: $21–$254 range",
-      "body": "Industry projections place 2026 law firm Meta cost per lead near $21, with broader legal reports showing $67–$254 depending on practice area. Your $27 sits at the efficient end of that range."
+      "subheader": "Legal lead cost near $21 projected",
+      "body": "<cite index=\"1-8\">Cost per lead for law firms is expected to rise from about $18 in 2025 to roughly $21 in 2026 on Meta.</cite> Justice Consumer Law's $27.90 sits slightly above that but well under broader legal medians."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Mid-year competition rising on Meta",
-      "body": "Legal advertiser competition on Meta keeps climbing through 2026 as more firms shift budget to paid social. Cost per lead and cost per thousand impressions trend upward heading into Q3."
+      "subheader": "Summer competition pushing click costs up",
+      "body": "<cite index=\"10-5\">Facebook cost per click rose 11% year-over-year to $1.72 in 2026</cite>, with legal among the most expensive verticals. Expect gradual pressure on cost per lead through summer."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Conversion rate benchmark near 10.5%",
-      "body": "Facebook lead campaigns for attorneys average a 10.53% conversion rate. Firms winning now combine credibility cues — reviews, attorney profiles, case results — with tight intake follow-up under five minutes."
+      "subheader": "Firms specializing beat generalists",
+      "body": "<cite index=\"17-9,17-10,17-11\">Firms running generic \"we handle all legal matters\" campaigns are seeing cost-per-case climb while conversion rates decline, while firms marketing each practice area separately are capturing higher-intent traffic.</cite>"
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test a five-minute lead callback workflow",
-      "detail": "Conversion rates drop sharply when leads wait past five minutes. Consider routing the 181 form fills straight to a dialer or text-back so intake never goes cold."
+      "title": "Test a debt-harassment-specific ad angle",
+      "detail": "Consider splitting the current general video into a dedicated debt collector harassment creative. Specific messaging tends to lower cost per qualified lead versus broad legal messaging."
     },
     {
       "number": "02",
-      "title": "Ask recent five-star reviewers for short video clips",
-      "detail": "Ten new five-star reviews landed this period. Worth asking two or three to record a 15-second clip — testimonial creative typically lifts Meta conversion rates."
+      "title": "Feature the 937 five-star reviews in creative",
+      "detail": "Worth testing an ad variant that leads with the review count and rating. Social proof at this scale is rare and can lift form conversion meaningfully."
     },
     {
       "number": "03",
-      "title": "Add qualifying questions to the lead form",
-      "detail": "With 181 leads coming in cheap, the next gain is quality. Test one or two screening questions — debt amount, collector type — to filter the pipeline before intake calls."
+      "title": "Build the Instagram feed to support the ads",
+      "detail": "With only 28 followers, prospects who check the profile see an empty account. Test posting client wins and short educational clips weekly."
     }
   ]
 }

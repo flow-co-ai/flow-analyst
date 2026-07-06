@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-06-29T15:41:04.168Z",
-  "weekOf": "June 2, 2026 – June 29, 2026",
-  "verdict": "Spend is generating sales but lead capture is broken — only 2 leads from 1,036 clicks this period.",
-  "diagnosis": "$1,958 spent drove 9 purchases worth $5,897, but the one tracked lead from Google call abandoned at $0 pipeline value.",
+  "generatedAt": "2026-07-06T15:24:08.176Z",
+  "weekOf": "June 9, 2026 – July 6, 2026",
+  "verdict": "Spend is producing clicks but almost no leads — only 2 leads from $2,598 this period.",
+  "diagnosis": "Cost per lead sits at $1,299 this period, roughly 10x the healthcare wellness benchmark near $98–$141, driven by weak landing page conversion.",
   "signals": [
     {
-      "headline": "Return on ad spend hit 3x",
-      "detail": "$5,897 in tracked purchases against $1,958 spend. Healthy for medical/wellness, but driven by a tiny conversion base."
+      "headline": "Only 2 leads from $2,598 spend",
+      "detail": "Lead volume is critically low this period. The campaign is generating traffic but failing to convert visitors into inquiries."
     },
     {
-      "headline": "Only 2 leads from 1,036 clicks",
-      "detail": "Lead conversion rate near 0.2% this period. Either tracking is misfiring or the landing page is failing senior visitors."
+      "headline": "Click-through rate strong at 5.5%",
+      "detail": "1,257 clicks on 22,809 impressions shows the 'life alert' keyword and ad copy resonate with the 45–65+ audience."
     },
     {
-      "headline": "Cost per click jumped to $3.65",
-      "detail": "Latest period cost per click is 81% above the 28-day average of $2.02. Competition or bids drifted up."
+      "headline": "138 landing page views, 2 leads",
+      "detail": "Roughly 1.4% of page viewers convert. The landing experience is the biggest leak in the funnel."
     },
     {
-      "headline": "1 sole Google Ads call abandoned",
-      "detail": "Caller Keith Weiskopff came in but was missed and texted back. Pipeline value sits at $0. Phone coverage is the leak."
+      "headline": "9 purchases worth $5,897 tracked",
+      "detail": "Purchase value exists but attribution mixes with lead flow. Worth confirming whether these are true sales or pixel duplicates."
     },
     {
-      "headline": "9 purchases at $737 average",
-      "detail": "Average order value is strong for the Belle Watch line. The buyers who do convert are high quality."
+      "headline": "165 unread conversations piling up",
+      "detail": "Inbound messages are stacking without response. Missed replies likely explain some of the lead shortfall."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Cost per lead well below category norm",
-      "body": "Healthcare cost per lead averages $57 for physicians and $98+ for wellness in 2026. Liferun's $12 cost per lead looks strong, but the count (2) is too small to trust."
+      "subheader": "Wellness cost per lead runs $98–$141",
+      "body": "Business-to-consumer wellness leads average around $98, with healthcare subcategories like hearing aids and elder care trending higher this year. Liferun's $1,299 cost per lead this period is far above range."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Summer fall-risk season raises intent",
-      "body": "44% of seniors over 65 report a fall, and warm months increase outdoor activity and fall exposure. Search demand for personal alert devices typically firms through summer."
+      "subheader": "Summer is soft for senior safety buys",
+      "body": "Medical alert purchases spike after a fall or health event, not by season. Roughly 75% of buyers act reactively, so demand stays steady year-round rather than following a summer pattern."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Smartwatch rivals pulling senior attention",
-      "body": "Apple Watch leads brand recall in the 2026 senior alert market. Bay Alarm, MobileHelp, and Medical Guardian are running 40%-off promos and free-month offers Liferun is not matching."
+      "subheader": "Bay Alarm and Medical Guardian lead 2026",
+      "body": "Bay Alarm Medical and Medical Guardian dominate 2026 rankings on price and response time. Apple Watch is pulling share from traditional pendants by skipping the monthly fee entirely."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the missed-call problem on Google Ads calls",
-      "detail": "The one inbound call this period went to voicemail. Consider live answering during ad hours or a same-minute callback workflow. Each call is worth ~$737."
+      "title": "Rework the landing page for one clear phone call action",
+      "detail": "Only 1.4% of page viewers convert. Consider testing a simpler page with a large phone number, trust badges, and a single form above the fold."
     },
     {
       "number": "02",
-      "title": "Audit lead tracking on the landing page",
-      "detail": "1,036 clicks produced 2 leads. Worth testing whether the form fires the pixel, and whether senior visitors can complete it on mobile without friction."
+      "title": "Answer the 165 unread inbound conversations this week",
+      "detail": "Missed messages are lost leads. Worth assigning someone to clear the backlog and setting an auto-reply for after-hours inquiries from Google Ads calls."
     },
     {
       "number": "03",
-      "title": "Test a price or free-month offer in ad copy",
-      "detail": "Competitors are running 40% off and free-month promos. Worth testing a matching offer on the V4 ad to lift click-to-lead conversion."
+      "title": "Test adult-child targeting alongside the 45–65+ audience",
+      "detail": "Adult children research and buy for parents but purchase intent dropped to 22% in 2026. Test ad copy aimed at sons and daughters, not just seniors."
     }
   ]
 }
