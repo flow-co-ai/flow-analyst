@@ -1,48 +1,48 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-07-06T15:24:36.965Z",
-  "weekOf": "June 9, 2026 – July 6, 2026",
-  "verdict": "Spend is live but performance is invisible — no lead tracking means you cannot tell if this campaign is working.",
-  "diagnosis": "This period shows $2,111 spent and 295,796 impressions on one Facebook campaign, but zero lead or conversion data to judge return.",
+  "generatedAt": "2026-07-13T14:26:48.567Z",
+  "weekOf": "June 16, 2026 – July 13, 2026",
+  "verdict": "Ad spend is trickling, not scaling, and no lead or conversion data is coming back to prove the campaign works.",
+  "diagnosis": "Spend collapsed to $3.85 on the latest day from a 28-day average of $13.63, suggesting the PCOS and postpartum campaign is stalling.",
   "signals": [
     {
-      "headline": "Single campaign carrying $2,111 spend",
-      "detail": "One PCOS and postpartum persona campaign absorbs all paid budget this period. No diversification, no fallback if it fatigues."
+      "headline": "Total 28-day spend only $2,330",
+      "detail": "That is roughly $83 per day across the period, thin for a lead campaign meant to fill a studio pipeline."
     },
     {
-      "headline": "295,796 impressions delivered this period",
-      "detail": "Reach is meaningful for a niche persona play. Without lead data, we cannot say if impressions converted to inquiries."
+      "headline": "Latest day spend dropped to $3.85",
+      "detail": "Down from the $13.63 daily average. Budget pacing or delivery has broken and needs a same-week check."
     },
     {
-      "headline": "Zero lead or conversion data reported",
-      "detail": "No cost per lead, no pipeline signal, no top performers. This is the biggest gap in the account right now."
+      "headline": "Zero lead data across 4 sources",
+      "detail": "No CRM, organic, local, or top-performer data reported this period. You cannot judge cost per lead without it."
     },
     {
-      "headline": "Daily spend averaging around $75",
-      "detail": "Sits at the low end of the recommended fitness studio starting budget. Enough to learn, tight to scale."
+      "headline": "1 active campaign carrying everything",
+      "detail": "The PCOS and postpartum persona campaign is the only paid effort visible. No backup if it fatigues."
     },
     {
-      "headline": "No organic, local, or CRM signal",
-      "detail": "Google Business Profile, social, and pipeline data are all missing. Paid is running without any supporting context."
+      "headline": "346,446 impressions delivered this period",
+      "detail": "Reach is healthy relative to spend, but without lead tracking you cannot tell if the audience is converting."
     }
   ],
-  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"Fitness lead costs sit near $29 on Meta\",\n    \"body\": \"<cite index=\"4-22,4-23\">Fitness averages roughly $29.70 cost per lead on Meta in 2026, with lower costs typical in Q2.</cite> <cite index=\"3-5\">Fitness studios post conversion rates as high as 14.29%, among the strongest of any vertical.</cite>\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"July is the most expensive month for fitness ads\",\n    \"body\": \"<cite index=\"4-30,4-31\">Fitness cost per lead peaks in July at around $48, the only month it exceeds the global benchmark.</cite> Expect this period's efficiency to be worse than spring, better than back-to-school.\"\n  },\n  \"competitor\": {\n    \"label\": \"Category\",\n    \"subheader\": \"Studios winning on community, not acquisition\",\n    \"body\": \"<cite index=\"11-12,11-13\">Leading studios in 2026 are shifting away from acquisition-heavy models toward retention, community, and personalized communication.</cite> <cite index=\"15-1,15-2,15-3\">Pilates and reformer classes keep growing, driven by demand for low-impact, strength-building workouts.</cite>\"\n  }\n}",
+  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"Fitness lead costs around $17 to $30\",\n    \"body\": \"<cite index=\"1-2\">Fitness and training center cost per lead finished June 2026 at $17.07</cite>. <cite index=\"3-22,3-23\">The 2026 fitness average is $29.70, with Q2 running lower</cite>. Boutique studios trend $25 to $50.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"July is the worst month for fitness ads\",\n    \"body\": \"<cite index=\"3-30,3-31\">July is the peak at $48.33 per lead, the only month fitness costs exceed the global benchmark</cite>. Expect rising costs over the next four weeks and plan creative refreshes accordingly.\"\n  },\n  \"competitor\": {\n    \"label\": \"Competitor\",\n    \"subheader\": \"Studios winning on retention, not acquisition\",\n    \"body\": \"<cite index=\"16-6\">Studio cancellations fell 6% in H1 2026 while gym cancellations rose 8%</cite>. <cite index=\"10-8\">Acquisition still matters, but retention is where the real leverage is</cite> for boutique operators.\"\n  }\n}",
   "recommendations": [
     {
-      "number": "01",
-      "title": "Turn on lead tracking before adding another dollar",
-      "detail": "Consider installing Meta lead form tracking or a landing page pixel this week. Without a cost per lead number, every optimization decision is a guess."
+      "number": "1",
+      "title": "Fix lead tracking before adding budget",
+      "detail": "Connect the Facebook lead form to your CRM this week. Without lead counts, the $2,330 spent this period cannot be judged good or bad."
     },
     {
-      "number": "02",
-      "title": "Test a second campaign to reduce single-point risk",
-      "detail": "Worth exploring a second angle — a Pilates or low-impact class hook — to complement the PCOS and postpartum persona. Protects you if fatigue hits."
+      "number": "2",
+      "title": "Investigate why daily spend dropped to $3.85",
+      "detail": "Check budget caps, ad approval status, and audience delivery. A campaign spending 28% of its daily average is likely throttled or exhausted."
     },
     {
-      "number": "03",
-      "title": "Prepare for July cost inflation with a low-barrier offer",
-      "detail": "Test a free week pass or $1 first-month trial. These low-friction offers help fitness studios hold cost per lead down during the July peak."
+      "number": "3",
+      "title": "Test a second creative angle before July costs climb",
+      "detail": "Fitness lead costs peak in July. Consider a second persona hook or a low-friction offer like a free class pass to keep cost per lead down."
     }
   ]
 }

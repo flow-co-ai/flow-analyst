@@ -1,64 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-07-06T15:22:43.639Z",
-  "weekOf": "June 9, 2026 – July 6, 2026",
-  "verdict": "Fourth of July campaign drove 535 purchases and $6,187 in sales, but purchase tracking and creative fatigue need attention.",
-  "diagnosis": "The Instagram sales campaign spent $1,203 to generate $6,187 in purchases this period, but only 36 were pixel-tracked, suggesting attribution gaps.",
+  "generatedAt": "2026-07-13T14:25:01.253Z",
+  "weekOf": "June 16, 2026 – July 13, 2026",
+  "verdict": "Muslim Subscription Box campaign is delivering roughly $5 back for every $1 spent this period.",
+  "diagnosis": "$1,534 in ad spend drove $7,826 in tracked purchase value and 544 purchases, but recent review ratings averaged only 3 stars.",
   "signals": [
     {
-      "headline": "535 purchases from $1,203 spend",
-      "detail": "Sales campaign delivered strong volume this period. Reported purchase value hit $6,187, well above spend."
+      "headline": "Return on ad spend near 5.1x",
+      "detail": "The Muslim Box campaign generated $7,826 in purchase value on $1,534 spend. Well above the DTC food category norm."
     },
     {
-      "headline": "Only 36 pixel-tracked purchases logged",
-      "detail": "Website pixel captured a fraction of the 535 reported purchases. Attribution or pixel setup likely leaking data."
+      "headline": "Cost per lead sits around $4",
+      "detail": "198 leads at roughly $4 each is far below the $27 median for Facebook lead campaigns this year."
     },
     {
-      "headline": "129 add-to-carts, 54 checkouts started",
-      "detail": "Roughly 42% of cart adds moved to checkout this period. Cart-to-checkout drop is the main funnel leak."
+      "headline": "Only 42% of carts reached checkout",
+      "detail": "172 add-to-carts produced 72 checkouts. A meaningful drop-off worth investigating on the product page or shipping step."
     },
     {
-      "headline": "270 reviews with 3-star recent average",
-      "detail": "Latest review rating averaged 3 stars this period. Recent reviews trending below the store's historical rating."
+      "headline": "Latest review rating dropped to 3 stars",
+      "detail": "Recent reviews averaged 3 out of 5. Fresh negative feedback can quietly cap paid conversion rates over time."
     },
     {
-      "headline": "6,627 Instagram followers, 73 new",
-      "detail": "Organic growth slow this period. Only 193 profile visits despite active ad spend suggests weak brand click-through."
+      "headline": "Instagram added 92 followers",
+      "detail": "Follower growth is modest at 6,632 total. Engagement on media hit 679 interactions, so content is landing with the existing base."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Food category converts at 4.9 to 6.2 percent",
-      "body": "<cite index=\"4-23\">Food and beverage stores convert at 4.9 to 6.2 percent</cite>, well above the 2 to 3 percent ecommerce average. <cite index=\"9-20\">Food and beverage has the lowest customer acquisition cost in direct-to-consumer at $45 to $53</cite>."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "July 4th grilling peak now passing",
-      "body": "<cite index=\"16-2,16-3\">Economic uncertainty means consumers prioritize affordability, but value messaging keeps meat positioned as protein-packed and satisfying</cite>. Post-holiday demand cools; retention and repeat orders matter more than new acquisition now."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "ButcherBox leads on retention, not acquisition",
-      "body": "<cite index=\"17-15,17-16\">ButcherBox retains 41 percent of first-time buyers six months later, the category leader</cite>. <cite index=\"11-27\">Good Ranchers saw 48 percent year-over-year growth after fixing subscription billing</cite>."
-    }
-  },
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Meat brand ad costs beat the category\", \"body\": \"Food and beverage brands on Meta average around <cite index=\"20-4\">$0.42 cost per click and 1.85% click-through rate</cite>. Billy Doe's campaign is pacing ahead on efficiency, with strong purchase value per dollar spent.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Peak grilling season through July\", \"body\": \"Summer grilling drives protein demand, though <cite index=\"27-19\">ground beef prices jumped 10.3% this summer versus last year</cite>. Rising meat costs make subscription value messaging especially timely right now.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Subscription meat category is crowded\", \"body\": \"<cite index=\"9-3\">88% of subscription brands are seeing higher acquisition costs in 2025</cite>. DTC meat competitors are leaning into storytelling, transparency, and short-form video to defend margins.\"}}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Audit the Meta pixel and purchase tracking setup",
-      "detail": "Only 36 of 535 purchases were pixel-tracked this period. Consider verifying pixel events, Conversions API, and checkout tracking to protect ad optimization."
+      "number": "01",
+      "title": "Investigate the cart-to-checkout drop-off",
+      "detail": "Consider auditing the checkout flow on mobile. 100 shoppers added to cart but never started checkout this period. Fixing friction here could lift purchases without more spend."
     },
     {
-      "number": "2",
-      "title": "Test a post-holiday subscription or replenishment offer",
-      "detail": "<cite index=\"9-11,9-12\">Coffee subscriptions convert at 52 to 55 percent because they are replenishable and ritual-driven</cite>. Worth testing a monthly meat box for repeat buyers."
+      "number": "02",
+      "title": "Respond to recent 3-star reviews publicly",
+      "detail": "Worth replying to the latest reviews and asking happy subscribers for fresh ratings. Rating recovery protects both paid conversion and local search visibility."
     },
     {
-      "number": "3",
-      "title": "Refresh creative and respond to recent 3-star reviews",
-      "detail": "Latest reviews averaged 3 stars this period. Consider replying publicly to recent reviews and refreshing ad creative before fatigue erodes the strong purchase numbers."
+      "number": "03",
+      "title": "Test a summer grilling creative angle",
+      "detail": "Consider running one ad variant framed around rising grocery meat prices and subscription savings. Timely messaging often outperforms evergreen awareness creative during peak grilling months."
     }
   ]
 }
