@@ -1,48 +1,44 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-07-13T14:26:48.567Z",
-  "weekOf": "June 16, 2026 – July 13, 2026",
-  "verdict": "Ad spend is trickling, not scaling, and no lead or conversion data is coming back to prove the campaign works.",
-  "diagnosis": "Spend collapsed to $3.85 on the latest day from a 28-day average of $13.63, suggesting the PCOS and postpartum campaign is stalling.",
+  "generatedAt": "2026-07-20T13:59:01.131Z",
+  "weekOf": "June 23, 2026 – July 20, 2026",
+  "verdict": "Facebook spend collapsed to $3.85 in the latest period, signaling a stalled PCOS and postpartum lead campaign.",
+  "diagnosis": "Total 28-day spend hit $2,330 but daily pace dropped from $13.63 average to just $3.85 recently, without lead or conversion data to justify cuts.",
   "signals": [
     {
-      "headline": "Total 28-day spend only $2,330",
-      "detail": "That is roughly $83 per day across the period, thin for a lead campaign meant to fill a studio pipeline."
+      "headline": "Spend fell 72% below period average",
+      "detail": "Latest daily spend of $3.85 versus the 28-day average of $13.63 suggests the campaign is throttling or nearly paused."
     },
     {
-      "headline": "Latest day spend dropped to $3.85",
-      "detail": "Down from the $13.63 daily average. Budget pacing or delivery has broken and needs a same-week check."
+      "headline": "Only one active campaign running",
+      "detail": "The PCOS and postpartum persona campaign is the sole Facebook effort. No diversification means one creative fatigue event stops all leads."
     },
     {
-      "headline": "Zero lead data across 4 sources",
-      "detail": "No CRM, organic, local, or top-performer data reported this period. You cannot judge cost per lead without it."
+      "headline": "Zero visibility across four channels",
+      "detail": "No Google Business Profile, organic social, CRM, or top-performer data. Impossible to judge whether $2,330 produced customers."
     },
     {
-      "headline": "1 active campaign carrying everything",
-      "detail": "The PCOS and postpartum persona campaign is the only paid effort visible. No backup if it fatigues."
-    },
-    {
-      "headline": "346,446 impressions delivered this period",
-      "detail": "Reach is healthy relative to spend, but without lead tracking you cannot tell if the audience is converting."
+      "headline": "28-day spend totals $2,330",
+      "detail": "Above the $900 monthly starter budget many studios use, so scale is reasonable if leads are actually flowing through."
     }
   ],
-  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"Fitness lead costs around $17 to $30\",\n    \"body\": \"<cite index=\"1-2\">Fitness and training center cost per lead finished June 2026 at $17.07</cite>. <cite index=\"3-22,3-23\">The 2026 fitness average is $29.70, with Q2 running lower</cite>. Boutique studios trend $25 to $50.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"July is the worst month for fitness ads\",\n    \"body\": \"<cite index=\"3-30,3-31\">July is the peak at $48.33 per lead, the only month fitness costs exceed the global benchmark</cite>. Expect rising costs over the next four weeks and plan creative refreshes accordingly.\"\n  },\n  \"competitor\": {\n    \"label\": \"Competitor\",\n    \"subheader\": \"Studios winning on retention, not acquisition\",\n    \"body\": \"<cite index=\"16-6\">Studio cancellations fell 6% in H1 2026 while gym cancellations rose 8%</cite>. <cite index=\"10-8\">Acquisition still matters, but retention is where the real leverage is</cite> for boutique operators.\"\n  }\n}",
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Fitness lead costs sit near $30\", \"body\": <cite index=\"2-20,2-21\">\"Fitness averages $29.70 cost per lead on Meta, with seasonal trends driving lower costs in Q2.\"</cite> <cite index=\"2-3\">Boutique studios specifically range $25 to $50 per lead.</cite>}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"July is the year's most expensive month\", \"body\": <cite index=\"2-28,2-29\">\"July marks the peak fitness lead cost at $48.33, the only month fitness exceeds the global benchmark.\"</cite> Expect higher costs now versus spring rates.}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Studios shifting from acquisition to retention\", \"body\": <cite index=\"11-22,11-23\">\"The biggest 2026 trends center on retention, community, and holistic wellness, with studios moving away from acquisition-heavy models.\"</cite> Niche persona targeting like PCOS remains a differentiator.}}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Fix lead tracking before adding budget",
-      "detail": "Connect the Facebook lead form to your CRM this week. Without lead counts, the $2,330 spent this period cannot be judged good or bad."
+      "number": "01",
+      "title": "Confirm whether the campaign is intentionally paused",
+      "detail": "The drop from $13.63 to $3.85 daily needs explanation. If unintentional, restore budget. If intentional, document why and what replaces it."
     },
     {
-      "number": "2",
-      "title": "Investigate why daily spend dropped to $3.85",
-      "detail": "Check budget caps, ad approval status, and audience delivery. A campaign spending 28% of its daily average is likely throttled or exhausted."
+      "number": "02",
+      "title": "Connect lead and CRM data before next report",
+      "detail": "Without lead volume, cost per lead, or booked consults, $2,330 in spend cannot be judged. Consider wiring Facebook Lead Ads into the CRM."
     },
     {
-      "number": "3",
-      "title": "Test a second creative angle before July costs climb",
-      "detail": "Fitness lead costs peak in July. Consider a second persona hook or a low-friction offer like a free class pass to keep cost per lead down."
+      "number": "03",
+      "title": "Test a second persona angle alongside PCOS and postpartum",
+      "detail": "One campaign is fragile. Worth exploring a strength or community-focused creative, since Gen Z prioritizes those hooks in 2026 studio marketing."
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-07-13T14:25:54.489Z",
-  "weekOf": "June 16, 2026 – July 13, 2026",
-  "verdict": "Paid lead flow is strong and cheap this period; the weak link is intake speed and Instagram organic reach.",
-  "diagnosis": "Meta ads produced 220 leads at roughly $27 each this period — far below the $180 Meta legal benchmark.",
+  "generatedAt": "2026-07-20T13:58:10.632Z",
+  "weekOf": "June 23, 2026 – July 20, 2026",
+  "verdict": "Strong lead volume at $26 per lead — well below the $131 legal benchmark — but no case data to prove quality.",
+  "diagnosis": "Instagram ads produced 245 leads this period at roughly $27 each, but with no CRM data, signed-case value remains unknown.",
   "signals": [
     {
-      "headline": "220 leads at $27 each",
-      "detail": "Meta spent $6,028 and delivered 220 form leads this period. Cost per lead sits well under legal industry norms."
+      "headline": "245 leads at $26.74 each",
+      "detail": "Instagram lead ads delivered 245 form fills on $6,551 spend this period. Cost per lead sits far under legal averages."
+    },
+    {
+      "headline": "127 phone calls from Google profile",
+      "detail": "The Business Profile drove 127 call clicks this period. Calls remain the highest-intent action for consumer law."
     },
     {
       "headline": "11 new 5-star reviews added",
-      "detail": "Google profile gained 11 reviews this period, holding a perfect 5.0 average across 122 total. Strong trust signal."
+      "detail": "Eleven new reviews landed this period, all five stars. Review velocity directly lifts local map ranking and click-through."
     },
     {
-      "headline": "121 phone calls from Google",
-      "detail": "Google Business Profile drove 121 call clicks this period. This is your highest-intent channel and it is working."
+      "headline": "1,304 landing page views, 197 pixel leads",
+      "detail": "About 15% of landing page views converted to a tracked lead. Solid on-page conversion given the traffic source."
     },
     {
-      "headline": "1,198 landing page views, 220 leads",
-      "detail": "Roughly 18% of visitors submit the form. Healthy, but 978 people bounced without converting this period."
-    },
-    {
-      "headline": "Only 28 Instagram followers",
-      "detail": "Organic Instagram has near-zero audience despite paid activity. The ad account is doing all the work alone."
+      "headline": "Zero CRM or signed-case data",
+      "detail": "Pipeline reporting is empty this period. Without signed-case tracking, cost per lead cannot be tied to actual revenue."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Your $27 lead cost beats legal norms",
-      "body": "Median Meta cost per lead for law firms is around $180, and bankruptcy — the closest analog to debt-collector defense — averages $82 per lead. Your $27 is exceptional for the category."
+      "subheader": "Legal cost per lead averages $131",
+      "body": "The 2026 average cost per lead for legal services on paid search is $131.63. On Meta specifically, medians land near $164. Justice Consumer Law sits at $27 this period — a strong efficiency signal."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Mid-summer debt inquiry uptick",
-      "body": "Consumer debt and collector-harassment searches typically climb through summer as credit card balances peak post-spring spending. Expect steady or rising demand into August before a Labor Day dip."
+      "subheader": "Summer debt-harassment complaints climb",
+      "body": "Consumer debt inquiries typically rise mid-summer as collectors push quarter-end quotas. Volume opportunity is favorable through August, then softens into holidays."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Firms shifting to speed-to-lead",
-      "body": "Only 28% of law firms respond to leads within five minutes, yet doing so lifts conversion up to 21x. Competitors are investing in instant-response intake to steal your top-of-funnel wins."
+      "subheader": "Firms shift toward video and Local Services Ads",
+      "body": "Consumer law competitors are moving budget into short-form video and Google Local Services Ads. Static image ads still work but face rising fatigue and higher cost per click over time."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test a one-minute response rule on Meta leads",
-      "detail": "Consider auto-texting every new lead within 60 seconds. Industry data shows this can lift signed cases sharply and protects your low $27 lead cost from wasted intake."
+      "title": "Connect CRM to prove signed-case value",
+      "detail": "Consider wiring lead form submissions into a simple CRM with signed-case tracking. Without it, the $27 cost per lead cannot be validated as profitable."
     },
     {
       "number": "02",
-      "title": "Scale the winning campaign while economics hold",
-      "detail": "The Instant Forms video campaign is well below benchmark. Worth testing a 25–40% budget lift on the top ad before auction costs normalize."
+      "title": "Test short-form video against the static winner",
+      "detail": "Worth testing a 15-second debt-harassment testimonial video against the current static ad. Video is trending in legal and often improves lead quality."
     },
     {
       "number": "03",
-      "title": "Repurpose paid video into organic Instagram Reels",
-      "detail": "With only 28 followers, the profile adds no lift. Test posting the paid creative organically to build a retargeting audience and social proof."
+      "title": "Add Google Local Services Ads to the mix",
+      "detail": "Explore Local Services Ads to capture phone-intent searchers. The 127 call clicks this period suggest voice is a strong channel worth expanding."
     }
   ]
 }

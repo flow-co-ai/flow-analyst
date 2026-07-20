@@ -1,32 +1,32 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-07-13T14:26:24.393Z",
-  "weekOf": "June 16, 2026 – July 13, 2026",
-  "verdict": "Sales are profitable this period, but lead tracking and phone follow-up are leaking real money.",
-  "diagnosis": "Ads generated $5,897 in purchases on $3,357 spend, but only 2 tracked leads at ~$1,678 each — tracking is broken or lead capture is failing.",
+  "generatedAt": "2026-07-20T13:58:38.294Z",
+  "weekOf": "June 23, 2026 – July 20, 2026",
+  "verdict": "Campaign is generating revenue but leaking budget on weak lead conversion and near-zero Google Business Profile calls.",
+  "diagnosis": "Ad spend of $4,016 produced only 2 leads and 9 purchases this period — cost per lead runs far above healthcare norms.",
   "signals": [
     {
-      "headline": "Return on ad spend hit 1.76x",
-      "detail": "$5,897 in purchases against $3,357 spend this period. Healthy for a paid-only view, but purchase volume stayed low at 9."
+      "headline": "Only 2 leads from $4,016 spend",
+      "detail": "Cost per lead sits near $2,000 this period. Well above any reasonable healthcare benchmark."
     },
     {
-      "headline": "Only 2 leads tracked in 28 days",
-      "detail": "Cost per lead reads ~$1,678, far above any wellness benchmark. Pixel or form tracking is almost certainly misfiring."
+      "headline": "9 purchases worth $5,897 this period",
+      "detail": "Return on ad spend of roughly $1.47 per dollar. Positive but thin given the lead volume."
     },
     {
-      "headline": "94 direction requests, 1 call click",
-      "detail": "Local interest is strong, but phone taps are near zero. The call-to-action on your Business Profile is not landing."
+      "headline": "1,720 clicks, only 138 landing views",
+      "detail": "Roughly 8% of clicks reach the landing page. Suggests tracking gaps or heavy drop-off before content loads."
     },
     {
-      "headline": "138 landing page views from 526 link clicks",
-      "detail": "Roughly 1 in 4 clicks reach the page. Load speed or redirect issues are burning a quarter of paid traffic."
+      "headline": "98 direction requests, 1 call click",
+      "detail": "Google Business Profile drives foot traffic intent but not phone calls. Odd for a call-focused campaign."
     },
     {
-      "headline": "Pipeline shows $0 opportunity value",
-      "detail": "Every open opportunity has zero dollars attached and one contact is tagged 'missed-call-texted'. Sales handoff is dropping revenue."
+      "headline": "Cost per click $2.33 this period",
+      "detail": "In line with health and medical averages. The click side is fine; conversion is where money leaks."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Wellness cost per lead sits near $98\",\n\"body\": \"<cite index=\"1-13\">B2C wellness cost per lead averages about $98 in 2026</cite>. Your tracked figure of ~$1,678 is off by orders of magnitude, confirming a measurement problem rather than a true ad efficiency problem.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Summer is a soft window for senior buyers\",\n\"body\": \"<cite index=\"15-12\">Adult-child purchase intent for medical alert devices dropped from 39% in 2023 to 22% in 2026</cite>. Expect buyer hesitation until fall, when family visits and health scares tend to trigger purchases.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Apple Watch reshaping the category\",\n\"body\": \"<cite index=\"14-1,14-3\">Apple Watch offers fall detection and emergency calls with no monthly fee</cite>. Subscription competitors like Belle Watch must lead with monitoring quality, response time, and human help, not features alone.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Audit the lead tracking pixel this week\", \"detail\": \"Nine purchases fired but only two leads. Test the form and pixel end-to-end. Fixing this likely reveals dozens of leads already paid for.\"},\n{\"number\": \"2\", \"title\": \"Rescue missed calls with a text-back flow\", \"detail\": \"One contact is already tagged 'missed-call-texted'. Consider auto-texting every missed call within 60 seconds. Seniors' families often call once, then move on.\"},\n{\"number\": \"3\", \"title\": \"Test independence-focused ad copy against Apple Watch\", \"detail\": \"Worth testing messages about 24/7 human monitoring and response time. <cite index=\"15-22\">Frame the device as a tool for independence, not a symbol of decline</cite>.\"}\n]"
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Healthcare cost per lead norms\",\n\"body\": \"<cite index=\"9-11\">Healthcare cost per lead runs $25 to $80 for most practices</cite>. <cite index=\"10-8\">Physicians and surgeons average $56.83 per lead at 11.6% conversion</cite>. Liferun sits far above both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Summer senior safety demand\",\n\"body\": \"<cite index=\"15-8,15-9\">44% of adults 65+ report a fall, and over 1 in 10 needed emergency services</cite>. Summer yard and outdoor activity typically lifts fall-related search intent.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Bay Alarm, MobileHelp, ADT pressure\",\n\"body\": \"<cite index=\"20-2\">Bay Alarm Medical, Medical Guardian, ADT and MobileHelp lead 2026 rankings, with MobileHelp starting at $25.95/month</cite>. Category is crowded with well-known brand names.\"\n}\n}",
+  "recommendations": "[\n{\"number\": \"01\", \"title\": \"Audit conversion tracking before adding budget\", \"detail\": \"The gap between 1,720 clicks and 138 landing views points to broken tracking or slow pages. Consider verifying pixel fires and page speed first.\"},\n{\"number\": \"02\", \"title\": \"Test call extensions and click-to-call ads\", \"detail\": \"Only 1 call from Google Business Profile despite a call campaign objective. Worth testing prominent phone assets and call-only ad formats for the 45-65+ audience.\"},\n{\"number\": \"03\", \"title\": \"Tighten targeting around adult-child buyers\", \"detail\": \"<cite index=\"15-17\">22% of adult children plan to buy a device for a parent this year</cite>. Consider testing a separate ad group aimed at caregivers, not just seniors.\"}\n]"
 }

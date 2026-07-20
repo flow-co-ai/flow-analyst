@@ -1,48 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-07-13T14:25:01.253Z",
-  "weekOf": "June 16, 2026 – July 13, 2026",
-  "verdict": "Muslim Subscription Box campaign is delivering roughly $5 back for every $1 spent this period.",
-  "diagnosis": "$1,534 in ad spend drove $7,826 in tracked purchase value and 544 purchases, but recent review ratings averaged only 3 stars.",
+  "generatedAt": "2026-07-20T13:57:07.343Z",
+  "weekOf": "June 23, 2026 – July 20, 2026",
+  "verdict": "Paid social is profitable and scaling; local discovery and reviews are the untapped growth lever this period.",
+  "diagnosis": "Muslim Subscription Box campaign drove $10,495 in sales on $1,905 spend this period — roughly $5.50 back per $1.",
   "signals": [
     {
-      "headline": "Return on ad spend near 5.1x",
-      "detail": "The Muslim Box campaign generated $7,826 in purchase value on $1,534 spend. Well above the DTC food category norm."
+      "headline": "Return on ad spend near 5.5x",
+      "detail": "The Muslim Box campaign generated $10,495 in purchases from $1,905 spend this period. Strong efficiency for a cold acquisition push."
     },
     {
-      "headline": "Cost per lead sits around $4",
-      "detail": "198 leads at roughly $4 each is far below the $27 median for Facebook lead campaigns this year."
+      "headline": "553 purchases at $3.44 average spend",
+      "detail": "Total purchases this period hit 553 across $1,905 in spend. Cost per purchase is trending down sharply in recent days."
     },
     {
-      "headline": "Only 42% of carts reached checkout",
-      "detail": "172 add-to-carts produced 72 checkouts. A meaningful drop-off worth investigating on the product page or shipping step."
+      "headline": "Only 85 checkouts started, 214 carts",
+      "detail": "Cart-to-checkout drop-off is steep this period. Roughly 60% of add-to-cart users never begin checkout."
     },
     {
-      "headline": "Latest review rating dropped to 3 stars",
-      "detail": "Recent reviews averaged 3 out of 5. Fresh negative feedback can quietly cap paid conversion rates over time."
+      "headline": "8.18M mobile map impressions, 0 calls",
+      "detail": "The Google Business profile is being seen locally but driving zero calls or direction requests. Listing is passive."
     },
     {
-      "headline": "Instagram added 92 followers",
-      "detail": "Follower growth is modest at 6,632 total. Engagement on media hit 679 interactions, so content is landing with the existing base."
+      "headline": "272 reviews this period, 0 replies logged",
+      "detail": "Review volume is healthy but engagement signals suggest owner responses are missing. Local search ranking suffers as a result."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Meat brand ad costs beat the category\", \"body\": \"Food and beverage brands on Meta average around <cite index=\"20-4\">$0.42 cost per click and 1.85% click-through rate</cite>. Billy Doe's campaign is pacing ahead on efficiency, with strong purchase value per dollar spent.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Peak grilling season through July\", \"body\": \"Summer grilling drives protein demand, though <cite index=\"27-19\">ground beef prices jumped 10.3% this summer versus last year</cite>. Rising meat costs make subscription value messaging especially timely right now.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Subscription meat category is crowded\", \"body\": \"<cite index=\"9-3\">88% of subscription brands are seeing higher acquisition costs in 2025</cite>. DTC meat competitors are leaning into storytelling, transparency, and short-form video to defend margins.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Food and beverage converts higher than most categories",
+      "body": "Food and beverage ecommerce typically converts at 4.5% to 6% versus a 2% to 3% cross-category average. Billy Doe's paid social funnel should be judged against that stronger ceiling."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Online food sales growing 15% year over year",
+      "body": "Overall food sales grew 0.9% last year while online food sales grew 15.1%. Nearly 40% of consumers tried non-traditional food retail like meat subscriptions and on-demand delivery."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "ButcherBox, Crowd Cow, Moink dominate the category",
+      "body": "ButcherBox, Crowd Cow, Porter Road, Moink, and Kansas City Steak lead the meat subscription category. Differentiation is shifting toward traceable sourcing, grass-fed, and specialty diets like halal."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Investigate the cart-to-checkout drop-off",
-      "detail": "Consider auditing the checkout flow on mobile. 100 shoppers added to cart but never started checkout this period. Fixing friction here could lift purchases without more spend."
+      "title": "Scale the Muslim Subscription Box campaign budget",
+      "detail": "The most recent day showed a 92x return on ad spend. Consider a measured 20-30% budget lift while creative is fresh, watching frequency (currently 1.2) for fatigue."
     },
     {
       "number": "02",
-      "title": "Respond to recent 3-star reviews publicly",
-      "detail": "Worth replying to the latest reviews and asking happy subscribers for fresh ratings. Rating recovery protects both paid conversion and local search visibility."
+      "title": "Fix the cart-to-checkout drop-off",
+      "detail": "Test a one-page checkout, guest checkout, and Shop Pay. Only 85 of 214 add-to-carts started checkout this period. Closing that gap could lift purchases meaningfully."
     },
     {
       "number": "03",
-      "title": "Test a summer grilling creative angle",
-      "detail": "Consider running one ad variant framed around rising grocery meat prices and subscription savings. Timely messaging often outperforms evergreen awareness creative during peak grilling months."
+      "title": "Activate the Google Business Profile",
+      "detail": "8.1M map impressions produced zero calls or directions. Worth testing weekly offer posts, a call-to-action button, and replying to all 272 recent reviews to improve local ranking."
     }
   ]
 }
