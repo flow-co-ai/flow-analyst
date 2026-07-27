@@ -1,32 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-07-20T13:58:38.294Z",
-  "weekOf": "June 23, 2026 – July 20, 2026",
-  "verdict": "Campaign is generating revenue but leaking budget on weak lead conversion and near-zero Google Business Profile calls.",
-  "diagnosis": "Ad spend of $4,016 produced only 2 leads and 9 purchases this period — cost per lead runs far above healthcare norms.",
+  "generatedAt": "2026-07-27T14:24:23.557Z",
+  "weekOf": "June 30, 2026 – July 27, 2026",
+  "verdict": "Search spend is generating clicks but almost no leads — only 2 leads recorded this period against $4,569 spent.",
+  "diagnosis": "Cost per lead sits at roughly $2,285 this period, far above the $57 benchmark for medical practices, signaling a tracking or conversion breakdown.",
   "signals": [
     {
-      "headline": "Only 2 leads from $4,016 spend",
-      "detail": "Cost per lead sits near $2,000 this period. Well above any reasonable healthcare benchmark."
+      "headline": "Only 2 leads on $4,569 spend",
+      "detail": "Just 2 leads captured this period despite 1,797 clicks. Either conversion tracking is broken or the landing page is failing."
     },
     {
-      "headline": "9 purchases worth $5,897 this period",
-      "detail": "Return on ad spend of roughly $1.47 per dollar. Positive but thin given the lead volume."
+      "headline": "1 call click from Google profile",
+      "detail": "The Google Business Profile drove just 1 call click in 28 days for a call-focused campaign. Local presence is underperforming."
     },
     {
-      "headline": "1,720 clicks, only 138 landing views",
-      "detail": "Roughly 8% of clicks reach the landing page. Suggests tracking gaps or heavy drop-off before content loads."
+      "headline": "138 landing page views, 22 add-to-carts",
+      "detail": "Only 8% of landing page visitors added to cart. The page is losing most of the traffic ads paid to bring in."
     },
     {
-      "headline": "98 direction requests, 1 call click",
-      "detail": "Google Business Profile drives foot traffic intent but not phone calls. Odd for a call-focused campaign."
+      "headline": "103 direction requests logged",
+      "detail": "Direction requests are the strongest local signal this period. Foot traffic intent exists even as phone calls do not."
     },
     {
-      "headline": "Cost per click $2.33 this period",
-      "detail": "In line with health and medical averages. The click side is fine; conversion is where money leaks."
+      "headline": "9 purchases worth $5,897",
+      "detail": "A small purchase count produced meaningful revenue this period. Purchase value averages roughly $655, worth protecting."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Healthcare cost per lead norms\",\n\"body\": \"<cite index=\"9-11\">Healthcare cost per lead runs $25 to $80 for most practices</cite>. <cite index=\"10-8\">Physicians and surgeons average $56.83 per lead at 11.6% conversion</cite>. Liferun sits far above both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Summer senior safety demand\",\n\"body\": \"<cite index=\"15-8,15-9\">44% of adults 65+ report a fall, and over 1 in 10 needed emergency services</cite>. Summer yard and outdoor activity typically lifts fall-related search intent.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Bay Alarm, MobileHelp, ADT pressure\",\n\"body\": \"<cite index=\"20-2\">Bay Alarm Medical, Medical Guardian, ADT and MobileHelp lead 2026 rankings, with MobileHelp starting at $25.95/month</cite>. Category is crowded with well-known brand names.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"01\", \"title\": \"Audit conversion tracking before adding budget\", \"detail\": \"The gap between 1,720 clicks and 138 landing views points to broken tracking or slow pages. Consider verifying pixel fires and page speed first.\"},\n{\"number\": \"02\", \"title\": \"Test call extensions and click-to-call ads\", \"detail\": \"Only 1 call from Google Business Profile despite a call campaign objective. Worth testing prominent phone assets and call-only ad formats for the 45-65+ audience.\"},\n{\"number\": \"03\", \"title\": \"Tighten targeting around adult-child buyers\", \"detail\": \"<cite index=\"15-17\">22% of adult children plan to buy a device for a parent this year</cite>. Consider testing a separate ad group aimed at caregivers, not just seniors.\"}\n]"
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Medical cost per lead near $57",
+      "body": "Physician and surgeon Google Ads campaigns average a $57 cost per lead in 2026, with an 11.6% conversion rate. Broader healthcare cost per lead ranges from $25 to $80 for most practices."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Summer softens senior response",
+      "body": "Summer traditionally slows senior-targeted response, with families traveling and adult-child buyers deferring decisions. Purchase intent among adult children fell from 39% in 2023 to 22% in 2026."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Bay Alarm, Medical Guardian dominate",
+      "body": "Bay Alarm Medical and Medical Guardian lead the category in 2026 reviews, with smartwatch-style devices gaining share. The medical alert market is now roughly $4.8 billion and growing 10.5% annually."
+    }
+  },
+  "recommendations": [
+    {
+      "number": "01",
+      "title": "Audit conversion tracking before spending more",
+      "detail": "Two leads on 1,797 clicks suggests tracking is broken. Consider verifying phone call tracking, form submissions, and pixel firing before increasing budget on this campaign."
+    },
+    {
+      "number": "02",
+      "title": "Test a simpler landing page for the 45-65+ audience",
+      "detail": "Only 138 of 1,797 clicks reached the landing page view event. Worth exploring a stripped-down page with a large phone number and a single call-to-action."
+    },
+    {
+      "number": "03",
+      "title": "Consider shifting budget toward direction and call assets",
+      "detail": "Direction requests (103) outperformed call clicks (1) this period. Test call extensions, location extensions, and click-to-call ads to match how prospects actually engage."
+    }
+  ]
 }

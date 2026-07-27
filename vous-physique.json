@@ -1,44 +1,48 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-07-20T13:59:01.131Z",
-  "weekOf": "June 23, 2026 – July 20, 2026",
-  "verdict": "Facebook spend collapsed to $3.85 in the latest period, signaling a stalled PCOS and postpartum lead campaign.",
-  "diagnosis": "Total 28-day spend hit $2,330 but daily pace dropped from $13.63 average to just $3.85 recently, without lead or conversion data to justify cuts.",
+  "generatedAt": "2026-07-27T14:24:46.268Z",
+  "weekOf": "June 30, 2026 – July 27, 2026",
+  "verdict": "Spend collapsed to $3.85 on the latest day with no lead or conversion data to judge outcomes.",
+  "diagnosis": "Vous Physique spent $2,330 over 28 days on one Facebook lead campaign, but no lead, CRM, or organic data exists to measure returns.",
   "signals": [
     {
-      "headline": "Spend fell 72% below period average",
-      "detail": "Latest daily spend of $3.85 versus the 28-day average of $13.63 suggests the campaign is throttling or nearly paused."
+      "headline": "Total 28-day spend: $2,330",
+      "detail": "One Facebook campaign targeting PCOS and postpartum audiences carried the entire paid budget this period."
     },
     {
-      "headline": "Only one active campaign running",
-      "detail": "The PCOS and postpartum persona campaign is the sole Facebook effort. No diversification means one creative fatigue event stops all leads."
+      "headline": "Daily spend crashed to $3.85",
+      "detail": "Latest daily spend fell far below the $13.63 average, suggesting a budget cap, pause, or delivery issue."
     },
     {
-      "headline": "Zero visibility across four channels",
-      "detail": "No Google Business Profile, organic social, CRM, or top-performer data. Impossible to judge whether $2,330 produced customers."
+      "headline": "Zero lead data across 28 days",
+      "detail": "No CRM, form fill, or conversion tracking is flowing in, so cost per lead cannot be calculated."
     },
     {
-      "headline": "28-day spend totals $2,330",
-      "detail": "Above the $900 monthly starter budget many studios use, so scale is reasonable if leads are actually flowing through."
+      "headline": "One campaign, one audience persona",
+      "detail": "All spend concentrated on a single persona angle, leaving no comparison data to judge creative or audience performance."
+    },
+    {
+      "headline": "No organic or Google Profile signal",
+      "detail": "Social, reviews, and local presence data are missing, so paid results cannot be triangulated against broader demand."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Fitness lead costs sit near $30\", \"body\": <cite index=\"2-20,2-21\">\"Fitness averages $29.70 cost per lead on Meta, with seasonal trends driving lower costs in Q2.\"</cite> <cite index=\"2-3\">Boutique studios specifically range $25 to $50 per lead.</cite>}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"July is the year's most expensive month\", \"body\": <cite index=\"2-28,2-29\">\"July marks the peak fitness lead cost at $48.33, the only month fitness exceeds the global benchmark.\"</cite> Expect higher costs now versus spring rates.}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Studios shifting from acquisition to retention\", \"body\": <cite index=\"11-22,11-23\">\"The biggest 2026 trends center on retention, community, and holistic wellness, with studios moving away from acquisition-heavy models.\"</cite> Niche persona targeting like PCOS remains a differentiator.}}",
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Fitness Meta lead costs sit near $30\", \"body\": \"<cite index=\"6-22,6-23\">Fitness averages roughly $29.70 per lead on Meta, with Q2 typically running lower.</cite> <cite index=\"6-10\">Boutique studios often land in the $25–$50 range.</cite>\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Q2 fitness costs typically the lowest\", \"body\": \"<cite index=\"1-10\">June 2026 fitness cost per lead ran about 51% below the global baseline.</cite> <cite index=\"1-8\">The sector hit a $17.07 low in June 2026.</cite> Summer is a favorable window to buy leads.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Studios winning on community and retention\", \"body\": \"<cite index=\"10-13\">Studios are shifting from acquisition-heavy models toward retention through personalized communication and habit coaching.</cite> <cite index=\"12-14\">Pilates now represents over 43% of primary studio modalities.</cite>\"}}",
   "recommendations": [
     {
-      "number": "01",
-      "title": "Confirm whether the campaign is intentionally paused",
-      "detail": "The drop from $13.63 to $3.85 daily needs explanation. If unintentional, restore budget. If intentional, document why and what replaces it."
+      "number": "1",
+      "title": "Fix lead tracking before adding budget",
+      "detail": "Consider connecting Meta lead forms to the CRM this week. Without lead counts, cost per lead and quality cannot be measured or improved."
     },
     {
-      "number": "02",
-      "title": "Connect lead and CRM data before next report",
-      "detail": "Without lead volume, cost per lead, or booked consults, $2,330 in spend cannot be judged. Consider wiring Facebook Lead Ads into the CRM."
+      "number": "2",
+      "title": "Investigate the $3.85 daily spend drop",
+      "detail": "Worth checking whether the campaign hit a budget cap, was paused, or lost delivery. Latest spend is 72% below the period average."
     },
     {
-      "number": "03",
-      "title": "Test a second persona angle alongside PCOS and postpartum",
-      "detail": "One campaign is fragile. Worth exploring a strength or community-focused creative, since Gen Z prioritizes those hooks in 2026 studio marketing."
+      "number": "3",
+      "title": "Test a second creative angle against PCOS persona",
+      "detail": "Explore a low-barrier offer like a free week pass or intro session. Boutique studios in this range typically see stronger conversion with concrete first-step offers."
     }
   ]
 }

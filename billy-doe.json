@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-07-20T13:57:07.343Z",
-  "weekOf": "June 23, 2026 – July 20, 2026",
-  "verdict": "Paid social is profitable and scaling; local discovery and reviews are the untapped growth lever this period.",
-  "diagnosis": "Muslim Subscription Box campaign drove $10,495 in sales on $1,905 spend this period — roughly $5.50 back per $1.",
+  "generatedAt": "2026-07-27T14:23:00.738Z",
+  "weekOf": "June 30, 2026 – July 27, 2026",
+  "verdict": "Return on ad spend looks strong on paper, but only 63 pixel-tracked purchases from $2,166 spend suggests attribution gaps.",
+  "diagnosis": "Instagram spend of $2,166 drove $11,955 in tracked purchase value this period, but cost per purchase of $34 sits above healthy food-and-beverage norms.",
   "signals": [
     {
-      "headline": "Return on ad spend near 5.5x",
-      "detail": "The Muslim Box campaign generated $10,495 in purchases from $1,905 spend this period. Strong efficiency for a cold acquisition push."
+      "headline": "Ad spend hit $2,166 this period",
+      "detail": "Instagram delivered 131,193 in reach and 2,681 clicks. Volume is real, but conversion tracking looks incomplete."
     },
     {
-      "headline": "553 purchases at $3.44 average spend",
-      "detail": "Total purchases this period hit 553 across $1,905 in spend. Cost per purchase is trending down sharply in recent days."
+      "headline": "Only 63 pixel purchases recorded",
+      "detail": "The gap between 562 reported purchase actions and 63 pixel purchases points to a tracking or deduplication issue worth fixing."
     },
     {
-      "headline": "Only 85 checkouts started, 214 carts",
-      "detail": "Cart-to-checkout drop-off is steep this period. Roughly 60% of add-to-cart users never begin checkout."
+      "headline": "237 add-to-carts, 94 checkouts started",
+      "detail": "Roughly 40% of cart adds began checkout this period. Cart-to-checkout drop-off is the clearest leak in the funnel."
     },
     {
-      "headline": "8.18M mobile map impressions, 0 calls",
-      "detail": "The Google Business profile is being seen locally but driving zero calls or direction requests. Listing is passive."
+      "headline": "272 Google reviews, 5-star latest",
+      "detail": "Local reputation is a real asset. Mobile map impressions dominate discovery, suggesting nearby buyers find you organically."
     },
     {
-      "headline": "272 reviews this period, 0 replies logged",
-      "detail": "Review volume is healthy but engagement signals suggest owner responses are missing. Local search ranking suffers as a result."
+      "headline": "6,654 Instagram followers, 106 new",
+      "detail": "Follower growth is steady but engagement is thin. Media likes and comments stayed in single digits this period."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Food and beverage converts higher than most categories",
-      "body": "Food and beverage ecommerce typically converts at 4.5% to 6% versus a 2% to 3% cross-category average. Billy Doe's paid social funnel should be judged against that stronger ceiling."
+      "subheader": "Food and beverage converts at 4.5% to 6.2%",
+      "body": "Food and beverage leads all ecommerce categories on conversion. Average customer acquisition cost in the vertical runs about $53, well below the $68 to $84 broad ecommerce average."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Online food sales growing 15% year over year",
-      "body": "Overall food sales grew 0.9% last year while online food sales grew 15.1%. Nearly 40% of consumers tried non-traditional food retail like meat subscriptions and on-demand delivery."
+      "subheader": "Summer grilling season peaks now",
+      "body": "Q2 is historically the strongest quarter for food ecommerce conversion, averaging 3.21% before dipping in Q1. July sits inside the buying window for premium meat and subscription boxes."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "ButcherBox, Crowd Cow, Moink dominate the category",
-      "body": "ButcherBox, Crowd Cow, Porter Road, Moink, and Kansas City Steak lead the meat subscription category. Differentiation is shifting toward traceable sourcing, grass-fed, and specialty diets like halal."
+      "subheader": "ButcherBox, Crowd Cow, Porter Road lead",
+      "body": "The category is crowded with subscription-first players. Winning brands in 2026 emphasize sourcing transparency, farmer stories, and social commerce over pure discount messaging."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Scale the Muslim Subscription Box campaign budget",
-      "detail": "The most recent day showed a 92x return on ad spend. Consider a measured 20-30% budget lift while creative is fresh, watching frequency (currently 1.2) for fatigue."
+      "title": "Audit the Meta pixel and purchase deduplication",
+      "detail": "The 562 vs 63 purchase gap suggests broken or duplicate tracking. Consider a full pixel and conversions API check before scaling spend further."
     },
     {
       "number": "02",
-      "title": "Fix the cart-to-checkout drop-off",
-      "detail": "Test a one-page checkout, guest checkout, and Shop Pay. Only 85 of 214 add-to-carts started checkout this period. Closing that gap could lift purchases meaningfully."
+      "title": "Test a cart abandonment flow for checkout drop-off",
+      "detail": "237 shoppers added to cart, only 94 started checkout this period. A simple email or SMS recovery sequence is worth exploring."
     },
     {
       "number": "03",
-      "title": "Activate the Google Business Profile",
-      "detail": "8.1M map impressions produced zero calls or directions. Worth testing weekly offer posts, a call-to-action button, and replying to all 272 recent reviews to improve local ranking."
+      "title": "Lean into sourcing story in Muslim Box creative",
+      "detail": "Category winners lead with transparency and farmer stories. Consider testing a halal-sourcing origin video against the current awareness creative."
     }
   ]
 }

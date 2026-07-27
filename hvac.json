@@ -1,32 +1,32 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-07-20T13:57:39.873Z",
-  "weekOf": "June 23, 2026 – July 20, 2026",
-  "verdict": "Paid social is producing leads at industry-average cost, but the local profile is under-converting given a 5-star reputation.",
-  "diagnosis": "Instagram ads generated 50 leads at $158 each this period, close to industry norms, but only 80 phone calls came through Google Business Profile.",
+  "generatedAt": "2026-07-27T14:23:30.009Z",
+  "weekOf": "June 30, 2026 – July 27, 2026",
+  "verdict": "Lead volume is decent for peak season, but cost per lead sits mid-pack and booking data is missing.",
+  "diagnosis": "Instagram lead ads produced 54 leads at roughly $145 each — near the industry median but reliant on a single channel with no pipeline visibility.",
   "signals": [
     {
-      "headline": "50 leads at $158 each",
-      "detail": "Instagram spend of $7,911 produced 50 form leads this period. Cost per lead sits just above HVAC blended benchmarks."
+      "headline": "54 leads at $145 each",
+      "detail": "Instagram Instant Form drove 54 leads on $7,835 spend. Cost per lead lands in the middle of industry ranges."
     },
     {
-      "headline": "80 call clicks in 28 days",
-      "detail": "Google Business Profile drove 80 calls and 99 direction requests. Low volume given 195 reviews and a 5-star average."
+      "headline": "12 new 5-star reviews this period",
+      "detail": "Review flow is strong and averages five stars. This directly helps local ad placement and consumer trust."
     },
     {
-      "headline": "Perfect 5-star rating, 11 new reviews",
-      "detail": "Reputation is a genuine asset. 11 new reviews this period keeps freshness signals strong for local ranking."
+      "headline": "71 phone calls from Google profile",
+      "detail": "Google Business Profile drove 71 calls and 96 direction requests. Local search is quietly a major lead source."
     },
     {
-      "headline": "639 link clicks, 0 purchases tracked",
-      "detail": "Pixel purchase tracking shows zero conversions. Either the pixel is misconfigured or booked jobs are not flowing back to the ad account."
+      "headline": "Instagram reach hit 4,261 accounts",
+      "detail": "Organic reach is modest at 4,261 with only 12 new followers. Social presence is not compounding yet."
     },
     {
-      "headline": "Only 25 profile visits from Instagram",
-      "detail": "Organic Instagram reach hit 4,374 but drove just 25 profile visits. The account is not converting reach into interest."
+      "headline": "Zero booking or revenue data tracked",
+      "detail": "No pipeline data means we cannot see which leads become paying jobs. Every recommendation below depends on fixing this."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Cost per lead sits near category average\", \"body\": \"The current period cost per lead is $158. <cite index=\"8-3,8-6\">Industry benchmarks show a $104 blended average, with non-branded search at $149 per lead.</cite> <cite index=\"10-4\">Home & Home Improvement averaged $90.92 per lead across platforms.</cite>\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Peak summer cooling demand right now\", \"body\": \"<cite index=\"9-23\">Cost per click spikes in summer for cooling services, and conversion rates climb during heatwaves.</cite> <cite index=\"10-10\">HVAC leads become more expensive during summer heat waves.</cite> This is the window to push spend, not pull back.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Local Service Ads dominate the category\", \"body\": \"<cite index=\"14-15,14-16\">Local Service Ads appear above paid search with a Google Guaranteed badge, delivering leads at $25 to $75 with pay-per-verified-contact.</cite> Competitors using LSAs are likely winning the highest-intent calls.\"}}",
-  "recommendations": "[{\"number\": \"01\", \"title\": \"Test Google Local Service Ads alongside Instagram\", \"detail\": \"With 195 five-star reviews, the profile qualifies for premium LSA placement. <cite index=\"14-16\">LSA leads run $25 to $75 and only charge for verified contacts.</cite> Worth exploring this quarter.\"}, {\"number\": \"02\", \"title\": \"Fix conversion tracking on the ad account\", \"detail\": \"Zero purchases are recorded despite 50 form leads. Consider connecting form submissions or booked jobs back to the pixel so cost per booked job becomes visible.\"}, {\"number\": \"03\", \"title\": \"Split the ad campaign by service type\", \"detail\": \"<cite index=\"5-11\">Running one broad HVAC campaign instead of separate AC repair, heating, install, and maintenance campaigns can cost 27% more per lead.</cite> Test splitting installation from tune-ups.\"}]"
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"HVAC leads typically run $100 to $200\",\n\"body\": \"<cite index=\"4-3,4-6\">The average non-branded Google Ads cost per lead for HVAC is $149, based on 816 contractors and $14.9M in spend</cite>. Your $145 sits right in that range.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"July is peak AC repair season\",\n\"body\": \"<cite index=\"7-2\">AC repair leads averaged $231 each in the 2026 SearchLight benchmark</cite>. Summer demand is highest now — the window to capture install and tune-up work closes fast.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Reviews and response speed drive rankings\",\n\"body\": \"<cite index=\"3-9\">Local Services Ads rank and price based on Google review count and response speed</cite>. Your 218 reviews at five stars is a real edge worth pressing harder.\"\n}\n}",
+  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Add booking and revenue tracking to every lead\", \"detail\": \"Consider tagging each Instagram lead through to booked job and ticket value. Without this, cost per lead alone cannot tell you if the channel is profitable.\"},\n{\"number\": \"2\", \"title\": \"Test Google Local Services Ads alongside Instagram\", \"detail\": \"Worth exploring given your 5-star rating and 218 reviews. <cite index=\"9-7\">Local Services Ads typically charge $45 to $85 per qualified lead in major metros</cite> — potentially cheaper than current leads.\"},\n{\"number\": \"3\", \"title\": \"Push a summer tune-up offer while demand peaks\", \"detail\": \"Test a July-August maintenance promotion in the Instant Form creative. Peak-season intent is highest now, and tune-ups open the door to install conversations later.\"}\n]"
 }
