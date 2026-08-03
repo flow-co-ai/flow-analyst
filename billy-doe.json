@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-07-27T14:23:00.738Z",
-  "weekOf": "June 30, 2026 – July 27, 2026",
-  "verdict": "Return on ad spend looks strong on paper, but only 63 pixel-tracked purchases from $2,166 spend suggests attribution gaps.",
-  "diagnosis": "Instagram spend of $2,166 drove $11,955 in tracked purchase value this period, but cost per purchase of $34 sits above healthy food-and-beverage norms.",
+  "generatedAt": "2026-08-03T14:29:10.126Z",
+  "weekOf": "July 7, 2026 – August 3, 2026",
+  "verdict": "Paid Instagram is profitable this period, but purchase volume is thin and lead cost is climbing.",
+  "diagnosis": "Instagram ads returned $11,972 on $2,167 spend this period — a 5.5x return, but only 63 pixel-tracked purchases.",
   "signals": [
     {
-      "headline": "Ad spend hit $2,166 this period",
-      "detail": "Instagram delivered 131,193 in reach and 2,681 clicks. Volume is real, but conversion tracking looks incomplete."
+      "headline": "Ads returned $5.52 per $1 spent",
+      "detail": "$2,167 spend produced $11,972 in tracked purchase value this period. Healthy return, but sample size is small."
     },
     {
-      "headline": "Only 63 pixel purchases recorded",
-      "detail": "The gap between 562 reported purchase actions and 63 pixel purchases points to a tracking or deduplication issue worth fixing."
+      "headline": "Only 63 pixel purchases in 28 days",
+      "detail": "Purchase volume is low despite 8.9M impressions. Suggests narrow buyer pool or leaky checkout funnel."
     },
     {
       "headline": "237 add-to-carts, 94 checkouts started",
-      "detail": "Roughly 40% of cart adds began checkout this period. Cart-to-checkout drop-off is the clearest leak in the funnel."
+      "detail": "Roughly 40% of carts reached checkout. Drop-off between cart and purchase is where money is leaking."
     },
     {
-      "headline": "272 Google reviews, 5-star latest",
-      "detail": "Local reputation is a real asset. Mobile map impressions dominate discovery, suggesting nearby buyers find you organically."
+      "headline": "Cost per lead sits at $4.94",
+      "detail": "438 pixel leads on $2,167 spend. Reasonable for food and beverage, but leads aren't converting to buyers fast enough."
     },
     {
-      "headline": "6,654 Instagram followers, 106 new",
-      "detail": "Follower growth is steady but engagement is thin. Media likes and comments stayed in single digits this period."
+      "headline": "952 new followers, 357 profile visits",
+      "detail": "Organic Instagram is building an audience. Engagement is real but not yet translating into subscription signups."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Food and beverage converts at 4.5% to 6.2%",
-      "body": "Food and beverage leads all ecommerce categories on conversion. Average customer acquisition cost in the vertical runs about $53, well below the $68 to $84 broad ecommerce average."
+      "label": "BENCHMARK",
+      "subheader": "Food and beverage converts at 4.5–6%",
+      "body": "Food and beverage brands average <cite index=\"3-4\">4.5%–6.0%</cite> conversion. Paid social usually converts <cite index=\"3-7\">under 1%</cite>. Healthy return on ad spend sits in the <cite index=\"5-6\">3:1 to 5:1</cite> band."
     },
     "seasonal": {
-      "label": "Seasonal",
+      "label": "SEASONAL",
       "subheader": "Summer grilling season peaks now",
-      "body": "Q2 is historically the strongest quarter for food ecommerce conversion, averaging 3.21% before dipping in Q1. July sits inside the buying window for premium meat and subscription boxes."
+      "body": "July and August are peak grilling months for DTC meat. Demand is elevated but ad auctions are crowded. <cite index=\"6-1\">88% of subscription brands report higher acquisition costs</cite> in 2025."
     },
     "competitor": {
-      "label": "Competitor",
-      "subheader": "ButcherBox, Crowd Cow, Porter Road lead",
-      "body": "The category is crowded with subscription-first players. Winning brands in 2026 emphasize sourcing transparency, farmer stories, and social commerce over pure discount messaging."
+      "label": "COMPETITOR",
+      "subheader": "ButcherBox, Good Ranchers dominate category",
+      "body": "Meat subscription market projected to grow from <cite index=\"8-5\">$1.7 billion in 2024 to $7.1 billion by 2034</cite>. Good Ranchers now pushes <cite index=\"13-7\">tariff-proof locked pricing</cite> as a wedge."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Audit the Meta pixel and purchase deduplication",
-      "detail": "The 562 vs 63 purchase gap suggests broken or duplicate tracking. Consider a full pixel and conversions API check before scaling spend further."
+      "title": "Fix the cart-to-checkout drop before adding spend",
+      "detail": "237 carts became 94 checkouts and 63 purchases. Consider testing shipping cost transparency, guest checkout, and payment options before scaling budget."
     },
     {
       "number": "02",
-      "title": "Test a cart abandonment flow for checkout drop-off",
-      "detail": "237 shoppers added to cart, only 94 started checkout this period. A simple email or SMS recovery sequence is worth exploring."
+      "title": "Test an annual subscription option to cut churn",
+      "detail": "Annual billing can reduce monthly-equivalent churn by <cite index=\"1-8\">60-80%</cite>. Worth exploring for the Muslim Subscription Box to lock in lifetime value."
     },
     {
       "number": "03",
-      "title": "Lean into sourcing story in Muslim Box creative",
-      "detail": "Category winners lead with transparency and farmer stories. Consider testing a halal-sourcing origin video against the current awareness creative."
+      "title": "Convert 6,654 Instagram followers into buyers",
+      "detail": "Organic reach is building but only 63 tracked purchases landed. Test a followers-only offer or email capture flow to activate the warm audience."
     }
   ]
 }

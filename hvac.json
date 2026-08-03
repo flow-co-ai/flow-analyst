@@ -1,32 +1,48 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-07-27T14:23:30.009Z",
-  "weekOf": "June 30, 2026 – July 27, 2026",
-  "verdict": "Lead volume is decent for peak season, but cost per lead sits mid-pack and booking data is missing.",
-  "diagnosis": "Instagram lead ads produced 54 leads at roughly $145 each — near the industry median but reliant on a single channel with no pipeline visibility.",
+  "generatedAt": "2026-08-03T14:29:34.971Z",
+  "weekOf": "July 7, 2026 – August 3, 2026",
+  "verdict": "Instagram lead ads are working — 54 leads at roughly $145 each, near industry norms for HVAC install.",
+  "diagnosis": "You spent $7,835 for 54 form leads this period, averaging about $145 per lead — reasonable for HVAC installation, but tracking to booked jobs is missing.",
   "signals": [
     {
-      "headline": "54 leads at $145 each",
-      "detail": "Instagram Instant Form drove 54 leads on $7,835 spend. Cost per lead lands in the middle of industry ranges."
+      "headline": "54 leads captured this period",
+      "detail": "Instagram Instant Form delivered 54 leads on $7,835 spend. Solid volume for a single-channel install campaign."
     },
     {
-      "headline": "12 new 5-star reviews this period",
-      "detail": "Review flow is strong and averages five stars. This directly helps local ad placement and consumer trust."
+      "headline": "Cost per lead around $145",
+      "detail": "Slightly above the $90 Facebook maintenance range but in line with HVAC install lead costs on paid social."
     },
     {
-      "headline": "71 phone calls from Google profile",
-      "detail": "Google Business Profile drove 71 calls and 96 direction requests. Local search is quietly a major lead source."
+      "headline": "12 new reviews, 5.0 average",
+      "detail": "Reputation is a genuine asset. Twelve fresh five-star reviews this period strengthens local ranking and paid ad trust."
     },
     {
-      "headline": "Instagram reach hit 4,261 accounts",
-      "detail": "Organic reach is modest at 4,261 with only 12 new followers. Social presence is not compounding yet."
+      "headline": "71 calls, 96 direction requests",
+      "detail": "Google Business Profile is driving real phone volume. This channel is quietly outperforming and deserves more attention."
     },
     {
-      "headline": "Zero booking or revenue data tracked",
-      "detail": "No pipeline data means we cannot see which leads become paying jobs. Every recommendation below depends on fixing this."
+      "headline": "Zero tracked bookings or revenue",
+      "detail": "No booked jobs or purchase value flowing back into the ad account. You're flying blind on what leads actually earn."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"HVAC leads typically run $100 to $200\",\n\"body\": \"<cite index=\"4-3,4-6\">The average non-branded Google Ads cost per lead for HVAC is $149, based on 816 contractors and $14.9M in spend</cite>. Your $145 sits right in that range.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"July is peak AC repair season\",\n\"body\": \"<cite index=\"7-2\">AC repair leads averaged $231 each in the 2026 SearchLight benchmark</cite>. Summer demand is highest now — the window to capture install and tune-up work closes fast.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Reviews and response speed drive rankings\",\n\"body\": \"<cite index=\"3-9\">Local Services Ads rank and price based on Google review count and response speed</cite>. Your 218 reviews at five stars is a real edge worth pressing harder.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Add booking and revenue tracking to every lead\", \"detail\": \"Consider tagging each Instagram lead through to booked job and ticket value. Without this, cost per lead alone cannot tell you if the channel is profitable.\"},\n{\"number\": \"2\", \"title\": \"Test Google Local Services Ads alongside Instagram\", \"detail\": \"Worth exploring given your 5-star rating and 218 reviews. <cite index=\"9-7\">Local Services Ads typically charge $45 to $85 per qualified lead in major metros</cite> — potentially cheaper than current leads.\"},\n{\"number\": \"3\", \"title\": \"Push a summer tune-up offer while demand peaks\", \"detail\": \"Test a July-August maintenance promotion in the Instant Form creative. Peak-season intent is highest now, and tune-ups open the door to install conversations later.\"}\n]"
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"HVAC lead costs vary widely by channel\", \"body\": \"<cite index=\"15-11,15-13,15-14\">The 2026 average cost per HVAC lead sits around $104, with some as low as $34 and others past $300.</cite> Your $145 sits in the normal install range.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"August is the HVAC shoulder edge\", \"body\": \"<cite index=\"17-4,17-5,17-6,17-7\">HVAC has the biggest seasonal swing in home services. Summer cooling drives emergency volume, and accounts that don't shift toward maintenance and replacement offers see cost per lead spike 40 to 60 percent in shoulder months.</cite>\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Rivals leaning into Local Services Ads\", \"body\": \"<cite index=\"9-7\">Local Services Ads charge per qualified lead, typically $45 to $85 in major metros, and sit above regular ads and the map pack.</cite> You're not visible there yet.\"}}",
+  "recommendations": [
+    {
+      "number": "01",
+      "title": "Turn on Google Local Services Ads",
+      "detail": "Your 5-star rating and 218 reviews qualify you for premium placement. Consider testing Local Services Ads — qualified leads typically run $45 to $85."
+    },
+    {
+      "number": "02",
+      "title": "Split install and tune-up campaigns",
+      "detail": "Running one broad HVAC campaign can cost 27% more per lead. Worth testing separate ad sets for installation versus seasonal tune-up offers."
+    },
+    {
+      "number": "03",
+      "title": "Track leads through to booked jobs",
+      "detail": "You have 54 leads but no revenue data flowing back. Consider connecting your phone system or CRM so we can see cost per booked job."
+    }
+  ]
 }

@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-07-27T14:24:23.557Z",
-  "weekOf": "June 30, 2026 – July 27, 2026",
-  "verdict": "Search spend is generating clicks but almost no leads — only 2 leads recorded this period against $4,569 spent.",
-  "diagnosis": "Cost per lead sits at roughly $2,285 this period, far above the $57 benchmark for medical practices, signaling a tracking or conversion breakdown.",
+  "generatedAt": "2026-08-03T14:30:28.743Z",
+  "weekOf": "July 7, 2026 – August 3, 2026",
+  "verdict": "Campaign paused mid-flight with only 2 leads captured — spend is stalling right as demand peaks.",
+  "diagnosis": "You spent $5,479 this period and generated 2 leads at $12.03 each, while the main call campaign sits paused.",
   "signals": [
     {
-      "headline": "Only 2 leads on $4,569 spend",
-      "detail": "Just 2 leads captured this period despite 1,797 clicks. Either conversion tracking is broken or the landing page is failing."
+      "headline": "Only 2 leads from $5,479 spend",
+      "detail": "Lead volume is critically low this period. Cost per lead of $12 looks cheap, but the sample is too small to trust."
     },
     {
-      "headline": "1 call click from Google profile",
-      "detail": "The Google Business Profile drove just 1 call click in 28 days for a call-focused campaign. Local presence is underperforming."
+      "headline": "9 purchases worth $5,897 tracked",
+      "detail": "Purchase revenue nearly matched ad spend this period. Return on ad spend of roughly 1.08x means you barely broke even."
+    },
+    {
+      "headline": "Call campaign paused during peak season",
+      "detail": "The retargeting call campaign is off. For a phone-driven medical alert product, this is likely your biggest revenue leak right now."
+    },
+    {
+      "headline": "Only 1 call click this period",
+      "detail": "Google Business Profile drove essentially zero phone calls. For a product sold via (800) number, this channel is dormant."
     },
     {
       "headline": "138 landing page views, 22 add-to-carts",
-      "detail": "Only 8% of landing page visitors added to cart. The page is losing most of the traffic ads paid to bring in."
-    },
-    {
-      "headline": "103 direction requests logged",
-      "detail": "Direction requests are the strongest local signal this period. Foot traffic intent exists even as phone calls do not."
-    },
-    {
-      "headline": "9 purchases worth $5,897",
-      "detail": "A small purchase count produced meaningful revenue this period. Purchase value averages roughly $655, worth protecting."
+      "detail": "Roughly 16% of visitors added to cart but only 9 purchased. Checkout friction is likely leaving money on the table."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Medical cost per lead near $57",
-      "body": "Physician and surgeon Google Ads campaigns average a $57 cost per lead in 2026, with an 11.6% conversion rate. Broader healthcare cost per lead ranges from $25 to $80 for most practices."
+      "subheader": "Wellness cost per lead sits near $98",
+      "body": "<cite index=\"3-13\">Business-to-consumer healthcare cost per lead ranges from $98 for wellness to $661 for facilities in 2026.</cite> Your $12 cost per lead beats the benchmark, but volume is too small to celebrate."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Summer softens senior response",
-      "body": "Summer traditionally slows senior-targeted response, with families traveling and adult-child buyers deferring decisions. Purchase intent among adult children fell from 39% in 2023 to 22% in 2026."
+      "subheader": "Healthcare lead costs climbed sharply in July",
+      "body": "<cite index=\"2-1\">Healthcare cost per lead on Facebook rose from $47 in July 2025 to $104 in July 2026, more than doubling.</cite> Expect rising click prices through late summer."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Bay Alarm, Medical Guardian dominate",
-      "body": "Bay Alarm Medical and Medical Guardian lead the category in 2026 reviews, with smartwatch-style devices gaining share. The medical alert market is now roughly $4.8 billion and growing 10.5% annually."
+      "subheader": "Wearable alert adoption surged 45%",
+      "body": "<cite index=\"10-1\">Wearable alert systems like smartwatches and pendants saw adoption jump 45% thanks to real-time tracking and fall detection.</cite> Your Medical Alert Watch fits this shift — lean into it."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Audit conversion tracking before spending more",
-      "detail": "Two leads on 1,797 clicks suggests tracking is broken. Consider verifying phone call tracking, form submissions, and pixel firing before increasing budget on this campaign."
+      "title": "Reactivate the paused call campaign",
+      "detail": "The retargeting call campaign is off. Consider turning it back on with a small daily cap to test whether phone leads return at a workable cost."
     },
     {
       "number": "02",
-      "title": "Test a simpler landing page for the 45-65+ audience",
-      "detail": "Only 138 of 1,797 clicks reached the landing page view event. Worth exploring a stripped-down page with a large phone number and a single call-to-action."
+      "title": "Fix the add-to-cart to purchase gap",
+      "detail": "22 carts produced 9 purchases this period. Worth reviewing checkout, shipping costs, and trust signals before spending more on top-of-funnel traffic."
     },
     {
       "number": "03",
-      "title": "Consider shifting budget toward direction and call assets",
-      "detail": "Direction requests (103) outperformed call clicks (1) this period. Test call extensions, location extensions, and click-to-call ads to match how prospects actually engage."
+      "title": "Test wearable-focused creative for adult children",
+      "detail": "Adult children buy for aging parents. Consider testing ads that emphasize fall detection and discreet wearable design — the top requested features in 2026."
     }
   ]
 }

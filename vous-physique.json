@@ -1,48 +1,44 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-07-27T14:24:46.268Z",
-  "weekOf": "June 30, 2026 – July 27, 2026",
-  "verdict": "Spend collapsed to $3.85 on the latest day with no lead or conversion data to judge outcomes.",
-  "diagnosis": "Vous Physique spent $2,330 over 28 days on one Facebook lead campaign, but no lead, CRM, or organic data exists to measure returns.",
+  "generatedAt": "2026-08-03T14:30:51.044Z",
+  "weekOf": "July 7, 2026 – August 3, 2026",
+  "verdict": "Spend collapsed to $3.85 on the latest day from a $13.63 average, signaling a campaign that has effectively gone dark.",
+  "diagnosis": "Only $2,330 spent on one Facebook lead campaign this period, with no leads, calls, or booking data tracked to measure return.",
   "signals": [
     {
-      "headline": "Total 28-day spend: $2,330",
-      "detail": "One Facebook campaign targeting PCOS and postpartum audiences carried the entire paid budget this period."
+      "headline": "Spend down 72% on latest day",
+      "detail": "Daily spend fell from a $13.63 average to $3.85 on the most recent day, suggesting budget throttling or a paused campaign."
     },
     {
-      "headline": "Daily spend crashed to $3.85",
-      "detail": "Latest daily spend fell far below the $13.63 average, suggesting a budget cap, pause, or delivery issue."
+      "headline": "Single campaign carries 100% of spend",
+      "detail": "The PCOS and Postpartum persona campaign is the only active line item. No creative or audience diversification is running."
     },
     {
-      "headline": "Zero lead data across 28 days",
-      "detail": "No CRM, form fill, or conversion tracking is flowing in, so cost per lead cannot be calculated."
+      "headline": "Zero lead or conversion data",
+      "detail": "No CRM, booking, or lead volume is being reported. Cost per lead and return cannot be calculated this period."
     },
     {
-      "headline": "One campaign, one audience persona",
-      "detail": "All spend concentrated on a single persona angle, leaving no comparison data to judge creative or audience performance."
-    },
-    {
-      "headline": "No organic or Google Profile signal",
-      "detail": "Social, reviews, and local presence data are missing, so paid results cannot be triangulated against broader demand."
+      "headline": "346,446 impressions with no outcome signal",
+      "detail": "Reach is present but downstream tracking is missing. Impossible to judge whether the audience is converting."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Fitness Meta lead costs sit near $30\", \"body\": \"<cite index=\"6-22,6-23\">Fitness averages roughly $29.70 per lead on Meta, with Q2 typically running lower.</cite> <cite index=\"6-10\">Boutique studios often land in the $25–$50 range.</cite>\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Q2 fitness costs typically the lowest\", \"body\": \"<cite index=\"1-10\">June 2026 fitness cost per lead ran about 51% below the global baseline.</cite> <cite index=\"1-8\">The sector hit a $17.07 low in June 2026.</cite> Summer is a favorable window to buy leads.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Studios winning on community and retention\", \"body\": \"<cite index=\"10-13\">Studios are shifting from acquisition-heavy models toward retention through personalized communication and habit coaching.</cite> <cite index=\"12-14\">Pilates now represents over 43% of primary studio modalities.</cite>\"}}",
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Fitness lead costs vary widely by tier\", \"body\": \"Premium and boutique studios typically pay <cite index=\"6-7,6-8\">$15 to $50 per lead on Meta, while budget gyms sit at $8 to $15</cite>. Facebook lead ads for fitness convert around <cite index=\"3-4\">14.29%</cite>.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Summer is cheapest window of the year\", \"body\": \"Fitness lead costs on Meta hit a <cite index=\"1-8\">low of $17.07 in June 2026</cite>, well below the September peak. <cite index=\"6-21\">Q2 seasonal trends drive costs lower</cite>, extending into July.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Retention beats acquisition in 2026\", \"body\": \"Top operators are shifting budget from top-of-funnel toward retention, since <cite index=\"10-9\">acquiring a new member costs 5 to 25 times more than keeping one</cite>. Community and strength programming are winning niches.\"}}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Fix lead tracking before adding budget",
-      "detail": "Consider connecting Meta lead forms to the CRM this week. Without lead counts, cost per lead and quality cannot be measured or improved."
+      "number": "01",
+      "title": "Confirm whether the campaign is intentionally paused",
+      "detail": "The 72% drop in daily spend needs an explanation. Check if budget capped, billing failed, or the campaign was manually turned off."
     },
     {
-      "number": "2",
-      "title": "Investigate the $3.85 daily spend drop",
-      "detail": "Worth checking whether the campaign hit a budget cap, was paused, or lost delivery. Latest spend is 72% below the period average."
+      "number": "02",
+      "title": "Connect lead tracking before spending more",
+      "detail": "Without lead volume or cost per lead, spend cannot be judged. Consider wiring Facebook lead forms to a CRM or spreadsheet this week."
     },
     {
-      "number": "3",
-      "title": "Test a second creative angle against PCOS persona",
-      "detail": "Explore a low-barrier offer like a free week pass or intro session. Boutique studios in this range typically see stronger conversion with concrete first-step offers."
+      "number": "03",
+      "title": "Test a second creative angle alongside PCOS persona",
+      "detail": "One campaign carrying all spend is fragile. Worth exploring a strength or community-focused angle, given 2026 boutique trends favor both."
     }
   ]
 }

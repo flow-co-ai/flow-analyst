@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-07-27T14:23:58.492Z",
-  "weekOf": "June 30, 2026 – July 27, 2026",
-  "verdict": "Instagram lead generation is working — 259 leads at roughly $27 each, well below legal industry norms.",
-  "diagnosis": "The credit repair campaign is efficient, but only 17 accounts engaged organically and the Google Business Profile is driving zero direction requests this period.",
+  "generatedAt": "2026-08-03T14:30:02.243Z",
+  "weekOf": "July 7, 2026 – August 3, 2026",
+  "verdict": "Paid Instagram lead generation is working well; cost per lead sits below industry norms with strong five-star reputation support.",
+  "diagnosis": "This period generated 286 leads at $26.57 each on $7,598 spend — well under the $72 legal average on Meta.",
   "signals": [
     {
-      "headline": "259 leads generated this period",
-      "detail": "The active lead-gen campaign produced 259 form submissions, with 206 confirmed via the pixel. Volume is healthy for a single ad set."
+      "headline": "286 leads at $26.57 each",
+      "detail": "Cost per lead is roughly one-third of the legal category average on Meta. Volume and efficiency are both healthy this period."
     },
     {
-      "headline": "Cost per lead near $27",
-      "detail": "Total spend of $6,962 divided by 259 leads lands well under the $164 Meta legal median. Efficient acquisition for this vertical."
+      "headline": "$7,598 spent, 112,407 impressions",
+      "detail": "Reach hit 96,760 unique people. Frequency of 1.15 means ads are not overexposing the audience."
     },
     {
-      "headline": "1,358 landing page views logged",
-      "detail": "Of 1,914 link clicks, 1,358 reached the landing page — a 71% arrival rate. Funnel is holding up between click and page."
+      "headline": "1,470 landing page views, 2,107 link clicks",
+      "detail": "About 70% of clickers loaded the page. Drop-off between click and view is manageable but worth monitoring."
     },
     {
-      "headline": "118 call clicks from Google profile",
-      "detail": "The local listing drove 118 phone taps this period. Reviews now total 973 at a 5-star average — a strong trust asset."
+      "headline": "58 new reviews, 5-star average",
+      "detail": "Reputation is a major asset. 593 total reviews at five stars gives strong social proof for cold Instagram traffic."
     },
     {
-      "headline": "Only 29 Instagram followers total",
-      "detail": "Organic reach hit 4,024 but the account gained just 2 follows. Paid is carrying the entire acquisition load."
+      "headline": "130 call clicks, 29 followers",
+      "detail": "Phone demand is real but the Instagram profile itself is underbuilt. Followers and profile visits stay near zero."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Legal Meta leads typically run $67 to $254",
-      "body": "Meta ads for legal services show a median around $164 per lead, with a range of $67 to $254 depending on practice area. Justice Consumer Law's ~$27 cost per lead sits far below that band."
+      "subheader": "Legal cost per lead on Meta",
+      "body": "<cite index=\"17-3,17-4\">Legal services average around $72 per lead on Meta, with high competition driving costs up.</cite> Justice Consumer Law sits near $27 — well below that."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Summer debt inquiries stay elevated",
-      "body": "Consumer debt and credit repair searches hold steady through summer as households reconcile post-tax-season balances. Legal cost per lead on Meta has shown swings up to $123 between August and September historically."
+      "subheader": "Summer softens legal ad costs",
+      "body": "<cite index=\"13-1\">Legal cost per lead fell from $178 in June 2025 to $56 by May 2026.</cite> Q2 and early Q3 tend to be cheaper months for legal advertisers."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Firms shifting to short-form video creative",
-      "body": "Consumer law competitors are moving budget toward talking-head video and Reels in 2026. Static image ads still convert but lead quality reportedly improves when prospects watch 15 to 30 seconds of video first."
+      "subheader": "Meta beats Google for legal leads",
+      "body": "<cite index=\"4-2\">Median cost per lead runs about $325 on Google Ads versus $180 on Meta.</cite> Consumer law firms leaning into Meta are getting the better unit economics right now."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test a short video version of the top static ad",
-      "detail": "The Static-2 creative is working. Consider filming a 20-second attorney explainer using the same hook to see if video lifts lead quality without raising cost."
+      "title": "Test a lead-quality question inside the Instant Form",
+      "detail": "<cite index=\"11-9,11-10\">Stronger qualifying questions in lead forms help keep cost per lead in check.</cite> Consider adding one debt-amount or state question to filter noise."
     },
     {
       "number": "02",
-      "title": "Add a Spanish-language ad variant",
-      "detail": "Organic queries include Spanish debt-rights searches. Worth testing a translated ad set given the existing English campaign efficiency and clear bilingual demand signal."
+      "title": "Speed up first-touch response to under five minutes",
+      "detail": "<cite index=\"8-8\">Responding within 5 minutes makes conversion 21 times more likely than waiting 30.</cite> Worth auditing how fast intake reaches these 286 leads."
     },
     {
       "number": "03",
-      "title": "Reply to recent Google reviews to boost local presence",
-      "detail": "The profile has 973 reviews at 5 stars but zero direction requests. Responding to recent reviews, including fee concerns, can improve map visibility and trust."
+      "title": "Build the Instagram profile behind the ads",
+      "detail": "Followers sit at 29 and profile visits near zero. Test a weekly review-highlight or client-win post to warm the audience the ads are already reaching."
     }
   ]
 }
