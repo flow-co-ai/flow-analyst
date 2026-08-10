@@ -1,44 +1,64 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-08-03T14:30:51.044Z",
-  "weekOf": "July 7, 2026 – August 3, 2026",
-  "verdict": "Spend collapsed to $3.85 on the latest day from a $13.63 average, signaling a campaign that has effectively gone dark.",
-  "diagnosis": "Only $2,330 spent on one Facebook lead campaign this period, with no leads, calls, or booking data tracked to measure return.",
+  "generatedAt": "2026-08-10T12:59:43.396Z",
+  "weekOf": "July 14, 2026 – August 10, 2026",
+  "verdict": "One active Facebook campaign, no visible lead outcomes — reporting gaps make performance impossible to grade this period.",
+  "diagnosis": "Spend totaled $2,330 across 28 days on one Facebook lead campaign, but no lead volume or conversion data is available to judge return.",
   "signals": [
     {
-      "headline": "Spend down 72% on latest day",
-      "detail": "Daily spend fell from a $13.63 average to $3.85 on the most recent day, suggesting budget throttling or a paused campaign."
+      "headline": "Total spend hit $2,330 this period",
+      "detail": "All budget flowed through a single Facebook campaign targeting PCOS and postpartum personas."
     },
     {
-      "headline": "Single campaign carries 100% of spend",
-      "detail": "The PCOS and Postpartum persona campaign is the only active line item. No creative or audience diversification is running."
+      "headline": "Daily spend averaged $13.63",
+      "detail": "Modest and steady pacing for a boutique studio testing a niche persona angle."
     },
     {
-      "headline": "Zero lead or conversion data",
-      "detail": "No CRM, booking, or lead volume is being reported. Cost per lead and return cannot be calculated this period."
+      "headline": "Latest day dropped to $3.85",
+      "detail": "Sharp pullback from the average suggests pacing throttle, budget cap, or auction weakness worth checking."
     },
     {
-      "headline": "346,446 impressions with no outcome signal",
-      "detail": "Reach is present but downstream tracking is missing. Impossible to judge whether the audience is converting."
+      "headline": "Zero data across 4 sources",
+      "detail": "No lead volume, no organic, no Google profile, no pipeline — the reporting stack is not connected."
+    },
+    {
+      "headline": "One campaign carrying 100% of spend",
+      "detail": "Single persona and single channel means no comparison set to learn what actually works."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Fitness lead costs vary widely by tier\", \"body\": \"Premium and boutique studios typically pay <cite index=\"6-7,6-8\">$15 to $50 per lead on Meta, while budget gyms sit at $8 to $15</cite>. Facebook lead ads for fitness convert around <cite index=\"3-4\">14.29%</cite>.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Summer is cheapest window of the year\", \"body\": \"Fitness lead costs on Meta hit a <cite index=\"1-8\">low of $17.07 in June 2026</cite>, well below the September peak. <cite index=\"6-21\">Q2 seasonal trends drive costs lower</cite>, extending into July.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Retention beats acquisition in 2026\", \"body\": \"Top operators are shifting budget from top-of-funnel toward retention, since <cite index=\"10-9\">acquiring a new member costs 5 to 25 times more than keeping one</cite>. Community and strength programming are winning niches.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Boutique studio lead costs run $25–$50",
+      "body": "Boutique and premium studios on Facebook typically pay $25–$50 per lead, versus $8–$15 for budget gyms. Fitness leads convert at roughly 14%, the highest of any industry tracked."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "July ad costs at yearly peak",
+      "body": "Facebook impression costs for fitness peaked at $29.68 per thousand in July 2026, the highest of the past 13 months. Summer competition is elevated; a Q4 lull typically follows."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Studios shifting from acquisition to retention",
+      "body": "Studio cancellations fell 6% last year while big-box gyms rose 8%. Category leaders are leaning into community, speed-to-lead follow-up, and niche positioning rather than broad paid acquisition."
+    }
+  },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Confirm whether the campaign is intentionally paused",
-      "detail": "The 72% drop in daily spend needs an explanation. Check if budget capped, billing failed, or the campaign was manually turned off."
+      "number": "1",
+      "title": "Connect lead tracking before adding budget",
+      "detail": "Consider wiring Facebook leads into the CRM and reporting stack. Without lead counts and cost per lead visible, the current $2,330 spend cannot be judged good or bad."
     },
     {
-      "number": "02",
-      "title": "Connect lead tracking before spending more",
-      "detail": "Without lead volume or cost per lead, spend cannot be judged. Consider wiring Facebook lead forms to a CRM or spreadsheet this week."
+      "number": "2",
+      "title": "Test a second creative angle against PCOS/postpartum",
+      "detail": "Worth exploring a second persona or offer angle in parallel. One campaign gives no read on whether the niche is the ceiling or the creative is."
     },
     {
-      "number": "03",
-      "title": "Test a second creative angle alongside PCOS persona",
-      "detail": "One campaign carrying all spend is fragile. Worth exploring a strength or community-focused angle, given 2026 boutique trends favor both."
+      "number": "3",
+      "title": "Tighten speed-to-lead follow-up under five minutes",
+      "detail": "Leads contacted within five minutes convert nine times more often than those contacted after an hour. A simple SMS auto-reply captures most of that gain."
     }
   ]
 }

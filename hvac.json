@@ -1,48 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-08-03T14:29:34.971Z",
-  "weekOf": "July 7, 2026 – August 3, 2026",
-  "verdict": "Instagram lead ads are working — 54 leads at roughly $145 each, near industry norms for HVAC install.",
-  "diagnosis": "You spent $7,835 for 54 form leads this period, averaging about $145 per lead — reasonable for HVAC installation, but tracking to booked jobs is missing.",
+  "generatedAt": "2026-08-10T12:58:22.764Z",
+  "weekOf": "July 14, 2026 – August 10, 2026",
+  "verdict": "Instagram lead ads are generating leads at roughly $145 each — near the high end of industry norms.",
+  "diagnosis": "You spent $7,835 for 54 leads this period, a $145 cost per lead, while Google Business Profile quietly delivered 71 phone calls for free.",
   "signals": [
     {
-      "headline": "54 leads captured this period",
-      "detail": "Instagram Instant Form delivered 54 leads on $7,835 spend. Solid volume for a single-channel install campaign."
+      "headline": "54 paid leads at $145 each",
+      "detail": "Instagram Instant Form drove 54 leads on $7,835 spend. That is inside HVAC norms but not cheap."
     },
     {
-      "headline": "Cost per lead around $145",
-      "detail": "Slightly above the $90 Facebook maintenance range but in line with HVAC install lead costs on paid social."
+      "headline": "71 phone calls from Google listing",
+      "detail": "Your Google Business Profile produced 71 direct call clicks and 96 direction requests — free, high-intent demand."
     },
     {
-      "headline": "12 new reviews, 5.0 average",
-      "detail": "Reputation is a genuine asset. Twelve fresh five-star reviews this period strengthens local ranking and paid ad trust."
+      "headline": "12 new five-star reviews landed",
+      "detail": "You added 12 reviews this period at a perfect 5.0 average. Reputation is compounding faster than paid results."
     },
     {
-      "headline": "71 calls, 96 direction requests",
-      "detail": "Google Business Profile is driving real phone volume. This channel is quietly outperforming and deserves more attention."
+      "headline": "Only 1,886 clicks from 200,666 views",
+      "detail": "Ad views are strong but click-through is under 1%. Creative or offer is not pulling scrollers to act."
     },
     {
-      "headline": "Zero tracked bookings or revenue",
-      "detail": "No booked jobs or purchase value flowing back into the ad account. You're flying blind on what leads actually earn."
+      "headline": "Zero tracked purchases from ads",
+      "detail": "Return on ad spend registers as zero. Either sales are not tracked back to Instagram, or leads are not closing."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"HVAC lead costs vary widely by channel\", \"body\": \"<cite index=\"15-11,15-13,15-14\">The 2026 average cost per HVAC lead sits around $104, with some as low as $34 and others past $300.</cite> Your $145 sits in the normal install range.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"August is the HVAC shoulder edge\", \"body\": \"<cite index=\"17-4,17-5,17-6,17-7\">HVAC has the biggest seasonal swing in home services. Summer cooling drives emergency volume, and accounts that don't shift toward maintenance and replacement offers see cost per lead spike 40 to 60 percent in shoulder months.</cite>\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Rivals leaning into Local Services Ads\", \"body\": \"<cite index=\"9-7\">Local Services Ads charge per qualified lead, typically $45 to $85 in major metros, and sit above regular ads and the map pack.</cite> You're not visible there yet.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "$145 sits at the high end of HVAC norms",
+      "body": "HVAC blended cost per lead averages $104 on Google Ads in 2026, with non-branded search around $149 and Local Services Ads at $51–$95. Your $145 Instagram lead cost is competitive but not efficient."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "August is peak cooling demand",
+      "body": "Late summer is the highest call-volume window for HVAC. Organic demand is high, so paid ad spend often gets diluted. Shifting budget toward fall tune-up promotions ahead of demand pulls in shoulder-season revenue."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Speed-to-lead is the industry gap",
+      "body": "Only 11% of HVAC businesses reply to leads within an hour. Phone leads close at roughly 46% versus 7.8% for web forms, so fast callbacks beat cheaper leads every time."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Turn on Google Local Services Ads",
-      "detail": "Your 5-star rating and 218 reviews qualify you for premium placement. Consider testing Local Services Ads — qualified leads typically run $45 to $85."
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Local Services Ads average $51–$95 per HVAC lead versus your $145. Worth running a small test budget to compare booked-job cost head to head."
     },
     {
       "number": "02",
-      "title": "Split install and tune-up campaigns",
-      "detail": "Running one broad HVAC campaign can cost 27% more per lead. Worth testing separate ad sets for installation versus seasonal tune-up offers."
+      "title": "Time every new lead's first callback",
+      "detail": "Phone leads close near 46% when answered fast. Consider tracking response time on the 54 leads you paid for and tightening callback speed."
     },
     {
       "number": "03",
-      "title": "Track leads through to booked jobs",
-      "detail": "You have 54 leads but no revenue data flowing back. Consider connecting your phone system or CRM so we can see cost per booked job."
+      "title": "Shift some August spend to fall tune-up offers",
+      "detail": "Cooling demand is already organic this month. Test moving part of budget toward pre-season furnace tune-up ads to fill September and October."
     }
   ]
 }

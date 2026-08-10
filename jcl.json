@@ -1,64 +1,48 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-08-03T14:30:02.243Z",
-  "weekOf": "July 7, 2026 – August 3, 2026",
-  "verdict": "Paid Instagram lead generation is working well; cost per lead sits below industry norms with strong five-star reputation support.",
-  "diagnosis": "This period generated 286 leads at $26.57 each on $7,598 spend — well under the $72 legal average on Meta.",
+  "generatedAt": "2026-08-10T12:58:52.112Z",
+  "weekOf": "July 14, 2026 – August 10, 2026",
+  "verdict": "Paid social is punching above its weight; reviews are stacking. Fix pixel tracking and Spanish-language coverage.",
+  "diagnosis": "Instagram ads delivered 298 leads at roughly $27 each this period — well below the $180 Meta legal benchmark.",
   "signals": [
     {
-      "headline": "286 leads at $26.57 each",
-      "detail": "Cost per lead is roughly one-third of the legal category average on Meta. Volume and efficiency are both healthy this period."
+      "headline": "298 leads at $26.56 each",
+      "detail": "Spent $7,915 on Instagram lead ads this period. Volume is healthy for a consumer debt practice."
     },
     {
-      "headline": "$7,598 spent, 112,407 impressions",
-      "detail": "Reach hit 96,760 unique people. Frequency of 1.15 means ads are not overexposing the audience."
+      "headline": "Pixel undercounts leads by 23%",
+      "detail": "Platform reports 298 leads, pixel only 230. Tracking gap hides real performance from optimization."
     },
     {
-      "headline": "1,470 landing page views, 2,107 link clicks",
-      "detail": "About 70% of clickers loaded the page. Drop-off between click and view is manageable but worth monitoring."
+      "headline": "74 new 5-star reviews landed",
+      "detail": "Total review count reached 755 at a perfect 5.0 average. Strongest trust signal in the file."
     },
     {
-      "headline": "58 new reviews, 5-star average",
-      "detail": "Reputation is a major asset. 593 total reviews at five stars gives strong social proof for cold Instagram traffic."
+      "headline": "1,521 landing page views, 193 site clicks",
+      "detail": "Website engagement is thin outside the lead form. Most traffic never leaves the ad experience."
     },
     {
-      "headline": "130 call clicks, 29 followers",
-      "detail": "Phone demand is real but the Instagram profile itself is underbuilt. Followers and profile visits stay near zero."
+      "headline": "132 call clicks from Google",
+      "detail": "Google Business Profile drove real phone intent. No direction requests suggests clients prefer remote intake."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Legal cost per lead on Meta",
-      "body": "<cite index=\"17-3,17-4\">Legal services average around $72 per lead on Meta, with high competition driving costs up.</cite> Justice Consumer Law sits near $27 — well below that."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Summer softens legal ad costs",
-      "body": "<cite index=\"13-1\">Legal cost per lead fell from $178 in June 2025 to $56 by May 2026.</cite> Q2 and early Q3 tend to be cheaper months for legal advertisers."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Meta beats Google for legal leads",
-      "body": "<cite index=\"4-2\">Median cost per lead runs about $325 on Google Ads versus $180 on Meta.</cite> Consumer law firms leaning into Meta are getting the better unit economics right now."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Consumer legal leads run $35–$180\",\n\"body\": \"<cite index=\"6-4\">Bankruptcy leads run $35–$90 and consumer-facing legal $60–$150</cite>. <cite index=\"5-2\">Meta ads for legal average around $180 per lead</cite>. Your $27 cost per lead sits well below both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Summer debt inquiries rising\",\n\"body\": \"Post-holiday credit card balances and mid-year collection activity push debt harassment searches up through August. Spanish-language queries like the one flagged in your data are growing share.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Firms shifting to video and reviews\",\n\"body\": \"<cite index=\"16-4\">Firms are building authority through video content and relentless review generation</cite>. <cite index=\"15-4\">Meta works best for retargeting and volume lead generation with strong qualification</cite>.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Test a lead-quality question inside the Instant Form",
-      "detail": "<cite index=\"11-9,11-10\">Stronger qualifying questions in lead forms help keep cost per lead in check.</cite> Consider adding one debt-amount or state question to filter noise."
+      "title": "Fix the Meta pixel gap before scaling spend",
+      "detail": "The pixel is missing 68 of 298 leads. Consider a technical audit so Meta's algorithm optimizes on complete data before you increase budget."
     },
     {
       "number": "02",
-      "title": "Speed up first-touch response to under five minutes",
-      "detail": "<cite index=\"8-8\">Responding within 5 minutes makes conversion 21 times more likely than waiting 30.</cite> Worth auditing how fast intake reaches these 286 leads."
+      "title": "Test a Spanish-language ad set for debt harassment",
+      "detail": "Search data shows Spanish queries like \"derechos del consumidor.\" Worth testing a dedicated Spanish creative and form given the low current cost per lead."
     },
     {
       "number": "03",
-      "title": "Build the Instagram profile behind the ads",
-      "detail": "Followers sit at 29 and profile visits near zero. Test a weekly review-highlight or client-win post to warm the audience the ads are already reaching."
+      "title": "Route the 74 new reviews into ad creative",
+      "detail": "Reviews at 5.0 average are underused. Consider testing a static ad featuring a real review quote against the current top performer."
     }
   ]
 }
