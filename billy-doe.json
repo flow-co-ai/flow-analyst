@@ -1,64 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-08-10T12:57:57.992Z",
-  "weekOf": "July 14, 2026 – August 10, 2026",
-  "verdict": "Paid Instagram is profitable this period, but pixel tracking gaps and thin engagement signals are masking the real picture.",
-  "diagnosis": "Instagram spend of $2,166 drove 562 purchases worth $11,972 — strong sales, but only 63 tracked back to the pixel.",
+  "generatedAt": "2026-08-17T12:34:53.814Z",
+  "weekOf": "July 21, 2026 – August 17, 2026",
+  "verdict": "Paid Instagram is profitable this period, but low click-through and thin engagement suggest creative fatigue is capping growth.",
+  "diagnosis": "Instagram ads spent $2,166 for $11,972 in sales this period — return of 5.5x — but cost per purchase sits at $3.85 with weak lead economics.",
   "signals": [
     {
-      "headline": "562 purchases on $2,166 spend",
-      "detail": "Reported sales value hit $11,972 this period. Strong efficiency for a subscription box campaign at this spend level."
+      "headline": "Ads returned 5.5x on $2,166 spend",
+      "detail": "Instagram campaign drove $11,972 in tracked purchases this period. Healthy return, but volume remains small at 562 purchases."
     },
     {
-      "headline": "Only 63 pixel-tracked purchases",
-      "detail": "Platform reports 562 purchases but pixel confirms 63. Attribution gap makes optimization decisions risky this period."
+      "headline": "562 purchases at $3.85 each",
+      "detail": "Cost per purchase is strong for a subscription box. Room to scale spend if creative and landing page hold up."
     },
     {
-      "headline": "237 add-to-carts, 94 checkouts started",
-      "detail": "Roughly 40% of cart adds begin checkout. Drop-off between cart and checkout is where money leaks this period."
+      "headline": "Click-through rate only 0.02%",
+      "detail": "Latest period click-through is far below the 1%+ norm for paid social. Creative is not stopping the scroll."
+    },
+    {
+      "headline": "952 new follows this period",
+      "detail": "Awareness campaign is building audience at 6,654 followers total. Organic engagement per post remains light at 38 average."
     },
     {
       "headline": "272 reviews, 5-star latest rating",
-      "detail": "Google profile shows healthy review velocity with 2 new reviews this period. Local trust signal is working."
-    },
-    {
-      "headline": "6,654 followers, 357 profile visits",
-      "detail": "Only 106 new followers this period against 8.9M impressions. Awareness is high but profile pull-through is weak."
+      "detail": "Google Business Profile shows steady review flow with recent 5-star entries. Local trust signal is intact and growing."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "DTC food conversion sits 1.7% to 2.5%",
-      "body": "Global ecommerce conversion averages 1.7% to 2.5% in 2026. Shopify median is 1.4%, top stores exceed 3.2%. Cold paid social traffic typically converts lower than branded search."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Subscription acquisition costs climbing this year",
-      "body": "88% of subscription brands report higher acquisition costs in 2025. Meal-kit category churn runs 12 to 18% monthly, meaning brands must constantly replace subscribers before growing."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Meat subscription market growing fast",
-      "body": "Global meat subscription market projected to grow from $1.7B in 2024 to $7.1B by 2034. ButcherBox, Good Ranchers, and Crowd Cow dominate. Niche positioning like halal-certified boxes is a real edge."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food and beverage converts 4.5% to 6%\",\n\"body\": \"<cite index=\"4-4\">Food and beverage brands average 4.5%–6.0%</cite> site conversion. <cite index=\"4-7\">Paid social often converts under 1%</cite>, so cold Instagram traffic naturally lags email and search.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Subscription category growing fast\",\n\"body\": \"<cite index=\"9-6\">The global meat subscription market is expected to grow from $1.7 billion in 2024 to $7.1 billion by 2034</cite>. Muslim box positioning taps a defensible niche.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Acquisition costs rising across category\",\n\"body\": \"<cite index=\"7-1\">88% of subscription brands are seeing higher acquisition costs in 2025</cite>. <cite index=\"7-10\">Email and SMS should drive 30 to 35% of revenue</cite> for well-run food brands.\"\n}\n}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Fix the Meta pixel before scaling spend",
-      "detail": "Platform shows 562 purchases, pixel shows 63. Consider a full pixel and Conversions API audit this week so optimization runs on real data."
+      "number": "01",
+      "title": "Test three new creative angles for Muslim Box",
+      "detail": "Click-through is 0.02% latest. Consider halal sourcing proof, unboxing video, and customer testimonial angles to lift the 5.5x return before scaling spend."
     },
     {
-      "number": "2",
-      "title": "Test a checkout drop-off recovery flow",
-      "detail": "237 add-to-carts produced 94 checkouts. Worth exploring cart abandonment email and SMS sequences to recover the 143 shoppers who stalled."
+      "number": "02",
+      "title": "Build email and SMS flows to lift repeat revenue",
+      "detail": "Category leaders pull 30% of revenue from owned channels. Worth exploring welcome, abandoned cart, and post-purchase sequences to convert the 237 add-to-carts."
     },
     {
-      "number": "3",
-      "title": "Double down on the Muslim Box angle",
-      "detail": "Halal-certified subscription is a defensible niche versus ButcherBox and Good Ranchers. Consider testing more creative variants under this awareness angle."
+      "number": "03",
+      "title": "Reply to recent reviews and request more",
+      "detail": "272 reviews with fresh 5-star entries is strong local proof. Test a post-delivery review ask to compound the trust signal driving 8,183 map impressions."
     }
   ]
 }

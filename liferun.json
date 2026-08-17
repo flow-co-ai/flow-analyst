@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-08-10T12:59:16.287Z",
-  "weekOf": "July 14, 2026 – August 10, 2026",
-  "verdict": "Spend is producing sales but leads have collapsed — only 2 leads in 28 days on $5,653 spent.",
-  "diagnosis": "Purchases are working ($5,897 in sales on $5,653 spend), but the lead funnel has broken — cost per lead hit $12 with just 2 total leads.",
+  "generatedAt": "2026-08-17T12:36:04.546Z",
+  "weekOf": "July 21, 2026 – August 17, 2026",
+  "verdict": "Spend is producing purchases, not leads — the funnel is leaking at the lead capture step.",
+  "diagnosis": "This period brought only 2 leads on $5,717 spend, pushing cost per lead far above the $98 wellness benchmark.",
   "signals": [
     {
-      "headline": "Only 2 leads in 28 days",
-      "detail": "Total lead volume is critically low against $5,653 spent. The campaign is generating purchases but not filling the top of funnel."
+      "headline": "Only 2 leads this period",
+      "detail": "The Belle Watch campaign generated just 2 leads across 28 days despite reaching 41,055 people."
     },
     {
-      "headline": "Return on ad spend near 1.04x",
-      "detail": "Purchase value of $5,897 barely exceeds $5,653 in spend. Margin after product costs is likely negative."
+      "headline": "9 purchases worth $5,897",
+      "detail": "Purchase revenue nearly matched spend of $5,717, showing bottom-funnel intent even while lead capture underperforms."
     },
     {
-      "headline": "Click-through rate strong at 5.05%",
-      "detail": "2,415 clicks on 47,813 impressions shows the ad hook works. The problem sits after the click, not before it."
+      "headline": "Cost per landing page view hit $24.87",
+      "detail": "Latest-period cost per landing page view spiked well above the 28-day average of $1.88, signaling recent efficiency loss."
     },
     {
-      "headline": "Only 138 landing page views from 851 link clicks",
-      "detail": "Roughly 84% of link clicks never load the page. Site speed or tracking is leaking most of the paid traffic."
+      "headline": "Click-through rate sits at 0.08",
+      "detail": "Engagement is thin versus the healthcare Facebook range of 0.6–1.4%, suggesting creative fatigue on the retargeting audience."
     },
     {
-      "headline": "Just 1 phone call in 28 days",
-      "detail": "Google Business Profile drove 120 direction requests but only one call. For a medical alert brand, phone intent should be far higher."
+      "headline": "124 direction requests, 1 call",
+      "detail": "Google Business Profile drove foot-traffic intent but almost zero phone contact, a missed conversion path for a medical alert buyer."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "BENCHMARK",
-      "subheader": "Health cost per lead sits near $57",
-      "body": "Physicians and surgeons average $56.83 per lead at an 11.6% conversion rate in 2026. Liferun's $12 cost per lead looks strong on paper, but only 2 leads means the number is not reliable."
+      "label": "Benchmark",
+      "subheader": "Wellness cost per lead sits near $98",
+      "body": "<cite index=\"5-13\">B2C healthcare cost per lead ranges from $98 (wellness) to $661 (facilities)</cite>. Liferun's $5,717 spend produced 2 leads this period — roughly $2,858 each, far above category norms."
     },
     "seasonal": {
-      "label": "SEASONAL",
-      "subheader": "Medical alert demand steady year-round",
-      "body": "The category grows about 10.5% yearly and is not seasonal. Adult children researching for aging parents drive most purchases, so summer softness is not the excuse here."
+      "label": "Seasonal",
+      "subheader": "Late-summer healthcare auctions are crowded",
+      "body": "<cite index=\"4-9\">Health and fitness click-through rates dropped 6.6% year over year in Q1 2026, with campaigns competing in more crowded auctions</cite>. Expect continued pressure on impression share through August."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "Life Alert, Philips, ADT dominate search",
-      "body": "Life Alert, Philips Healthcare, ADT and GreatCall lead the category. Bidding on the keyword 'life alert' puts Liferun in direct auction with the biggest brand-name spender in the space."
+      "label": "Competitor",
+      "subheader": "Medical alert category growing fast",
+      "body": "<cite index=\"11-1,11-2\">The medical alert systems market grew from $11.73B in 2025 to $12.61B in 2026, projected to reach $20.29B by 2032</cite>. Life Alert and Bay Alarm remain dominant brand-search competitors."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the click-to-landing-page gap",
-      "detail": "Only 138 of 851 link clicks became landing page views. Test page load speed on mobile and check that conversion tracking is firing correctly across devices."
+      "title": "Rebuild the lead form path before adding spend",
+      "detail": "Consider auditing why only 138 landing page views produced 2 leads. Test a shorter form, phone-first capture, or click-to-call given the older target demographic."
     },
     {
       "number": "02",
-      "title": "Rethink bidding on the term 'life alert'",
-      "detail": "Consider whether competing on a trademarked competitor name is worth the cost. Test non-branded terms like 'medical alert watch' or 'fall detection device' instead."
+      "title": "Refresh creative on the retargeting audience",
+      "detail": "The Asian retargeting ad set is showing fatigue signs at 1.63 frequency. Worth testing new creative angles or expanding beyond the 50% video-view pool."
     },
     {
       "number": "03",
-      "title": "Add a phone-call conversion path",
-      "detail": "One call in 28 days is very low for this audience. Worth testing call extensions, a click-to-call ad format, and a clearer phone number on the landing page."
+      "title": "Capture Google Business Profile intent with call assets",
+      "detail": "124 direction requests produced only 1 call. Test call extensions and a click-to-call ad variant to convert local intent into booked conversations."
     }
   ]
 }

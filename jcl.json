@@ -1,48 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-08-10T12:58:52.112Z",
-  "weekOf": "July 14, 2026 – August 10, 2026",
-  "verdict": "Paid social is punching above its weight; reviews are stacking. Fix pixel tracking and Spanish-language coverage.",
-  "diagnosis": "Instagram ads delivered 298 leads at roughly $27 each this period — well below the $180 Meta legal benchmark.",
+  "generatedAt": "2026-08-17T12:35:40.647Z",
+  "weekOf": "July 21, 2026 – August 17, 2026",
+  "verdict": "Lead volume is healthy and cheap; local reputation and follow-up systems are the weak links holding growth back.",
+  "diagnosis": "Meta ads produced 298 leads at roughly $27 each this period, well below industry norms — but only 65 reviews were logged despite five-star quality.",
   "signals": [
     {
-      "headline": "298 leads at $26.56 each",
-      "detail": "Spent $7,915 on Instagram lead ads this period. Volume is healthy for a consumer debt practice."
+      "headline": "298 leads at $27 each",
+      "detail": "Meta campaigns delivered strong lead volume this period at a cost well below the $180 legal benchmark."
     },
     {
-      "headline": "Pixel undercounts leads by 23%",
-      "detail": "Platform reports 298 leads, pixel only 230. Tracking gap hides real performance from optimization."
+      "headline": "681 reviews averaging 5 stars",
+      "detail": "Reputation is a genuine asset. Only 65 new reviews came in this period despite consistent five-star ratings."
     },
     {
-      "headline": "74 new 5-star reviews landed",
-      "detail": "Total review count reached 755 at a perfect 5.0 average. Strongest trust signal in the file."
+      "headline": "129 call clicks, zero directions",
+      "detail": "Prospects are calling, not visiting. The profile is working as a phone funnel, not a foot-traffic driver."
     },
     {
-      "headline": "1,521 landing page views, 193 site clicks",
-      "detail": "Website engagement is thin outside the lead form. Most traffic never leaves the ad experience."
+      "headline": "5,028 clicks, 1,521 landing views",
+      "detail": "Roughly 70% of ad clicks never reach the landing page. Page speed or redirect issues likely leaking budget."
     },
     {
-      "headline": "132 call clicks from Google",
-      "detail": "Google Business Profile drove real phone intent. No direction requests suggests clients prefer remote intake."
+      "headline": "Only 31 Instagram followers",
+      "detail": "Organic social presence is negligible. Paid is carrying the entire channel with no owned audience behind it."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Consumer legal leads run $35–$180\",\n\"body\": \"<cite index=\"6-4\">Bankruptcy leads run $35–$90 and consumer-facing legal $60–$150</cite>. <cite index=\"5-2\">Meta ads for legal average around $180 per lead</cite>. Your $27 cost per lead sits well below both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Summer debt inquiries rising\",\n\"body\": \"Post-holiday credit card balances and mid-year collection activity push debt harassment searches up through August. Spanish-language queries like the one flagged in your data are growing share.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Firms shifting to video and reviews\",\n\"body\": \"<cite index=\"16-4\">Firms are building authority through video content and relentless review generation</cite>. <cite index=\"15-4\">Meta works best for retargeting and volume lead generation with strong qualification</cite>.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Consumer legal leads run $35–$200 on Meta",
+      "body": "Bankruptcy and debt-related leads typically cost $35–$90 per lead. Meta averages around $180 per lead across legal verticals. Your $27 cost per lead this period sits well below both figures."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Late summer debt inquiries stay steady",
+      "body": "Consumer debt and collections legal searches hold steady through August. No major seasonal spike this period, so performance reflects campaign strength rather than tailwinds."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Firms leaning harder on reviews and video",
+      "body": "Peer firms are prioritizing Google Business Profile optimization and short video for local consumer outreach. Reviews now materially influence click-through and conversion in local legal search."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the Meta pixel gap before scaling spend",
-      "detail": "The pixel is missing 68 of 298 leads. Consider a technical audit so Meta's algorithm optimizes on complete data before you increase budget."
+      "title": "Fix the click-to-landing-page drop-off",
+      "detail": "Two-thirds of paid clicks never load the landing page this period. Consider auditing page speed, mobile rendering, and tracking pixel setup before adding budget."
     },
     {
       "number": "02",
-      "title": "Test a Spanish-language ad set for debt harassment",
-      "detail": "Search data shows Spanish queries like \"derechos del consumidor.\" Worth testing a dedicated Spanish creative and form given the low current cost per lead."
+      "title": "Systematize review requests after every resolved case",
+      "detail": "You average five stars but only logged 65 new reviews. Test an automated text-message review ask 48 hours after case close."
     },
     {
       "number": "03",
-      "title": "Route the 74 new reviews into ad creative",
-      "detail": "Reviews at 5.0 average are underused. Consider testing a static ad featuring a real review quote against the current top performer."
+      "title": "Test short vertical video against the static ad",
+      "detail": "Static creative is driving cheap leads, but peer firms report video lowering cost further. Worth exploring one video variant against the current top performer."
     }
   ]
 }
