@@ -1,64 +1,48 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-08-17T12:35:17.506Z",
-  "weekOf": "July 21, 2026 – August 17, 2026",
-  "verdict": "Paid leads flowing at industry-level cost, but call volume and website taps are thin for peak cooling season.",
-  "diagnosis": "Instagram lead ads spent $7,834 for 54 leads at $145 each — near the non-branded HVAC benchmark, but with weak follow-through signals.",
+  "generatedAt": "2026-08-24T12:40:16.392Z",
+  "weekOf": "July 28, 2026 – August 24, 2026",
+  "verdict": "Paid Instagram is generating leads near industry norms, but weak call volume and tiny social reach are capping growth.",
+  "diagnosis": "This period you spent $7,835 on Instagram and got 54 leads at $145 each — right at the non-branded search benchmark, but calls dropped to 71.",
   "signals": [
     {
       "headline": "54 leads at $145 each",
-      "detail": "Instagram Instant Form delivered 54 leads this period. Cost per lead sits close to the non-branded HVAC benchmark of $149."
+      "detail": "Instagram lead form delivered steady volume this period. Cost per lead sits at the higher end of what's healthy for HVAC."
     },
     {
-      "headline": "Only 71 call clicks logged",
-      "detail": "Google Business Profile drove 71 calls and 96 direction requests in 28 days. Low for a contractor during peak cooling demand."
-    },
-    {
-      "headline": "12 new reviews, 5-star average",
-      "detail": "Reputation is a strength. 12 fresh reviews added, average rating holding at 5 stars across 218 total reviews."
+      "headline": "71 call clicks from Google profile",
+      "detail": "Phone taps are the highest-intent action for HVAC. This number is low given 218 five-star reviews driving trust."
     },
     {
       "headline": "200,666 impressions, 1,886 clicks",
-      "detail": "Click rate landed near 0.9 percent. Below what social HVAC creative should pull when the offer is a free bid."
+      "detail": "Click rate near 0.9% is thin for a lead-form campaign. Creative fatigue is a likely culprit after a full 28-day flight."
     },
     {
-      "headline": "Zero tracked purchases or bookings",
-      "detail": "No pixel purchases, business bookings, or food orders recorded. Downstream conversion tracking is missing or broken."
+      "headline": "218 reviews averaging 5.0 stars",
+      "detail": "Reputation is a genuine competitive asset. It is being underused in ad creative and profile calls-to-action."
+    },
+    {
+      "headline": "171 Instagram followers, 26 profile visits",
+      "detail": "Organic social presence is negligible. Paid is doing all the work with no owned audience to retarget or nurture."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "HVAC paid leads run $104 to $149",
-      "body": "SearchLight's 2026 HVAC benchmark pegs blended Google Ads cost per lead at $104, with non-branded search at $149. Your $145 Instagram lead cost sits inside that range."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Peak cooling season inflates lead costs",
-      "body": "Industry sources confirm HVAC click and lead costs rise during peak cooling months as more advertisers bid on emergency demand. Magnitude varies by climate and local competition."
-    },
-    "competitor": {
-      "label": "Category",
-      "subheader": "Local Services Ads win on cost",
-      "body": "Google Local Services Ads average $53 per home services lead in 2026, with HVAC book rates near 44 percent. Most competitors now treat LSAs as the primary paid channel."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"HVAC cost per lead runs $72–$149\",\n\"body\": \"<cite index=\"8-9\">Blended HVAC cost per lead on Google Ads is about $104 in 2026, with non-branded search at $149 and Performance Max at $72.</cite> Your $145 sits at the top of that range.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Late-summer AC demand is peaking now\",\n\"body\": \"<cite index=\"12-32,12-33,12-34,12-35,12-36\">HVAC is seasonal, and the fix is complementary services and maintenance plans to stay top of mind.</cite> Furnace tune-up demand starts building in September.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Local Service Ads dominate HVAC lead flow\",\n\"body\": \"<cite index=\"10-14\">HVAC Local Service Ads run $72–$95 per lead versus $542 per booked job on Angi.</cite> Most competitors are shifting budget toward Google's pay-per-lead product.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Test Google Local Services Ads as primary paid channel",
-      "detail": "Competitors are booking leads at roughly $53 through LSAs versus your $145 on Instagram. Worth exploring given your 5-star rating already qualifies you for strong placement."
+      "title": "Test Google Local Service Ads alongside Instagram",
+      "detail": "Consider adding LSA to capture high-intent phone calls. Benchmarks show $72–$95 per lead versus your current $145, and your 5.0 rating qualifies you for the badge."
     },
     {
       "number": "02",
-      "title": "Fix conversion tracking before scaling spend",
-      "detail": "Zero pixel purchases and zero bookings recorded this period. Consider auditing pixel events and call tracking so you can tell which leads become paying jobs."
+      "title": "Refresh Instagram creative before click rate drops further",
+      "detail": "Test three new lead-form ads this month. Feature review quotes and the free instant bid offer. Current creative has run the full 28 days."
     },
     {
       "number": "03",
-      "title": "Push new reviews to Google Business Profile weekly",
-      "detail": "12 reviews in 28 days is solid. Test a post-job text ask to keep velocity up — review recency is now a local ranking signal."
+      "title": "Pivot September ads to furnace tune-ups",
+      "detail": "AC demand fades in six weeks. Worth exploring a seasonal tune-up offer now to keep the pipeline full through fall shoulder season."
     }
   ]
 }
