@@ -1,48 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-08-24T12:41:05.325Z",
-  "weekOf": "July 28, 2026 – August 24, 2026",
-  "verdict": "Sales are working, lead capture is broken — purchases pay back seven-to-one while lead volume stalls.",
-  "diagnosis": "Spend of $5,675 drove only 2 leads at $12 each, but 9 purchases returned $5,897 in revenue this period.",
+  "generatedAt": "2026-08-31T18:41:47.699Z",
+  "weekOf": "August 4, 2026 – August 31, 2026",
+  "verdict": "Spend produced 2 leads and 9 purchases this period — volume is critically thin against a $4,517 investment.",
+  "diagnosis": "Cost per lead sits near $2,258 this period versus a healthcare norm around $57, driven by weak lead capture despite 2,066 clicks.",
   "signals": [
     {
-      "headline": "Return on ad spend hit 7.21x",
-      "detail": "Every dollar spent returned $7.21 in purchase revenue this period. Strong efficiency on the sales side of the funnel."
+      "headline": "Only 2 leads from $4,517 spend",
+      "detail": "Lead volume is nearly nonexistent this period. The funnel is converting clicks to purchases, not to captured leads."
     },
     {
-      "headline": "Only 2 leads captured in 28 days",
-      "detail": "Lead volume is critically low despite the campaign being tagged as a leads objective. Form or tracking likely broken."
+      "headline": "9 purchases returned $5,897 revenue",
+      "detail": "Purchases outpaced leads 4-to-1 this period. Buyers are skipping the lead form and going straight to checkout."
     },
     {
-      "headline": "138 landing page views, 22 add-to-carts",
-      "detail": "Roughly 1 in 6 visitors added to cart. Traffic quality is decent; the drop-off happens further down."
+      "headline": "138 landing page views from 2,066 clicks",
+      "detail": "Only 7% of clicks reach the landing page. Tracking gaps or slow load times are likely leaking traffic."
     },
     {
-      "headline": "Cost per click sits at $2.22",
-      "detail": "Above the health and wellness search benchmark near $1.63. Keyword targeting on 'life alert' is likely competitive."
+      "headline": "1 call click, 136 direction requests",
+      "detail": "Google Business Profile drove almost no phone contact this period. Direction requests suggest local intent going unanswered."
     },
     {
-      "headline": "3,106 clicks produced 9 purchases",
-      "detail": "Click-to-purchase conversion is roughly 0.3%. Well below the 6% health and wellness search benchmark."
+      "headline": "Cost per click averaged $2.61",
+      "detail": "Click cost sits above the healthcare search average near $1.63. Keyword targeting on 'life alert' faces heavy competition."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Health and wellness cost per lead near $53\",\n\"body\": \"<cite index=\"15-4\">The healthcare industry averages $53.53 cost per lead, with hospitals and clinics at $32 and cosmetic surgery at $134</cite>. Liferun's $12 per lead looks strong, but only 2 leads landed.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Cost to reach audiences climbing fast\",\n\"body\": \"<cite index=\"13-3,13-4\">Health and wellness had the steepest cost-per-thousand-impressions inflation of any category, up 24.73% year over year to $19.69</cite>. Expect continued pressure on impression costs.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Medical alert category growing double digits\",\n\"body\": \"<cite index=\"3-1\">The medical alert systems market grows from $11.4 billion in 2026 to $28.6 billion by 2035 at 10.8% annually</cite>. Bay Alarm, Medical Guardian, and Lifeline dominate share.\"\n}\n}",
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Healthcare cost per lead near $57\", \"body\": \"<cite index=\"15-7\">2026 healthcare benchmarks show cost per lead around $57 with conversion rate near 11.6%</cite>. Liferun's $2,258 cost per lead this period sits far above that range.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Late summer softness in health search\", \"body\": \"<cite index=\"10-5\">Health and wellness search campaigns convert at 6.00% on average, down 7.50% from the prior year</cite>. Summer typically sees softer senior-care intent before fall Medicare season.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Rivals price $27-$40 monthly\", \"body\": \"<cite index=\"3-1\">Bay Alarm Medical starts at $27.95 per month with no contracts</cite>. <cite index=\"2-1,2-2\">Medical Care Alert's smartwatch starts at $39.95 monthly with a $149.95 equipment fee</cite>. Liferun's watch competes in a crowded price band.\"}}",
   "recommendations": [
     {
-      "number": "01",
-      "title": "Audit lead form and pixel tracking this week",
-      "detail": "Only 2 leads recorded against 2,236 unique clickers suggests broken form submission or tracking. Test the form yourself and verify the lead pixel fires."
+      "number": "1",
+      "title": "Fix lead tracking before scaling spend",
+      "detail": "Only 2 leads registered this period despite 9 purchases. Consider auditing the pixel and form events to confirm leads are actually being captured."
     },
     {
-      "number": "02",
-      "title": "Double down on the purchase funnel",
-      "detail": "Purchases returned $5,897 at 7.21x return. Consider shifting budget toward the purchase-optimized ad sets and expanding the retargeting pool beyond 50% video viewers."
+      "number": "2",
+      "title": "Test broader keywords beyond 'life alert'",
+      "detail": "The single keyword is pushing click cost to $2.61. Worth exploring 'medical alert watch' and 'senior fall detection' to widen cheaper inventory."
     },
     {
-      "number": "03",
-      "title": "Test tighter keyword match on 'life alert'",
-      "detail": "Cost per click of $2.22 is above category norms. Worth testing phrase or exact match and adding negatives like 'jobs' or 'free' to trim wasted spend."
+      "number": "3",
+      "title": "Activate the Google Business Profile for calls",
+      "detail": "136 direction requests produced just 1 call click. Consider adding a call button, offer post, and reviews to convert local intent into phone leads."
     }
   ]
 }

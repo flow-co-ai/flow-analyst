@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-08-24T12:39:49.041Z",
-  "weekOf": "July 28, 2026 – August 24, 2026",
-  "verdict": "Paid social is profitable this period, but funnel leaks and weak local review velocity are capping growth.",
-  "diagnosis": "Ad spend of $2,167 drove $11,972 in purchases — strong returns, but only 562 sales from 2,681 clicks means the funnel leaks after the click.",
+  "generatedAt": "2026-08-31T18:40:36.714Z",
+  "weekOf": "August 4, 2026 – August 31, 2026",
+  "verdict": "Paid spend is generating sales, but purchase cost is high and add-to-cart drop-off is severe.",
+  "diagnosis": "You spent $2,166 this period and got 562 purchases worth $11,972 — solid return, but only 63 came through your pixel.",
   "signals": [
     {
-      "headline": "$11,972 in sales from $2,167 spend",
-      "detail": "The Muslim Subscription Box campaign is producing roughly $5.50 back for every $1 spent this period — well above the healthy 3-to-1 band."
+      "headline": "562 purchases from $2,166 spend",
+      "detail": "Return on ad spend looks strong at roughly 5.5x, driven by the Muslim Subscription Box campaign."
     },
     {
-      "headline": "562 purchases, only 237 add-to-carts",
-      "detail": "The action counts don't line up cleanly, suggesting tracking or attribution overlap. Worth auditing the pixel setup before scaling spend."
+      "headline": "237 add-to-carts, only 94 checkouts",
+      "detail": "Roughly 60% of shoppers who add to cart never start checkout. Friction on the cart page is costing sales."
     },
     {
-      "headline": "2,681 clicks generated 1,660 landing views",
-      "detail": "About 38% of clicks never load the landing page. Page speed or a broken redirect is likely wasting roughly $820 of this period's spend."
+      "headline": "1,257 link clicks, 1,660 landing views",
+      "detail": "Landing page views exceed link clicks, suggesting healthy page load and no major tracking gap on entry."
     },
     {
-      "headline": "Instagram followers grew by 106",
-      "detail": "Organic growth is modest against 6,654 total followers. Media engagement of 679 shows the audience reacts but rarely follows."
+      "headline": "6,654 followers, 357 profile visits",
+      "detail": "Organic Instagram reach is small relative to paid. The brand is not yet compounding attention outside ads."
     },
     {
-      "headline": "272 Google reviews averaging 5 stars",
-      "detail": "Local reputation is a real asset. Only 2 new reviews landed this period — a bigger ask cadence could compound this advantage."
+      "headline": "272 reviews at 5-star average",
+      "detail": "Google Business Profile reputation is a real asset. Trust signals are stronger than most category peers."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Food and beverage brands convert higher than average",
-      "body": "Food and beverage direct-to-consumer stores typically convert visitors to buyers at 4.5%–6.0%, well above the 1.7%–2.5% global ecommerce average. Paid social traffic usually converts under 1%."
+      "subheader": "Food and beverage customer cost runs $45–$53",
+      "body": "DTC food and beverage acquisition costs average $45 to $53, the lowest of any DTC vertical. Your blended cost per purchase this period sits near $4, well below category norms."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Meat subscription demand accelerating in 2026",
-      "body": "The global meat subscription market is projected to grow from $1.7B in 2024 to $7.1B by 2034. Late summer is a strong window for grilling and religious-occasion boxes."
+      "subheader": "Late-summer grilling demand cooling into fall",
+      "body": "August closes peak grilling season. Meat delivery searches typically soften before rebounding for holiday roasts in November. Expect softer top-of-funnel demand over the next six weeks."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "ButcherBox and subscription players dominate mindshare",
-      "body": "ButcherBox leads on ethics and animal welfare messaging. Meal-kit and subscription meat brands are spending heavily on acquisition — HelloFresh sits at 21.8% of revenue on marketing to fight churn."
+      "subheader": "ButcherBox, Crowd Cow, Porter Road dominate",
+      "body": "ButcherBox leads the category at an estimated $750M in 2025 revenue. Crowd Cow and Porter Road compete on farm transparency and specialty cuts — a lane where your American-raised story can win."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test creative variants for the Muslim Subscription Box",
-      "detail": "The awareness ad drove 562 purchases at $2,167 spend. Consider testing 2–3 new creative angles (recipes, family occasions, halal sourcing) to lower cost per purchase further."
+      "title": "Fix the cart-to-checkout drop-off",
+      "detail": "Only 94 of 237 add-to-carts started checkout this period. Test a simpler cart page, guest checkout, and a shipping cost preview before checkout."
     },
     {
       "number": "02",
-      "title": "Fix the click-to-purchase drop",
-      "detail": "Only 237 add-to-carts came from 2,681 clicks. Worth reviewing the landing page, price presentation, and checkout speed on mobile to close the gap."
+      "title": "Lean into farm-story content on Instagram",
+      "detail": "Competitors like Crowd Cow win on transparency. Consider testing short videos on sourcing, ranchers, and cuts to lift organic engagement beyond 37 per post."
     },
     {
       "number": "03",
-      "title": "Ask recent buyers for Google reviews",
-      "detail": "The profile added 2 reviews this period at a 5-star average. Consider a post-purchase email or SMS asking for a review to build local trust."
+      "title": "Build a holiday roast campaign for November",
+      "detail": "Grilling demand fades in September. Worth exploring a Thanksgiving and Christmas roast bundle now to capture the next seasonal peak."
     }
   ]
 }
