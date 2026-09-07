@@ -1,64 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-08-31T18:40:36.714Z",
-  "weekOf": "August 4, 2026 – August 31, 2026",
-  "verdict": "Paid spend is generating sales, but purchase cost is high and add-to-cart drop-off is severe.",
-  "diagnosis": "You spent $2,166 this period and got 562 purchases worth $11,972 — solid return, but only 63 came through your pixel.",
+  "generatedAt": "2026-09-07T17:07:45.095Z",
+  "weekOf": "August 11, 2026 – September 7, 2026",
+  "verdict": "Paid spend is small but efficient — $2,167 drove 63 pixel purchases and $11,955 in revenue this period.",
+  "diagnosis": "The Muslim Subscription Box campaign is carrying the account, but only 94 checkouts started from 237 add-to-carts — checkout drop-off is the leak.",
   "signals": [
     {
-      "headline": "562 purchases from $2,166 spend",
-      "detail": "Return on ad spend looks strong at roughly 5.5x, driven by the Muslim Subscription Box campaign."
+      "headline": "63 pixel purchases at $2,167 spend",
+      "detail": "Return on ad spend sits well above the 4.5x food and beverage median. The campaign is working — just under-funded."
     },
     {
       "headline": "237 add-to-carts, only 94 checkouts",
-      "detail": "Roughly 60% of shoppers who add to cart never start checkout. Friction on the cart page is costing sales."
+      "detail": "Roughly 60% of shoppers who add to cart never start checkout. Biggest single revenue leak this period."
     },
     {
-      "headline": "1,257 link clicks, 1,660 landing views",
-      "detail": "Landing page views exceed link clicks, suggesting healthy page load and no major tracking gap on entry."
+      "headline": "438 pixel leads at $4.95 each",
+      "detail": "Lead cost is very healthy. Email capture is functioning — the question is whether follow-up flows convert them."
     },
     {
       "headline": "6,654 followers, 357 profile visits",
-      "detail": "Organic Instagram reach is small relative to paid. The brand is not yet compounding attention outside ads."
+      "detail": "Organic Instagram is essentially dormant. Only 37 average engagements per post over 28 days."
     },
     {
-      "headline": "272 reviews at 5-star average",
-      "detail": "Google Business Profile reputation is a real asset. Trust signals are stronger than most category peers."
+      "headline": "272 reviews, 5-star latest rating",
+      "detail": "Local reputation is a real asset. Two new reviews this period at 5 stars — under-leveraged in ads."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Food and beverage customer cost runs $45–$53",
-      "body": "DTC food and beverage acquisition costs average $45 to $53, the lowest of any DTC vertical. Your blended cost per purchase this period sits near $4, well below category norms."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Late-summer grilling demand cooling into fall",
-      "body": "August closes peak grilling season. Meat delivery searches typically soften before rebounding for holiday roasts in November. Expect softer top-of-funnel demand over the next six weeks."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "ButcherBox, Crowd Cow, Porter Road dominate",
-      "body": "ButcherBox leads the category at an estimated $750M in 2025 revenue. Crowd Cow and Porter Road compete on farm transparency and specialty cuts — a lane where your American-raised story can win."
-    }
-  },
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Food and beverage Meta ads run cheap\", \"body\": \"<cite index=\"13-3\">Food and beverage Meta ads average a $22 cost per purchase and 4.5x return on ad spend in 2026</cite>. Billy Doe's $34 cost per pixel purchase is close, and revenue return is stronger.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Q4 gifting window opens now\", \"body\": \"Gourmet gift baskets and holiday meat boxes drive a Q4 spike. <cite index=\"16-9\">CPMs peak during Q4 holidays but drop significantly post-Christmas</cite>. Budget and creative should be locked by mid-October.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"DTC beef margins under pressure\", \"body\": \"<cite index=\"19-13,19-14\">Direct-to-consumer beef sits atop a pile of volatile inputs: cattle costs, feed, fuel, labor, packaging, and last-mile delivery. Each layer compounds risk.</cite> Subscription retention is the moat.\"}}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the cart-to-checkout drop-off",
-      "detail": "Only 94 of 237 add-to-carts started checkout this period. Test a simpler cart page, guest checkout, and a shipping cost preview before checkout."
+      "title": "Fix the add-to-cart to checkout drop-off",
+      "detail": "Only 40% of add-to-carts start checkout. Test guest checkout, shipping cost visibility earlier, and an abandoned-cart email within one hour."
     },
     {
       "number": "02",
-      "title": "Lean into farm-story content on Instagram",
-      "detail": "Competitors like Crowd Cow win on transparency. Consider testing short videos on sourcing, ranchers, and cuts to lift organic engagement beyond 37 per post."
+      "title": "Scale the Muslim Subscription Box campaign carefully",
+      "detail": "Cost per purchase and revenue return both beat category norms. Consider a 25–40% budget lift with fresh creative every 11 days to avoid fatigue."
     },
     {
       "number": "03",
-      "title": "Build a holiday roast campaign for November",
-      "detail": "Grilling demand fades in September. Worth exploring a Thanksgiving and Christmas roast bundle now to capture the next seasonal peak."
+      "title": "Turn 272 reviews into ad creative",
+      "detail": "Local reputation is strong but invisible in paid ads. Test review screenshots and 5-star quotes as static and video hooks."
     }
   ]
 }

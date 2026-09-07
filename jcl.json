@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-08-31T18:41:24.568Z",
-  "weekOf": "August 4, 2026 – August 31, 2026",
-  "verdict": "Paid leads are flowing at healthy cost, but organic and local channels are underused.",
-  "diagnosis": "This period brought 298 leads at roughly $27 each on $7,915 spend — competitive versus legal norms, but Instagram engagement stayed flat.",
+  "generatedAt": "2026-09-07T17:08:35.805Z",
+  "weekOf": "August 11, 2026 – September 7, 2026",
+  "verdict": "Paid leads are running cheap at $13.49 each, but calls and CRM tracking are the missing link.",
+  "diagnosis": "Instagram lead ads delivered 298 leads at $13.49 average cost this period, well below legal industry norms, yet call volume stayed at 122.",
   "signals": [
     {
-      "headline": "298 leads generated this period",
-      "detail": "Meta lead ads produced 298 form submissions on $7,915 spend, averaging roughly $27 per lead."
+      "headline": "298 leads at $13.49 each",
+      "detail": "Lead form ads are converting well below the projected $21 legal benchmark, suggesting strong ad-to-form alignment this period."
     },
     {
-      "headline": "5 new 5-star reviews this period",
-      "detail": "Reputation stays perfect at 5.0 stars across 770 reviews. Reviews are a real competitive moat here."
+      "headline": "5 new 5-star reviews added",
+      "detail": "Reputation is compounding with a perfect 5.0 rating across 770 total reviews. This is a real competitive asset."
     },
     {
-      "headline": "Only 122 call clicks this period",
-      "detail": "Google Business Profile drove 122 calls but zero direction requests. Local intent is phone-first, not visit-first."
+      "headline": "Only 122 call clicks from Google",
+      "detail": "Direct calls from your Google profile look light relative to 2,311 total local search impressions this period."
     },
     {
-      "headline": "Instagram grew by 2 followers",
-      "detail": "Followers sit at 31 with 20 profile visits. Organic social is not yet a meaningful lead channel."
+      "headline": "1,521 landing page views, 230 pixel leads",
+      "detail": "Roughly 15% of landing page visitors become tracked leads. Healthy, but leaves room to lift form completion."
     },
     {
-      "headline": "1,521 landing page views this period",
-      "detail": "Of 2,209 link clicks, 1,521 loaded the page. Roughly 20% drop-off between click and view."
+      "headline": "Instagram followers flat at 31",
+      "detail": "Organic reach hit 3,832 but follower growth stalled. Paid is carrying the account with little organic compounding."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Legal lead ads run $21–$56 per lead",
-      "body": "Meta lead ad benchmarks for law firms sit near $21 in 2026, with the broader legal category averaging $56 recently. Justice Consumer Law's ~$27 per lead is in the healthy zone."
+      "label": "BENCHMARK",
+      "subheader": "Legal lead costs projected near $21",
+      "body": "Law firm cost per lead on Meta is projected around $21 in 2026, up from $18.17 in 2025, with conversion rates near 10%. Your $13.49 is materially better than category norms."
     },
     "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Late summer legal search stays steady",
-      "body": "Consumer debt and collection queries hold steady through August. Back-to-school budget stress typically lifts debt-related inquiries in September, so demand should firm up next month."
+      "label": "SEASONAL",
+      "subheader": "Debt lawsuits surging into fall",
+      "body": "Debt-buyer lawsuits climbed sharply in 2026, with one state reporting collection filings up nearly 50%. Consumer demand for debt defense counsel is elevated heading into Q4."
     },
     "competitor": {
-      "label": "Competitor",
-      "subheader": "Firms shifting budget to Meta lead ads",
-      "body": "More consumer law firms are moving spend from Google Ads to Meta lead forms as Google legal clicks stay expensive. Video creative and review-driven ads are winning the auction."
+      "label": "COMPETITOR",
+      "subheader": "FCRA and credit reporting cases spiking",
+      "body": "FCRA litigation surged in 2026 as consumers challenge inaccurate credit reports. Competing consumer firms are leaning into credit reporting and debt harassment messaging to capture rising intent."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test a Spanish-language lead ad variant",
-      "detail": "Search Console shows Spanish queries like \"mis derechos como consumidor\" reaching the site. Consider testing one Spanish creative to capture that demand cheaply."
+      "title": "Add call tracking to measure phone leads from ads",
+      "detail": "Only 122 call clicks were logged from Google this period. Consider a tracking number on ads and the site to see which channel actually drives calls."
     },
     {
       "number": "02",
-      "title": "Add call tracking to Google Business Profile",
-      "detail": "122 call clicks this period is your strongest local signal. Worth tracking call outcomes so you know which reviews and photos actually drive booked consults."
+      "title": "Test FCRA and debt-lawsuit angles in creative",
+      "detail": "Debt-buyer suits and credit report errors are trending. Worth testing ads that name these specific problems against your current Know Your Rights static."
     },
     {
       "number": "03",
-      "title": "Repurpose 5-star reviews into ad creative",
-      "detail": "With 74 new reviews averaging 5.0 stars, consider testing a review-quote static ad against the current \"GRT - Static\" creative to lift trust and lower cost per lead."
+      "title": "Turn 5-star reviews into ad creative",
+      "detail": "You added 5 new 5-star reviews and hold 770 total. Consider a review-quote static or video testimonial to lift trust and lower cost per lead further."
     }
   ]
 }

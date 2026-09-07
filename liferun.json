@@ -1,48 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-08-31T18:41:47.699Z",
-  "weekOf": "August 4, 2026 – August 31, 2026",
-  "verdict": "Spend produced 2 leads and 9 purchases this period — volume is critically thin against a $4,517 investment.",
-  "diagnosis": "Cost per lead sits near $2,258 this period versus a healthcare norm around $57, driven by weak lead capture despite 2,066 clicks.",
+  "generatedAt": "2026-09-07T17:13:02.981Z",
+  "weekOf": "August 11, 2026 – September 7, 2026",
+  "verdict": "Spend is producing sales but lead volume collapsed this period, with cost per lead far above category norms.",
+  "diagnosis": "Only 2 leads and 9 purchases from $4,655 spend this period. Return on ad spend sits at 1.27x — barely above breakeven.",
   "signals": [
     {
-      "headline": "Only 2 leads from $4,517 spend",
-      "detail": "Lead volume is nearly nonexistent this period. The funnel is converting clicks to purchases, not to captured leads."
+      "headline": "Only 2 leads from $4,655 spend",
+      "detail": "Cost per lead landed near $2,328 this period. Category benchmarks for wellness sit around $98."
     },
     {
-      "headline": "9 purchases returned $5,897 revenue",
-      "detail": "Purchases outpaced leads 4-to-1 this period. Buyers are skipping the lead form and going straight to checkout."
+      "headline": "9 purchases worth $5,897 revenue",
+      "detail": "Return on ad spend is 1.27x. Sales are happening, but margin after ad cost is thin."
     },
     {
-      "headline": "138 landing page views from 2,066 clicks",
-      "detail": "Only 7% of clicks reach the landing page. Tracking gaps or slow load times are likely leaking traffic."
+      "headline": "138 landing page views, 22 add-to-carts",
+      "detail": "Roughly 16% of visitors add to cart. Checkout drop-off is the biggest leak, not traffic quality."
     },
     {
-      "headline": "1 call click, 136 direction requests",
-      "detail": "Google Business Profile drove almost no phone contact this period. Direction requests suggest local intent going unanswered."
+      "headline": "127 direction requests, 1 call",
+      "detail": "Google Business Profile drove strong map interest but almost zero phone calls. Phone path looks broken or hidden."
     },
     {
-      "headline": "Cost per click averaged $2.61",
-      "detail": "Click cost sits above the healthcare search average near $1.63. Keyword targeting on 'life alert' faces heavy competition."
+      "headline": "2,093 clicks at $2.68 average",
+      "detail": "Click cost is reasonable for medical search. Traffic is arriving — conversion is where the funnel stalls."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Healthcare cost per lead near $57\", \"body\": \"<cite index=\"15-7\">2026 healthcare benchmarks show cost per lead around $57 with conversion rate near 11.6%</cite>. Liferun's $2,258 cost per lead this period sits far above that range.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Late summer softness in health search\", \"body\": \"<cite index=\"10-5\">Health and wellness search campaigns convert at 6.00% on average, down 7.50% from the prior year</cite>. Summer typically sees softer senior-care intent before fall Medicare season.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Rivals price $27-$40 monthly\", \"body\": \"<cite index=\"3-1\">Bay Alarm Medical starts at $27.95 per month with no contracts</cite>. <cite index=\"2-1,2-2\">Medical Care Alert's smartwatch starts at $39.95 monthly with a $149.95 equipment fee</cite>. Liferun's watch competes in a crowded price band.\"}}",
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Wellness cost per lead near $98\",\n\"body\": \"<cite index=\"1-13\">B2C cost per lead in wellness runs around $98</cite>. <cite index=\"9-9\">Healthcare and elective procedures pay $30–$150 per lead</cite>. Liferun sits far above both this period.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Late-summer senior safety demand rising\",\n\"body\": \"<cite index=\"11-1,11-2\">In 2026, fall detection and GPS monitoring became baseline expectations, shifting demand from pendants to wearable devices</cite>. Buyer interest in watch-form devices like Belle Watch is structurally strong.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Life Alert, Bay Alarm crowd auctions\",\n\"body\": \"<cite index=\"13-17\">Major players include ADT, Life Alert, Bay Alarm Medical, and GreatCall</cite>. The keyword \\\"life alert\\\" pits Liferun directly against the trademark holder, inflating cost and lowering intent match.\"\n}\n}",
   "recommendations": [
     {
       "number": "1",
-      "title": "Fix lead tracking before scaling spend",
-      "detail": "Only 2 leads registered this period despite 9 purchases. Consider auditing the pixel and form events to confirm leads are actually being captured."
+      "title": "Fix the checkout drop between cart and purchase",
+      "detail": "22 add-to-carts produced only 9 purchases. Consider testing guest checkout, clearer shipping cost, and a trust badge near the payment button."
     },
     {
       "number": "2",
-      "title": "Test broader keywords beyond 'life alert'",
-      "detail": "The single keyword is pushing click cost to $2.61. Worth exploring 'medical alert watch' and 'senior fall detection' to widen cheaper inventory."
+      "title": "Rethink the \"life alert\" keyword bid",
+      "detail": "Bidding on a competitor's brand name is expensive and low-intent. Worth exploring product-category terms like \"medical alert watch\" or \"fall detection wearable\" instead."
     },
     {
       "number": "3",
-      "title": "Activate the Google Business Profile for calls",
-      "detail": "136 direction requests produced just 1 call click. Consider adding a call button, offer post, and reviews to convert local intent into phone leads."
+      "title": "Add a click-to-call button on mobile landing page",
+      "detail": "127 people asked for directions but only 1 called. A prominent phone number on the mobile ad landing page could capture warm buyers faster."
     }
   ]
 }
