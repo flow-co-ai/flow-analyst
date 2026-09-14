@@ -1,48 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-09-07T17:13:02.981Z",
-  "weekOf": "August 11, 2026 – September 7, 2026",
-  "verdict": "Spend is producing sales but lead volume collapsed this period, with cost per lead far above category norms.",
-  "diagnosis": "Only 2 leads and 9 purchases from $4,655 spend this period. Return on ad spend sits at 1.27x — barely above breakeven.",
+  "generatedAt": "2026-09-14T17:34:02.723Z",
+  "weekOf": "August 18, 2026 – September 14, 2026",
+  "verdict": "Spend is producing sales but leads are nearly nonexistent — the funnel is misaligned with a leads objective.",
+  "diagnosis": "$6,899 spent this period generated only 2 leads and 9 purchases worth $5,897, leaving return on ad spend below breakeven.",
   "signals": [
     {
-      "headline": "Only 2 leads from $4,655 spend",
-      "detail": "Cost per lead landed near $2,328 this period. Category benchmarks for wellness sit around $98."
+      "headline": "Only 2 leads from $6,899 spend",
+      "detail": "Cost per lead landed near $3,449 this period, far above any healthcare norm. The leads objective is not firing."
     },
     {
-      "headline": "9 purchases worth $5,897 revenue",
-      "detail": "Return on ad spend is 1.27x. Sales are happening, but margin after ad cost is thin."
+      "headline": "9 purchases at $655 revenue each",
+      "detail": "Sales are happening at $5,897 total value this period, but volume is too thin to justify current spend."
     },
     {
-      "headline": "138 landing page views, 22 add-to-carts",
-      "detail": "Roughly 16% of visitors add to cart. Checkout drop-off is the biggest leak, not traffic quality."
+      "headline": "Click-through rate 0.08% average",
+      "detail": "Ads are being served but barely clicked. Creative, audience, or keyword match is off for this period."
     },
     {
-      "headline": "127 direction requests, 1 call",
-      "detail": "Google Business Profile drove strong map interest but almost zero phone calls. Phone path looks broken or hidden."
+      "headline": "Cost per click averaged $2.08",
+      "detail": "Click pricing is reasonable for healthcare this period. The problem is what happens after the click, not auction cost."
     },
     {
-      "headline": "2,093 clicks at $2.68 average",
-      "detail": "Click cost is reasonable for medical search. Traffic is arriving — conversion is where the funnel stalls."
+      "headline": "Only 138 landing page views logged",
+      "detail": "Of 4,251 clicks this period, few reached the page. Tracking or page load issues are likely bleeding budget."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Wellness cost per lead near $98\",\n\"body\": \"<cite index=\"1-13\">B2C cost per lead in wellness runs around $98</cite>. <cite index=\"9-9\">Healthcare and elective procedures pay $30–$150 per lead</cite>. Liferun sits far above both this period.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Late-summer senior safety demand rising\",\n\"body\": \"<cite index=\"11-1,11-2\">In 2026, fall detection and GPS monitoring became baseline expectations, shifting demand from pendants to wearable devices</cite>. Buyer interest in watch-form devices like Belle Watch is structurally strong.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Life Alert, Bay Alarm crowd auctions\",\n\"body\": \"<cite index=\"13-17\">Major players include ADT, Life Alert, Bay Alarm Medical, and GreatCall</cite>. The keyword \\\"life alert\\\" pits Liferun directly against the trademark holder, inflating cost and lowering intent match.\"\n}\n}",
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Healthcare leads run $30–$150 typically\", \"body\": \"<cite index=\"8-9\">Healthcare and elective medical procedures pay $30–$150 per lead</cite>. <cite index=\"2-13\">Consumer healthcare cost per lead ranges from $98 for wellness to $661 for facilities</cite>. Liferun's effective cost per lead this period sits far above both.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Healthcare click costs climbing this year\", \"body\": \"<cite index=\"5-3\">Cost per lead in Health & Fitness rose 7.26% year over year</cite>. <cite index=\"4-7\">Crowded search pages with Local Services Ads, regular search ads, and Maps ads are squeezing healthcare advertisers</cite>.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Medical alert category growing fast\", \"body\": \"<cite index=\"15-3\">The global medical alert systems market is valued at $4.8 billion in 2026, growing 10.5% annually through 2033</cite>. <cite index=\"16-8\">Wearable alert device adoption has surged 45%</cite>, favoring watch-format products like Belle Watch.\"}}",
   "recommendations": [
     {
       "number": "1",
-      "title": "Fix the checkout drop between cart and purchase",
-      "detail": "22 add-to-carts produced only 9 purchases. Consider testing guest checkout, clearer shipping cost, and a trust badge near the payment button."
+      "title": "Audit lead tracking on the Belle Watch landing page",
+      "detail": "Only 138 landing page views were recorded against 4,251 clicks. Consider verifying pixel firing, form submission events, and page speed before adding more budget."
     },
     {
       "number": "2",
-      "title": "Rethink the \"life alert\" keyword bid",
-      "detail": "Bidding on a competitor's brand name is expensive and low-intent. Worth exploring product-category terms like \"medical alert watch\" or \"fall detection wearable\" instead."
+      "title": "Test shifting objective from leads to purchases",
+      "detail": "Purchase actions outnumber leads 9 to 2 this period. Worth exploring a purchase-optimized campaign since buyers convert faster than form-fillers here."
     },
     {
       "number": "3",
-      "title": "Add a click-to-call button on mobile landing page",
-      "detail": "127 people asked for directions but only 1 called. A prominent phone number on the mobile ad landing page could capture warm buyers faster."
+      "title": "Refresh creative for the 0.08% click-through rate",
+      "detail": "Engagement is weak this period. Consider testing adult-child caregiver angles and fall-detection messaging, which the category data shows drives purchase intent."
     }
   ]
 }

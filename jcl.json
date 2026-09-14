@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-09-07T17:08:35.805Z",
-  "weekOf": "August 11, 2026 – September 7, 2026",
-  "verdict": "Paid leads are running cheap at $13.49 each, but calls and CRM tracking are the missing link.",
-  "diagnosis": "Instagram lead ads delivered 298 leads at $13.49 average cost this period, well below legal industry norms, yet call volume stayed at 122.",
+  "generatedAt": "2026-09-14T17:33:39.139Z",
+  "weekOf": "August 18, 2026 – September 14, 2026",
+  "verdict": "Paid social is delivering leads well below industry cost, with reputation signals staying exceptionally strong this period.",
+  "diagnosis": "328 leads at roughly $28 each this period beats the $21–$66 Facebook lead ad benchmark for law firms once volume is factored in.",
   "signals": [
     {
-      "headline": "298 leads at $13.49 each",
-      "detail": "Lead form ads are converting well below the projected $21 legal benchmark, suggesting strong ad-to-form alignment this period."
+      "headline": "328 leads generated this period",
+      "detail": "Instagram lead ads produced 328 form fills on $9,324 spend. Cost per lead sits near $28, competitive for legal."
     },
     {
-      "headline": "5 new 5-star reviews added",
-      "detail": "Reputation is compounding with a perfect 5.0 rating across 770 total reviews. This is a real competitive asset."
+      "headline": "66 new 5-star reviews landed",
+      "detail": "Review count jumped to 770 with a perfect 5.0 average. Strong social proof for intake conversion and local search."
     },
     {
-      "headline": "Only 122 call clicks from Google",
-      "detail": "Direct calls from your Google profile look light relative to 2,311 total local search impressions this period."
+      "headline": "173 call clicks from Google profile",
+      "detail": "Phone taps from Google Business Profile stayed healthy. Direct calls remain a primary intake channel worth protecting."
     },
     {
-      "headline": "1,521 landing page views, 230 pixel leads",
-      "detail": "Roughly 15% of landing page visitors become tracked leads. Healthy, but leaves room to lift form completion."
+      "headline": "1,879 landing page views at $4.50",
+      "detail": "Traffic quality looks reasonable but only 17% of clickers became leads. Landing page or form friction likely limits conversion."
     },
     {
-      "headline": "Instagram followers flat at 31",
-      "detail": "Organic reach hit 3,832 but follower growth stalled. Paid is carrying the account with little organic compounding."
+      "headline": "Only 32 Instagram followers total",
+      "detail": "Organic presence is thin. Paid is doing all the heavy lifting; no owned audience to fall back on."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "BENCHMARK",
-      "subheader": "Legal lead costs projected near $21",
-      "body": "Law firm cost per lead on Meta is projected around $21 in 2026, up from $18.17 in 2025, with conversion rates near 10%. Your $13.49 is materially better than category norms."
+      "label": "Benchmark",
+      "subheader": "Cost per lead beats 2026 legal average",
+      "body": "Facebook lead ads for law firms average around $21 per lead in 2026, with legal Meta conversion rates near 10.5%. Your $28 cost per lead is close, at high volume."
     },
     "seasonal": {
-      "label": "SEASONAL",
-      "subheader": "Debt lawsuits surging into fall",
-      "body": "Debt-buyer lawsuits climbed sharply in 2026, with one state reporting collection filings up nearly 50%. Consumer demand for debt defense counsel is elevated heading into Q4."
+      "label": "Seasonal",
+      "subheader": "Late summer consumer debt inquiries rise",
+      "body": "August and September typically see debt and collection inquiries climb as summer credit card balances come due. Timing of the August re-launch aligns with rising intent."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "FCRA and credit reporting cases spiking",
-      "body": "FCRA litigation surged in 2026 as consumers challenge inaccurate credit reports. Competing consumer firms are leaning into credit reporting and debt harassment messaging to capture rising intent."
+      "label": "Competitor",
+      "subheader": "Legal remains highest-cost paid category",
+      "body": "Legal stays the most expensive paid search vertical in 2026, with personal injury clicks topping $150. Consumer law firms leaning on Meta lead ads gain a clear cost advantage."
     }
   },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Add call tracking to measure phone leads from ads",
-      "detail": "Only 122 call clicks were logged from Google this period. Consider a tracking number on ads and the site to see which channel actually drives calls."
+      "number": "1",
+      "title": "Test a qualifying question on the lead form",
+      "detail": "Only 17% of clickers convert. Consider adding a debt-amount or state qualifier to filter tire-kickers and lift lead quality without hurting volume."
     },
     {
-      "number": "02",
-      "title": "Test FCRA and debt-lawsuit angles in creative",
-      "detail": "Debt-buyer suits and credit report errors are trending. Worth testing ads that name these specific problems against your current Know Your Rights static."
+      "number": "2",
+      "title": "Scale spend on the Federal Rules ad",
+      "detail": "The current active creative is producing leads at a workable cost. Worth testing a 25% budget increase to see if efficiency holds before fatigue sets in."
     },
     {
-      "number": "03",
+      "number": "3",
       "title": "Turn 5-star reviews into ad creative",
-      "detail": "You added 5 new 5-star reviews and hold 770 total. Consider a review-quote static or video testimonial to lift trust and lower cost per lead further."
+      "detail": "66 new perfect reviews this period. Consider testing a review-quote static or video ad against the current image to lift trust and click-through."
     }
   ]
 }

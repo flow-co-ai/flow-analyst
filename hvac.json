@@ -1,48 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-09-07T17:08:11.697Z",
-  "weekOf": "August 11, 2026 – September 7, 2026",
-  "verdict": "Instagram lead campaign is delivering 54 leads at $145 each — right at industry average but seasonally mistimed.",
-  "diagnosis": "Spent $7,835 for 54 leads this period. Cost per lead sits near the $149 non-branded benchmark, but heating season demand is not yet reflected in creative.",
+  "generatedAt": "2026-09-14T17:33:08.483Z",
+  "weekOf": "August 18, 2026 – September 14, 2026",
+  "verdict": "Instagram lead flow is steady but expensive — cost per lead sits well above HVAC norms this period.",
+  "diagnosis": "You spent $9,878 on Instagram to get 62 leads this period — roughly $159 per lead, above the $30–$90 healthy HVAC range.",
   "signals": [
     {
-      "headline": "54 leads at $145 each",
-      "detail": "This period generated 54 form leads on $7,835 spend. Roughly in line with paid social norms for HVAC."
+      "headline": "62 paid leads at $159 each",
+      "detail": "Instagram delivered 62 form leads on $9,878 spend this period. Volume is fine; the per-lead cost is the problem."
     },
     {
-      "headline": "71 call clicks from Google profile",
-      "detail": "Google Business Profile drove 71 calls and 96 direction requests. This is your cheapest, highest-intent channel right now."
+      "headline": "100 phone calls from Google profile",
+      "detail": "Your Google Business Profile drove 100 call clicks and 142 direction requests this period — free, high-intent demand you already own."
     },
     {
-      "headline": "12 new 5-star reviews added",
-      "detail": "Review velocity is strong with a perfect 5-star average this period. Reviews directly lift both map pack and paid ad conversion."
+      "headline": "10 new 5-star reviews this period",
+      "detail": "You added 10 reviews averaging 5 stars. Reputation is a real asset and directly lifts map pack conversion."
     },
     {
-      "headline": "Only 26 Instagram profile visits",
-      "detail": "Ads reached 173,969 people but organic profile pull-through is weak. Creative drives form fills, not brand curiosity."
+      "headline": "2,795 clicks, only 1,055 to site",
+      "detail": "Under 40% of ad clicks reached your website. The rest bounced inside Instagram before seeing your offer."
     },
     {
-      "headline": "1,886 clicks, 669 link clicks",
-      "detail": "Roughly one in three ad clicks reaches the site. Landing page or form friction is bleeding potential leads."
+      "headline": "353 Instagram followers, 33 profile visits",
+      "detail": "Organic Instagram is quiet. Followers grew by 20 this period but profile visits and interactions stayed near zero."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Cost per lead sits near category average\", \"body\": \"<cite index=\"5-6\">The average cost per lead for non-branded search campaigns is $149.</cite> <cite index=\"9-2\">HVAC websites convert visitors to leads at about 7.8% on average, but phone leads convert at roughly 46%.</cite> Your $145 lead cost is competitive.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Furnace tune-up window opens now\", \"body\": \"<cite index=\"19-5,19-6,19-7,19-8\">HVAC companies promote AC maintenance in March-May and heating services in September-November. Start campaigns 4-6 weeks before peak season to capture early-bird customers.</cite> You are entering the window.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Local Services Ads still dominate the category\", \"body\": \"<cite index=\"7-10\">Local Services Ads are cheaper at $25–$95, and established SEO reaches $10–$30 per lead.</cite> Competitors running Google LSA are getting leads at roughly half your current cost.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Your cost per lead runs high for HVAC",
+      "body": "Healthy HVAC cost per lead on high-intent channels sits at <cite index=\"7-15\">$30–$90</cite>. Google's blended HVAC cost per lead averages <cite index=\"5-3\">$104</cite>. Your $159 Instagram lead is above both."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Late-summer shoulder into furnace season",
+      "body": "Late September starts furnace tune-up demand. <cite index=\"9-11,9-12\">Emergency searches face weaker Local Services Ads competition off-hours, so Google Ads picks up the slack</cite>. Position now for heating calls."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Top HVAC shops run 3–5 channels",
+      "body": "<cite index=\"2-19\">Top performers use 3 to 5 lead sources</cite>, and <cite index=\"2-20\">HVAC is the slowest-responding trade, with only 11% of businesses replying within an hour</cite>. Speed wins the booking."
+    }
+  },
   "recommendations": [
     {
       "number": "1",
       "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "LSA leads run $25–$95 in this category versus your $145. Worth piloting a small monthly budget to compare lead quality and booking rate."
+      "detail": "<cite index=\"6-5\">Local Services Ads run $25–$95 per lead</cite> and you only pay for qualified contacts. Worth testing to lower your blended cost per lead."
     },
     {
       "number": "2",
-      "title": "Swap creative to furnace tune-up messaging now",
-      "detail": "Heating season demand builds September through November. Consider rotating ad copy and the landing page hero from AC to furnace tune-ups this week."
+      "title": "Fix the Instagram click-to-site drop-off",
+      "detail": "Only 1,055 of 2,795 clicks reached your site this period. Consider tightening the ad-to-landing-page match and testing a shorter form."
     },
     {
       "number": "3",
-      "title": "Investigate the click-to-form drop-off",
-      "detail": "1,886 clicks produced 54 leads. Test a shorter Instant Form or a faster-loading landing page to recover leads already paid for."
+      "title": "Pivot creative toward furnace tune-ups now",
+      "detail": "Your bio already promotes tune-ups. Consider shifting the Finance ad rotation toward furnace and heating messaging before demand peaks in October."
     }
   ]
 }
