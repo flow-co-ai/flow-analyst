@@ -1,64 +1,32 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-09-14T17:33:39.139Z",
-  "weekOf": "August 18, 2026 – September 14, 2026",
-  "verdict": "Paid social is delivering leads well below industry cost, with reputation signals staying exceptionally strong this period.",
-  "diagnosis": "328 leads at roughly $28 each this period beats the $21–$66 Facebook lead ad benchmark for law firms once volume is factored in.",
+  "generatedAt": "2026-09-21T17:46:24.927Z",
+  "weekOf": "August 25, 2026 – September 21, 2026",
+  "verdict": "Paid Instagram is punching above its weight; the weak link is intake follow-through and organic presence.",
+  "diagnosis": "Instagram lead campaign is producing 335 leads at roughly $28 each this period — well below the legal industry norm.",
   "signals": [
     {
-      "headline": "328 leads generated this period",
-      "detail": "Instagram lead ads produced 328 form fills on $9,324 spend. Cost per lead sits near $28, competitive for legal."
+      "headline": "335 leads at $28 each",
+      "detail": "The August Re-Launch campaign delivered leads at a cost most consumer law firms would consider a bargain."
     },
     {
-      "headline": "66 new 5-star reviews landed",
-      "detail": "Review count jumped to 770 with a perfect 5.0 average. Strong social proof for intake conversion and local search."
+      "headline": "1,910 landing page views this period",
+      "detail": "Roughly 32% of clicks reached the landing page. Healthy load-through, but only 18% of those viewers converted."
     },
     {
-      "headline": "173 call clicks from Google profile",
-      "detail": "Phone taps from Google Business Profile stayed healthy. Direct calls remain a primary intake channel worth protecting."
+      "headline": "65 new five-star reviews added",
+      "detail": "Reputation is a genuine asset. Total review count now 770 with a perfect 5.0 average."
     },
     {
-      "headline": "1,879 landing page views at $4.50",
-      "detail": "Traffic quality looks reasonable but only 17% of clickers became leads. Landing page or form friction likely limits conversion."
+      "headline": "176 call clicks from Google profile",
+      "detail": "Local presence is driving direct phone intent. Zero direction requests suggests clients hire remotely, not in person."
     },
     {
-      "headline": "Only 32 Instagram followers total",
-      "detail": "Organic presence is thin. Paid is doing all the heavy lifting; no owned audience to fall back on."
+      "headline": "Only 33 Instagram followers",
+      "detail": "Paid reach is strong but the organic account is essentially dormant. No follower base to retarget or nurture."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Cost per lead beats 2026 legal average",
-      "body": "Facebook lead ads for law firms average around $21 per lead in 2026, with legal Meta conversion rates near 10.5%. Your $28 cost per lead is close, at high volume."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Late summer consumer debt inquiries rise",
-      "body": "August and September typically see debt and collection inquiries climb as summer credit card balances come due. Timing of the August re-launch aligns with rising intent."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Legal remains highest-cost paid category",
-      "body": "Legal stays the most expensive paid search vertical in 2026, with personal injury clicks topping $150. Consumer law firms leaning on Meta lead ads gain a clear cost advantage."
-    }
-  },
-  "recommendations": [
-    {
-      "number": "1",
-      "title": "Test a qualifying question on the lead form",
-      "detail": "Only 17% of clickers convert. Consider adding a debt-amount or state qualifier to filter tire-kickers and lift lead quality without hurting volume."
-    },
-    {
-      "number": "2",
-      "title": "Scale spend on the Federal Rules ad",
-      "detail": "The current active creative is producing leads at a workable cost. Worth testing a 25% budget increase to see if efficiency holds before fatigue sets in."
-    },
-    {
-      "number": "3",
-      "title": "Turn 5-star reviews into ad creative",
-      "detail": "66 new perfect reviews this period. Consider testing a review-quote static or video ad against the current image to lift trust and click-through."
-    }
-  ]
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Legal cost per lead runs high\",\n\"body\": \"Consumer legal cost per lead typically ranges <cite index=\"3-4\">$35 to $150 depending on practice area, with bankruptcy at $35–$90</cite>. Your $28 lead cost sits below that floor.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Debt inquiries rise late summer\",\n\"body\": \"Post-summer debt stress typically drives consumer legal search demand through September and October. Timing of the August re-launch aligns well with this seasonal intent window.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Meta is where firms compete now\",\n\"body\": \"<cite index=\"11-13\">28% of law firms rank Facebook Ads as their top paid social platform</cite>. <cite index=\"13-3,13-4\">Advantage+ is default and creative now drives targeting</cite>, rewarding firms that test ads frequently.\"\n}\n}",
+  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Scale spend on the Federal Rules ad while cost per lead stays under $50\", \"detail\": \"The current lead cost gives room to increase budget. Consider raising daily spend 25–50% and watch whether cost per lead holds before scaling further.\"},\n{\"number\": \"2\", \"title\": \"Fix the Instagram organic account\", \"detail\": \"33 followers is a wasted asset. Test posting 2–3 short client-education videos weekly. Warm audiences convert cheaper than cold ones on Meta.\"},\n{\"number\": \"3\", \"title\": \"Audit intake speed on the 335 leads\", \"detail\": \"<cite index=\"6-6\">35% of calls to mid-sized firms go unanswered during business hours</cite>. Worth confirming how many of these leads actually reached a human.\"}\n]"
 }

@@ -1,64 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-09-14T17:33:08.483Z",
-  "weekOf": "August 18, 2026 – September 14, 2026",
-  "verdict": "Instagram lead flow is steady but expensive — cost per lead sits well above HVAC norms this period.",
-  "diagnosis": "You spent $9,878 on Instagram to get 62 leads this period — roughly $159 per lead, above the $30–$90 healthy HVAC range.",
+  "generatedAt": "2026-09-21T17:45:57.645Z",
+  "weekOf": "August 25, 2026 – September 21, 2026",
+  "verdict": "Instagram lead gen is working — 63 leads at $158 each — but phone response and Google Business need attention.",
+  "diagnosis": "$9,973 spent on Instagram delivered 63 leads at roughly $158 per lead, above HVAC benchmarks but defensible given furnace install ticket sizes.",
   "signals": [
     {
-      "headline": "62 paid leads at $159 each",
-      "detail": "Instagram delivered 62 form leads on $9,878 spend this period. Volume is fine; the per-lead cost is the problem."
+      "headline": "63 leads at $158 each",
+      "detail": "Instagram Instant Form drove 63 leads on $9,973 spend this period. Above HVAC norms but acceptable for install-focused campaigns."
     },
     {
-      "headline": "100 phone calls from Google profile",
-      "detail": "Your Google Business Profile drove 100 call clicks and 142 direction requests this period — free, high-intent demand you already own."
+      "headline": "283 reviews, perfect 5-star average",
+      "detail": "Reputation is a genuine asset this period. Every new review compounds trust for both Google Business and paid ads."
     },
     {
-      "headline": "10 new 5-star reviews this period",
-      "detail": "You added 10 reviews averaging 5 stars. Reputation is a real asset and directly lifts map pack conversion."
+      "headline": "Only 100 call clicks logged",
+      "detail": "Google Business generated 100 calls and 172 direction requests. Low relative to 8,374 review views — visibility is not converting."
     },
     {
-      "headline": "2,795 clicks, only 1,055 to site",
-      "detail": "Under 40% of ad clicks reached your website. The rest bounced inside Instagram before seeing your offer."
+      "headline": "Click cost climbed to $2.48",
+      "detail": "Latest period cost per click sits at $2.48 with a $78 thousand-impression cost. Frequency of 1.34 suggests audience fatigue starting."
     },
     {
-      "headline": "353 Instagram followers, 33 profile visits",
-      "detail": "Organic Instagram is quiet. Followers grew by 20 this period but profile visits and interactions stayed near zero."
+      "headline": "353 Instagram followers, 33 engaged",
+      "detail": "Organic Instagram is quiet. 33 engaged accounts against 6,127 reach means content is seen but not acted on."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Your cost per lead runs high for HVAC",
-      "body": "Healthy HVAC cost per lead on high-intent channels sits at <cite index=\"7-15\">$30–$90</cite>. Google's blended HVAC cost per lead averages <cite index=\"5-3\">$104</cite>. Your $159 Instagram lead is above both."
+      "subheader": "HVAC lead costs vary widely by channel",
+      "body": "Blended HVAC cost per lead on Google Ads averages $104 in 2026, with non-branded search at $149 and Local Services Ads at $72–$95. Your $158 Instagram cost per lead sits at the high end."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Late-summer shoulder into furnace season",
-      "body": "Late September starts furnace tune-up demand. <cite index=\"9-11,9-12\">Emergency searches face weaker Local Services Ads competition off-hours, so Google Ads picks up the slack</cite>. Position now for heating calls."
+      "subheader": "Furnace season is starting now",
+      "body": "HVAC has the most extreme seasonality in home services, with 40–60% month-to-month demand swings. Late September marks the shift from AC to furnace demand in Illinois."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Top HVAC shops run 3–5 channels",
-      "body": "<cite index=\"2-19\">Top performers use 3 to 5 lead sources</cite>, and <cite index=\"2-20\">HVAC is the slowest-responding trade, with only 11% of businesses replying within an hour</cite>. Speed wins the booking."
+      "subheader": "Local Services Ads dominate the category",
+      "body": "Home services competitors are prioritizing Google Local Services Ads over traditional pay-per-click in 2026. These placements sit above regular search results and charge per qualified contact."
     }
   },
   "recommendations": [
     {
-      "number": "1",
+      "number": "01",
       "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "<cite index=\"6-5\">Local Services Ads run $25–$95 per lead</cite> and you only pay for qualified contacts. Worth testing to lower your blended cost per lead."
+      "detail": "Local Services Ads run $72–$95 per lead for HVAC and appear above search results. Worth testing to diversify away from Instagram-only lead flow."
     },
     {
-      "number": "2",
-      "title": "Fix the Instagram click-to-site drop-off",
-      "detail": "Only 1,055 of 2,795 clicks reached your site this period. Consider tightening the ad-to-landing-page match and testing a shorter form."
+      "number": "02",
+      "title": "Audit phone response speed on inbound calls",
+      "detail": "78% of homeowners hire the first contractor to respond. With 100 calls logged this period, confirm every call is answered live during business hours."
     },
     {
-      "number": "3",
-      "title": "Pivot creative toward furnace tune-ups now",
-      "detail": "Your bio already promotes tune-ups. Consider shifting the Finance ad rotation toward furnace and heating messaging before demand peaks in October."
+      "number": "03",
+      "title": "Refresh Instagram creative to counter fatigue",
+      "detail": "Frequency hit 1.34 and click cost rose to $2.48. Consider rotating in furnace-season creative and financing offers to reset audience response."
     }
   ]
 }

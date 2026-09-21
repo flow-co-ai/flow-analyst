@@ -1,48 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-09-14T17:34:02.723Z",
-  "weekOf": "August 18, 2026 – September 14, 2026",
-  "verdict": "Spend is producing sales but leads are nearly nonexistent — the funnel is misaligned with a leads objective.",
-  "diagnosis": "$6,899 spent this period generated only 2 leads and 9 purchases worth $5,897, leaving return on ad spend below breakeven.",
+  "generatedAt": "2026-09-21T17:46:48.674Z",
+  "weekOf": "August 25, 2026 – September 21, 2026",
+  "verdict": "Spend is high, lead volume is tiny — the funnel is leaking before conversion.",
+  "diagnosis": "Spend of $7,003 produced only 2 leads at $12 cost per lead, with just 9 purchases returning $5,897.",
   "signals": [
     {
-      "headline": "Only 2 leads from $6,899 spend",
-      "detail": "Cost per lead landed near $3,449 this period, far above any healthcare norm. The leads objective is not firing."
+      "headline": "Only 2 leads from $7,003 spend",
+      "detail": "Lead volume is dangerously low for the budget deployed this period. The account is generating clicks that do not convert."
     },
     {
-      "headline": "9 purchases at $655 revenue each",
-      "detail": "Sales are happening at $5,897 total value this period, but volume is too thin to justify current spend."
+      "headline": "9 purchases returned $5,897 in revenue",
+      "detail": "Ad spend exceeded revenue by roughly $1,100 this period. The return on ad spend of 0.84 is below breakeven."
     },
     {
-      "headline": "Click-through rate 0.08% average",
-      "detail": "Ads are being served but barely clicked. Creative, audience, or keyword match is off for this period."
+      "headline": "4,387 clicks but 139 landing page views",
+      "detail": "Only 3% of clicks reach the landing page. Tracking, redirect, or page speed issues are likely killing the funnel."
     },
     {
-      "headline": "Cost per click averaged $2.08",
-      "detail": "Click pricing is reasonable for healthcare this period. The problem is what happens after the click, not auction cost."
+      "headline": "Cost per click climbed to $2.61",
+      "detail": "Latest cost per click is above the period average of $2.08. Auction pressure on 'life alert' keywords is rising."
     },
     {
-      "headline": "Only 138 landing page views logged",
-      "detail": "Of 4,251 clicks this period, few reached the page. Tracking or page load issues are likely bleeding budget."
+      "headline": "Just 2 phone call clicks captured",
+      "detail": "For a call-focused campaign, phone engagement is nearly zero. Call tracking or ad extensions may be misconfigured."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Healthcare leads run $30–$150 typically\", \"body\": \"<cite index=\"8-9\">Healthcare and elective medical procedures pay $30–$150 per lead</cite>. <cite index=\"2-13\">Consumer healthcare cost per lead ranges from $98 for wellness to $661 for facilities</cite>. Liferun's effective cost per lead this period sits far above both.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Healthcare click costs climbing this year\", \"body\": \"<cite index=\"5-3\">Cost per lead in Health & Fitness rose 7.26% year over year</cite>. <cite index=\"4-7\">Crowded search pages with Local Services Ads, regular search ads, and Maps ads are squeezing healthcare advertisers</cite>.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Medical alert category growing fast\", \"body\": \"<cite index=\"15-3\">The global medical alert systems market is valued at $4.8 billion in 2026, growing 10.5% annually through 2033</cite>. <cite index=\"16-8\">Wearable alert device adoption has surged 45%</cite>, favoring watch-format products like Belle Watch.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Healthcare cost per lead averages $66",
+      "body": "<cite index=\"4-2\">The healthcare average is $66.02 per lead from a $5.64 cost per click and an 8.09% conversion rate</cite>. Liferun's $12 cost per lead looks strong, but only 2 leads were captured this period."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Aging population fuels device demand",
+      "body": "<cite index=\"11-8,11-9,11-10\">The 2026 market is built around independence, speed, and prevention, driven by safety concerns, tech breakthroughs, and a rapidly aging population</cite>. Fall season typically lifts caregiver purchase intent."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Wearables and Apple Watch pressure category",
+      "body": "<cite index=\"11-18,11-19\">In 2026, lighter hardware, longer battery, fall detection, and 24/7 GPS are baseline expectations, shifting away from pendant systems</cite>. Apple Watch competes with no monthly fee."
+    }
+  },
   "recommendations": [
     {
       "number": "1",
-      "title": "Audit lead tracking on the Belle Watch landing page",
-      "detail": "Only 138 landing page views were recorded against 4,251 clicks. Consider verifying pixel firing, form submission events, and page speed before adding more budget."
+      "title": "Audit the click-to-landing-page gap this week",
+      "detail": "Only 139 of 4,387 clicks reached the page. Consider checking redirects, mobile load speed, and conversion tracking before adding more budget."
     },
     {
       "number": "2",
-      "title": "Test shifting objective from leads to purchases",
-      "detail": "Purchase actions outnumber leads 9 to 2 this period. Worth exploring a purchase-optimized campaign since buyers convert faster than form-fillers here."
+      "title": "Test call extensions and click-to-call ads",
+      "detail": "This is a call campaign with 2 phone clicks. Worth exploring call-only ad formats and verifying the (800) 421-3366 tracking works."
     },
     {
       "number": "3",
-      "title": "Refresh creative for the 0.08% click-through rate",
-      "detail": "Engagement is weak this period. Consider testing adult-child caregiver angles and fall-detection messaging, which the category data shows drives purchase intent."
+      "title": "Refine retargeting audience beyond video viewers",
+      "detail": "Consider testing caregiver and adult-child audiences alongside the current 50% video view segment. Aging-parent buyers often research on behalf of seniors."
     }
   ]
 }

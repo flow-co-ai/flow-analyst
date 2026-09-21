@@ -1,48 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-09-14T17:32:40.351Z",
-  "weekOf": "August 18, 2026 – September 14, 2026",
-  "verdict": "Paid Instagram is profitable and local search is strong — scale spend before beef price pressure hits fall demand.",
-  "diagnosis": "Instagram sales campaign returned $5.27 for every $1 spent this period, above the healthy 3-to-1 direct-to-consumer band.",
+  "generatedAt": "2026-09-21T17:45:32.133Z",
+  "weekOf": "August 25, 2026 – September 21, 2026",
+  "verdict": "Instagram ads are profitable this period, returning about $5 for every $1 spent on $4,087 in spend.",
+  "diagnosis": "607 purchases generated $21,056 in sales, but only 108 tracked through the pixel, suggesting attribution gaps hiding true performance.",
   "signals": [
     {
-      "headline": "606 purchases on $3,969 spend",
-      "detail": "The Lamb Escalopes video drove strong sales volume this period at roughly $6.55 per purchase."
+      "headline": "Return on ad spend hit 5.1x",
+      "detail": "$21,056 in sales on $4,087 spend beats the healthy 3-to-5x band for direct-to-consumer food brands."
     },
     {
-      "headline": "Return on ad spend hit 5.27x",
-      "detail": "Every dollar spent on Instagram returned $5.27 in revenue this period. Well above the profitable threshold."
+      "headline": "607 purchases at $6.73 each",
+      "detail": "Cost per purchase sits well below typical meat category acquisition costs. Lamb Escalopes video is doing the heavy lifting."
     },
     {
-      "headline": "415 add-to-carts, only 161 checkouts",
-      "detail": "Roughly 61% of shoppers who added to cart never started checkout. Friction between cart and checkout is bleeding revenue."
+      "headline": "433 add-to-carts, 163 checkouts started",
+      "detail": "Roughly 38% of carts reach checkout. A meaningful share of interested buyers drop before paying."
     },
     {
-      "headline": "13,347 followers, 178 new this period",
-      "detail": "Follower growth is modest for a brand pushing paid video. Organic content is not compounding audience quickly."
+      "headline": "273 reviews averaging near 5 stars",
+      "detail": "Strong local reputation this period. Trust signals are working but underused in paid creative."
     },
     {
-      "headline": "273 reviews, latest at 5 stars",
-      "detail": "Google Business reputation is a real asset. Local search discovery is working for the Hoffman Estates butcher shop."
+      "headline": "182 new Instagram followers added",
+      "detail": "Modest organic follower growth on a 6,691 base. Paid reach is not translating into audience building."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food brands convert at 4.5% to 6%\",\n\"body\": \"<cite index=\"3-4\">Food and beverage brands average 4.5%–6.0%</cite> conversion rates. <cite index=\"6-5\">A 3-to-1 to 5-to-1 return on ad spend is the healthy band for most direct-to-consumer categories</cite>. Billy Doe's 5.27x sits at the top of that range.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Tight beef supply pressures fall pricing\",\n\"body\": \"The second half of 2026 shows <cite index=\"12-2\">tight beef supplies, growing poultry production, and stable pork availability</cite>. Expect rising beef input costs into Q4. Lamb and goat positioning is a hedge worth leaning into now.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Storytelling and transparency win trust\",\n\"body\": \"In 2026 direct-to-consumer meat, <cite index=\"13-5,13-6\">consumers want to know where their meat comes from, who raised it, and how it was processed</cite>. Competitors like ButcherBox and Porter Road lead with farm stories and sourcing transparency.\"\n}\n}",
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food and beverage converts at 4.5–6%\",\n\"body\": \"Food and beverage brands average <cite index=\"5-4\">4.5%–6.0%</cite> conversion. Healthy return on ad spend sits at <cite index=\"8-5\">3:1 to 5:1</cite> for most direct-to-consumer categories. Your 5.1x return is at the top of that band.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Holiday meat demand building now\",\n\"body\": \"<cite index=\"14-4\">Ham values have strengthened as domestic demand improves and buyers begin positioning for future holiday requirements.</cite> Q4 is the window where meat brands typically see the strongest pull-through on premium cuts.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Direct-to-consumer meat is fastest-growing channel\",\n\"body\": \"<cite index=\"18-8\">Wholesale retains volume leadership; direct-to-consumer holds the steepest expansion curve.</cite> <cite index=\"11-6\">Beef dominates the meat subscription market with a 39% share in 2025.</cite> Storytelling and farm transparency are separating winners from the pack.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Scale spend on the Lamb Escalopes video",
-      "detail": "At 5.27x return, consider raising daily budget 20–30% on the winning ad. Watch frequency (currently 1.32) to avoid audience fatigue as spend grows."
+      "title": "Fix pixel tracking to close attribution gap",
+      "detail": "Only 108 of 607 purchases fired through the Meta pixel. Consider auditing the pixel setup so reporting matches actual sales and the algorithm optimizes correctly."
     },
     {
       "number": "02",
-      "title": "Fix the cart-to-checkout drop-off",
-      "detail": "Only 39% of add-to-carts started checkout. Test a free shipping threshold, express checkout options, and an exit-intent offer to recover abandoned carts."
+      "title": "Test scaling budget on Lamb Escalopes video",
+      "detail": "The winning ad is producing sales at $6.73 each. Worth testing a 25-50% budget lift while watching frequency, currently at 1.32, for fatigue."
     },
     {
       "number": "03",
-      "title": "Test farm-story creative alongside product videos",
-      "detail": "Sourcing transparency drives trust in this category. Worth testing a producer-story video against the current product-led ad to see if it lowers cost per purchase."
+      "title": "Add checkout recovery flow for dropped carts",
+      "detail": "270 shoppers added to cart but never started checkout. Consider testing an email or SMS reminder sequence to recover a share of that lost revenue."
     }
   ]
 }
