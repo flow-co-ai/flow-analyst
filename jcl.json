@@ -1,32 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-09-21T17:46:24.927Z",
-  "weekOf": "August 25, 2026 – September 21, 2026",
-  "verdict": "Paid Instagram is punching above its weight; the weak link is intake follow-through and organic presence.",
-  "diagnosis": "Instagram lead campaign is producing 335 leads at roughly $28 each this period — well below the legal industry norm.",
+  "generatedAt": "2026-09-28T19:10:48.931Z",
+  "weekOf": "September 1, 2026 – September 28, 2026",
+  "verdict": "Instagram ads produced 403 leads at roughly $26 each this period — well below legal-industry norms.",
+  "diagnosis": "Spent $10,371 on Meta to drive 403 leads, but only 335 fired the pixel and phone calls dropped sharply late-period.",
   "signals": [
     {
-      "headline": "335 leads at $28 each",
-      "detail": "The August Re-Launch campaign delivered leads at a cost most consumer law firms would consider a bargain."
+      "headline": "403 leads at $25.73 each",
+      "detail": "Lead volume is strong for the debt-relief niche, and cost per lead sits well under typical legal Meta benchmarks."
     },
     {
-      "headline": "1,910 landing page views this period",
-      "detail": "Roughly 32% of clicks reached the landing page. Healthy load-through, but only 18% of those viewers converted."
+      "headline": "Pixel captured only 335 of 403",
+      "detail": "A 17% gap between form leads and pixel-tracked leads suggests tracking or attribution is leaking data."
     },
     {
-      "headline": "65 new five-star reviews added",
-      "detail": "Reputation is a genuine asset. Total review count now 770 with a perfect 5.0 average."
+      "headline": "187 call clicks from Google profile",
+      "detail": "Local presence drove roughly 2-3 calls per day, but recent daily counts hit zero — momentum is slowing."
     },
     {
-      "headline": "176 call clicks from Google profile",
-      "detail": "Local presence is driving direct phone intent. Zero direction requests suggests clients hire remotely, not in person."
+      "headline": "82 new reviews, 5-star average",
+      "detail": "Reputation is a real asset. Reviews now total 852 with perfect ratings, reinforcing trust for paid traffic."
     },
     {
-      "headline": "Only 33 Instagram followers",
-      "detail": "Paid reach is strong but the organic account is essentially dormant. No follower base to retarget or nurture."
+      "headline": "3,146 link clicks, 2,296 landing views",
+      "detail": "Roughly 27% of clicks never reach the landing page. Page speed or redirect issues are worth checking."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Legal cost per lead runs high\",\n\"body\": \"Consumer legal cost per lead typically ranges <cite index=\"3-4\">$35 to $150 depending on practice area, with bankruptcy at $35–$90</cite>. Your $28 lead cost sits below that floor.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Debt inquiries rise late summer\",\n\"body\": \"Post-summer debt stress typically drives consumer legal search demand through September and October. Timing of the August re-launch aligns well with this seasonal intent window.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Meta is where firms compete now\",\n\"body\": \"<cite index=\"11-13\">28% of law firms rank Facebook Ads as their top paid social platform</cite>. <cite index=\"13-3,13-4\">Advantage+ is default and creative now drives targeting</cite>, rewarding firms that test ads frequently.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Scale spend on the Federal Rules ad while cost per lead stays under $50\", \"detail\": \"The current lead cost gives room to increase budget. Consider raising daily spend 25–50% and watch whether cost per lead holds before scaling further.\"},\n{\"number\": \"2\", \"title\": \"Fix the Instagram organic account\", \"detail\": \"33 followers is a wasted asset. Test posting 2–3 short client-education videos weekly. Warm audiences convert cheaper than cold ones on Meta.\"},\n{\"number\": \"3\", \"title\": \"Audit intake speed on the 335 leads\", \"detail\": \"<cite index=\"6-6\">35% of calls to mid-sized firms go unanswered during business hours</cite>. Worth confirming how many of these leads actually reached a human.\"}\n]"
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Legal Meta leads typically cost $180",
+      "body": "Median cost per lead on Meta for legal advertisers is around $180, with consumer categories like bankruptcy running $35-$90. Justice Consumer Law's $26 figure is exceptionally low for the vertical."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Legal ad costs surged 30% since 2023",
+      "body": "Law firm acquisition costs have climbed roughly 30% since 2023 as AI-driven bidding intensifies competition. September typically brings post-summer demand spikes as consumers address delayed financial matters."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Facebook still tops paid social for firms",
+      "body": "About 28% of law firms rank Facebook Ads as their top paid social channel. Consumer-facing practices see the strongest results from in-platform lead forms rather than off-site landing pages."
+    }
+  },
+  "recommendations": [
+    {
+      "number": "01",
+      "title": "Fix the pixel gap between form leads and tracked conversions",
+      "detail": "Consider auditing the Meta pixel and conversions API setup. Closing the 17% gap between 403 form leads and 335 pixel events will sharpen future optimization."
+    },
+    {
+      "number": "02",
+      "title": "Test a second creative against Video Ad 04 V4",
+      "detail": "One ad is carrying the campaign. Worth testing a second video variant to guard against creative fatigue before cost per lead drifts upward."
+    },
+    {
+      "number": "03",
+      "title": "Push more traffic to the Google Business Profile",
+      "detail": "With 82 five-star reviews added and 187 call clicks this period, consider requesting reviews in intake follow-ups to sustain local ranking momentum."
+    }
+  ]
 }

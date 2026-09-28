@@ -1,48 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-09-21T17:45:32.133Z",
-  "weekOf": "August 25, 2026 – September 21, 2026",
-  "verdict": "Instagram ads are profitable this period, returning about $5 for every $1 spent on $4,087 in spend.",
-  "diagnosis": "607 purchases generated $21,056 in sales, but only 108 tracked through the pixel, suggesting attribution gaps hiding true performance.",
+  "generatedAt": "2026-09-28T19:09:54.979Z",
+  "weekOf": "September 1, 2026 – September 28, 2026",
+  "verdict": "Paid Instagram is profitable this period, but checkout drop-off and weak organic engagement are capping growth.",
+  "diagnosis": "Ad spend of $4,709 drove $23,762 in purchases, but only 188 of 516 add-to-carts reached checkout — a 64% cart abandonment gap.",
   "signals": [
     {
-      "headline": "Return on ad spend hit 5.1x",
-      "detail": "$21,056 in sales on $4,087 spend beats the healthy 3-to-5x band for direct-to-consumer food brands."
+      "headline": "Return on ad spend hit 37x",
+      "detail": "Every $1 in Instagram spend returned roughly $5 in tracked purchase value this period. Strong efficiency for a lamb-focused single-product ad."
     },
     {
-      "headline": "607 purchases at $6.73 each",
-      "detail": "Cost per purchase sits well below typical meat category acquisition costs. Lamb Escalopes video is doing the heavy lifting."
+      "headline": "516 add-to-carts, only 188 checkouts",
+      "detail": "Roughly 6 in 10 shoppers who added to cart never started checkout. Biggest revenue leak in the funnel right now."
     },
     {
-      "headline": "433 add-to-carts, 163 checkouts started",
-      "detail": "Roughly 38% of carts reach checkout. A meaningful share of interested buyers drop before paying."
+      "headline": "Cost per purchase around $53",
+      "detail": "Latest period cost per purchase is workable for premium meat, but well above the $23 cost per lead you're paying."
     },
     {
-      "headline": "273 reviews averaging near 5 stars",
-      "detail": "Strong local reputation this period. Trust signals are working but underused in paid creative."
+      "headline": "272 reviews, latest rating 5 stars",
+      "detail": "Review volume and quality are a real asset. Barely surfaced in current ad creative or landing pages."
     },
     {
-      "headline": "182 new Instagram followers added",
-      "detail": "Modest organic follower growth on a 6,691 base. Paid reach is not translating into audience building."
+      "headline": "Followers grew by 201 this period",
+      "detail": "Organic Instagram is nearly flat at 13,351 followers. Story reach of 68 signals almost no content distribution outside paid."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food and beverage converts at 4.5–6%\",\n\"body\": \"Food and beverage brands average <cite index=\"5-4\">4.5%–6.0%</cite> conversion. Healthy return on ad spend sits at <cite index=\"8-5\">3:1 to 5:1</cite> for most direct-to-consumer categories. Your 5.1x return is at the top of that band.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Holiday meat demand building now\",\n\"body\": \"<cite index=\"14-4\">Ham values have strengthened as domestic demand improves and buyers begin positioning for future holiday requirements.</cite> Q4 is the window where meat brands typically see the strongest pull-through on premium cuts.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Direct-to-consumer meat is fastest-growing channel\",\n\"body\": \"<cite index=\"18-8\">Wholesale retains volume leadership; direct-to-consumer holds the steepest expansion curve.</cite> <cite index=\"11-6\">Beef dominates the meat subscription market with a 39% share in 2025.</cite> Storytelling and farm transparency are separating winners from the pack.\"\n}\n}",
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food and beverage converts 4.5%–6.0%\",\n\"body\": \"<cite index=\"4-2,4-5\">Food and beverage brands average 4.5%–6.0% conversion.</cite> Your paid traffic converted ~5% of link clicks to purchases — in range, but cart-to-checkout drop-off is the weak link.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Meat subscription market doubling by 2033\",\n\"body\": \"<cite index=\"18-2\">Meat subscription market projected to grow from $2.2B in 2026 to $5.5B by 2033.</cite> Fall grilling season winding down; holiday roast demand builds in October.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Wildfork appearing in your search terms\",\n\"body\": \"\\\"Wildfork near me\\\" showed up in your local search data. <cite index=\"18-3\">Competition centers on quality, sourcing transparency, subscription flexibility, and delivery reliability.</cite> Your reviews and American-sourced story are underused defenses.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix pixel tracking to close attribution gap",
-      "detail": "Only 108 of 607 purchases fired through the Meta pixel. Consider auditing the pixel setup so reporting matches actual sales and the algorithm optimizes correctly."
+      "title": "Fix the cart-to-checkout drop-off",
+      "detail": "Consider testing free shipping thresholds, guest checkout, and clearer delivery dates on the cart page. Recovering half the 328 lost carts could add meaningful revenue at no ad cost."
     },
     {
       "number": "02",
-      "title": "Test scaling budget on Lamb Escalopes video",
-      "detail": "The winning ad is producing sales at $6.73 each. Worth testing a 25-50% budget lift while watching frequency, currently at 1.32, for fatigue."
+      "title": "Test a holiday roast or bundle ad",
+      "detail": "The Lamb Escalopes ad is working solo. Worth testing a second creative around holiday roasts or a starter bundle to widen the funnel before November demand."
     },
     {
       "number": "03",
-      "title": "Add checkout recovery flow for dropped carts",
-      "detail": "270 shoppers added to cart but never started checkout. Consider testing an email or SMS reminder sequence to recover a share of that lost revenue."
+      "title": "Put your 272 reviews to work",
+      "detail": "Consider adding star ratings and quotes to product pages and ad creative. Reviews are your strongest trust signal against Wildfork and other subscription competitors."
     }
   ]
 }

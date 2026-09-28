@@ -1,64 +1,48 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-09-21T17:45:57.645Z",
-  "weekOf": "August 25, 2026 – September 21, 2026",
-  "verdict": "Instagram lead gen is working — 63 leads at $158 each — but phone response and Google Business need attention.",
-  "diagnosis": "$9,973 spent on Instagram delivered 63 leads at roughly $158 per lead, above HVAC benchmarks but defensible given furnace install ticket sizes.",
+  "generatedAt": "2026-09-28T19:10:23.476Z",
+  "weekOf": "September 1, 2026 – September 28, 2026",
+  "verdict": "Paid social is generating leads but at 2–5x the HVAC benchmark cost; local presence is the bright spot.",
+  "diagnosis": "Instagram lead campaign delivered 65 leads at roughly $164 each this period — well above the $30–$90 range typical for HVAC.",
   "signals": [
     {
-      "headline": "63 leads at $158 each",
-      "detail": "Instagram Instant Form drove 63 leads on $9,973 spend this period. Above HVAC norms but acceptable for install-focused campaigns."
+      "headline": "65 leads at $164 each",
+      "detail": "Instagram lead forms produced volume but cost per lead runs well above HVAC norms for the period."
     },
     {
-      "headline": "283 reviews, perfect 5-star average",
-      "detail": "Reputation is a genuine asset this period. Every new review compounds trust for both Google Business and paid ads."
+      "headline": "322 reviews averaging 5 stars",
+      "detail": "Reputation is elite for the trade. This is the strongest asset in the account right now."
     },
     {
-      "headline": "Only 100 call clicks logged",
-      "detail": "Google Business generated 100 calls and 172 direction requests. Low relative to 8,374 review views — visibility is not converting."
+      "headline": "106 call clicks from Google profile",
+      "detail": "Google Business Profile drove real phone intent this period at zero additional media cost."
     },
     {
-      "headline": "Click cost climbed to $2.48",
-      "detail": "Latest period cost per click sits at $2.48 with a $78 thousand-impression cost. Frequency of 1.34 suggests audience fatigue starting."
+      "headline": "1,181 link clicks, 65 leads",
+      "detail": "Roughly 5.5% of ad clickers submitted a form. Landing page or form friction likely capping conversion."
     },
     {
-      "headline": "353 Instagram followers, 33 engaged",
-      "detail": "Organic Instagram is quiet. 33 engaged accounts against 6,127 reach means content is seen but not acted on."
+      "headline": "33 Instagram accounts engaged",
+      "detail": "Organic social engagement is thin against 196 posts published. Content is not resonating."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "HVAC lead costs vary widely by channel",
-      "body": "Blended HVAC cost per lead on Google Ads averages $104 in 2026, with non-branded search at $149 and Local Services Ads at $72–$95. Your $158 Instagram cost per lead sits at the high end."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Furnace season is starting now",
-      "body": "HVAC has the most extreme seasonality in home services, with 40–60% month-to-month demand swings. Late September marks the shift from AC to furnace demand in Illinois."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Local Services Ads dominate the category",
-      "body": "Home services competitors are prioritizing Google Local Services Ads over traditional pay-per-click in 2026. These placements sit above regular search results and charge per qualified contact."
-    }
-  },
+  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"HVAC leads typically $30–$149\",\n    \"body\": \"<cite index=\"2-1\">HVAC and plumbing average $45</cite> per lead across trades. <cite index=\"5-9\">Blended HVAC cost per lead on Google Ads runs about $104, with non-branded search near $149</cite>. Your $164 sits above both.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"Fall shoulder season favors tune-ups\",\n    \"body\": \"September is the transition from cooling to heating demand. <cite index=\"9-2\">HVAC phone leads convert at roughly 46%</cite>, so pushing furnace tune-up calls now beats form fills for booked revenue.\"\n  },\n  \"competitor\": {\n    \"label\": \"Competitor\",\n    \"subheader\": \"Local Services Ads dominate the category\",\n    \"body\": \"<cite index=\"10-14\">HVAC blended cost per lead averages $104 across Google Ads, with LSA at $72–$95 per lead</cite>. Competitors prioritizing Google Local Services Ads are undercutting Instagram lead form costs.\"\n  }\n}",
   "recommendations": [
     {
       "number": "01",
       "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "Local Services Ads run $72–$95 per lead for HVAC and appear above search results. Worth testing to diversify away from Instagram-only lead flow."
+      "detail": "Consider shifting a portion of the $10,670 monthly budget to Local Services Ads. Category benchmarks suggest cost per lead could drop by half."
     },
     {
       "number": "02",
-      "title": "Audit phone response speed on inbound calls",
-      "detail": "78% of homeowners hire the first contractor to respond. With 100 calls logged this period, confirm every call is answered live during business hours."
+      "title": "Tighten the Instant Form or route to phone calls",
+      "detail": "Only 5.5% of ad clickers converted. Worth testing a shorter form, or swapping the objective to call-only for higher-intent furnace tune-up leads."
     },
     {
       "number": "03",
-      "title": "Refresh Instagram creative to counter fatigue",
-      "detail": "Frequency hit 1.34 and click cost rose to $2.48. Consider rotating in furnace-season creative and financing offers to reset audience response."
+      "title": "Turn 322 five-star reviews into ad creative",
+      "detail": "The review moat is underused. Test video ads featuring real review quotes and technician names like Cliff to lift trust and conversion rate."
     }
   ]
 }
