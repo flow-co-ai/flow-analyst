@@ -1,64 +1,48 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-09-28T19:10:48.931Z",
-  "weekOf": "September 1, 2026 – September 28, 2026",
-  "verdict": "Instagram ads produced 403 leads at roughly $26 each this period — well below legal-industry norms.",
-  "diagnosis": "Spent $10,371 on Meta to drive 403 leads, but only 335 fired the pixel and phone calls dropped sharply late-period.",
+  "generatedAt": "2026-10-05T20:14:05.333Z",
+  "weekOf": "September 8, 2026 – October 5, 2026",
+  "verdict": "Paid Instagram is punching above its weight; reputation and intake are the weak links.",
+  "diagnosis": "Instagram lead ads delivered 449 leads this period at roughly $24 each, well under the legal industry average, but a one-star review and slow organic growth drag the brand.",
   "signals": [
     {
-      "headline": "403 leads at $25.73 each",
-      "detail": "Lead volume is strong for the debt-relief niche, and cost per lead sits well under typical legal Meta benchmarks."
+      "headline": "449 leads from Instagram this period",
+      "detail": "The August Re-Launch campaign produced 449 lead actions on $10,894 spent, averaging about $24 per lead."
     },
     {
-      "headline": "Pixel captured only 335 of 403",
-      "detail": "A 17% gap between form leads and pixel-tracked leads suggests tracking or attribution is leaking data."
+      "headline": "Reach hit 137,441 people",
+      "detail": "Ads reached 137,441 unique users with a frequency of 1.16, meaning most saw the ad once. Room to scale."
     },
     {
-      "headline": "187 call clicks from Google profile",
-      "detail": "Local presence drove roughly 2-3 calls per day, but recent daily counts hit zero — momentum is slowing."
+      "headline": "183 call clicks from Google profile",
+      "detail": "The Business Profile drove 183 phone taps this period but zero direction requests, suggesting phone-first intake."
     },
     {
-      "headline": "82 new reviews, 5-star average",
-      "detail": "Reputation is a real asset. Reviews now total 852 with perfect ratings, reinforcing trust for paid traffic."
+      "headline": "One-star review pulled rating to 4.67",
+      "detail": "A new one-star review landed this period, dropping average rating. Two new reviews total, uneven mix."
     },
     {
-      "headline": "3,146 link clicks, 2,296 landing views",
-      "detail": "Roughly 27% of clicks never reach the landing page. Page speed or redirect issues are worth checking."
+      "headline": "Instagram following stuck at 35",
+      "detail": "Followers flat at 35 with only 30 profile visits. Organic presence is not keeping pace with paid reach."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Legal Meta leads typically cost $180",
-      "body": "Median cost per lead on Meta for legal advertisers is around $180, with consumer categories like bankruptcy running $35-$90. Justice Consumer Law's $26 figure is exceptionally low for the vertical."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Legal ad costs surged 30% since 2023",
-      "body": "Law firm acquisition costs have climbed roughly 30% since 2023 as AI-driven bidding intensifies competition. September typically brings post-summer demand spikes as consumers address delayed financial matters."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Facebook still tops paid social for firms",
-      "body": "About 28% of law firms rank Facebook Ads as their top paid social channel. Consumer-facing practices see the strongest results from in-platform lead forms rather than off-site landing pages."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal cost per lead sits high\",\n\"body\": \"The 2026 average cost per lead for Attorneys and Legal Services is <cite index=\"2-7\">$131.63</cite> on search, with Meta social averaging <cite index=\"4-5\">around $72</cite>. Your $24 per lead is well below both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Fall debt-collection inquiries climb\",\n\"body\": \"Consumer debt stress typically rises heading into Q4 as holiday spending begins. Debt-collector harassment complaints follow the same curve. Expect lead volume to hold or grow through November.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Firms leaning into Reels video\",\n\"body\": \"<cite index=\"15-6,15-7\">Instagram Reels are the growth engine now, surfaced hardest by the algorithm.</cite> Consumer-facing firms are shifting creative toward 30-60 second attorney explainer videos shot on phones.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the pixel gap between form leads and tracked conversions",
-      "detail": "Consider auditing the Meta pixel and conversions API setup. Closing the 17% gap between 403 form leads and 335 pixel events will sharpen future optimization."
+      "title": "Respond publicly to the one-star review",
+      "detail": "A measured, professional reply shows prospects you take complaints seriously. Consider also asking recent happy clients for reviews to dilute the impact on your 4.67 average."
     },
     {
       "number": "02",
-      "title": "Test a second creative against Video Ad 04 V4",
-      "detail": "One ad is carrying the campaign. Worth testing a second video variant to guard against creative fatigue before cost per lead drifts upward."
+      "title": "Test scaling the winning August Re-Launch ad",
+      "detail": "At $24 per lead you have room to raise daily budget before costs climb. Worth testing a 25-50% budget lift on Video Ad 04 V4 while watching cost per lead."
     },
     {
       "number": "03",
-      "title": "Push more traffic to the Google Business Profile",
-      "detail": "With 82 five-star reviews added and 187 call clicks this period, consider requesting reviews in intake follow-ups to sustain local ranking momentum."
+      "title": "Track what happens after the lead form",
+      "detail": "The CRM pipeline shows no data this period. Consider connecting intake outcomes so you can see which of the 449 leads became paying clients."
     }
   ]
 }

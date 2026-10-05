@@ -1,48 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-09-28T19:10:23.476Z",
-  "weekOf": "September 1, 2026 – September 28, 2026",
-  "verdict": "Paid social is generating leads but at 2–5x the HVAC benchmark cost; local presence is the bright spot.",
-  "diagnosis": "Instagram lead campaign delivered 65 leads at roughly $164 each this period — well above the $30–$90 range typical for HVAC.",
+  "generatedAt": "2026-10-05T20:13:35.890Z",
+  "weekOf": "September 8, 2026 – October 5, 2026",
+  "verdict": "Lead flow is steady at a fair cost, and October's furnace season is about to amplify it.",
+  "diagnosis": "You spent $11,182 on Instagram and got 78 leads this period — about $143 per lead, right at the industry line for paid social.",
   "signals": [
     {
-      "headline": "65 leads at $164 each",
-      "detail": "Instagram lead forms produced volume but cost per lead runs well above HVAC norms for the period."
+      "headline": "78 leads at $143 each",
+      "detail": "Instagram furnace campaign delivered 78 leads for $11,182 spent. Cost per lead sits near the paid search benchmark."
     },
     {
-      "headline": "322 reviews averaging 5 stars",
-      "detail": "Reputation is elite for the trade. This is the strongest asset in the account right now."
+      "headline": "348 new reviews, 5.0 stars",
+      "detail": "Review volume is exceptional this period and the rating held perfect. This is the strongest trust signal you have."
     },
     {
-      "headline": "106 call clicks from Google profile",
-      "detail": "Google Business Profile drove real phone intent this period at zero additional media cost."
+      "headline": "98 call clicks, 180 directions",
+      "detail": "Google Business Profile drove 278 high-intent actions. These are near-ready buyers, not browsers."
     },
     {
-      "headline": "1,181 link clicks, 65 leads",
-      "detail": "Roughly 5.5% of ad clickers submitted a form. Landing page or form friction likely capping conversion."
+      "headline": "266,796 impressions, 1,278 link clicks",
+      "detail": "Reach is wide but click-through is thin. The furnace creative is getting seen more than it is getting acted on."
     },
     {
-      "headline": "33 Instagram accounts engaged",
-      "detail": "Organic social engagement is thin against 196 posts published. Content is not resonating."
+      "headline": "224 new Instagram followers",
+      "detail": "Follower growth doubled the account to 350. Audience is building ahead of peak heating season."
     }
   ],
-  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"HVAC leads typically $30–$149\",\n    \"body\": \"<cite index=\"2-1\">HVAC and plumbing average $45</cite> per lead across trades. <cite index=\"5-9\">Blended HVAC cost per lead on Google Ads runs about $104, with non-branded search near $149</cite>. Your $164 sits above both.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"Fall shoulder season favors tune-ups\",\n    \"body\": \"September is the transition from cooling to heating demand. <cite index=\"9-2\">HVAC phone leads convert at roughly 46%</cite>, so pushing furnace tune-up calls now beats form fills for booked revenue.\"\n  },\n  \"competitor\": {\n    \"label\": \"Competitor\",\n    \"subheader\": \"Local Services Ads dominate the category\",\n    \"body\": \"<cite index=\"10-14\">HVAC blended cost per lead averages $104 across Google Ads, with LSA at $72–$95 per lead</cite>. Competitors prioritizing Google Local Services Ads are undercutting Instagram lead form costs.\"\n  }\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Your lead cost sits in the normal range",
+      "body": "HVAC paid search averages $104 per lead blended, with non-branded search hitting $149. Your $143 Instagram cost per lead is competitive, though Google Local Services Ads run cheaper at roughly $51."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "October is furnace reactivation peak",
+      "body": "Furnace repair searches peak 137% above baseline heading into January. October specifically spikes because dormant furnaces fail on first startup. Demand is about to rise sharply in your market."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "76% of HVAC firms report rising demand",
+      "body": "91% of HVAC contractors are booked or near full, and 73% report larger job sizes than last year. Competition for installs is intensifying as heat pump adoption accelerates."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
       "title": "Test Google Local Services Ads alongside Instagram",
-      "detail": "Consider shifting a portion of the $10,670 monthly budget to Local Services Ads. Category benchmarks suggest cost per lead could drop by half."
+      "detail": "Local Services Ads average $51 per lead for HVAC with a 44% book rate. Worth testing a small budget to compare against your current $143 Instagram cost."
     },
     {
       "number": "02",
-      "title": "Tighten the Instant Form or route to phone calls",
-      "detail": "Only 5.5% of ad clickers converted. Worth testing a shorter form, or swapping the objective to call-only for higher-intent furnace tune-up leads."
+      "title": "Push the furnace tune-up offer harder in October",
+      "detail": "First cold snap triggers a 2.8x spike in heating calls. Consider front-loading spend now while intent is climbing and before competitors flood the auction."
     },
     {
       "number": "03",
-      "title": "Turn 322 five-star reviews into ad creative",
-      "detail": "The review moat is underused. Test video ads featuring real review quotes and technician names like Cliff to lift trust and conversion rate."
+      "title": "Feature your 5-star reviews in the ad creative",
+      "detail": "You added 348 reviews this period at a perfect rating. Test ad variants that quote recent reviewers to lift click-through on the furnace campaign."
     }
   ]
 }

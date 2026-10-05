@@ -1,48 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-09-28T19:09:54.979Z",
-  "weekOf": "September 1, 2026 – September 28, 2026",
-  "verdict": "Paid Instagram is profitable this period, but checkout drop-off and weak organic engagement are capping growth.",
-  "diagnosis": "Ad spend of $4,709 drove $23,762 in purchases, but only 188 of 516 add-to-carts reached checkout — a 64% cart abandonment gap.",
+  "generatedAt": "2026-10-05T20:13:10.806Z",
+  "weekOf": "September 8, 2026 – October 5, 2026",
+  "verdict": "Instagram ads are profitable this period at $4,935 spend returning $24,601 — but reviews and local search are leaking value.",
+  "diagnosis": "Paid Instagram drove 627 purchases on $4,935 spend (roughly 5x return), yet only 128 pixel-tracked purchases suggest attribution gaps hiding true performance.",
   "signals": [
     {
-      "headline": "Return on ad spend hit 37x",
-      "detail": "Every $1 in Instagram spend returned roughly $5 in tracked purchase value this period. Strong efficiency for a lamb-focused single-product ad."
+      "headline": "Instagram ads returned about 5x spend",
+      "detail": "$4,935 spent produced $24,601 in tracked purchase value this period. Healthy for a paid social channel on cold traffic."
     },
     {
-      "headline": "516 add-to-carts, only 188 checkouts",
-      "detail": "Roughly 6 in 10 shoppers who added to cart never started checkout. Biggest revenue leak in the funnel right now."
+      "headline": "541 add-to-carts, only 627 purchases",
+      "detail": "Strong intent signal from ads. The gap between 195 checkouts started and 627 purchases suggests tracking or funnel inconsistency worth auditing."
     },
     {
-      "headline": "Cost per purchase around $53",
-      "detail": "Latest period cost per purchase is workable for premium meat, but well above the $23 cost per lead you're paying."
+      "headline": "95 new reviews added this period",
+      "detail": "Review count jumped meaningfully with a 5-star latest rating. Reputation is a real asset right now — use it in creative."
     },
     {
-      "headline": "272 reviews, latest rating 5 stars",
-      "detail": "Review volume and quality are a real asset. Barely surfaced in current ad creative or landing pages."
+      "headline": "Zero calls or direction requests",
+      "detail": "The Hoffman Estates butcher shop profile generated no phone taps or driving directions this period. Local intent is not converting offline."
     },
     {
-      "headline": "Followers grew by 201 this period",
-      "detail": "Organic Instagram is nearly flat at 13,351 followers. Story reach of 68 signals almost no content distribution outside paid."
+      "headline": "Followers grew by 949 this period",
+      "detail": "Instagram follower base expanded to 6,693. Organic engagement is modest at 125 recent interactions, so growth is ad-driven, not viral."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food and beverage converts 4.5%–6.0%\",\n\"body\": \"<cite index=\"4-2,4-5\">Food and beverage brands average 4.5%–6.0% conversion.</cite> Your paid traffic converted ~5% of link clicks to purchases — in range, but cart-to-checkout drop-off is the weak link.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Meat subscription market doubling by 2033\",\n\"body\": \"<cite index=\"18-2\">Meat subscription market projected to grow from $2.2B in 2026 to $5.5B by 2033.</cite> Fall grilling season winding down; holiday roast demand builds in October.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Wildfork appearing in your search terms\",\n\"body\": \"\\\"Wildfork near me\\\" showed up in your local search data. <cite index=\"18-3\">Competition centers on quality, sourcing transparency, subscription flexibility, and delivery reliability.</cite> Your reviews and American-sourced story are underused defenses.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Food brands convert above most verticals",
+      "body": "Food and beverage sites average 4.5%–6.0% conversion, versus 1.17% median across direct-to-consumer stores overall. Paid social typically converts under 1.5%, so ad traffic needs strong follow-up email."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Protein demand stays strong into fall",
+      "body": "The 2026 Power of Meat report shows meat was the fastest-growing grocery department, with 4 in 10 consumers focused more on protein than five years ago. Holiday roast season is approaching."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Subscription box brands are the real threat",
+      "body": "Direct-to-consumer meat subscription services are the fastest-growing channel in U.S. meat retail, targeting the same millennial and Gen Z buyers. Butcher shops compete on authentic sourcing stories and local trust."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the cart-to-checkout drop-off",
-      "detail": "Consider testing free shipping thresholds, guest checkout, and clearer delivery dates on the cart page. Recovering half the 328 lost carts could add meaningful revenue at no ad cost."
+      "title": "Audit pixel tracking before scaling spend",
+      "detail": "Only 128 of 627 reported purchases registered through the Facebook pixel. Fix tracking first, then confidently increase the $4,935 budget on the Lamb Escalopes ad."
     },
     {
       "number": "02",
-      "title": "Test a holiday roast or bundle ad",
-      "detail": "The Lamb Escalopes ad is working solo. Worth testing a second creative around holiday roasts or a starter bundle to widen the funnel before November demand."
+      "title": "Launch a review-request flow for recent buyers",
+      "detail": "95 new reviews landed this period at 5 stars. Automate a post-purchase email asking for Google reviews to compound local search credibility heading into holiday season."
     },
     {
       "number": "03",
-      "title": "Put your 272 reviews to work",
-      "detail": "Consider adding star ratings and quotes to product pages and ad creative. Reviews are your strongest trust signal against Wildfork and other subscription competitors."
+      "title": "Test a holiday roast or bundle creative",
+      "detail": "Protein demand peaks October–December. Consider testing a holiday-themed video ad (prime rib, lamb roast, gift bundle) alongside the current Lamb Escalopes ad to capture seasonal intent."
     }
   ]
 }

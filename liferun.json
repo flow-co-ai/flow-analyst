@@ -1,48 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-09-28T19:11:12.714Z",
-  "weekOf": "September 1, 2026 – September 28, 2026",
-  "verdict": "Paused search campaign is bleeding — zero recent impressions while your best ad is still delivering a 5x return on ad spend.",
-  "diagnosis": "You spent $7,220 this period and earned $5,897 in tracked purchases, but only 2 leads landed and the main call campaign is paused.",
+  "generatedAt": "2026-10-05T20:14:27.042Z",
+  "weekOf": "September 8, 2026 – October 5, 2026",
+  "verdict": "Spend is efficient but lead volume is critically low — only 2 leads this period from $7,220.",
+  "diagnosis": "Return on ad spend looks strong at 5x, but just 2 leads over 28 days signals a severe pipeline problem, not a performance win.",
   "signals": [
     {
-      "headline": "Only 2 leads captured this period",
-      "detail": "Lead volume collapsed against 4,654 clicks. The gap between clicks and leads points to a landing page or offer problem."
+      "headline": "Only 2 leads in 28 days",
+      "detail": "Lead volume is dangerously low for a $7,220 spend. The main search call campaign is paused, choking the funnel."
     },
     {
-      "headline": "Return on ad spend hit 5x",
-      "detail": "Every dollar spent returned about five in tracked purchases. Healthy for medical alert, but volume is far too thin to scale."
+      "headline": "Cost per lead sits at $12",
+      "detail": "Well below the $67 health and fitness benchmark. The number is flattering because the lead count is tiny."
     },
     {
-      "headline": "Call campaign paused, zero recent impressions",
-      "detail": "Your retargeting call campaign shows PAUSED status with no impressions in the latest day. You are leaving warm audiences untouched."
+      "headline": "Return on ad spend reached 5x",
+      "detail": "Nine purchases drove $5,897 in revenue. Purchase tracking is working better than lead tracking right now."
     },
     {
-      "headline": "Google Business Profile drove 137 direction requests",
-      "detail": "Local intent is real — people want to find you. Only 2 call clicks converted from that traffic, though."
+      "headline": "Click-through rate hit 0.08%",
+      "detail": "Impressions converted to clicks poorly across 92,855 views. Creative or keyword match quality needs a fresh look."
     },
     {
-      "headline": "Cost per click averaged $2.08",
-      "detail": "In line with health and medical search norms. Efficiency is not the problem here; volume and lead capture are."
+      "headline": "Only 2 call clicks from Profile",
+      "detail": "Google Business Profile drove 160 direction requests but almost no calls. Phone intent is leaking somewhere."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Health search cost per lead sits near $67\", \"body\": \"<cite index=\"3-1\">Health and fitness Google Ads run about $67 cost per lead in 2026</cite>, and <cite index=\"8-13\">health and medical cost per click averages $2.62</cite>. Your $2.08 click cost beats that; your lead volume does not.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Fall demand rising for senior safety devices\", \"body\": \"<cite index=\"10-5,10-6,10-7\">Buyers are more proactive, adopting medical alert systems as a preventive measure rather than waiting for an emergency</cite>. Family caregiver conversations peak in autumn ahead of holiday visits home.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Mobile GPS wearables dominating category\", \"body\": \"<cite index=\"11-1,11-2,11-3\">Mobile PERS with smartphone and smart wearable integration is leading the medical alert market</cite>. Life Alert, Bay Alarm, and ADT remain the dominant paid-search bidders on core keywords.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Health vertical cost per lead near $67",
+      "body": "Health and fitness averages $67 per lead on Google Ads in 2026. Physicians and surgeons average $40. Liferun's $12 cost per lead is far below both — but on only 2 leads."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Fall is peak medical alert buying",
+      "body": "Three in four non-users say declining health would move them to buy. Half act after a fall. Autumn and winter typically drive the strongest medical alert demand of the year."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Apple Watch leads the category",
+      "body": "Apple Watch now ranks as the top medical alert device among older adults, ahead of dedicated brands. Wearables hold 35% market share. Positioning against smartwatches matters more than ever."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Unpause the call retargeting campaign this week",
-      "detail": "It targets warm 50% video viewers and cost per lead was $6.02 when active. Consider restarting with a small daily cap to test current performance before scaling."
+      "title": "Reactivate the paused search call campaign",
+      "detail": "The main Search Campaign is paused. Consider turning it back on with tighter budget caps. Lead volume cannot recover while the primary intent channel sits dark."
     },
     {
       "number": "02",
-      "title": "Fix the click-to-lead gap on landing pages",
-      "detail": "4,654 clicks produced 2 leads. Worth testing a simpler form, a phone-first call-to-action, and social proof aimed at adult children buying for parents."
+      "title": "Test fresh creative to lift 0.08% click rate",
+      "detail": "Click-through is far below the 5.8% health benchmark. Worth testing new ad copy focused on fall detection and family peace-of-mind, the top purchase drivers."
     },
     {
       "number": "03",
-      "title": "Test GPS wearable and fall detection ad angles",
-      "detail": "Category buyers now expect fall detection and mobile GPS as baseline. Consider creative that leads with those features rather than generic \"medical alert\" language."
+      "title": "Fix the call tracking gap on Business Profile",
+      "detail": "160 direction requests but only 2 call clicks suggests phone intent is being lost. Consider auditing the Profile phone number and call extensions in ads."
     }
   ]
 }
