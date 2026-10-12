@@ -1,48 +1,48 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-10-05T20:14:05.333Z",
-  "weekOf": "September 8, 2026 – October 5, 2026",
-  "verdict": "Paid Instagram is punching above its weight; reputation and intake are the weak links.",
-  "diagnosis": "Instagram lead ads delivered 449 leads this period at roughly $24 each, well under the legal industry average, but a one-star review and slow organic growth drag the brand.",
+  "generatedAt": "2026-10-12T20:50:46.894Z",
+  "weekOf": "September 15, 2026 – October 12, 2026",
+  "verdict": "Instagram leads flowing at roughly $23 each — well below legal benchmarks — but reviews and intake need attention.",
+  "diagnosis": "495 leads from $11,440 spend this period means about $23 per lead, far under the $72 Meta legal average and $131 search average.",
   "signals": [
     {
-      "headline": "449 leads from Instagram this period",
-      "detail": "The August Re-Launch campaign produced 449 lead actions on $10,894 spent, averaging about $24 per lead."
+      "headline": "495 leads at roughly $23 each",
+      "detail": "Instagram lead campaign is producing strong volume at a cost well below legal industry norms this period."
     },
     {
-      "headline": "Reach hit 137,441 people",
-      "detail": "Ads reached 137,441 unique users with a frequency of 1.16, meaning most saw the ad once. Room to scale."
+      "headline": "7,511 clicks, only 3,635 to site",
+      "detail": "About half of ad clicks never reach the landing page. Form drop-off or load issues worth investigating."
     },
     {
-      "headline": "183 call clicks from Google profile",
-      "detail": "The Business Profile drove 183 phone taps this period but zero direction requests, suggesting phone-first intake."
+      "headline": "203 phone calls from Google profile",
+      "detail": "Local listing drove meaningful call volume this period. Phone remains a primary intake channel for the firm."
     },
     {
-      "headline": "One-star review pulled rating to 4.67",
-      "detail": "A new one-star review landed this period, dropping average rating. Two new reviews total, uneven mix."
+      "headline": "Average review rating slipped to 3.67",
+      "detail": "Latest period rating dropped from the 4.69 average. Three new reviews pulled the score down noticeably."
     },
     {
-      "headline": "Instagram following stuck at 35",
-      "detail": "Followers flat at 35 with only 30 profile visits. Organic presence is not keeping pace with paid reach."
+      "headline": "Only 38 Instagram followers",
+      "detail": "Organic social presence is minimal despite heavy paid activity. No audience being built for retargeting or nurture."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal cost per lead sits high\",\n\"body\": \"The 2026 average cost per lead for Attorneys and Legal Services is <cite index=\"2-7\">$131.63</cite> on search, with Meta social averaging <cite index=\"4-5\">around $72</cite>. Your $24 per lead is well below both.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Fall debt-collection inquiries climb\",\n\"body\": \"Consumer debt stress typically rises heading into Q4 as holiday spending begins. Debt-collector harassment complaints follow the same curve. Expect lead volume to hold or grow through November.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Firms leaning into Reels video\",\n\"body\": \"<cite index=\"15-6,15-7\">Instagram Reels are the growth engine now, surfaced hardest by the algorithm.</cite> Consumer-facing firms are shifting creative toward 30-60 second attorney explainer videos shot on phones.\"\n}\n}",
+  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Legal leads average $72 on Meta\", \"body\": \"<cite index=\"7-3,7-4\">Legal services average $72.40 cost per lead on Meta ads in 2026</cite>. <cite index=\"1-7\">Search ad legal lead costs average $131.63</cite>. Justice Consumer Law's roughly $23 per lead sits well below both.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Fall swings hit legal Meta costs\", \"body\": \"<cite index=\"7-13,7-14\">Legal services on Meta range from $67 to $254 per lead, with a $123 spike recorded between August and September 2025</cite>. Expect volatility heading into Q4.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Firms shifting to video and fast intake\", \"body\": \"<cite index=\"7-17,7-18\">Video ads improve lead quality because prospects watching 15 to 30 seconds are more qualified than static ad clickers</cite>. <cite index=\"18-10,18-11\">Response within five minutes beats slower competitors and drives signed case rates</cite>.\"}}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Respond publicly to the one-star review",
-      "detail": "A measured, professional reply shows prospects you take complaints seriously. Consider also asking recent happy clients for reviews to dilute the impact on your 4.67 average."
+      "title": "Investigate the click-to-landing-page drop-off",
+      "detail": "Half of ad clicks never register as landing page views this period. Test page load speed, mobile rendering, and tracking pixel setup to recover lost leads."
     },
     {
       "number": "02",
-      "title": "Test scaling the winning August Re-Launch ad",
-      "detail": "At $24 per lead you have room to raise daily budget before costs climb. Worth testing a 25-50% budget lift on Video Ad 04 V4 while watching cost per lead."
+      "title": "Launch a review request push to intake clients",
+      "detail": "Latest rating fell to 3.67 from a 4.69 average. Consider texting recent satisfied clients a direct review link to rebuild the star average."
     },
     {
       "number": "03",
-      "title": "Track what happens after the lead form",
-      "detail": "The CRM pipeline shows no data this period. Consider connecting intake outcomes so you can see which of the 449 leads became paying clients."
+      "title": "Test a second video creative against Ad 04 V4",
+      "detail": "The current video is carrying the campaign. A second variant on the same offer protects against fatigue and gives Meta more learning signal."
     }
   ]
 }

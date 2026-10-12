@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-10-05T20:13:10.806Z",
-  "weekOf": "September 8, 2026 – October 5, 2026",
-  "verdict": "Instagram ads are profitable this period at $4,935 spend returning $24,601 — but reviews and local search are leaking value.",
-  "diagnosis": "Paid Instagram drove 627 purchases on $4,935 spend (roughly 5x return), yet only 128 pixel-tracked purchases suggest attribution gaps hiding true performance.",
+  "generatedAt": "2026-10-12T20:49:54.277Z",
+  "weekOf": "September 15, 2026 – October 12, 2026",
+  "verdict": "Instagram ads are profitable this period, but a thin product mix and weak local search presence cap growth.",
+  "diagnosis": "This period, $5,442 in Instagram spend drove 637 purchases worth $26,799 — a return of roughly $4.90 for every $1 spent.",
   "signals": [
     {
-      "headline": "Instagram ads returned about 5x spend",
-      "detail": "$4,935 spent produced $24,601 in tracked purchase value this period. Healthy for a paid social channel on cold traffic."
+      "headline": "637 purchases from $5,442 spend",
+      "detail": "Return on ad spend sits near 4.9x this period, well above the food and beverage benchmark of 3.2x."
     },
     {
-      "headline": "541 add-to-carts, only 627 purchases",
-      "detail": "Strong intent signal from ads. The gap between 195 checkouts started and 627 purchases suggests tracking or funnel inconsistency worth auditing."
+      "headline": "Cost per purchase: $8.54",
+      "detail": "Dramatically below the food and beverage benchmark of roughly $23.88. The Lamb Escalopes video is doing real work."
     },
     {
-      "headline": "95 new reviews added this period",
-      "detail": "Review count jumped meaningfully with a 5-star latest rating. Reputation is a real asset right now — use it in creative."
+      "headline": "Only 214 checkouts started, 637 bought",
+      "detail": "Odd ratio suggests tracking gaps or a very short path. Worth auditing before scaling spend."
     },
     {
-      "headline": "Zero calls or direction requests",
-      "detail": "The Hoffman Estates butcher shop profile generated no phone taps or driving directions this period. Local intent is not converting offline."
+      "headline": "95 new reviews, 5-star latest average",
+      "detail": "Reputation momentum is strong this period. Review volume is a trust asset competitors like ButcherBox lean on heavily."
     },
     {
-      "headline": "Followers grew by 949 this period",
-      "detail": "Instagram follower base expanded to 6,693. Organic engagement is modest at 125 recent interactions, so growth is ad-driven, not viral."
+      "headline": "Zero clicks to call or directions",
+      "detail": "Google Business Profile is generating map impressions but no actions. The local listing is passive, not working."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Food brands convert above most verticals",
-      "body": "Food and beverage sites average 4.5%–6.0% conversion, versus 1.17% median across direct-to-consumer stores overall. Paid social typically converts under 1.5%, so ad traffic needs strong follow-up email."
+      "subheader": "Food and beverage leads Meta performance",
+      "body": "Food and beverage brands on Meta average a cost per purchase of $23.88 and a return of 3.2x. Billy Doe is beating both this period at $8.54 and roughly 4.9x."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Protein demand stays strong into fall",
-      "body": "The 2026 Power of Meat report shows meat was the fastest-growing grocery department, with 4 in 10 consumers focused more on protein than five years ago. Holiday roast season is approaching."
+      "subheader": "Q4 Meta costs rising 15 to 25 percent",
+      "body": "Meta ad costs typically climb 15 to 25 percent in Q4 as holiday advertisers flood the auction. Current efficiency will likely compress through November and December."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Subscription box brands are the real threat",
-      "body": "Direct-to-consumer meat subscription services are the fastest-growing channel in U.S. meat retail, targeting the same millennial and Gen Z buyers. Butcher shops compete on authentic sourcing stories and local trust."
+      "subheader": "ButcherBox expanding beyond subscription",
+      "body": "ButcherBox, with 400,000+ subscribers and $550M revenue pace, is pushing into Target's marketplace to acquire non-subscribers. Category pressure on one-time buyer acquisition is building."
     }
   },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Audit pixel tracking before scaling spend",
-      "detail": "Only 128 of 627 reported purchases registered through the Facebook pixel. Fix tracking first, then confidently increase the $4,935 budget on the Lamb Escalopes ad."
+      "number": "1",
+      "title": "Scale the Lamb Escalopes video before Q4 costs climb",
+      "detail": "This single ad is delivering an $8.54 cost per purchase. Consider raising its daily budget 20 to 30 percent now, before holiday auction prices lift costs."
     },
     {
-      "number": "02",
-      "title": "Launch a review-request flow for recent buyers",
-      "detail": "95 new reviews landed this period at 5 stars. Automate a post-purchase email asking for Google reviews to compound local search credibility heading into holiday season."
+      "number": "2",
+      "title": "Audit the checkout tracking gap",
+      "detail": "637 purchases against only 214 initiated checkouts does not reconcile. Worth checking pixel setup and deduplication so decisions rest on clean numbers."
     },
     {
-      "number": "03",
-      "title": "Test a holiday roast or bundle creative",
-      "detail": "Protein demand peaks October–December. Consider testing a holiday-themed video ad (prime rib, lamb roast, gift bundle) alongside the current Lamb Escalopes ad to capture seasonal intent."
+      "number": "3",
+      "title": "Activate the Google Business Profile",
+      "detail": "Zero calls, zero direction requests despite map impressions. Consider adding offers, product posts, and a clear order link to convert local search intent."
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-10-05T20:14:27.042Z",
-  "weekOf": "September 8, 2026 – October 5, 2026",
-  "verdict": "Spend is efficient but lead volume is critically low — only 2 leads this period from $7,220.",
-  "diagnosis": "Return on ad spend looks strong at 5x, but just 2 leads over 28 days signals a severe pipeline problem, not a performance win.",
+  "generatedAt": "2026-10-12T20:51:10.759Z",
+  "weekOf": "September 15, 2026 – October 12, 2026",
+  "verdict": "Spend of $7,221 produced only 2 leads this period; the main campaign is paused and conversions have collapsed.",
+  "diagnosis": "Cost per lead landed near $3,610 — roughly 25x the health and wellness benchmark — because the call campaign is paused and purchases stalled.",
   "signals": [
     {
-      "headline": "Only 2 leads in 28 days",
-      "detail": "Lead volume is dangerously low for a $7,220 spend. The main search call campaign is paused, choking the funnel."
+      "headline": "Only 2 leads from $7,221 spend",
+      "detail": "Lead volume is near zero this period. The pipeline cannot sustain itself at this cost per lead."
     },
     {
-      "headline": "Cost per lead sits at $12",
-      "detail": "Well below the $67 health and fitness benchmark. The number is flattering because the lead count is tiny."
+      "headline": "Main search campaign is paused",
+      "detail": "The 'BWS - Search Campaign - Calls' is paused. That explains the collapse in impressions and clicks in recent days."
     },
     {
-      "headline": "Return on ad spend reached 5x",
-      "detail": "Nine purchases drove $5,897 in revenue. Purchase tracking is working better than lead tracking right now."
+      "headline": "9 purchases worth $5,897 recorded",
+      "detail": "Return on ad spend sits near $0.82 per dollar. Revenue is not covering media cost this period."
     },
     {
-      "headline": "Click-through rate hit 0.08%",
-      "detail": "Impressions converted to clicks poorly across 92,855 views. Creative or keyword match quality needs a fresh look."
+      "headline": "Only 1 call click in 28 days",
+      "detail": "For a call-focused medical alert business, this is the most alarming number in the report."
     },
     {
-      "headline": "Only 2 call clicks from Profile",
-      "detail": "Google Business Profile drove 160 direction requests but almost no calls. Phone intent is leaking somewhere."
+      "headline": "163 direction requests on Google profile",
+      "detail": "Local interest exists. The business profile is generating meaningful intent that paid media is not capturing."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Health vertical cost per lead near $67",
-      "body": "Health and fitness averages $67 per lead on Google Ads in 2026. Physicians and surgeons average $40. Liferun's $12 cost per lead is far below both — but on only 2 leads."
+      "subheader": "Health and wellness cost per lead",
+      "body": "Health and wellness consumer leads average around $98 to $142. Google search leads for medical categories typically run $30 to $150. Current spend produces leads far above both ranges."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Fall is peak medical alert buying",
-      "body": "Three in four non-users say declining health would move them to buy. Half act after a fall. Autumn and winter typically drive the strongest medical alert demand of the year."
+      "subheader": "Fall is a strong window for seniors",
+      "body": "Open enrollment and holiday family conversations drive medical alert interest in October and November. Adult children often research devices for aging parents during this window."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Apple Watch leads the category",
-      "body": "Apple Watch now ranks as the top medical alert device among older adults, ahead of dedicated brands. Wearables hold 35% market share. Positioning against smartwatches matters more than ever."
+      "subheader": "Market growing near 11% yearly",
+      "body": "The home medical alert market reached $4.93 billion in 2026, growing 11.9% from 2025. Bay Alarm, Lifeline, Life Alert, and Medical Guardian lead on fall detection and GPS features."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Reactivate the paused search call campaign",
-      "detail": "The main Search Campaign is paused. Consider turning it back on with tighter budget caps. Lead volume cannot recover while the primary intent channel sits dark."
+      "title": "Relaunch the paused call campaign with tight budget caps",
+      "detail": "Consider restarting the search call campaign with a daily cap and conversion tracking on phone calls. The current pause is the single biggest reason leads stopped."
     },
     {
       "number": "02",
-      "title": "Test fresh creative to lift 0.08% click rate",
-      "detail": "Click-through is far below the 5.8% health benchmark. Worth testing new ad copy focused on fall detection and family peace-of-mind, the top purchase drivers."
+      "title": "Shift budget toward call clicks, not clicks",
+      "detail": "Test call-only ads on mobile for 'life alert' and related terms. For this audience, a phone call is worth far more than a website click."
     },
     {
       "number": "03",
-      "title": "Fix the call tracking gap on Business Profile",
-      "detail": "160 direction requests but only 2 call clicks suggests phone intent is being lost. Consider auditing the Profile phone number and call extensions in ads."
+      "title": "Capture Google Business Profile demand",
+      "detail": "163 direction requests this period shows local intent. Worth exploring call extensions, updated hours, and review requests to convert that interest into bookings."
     }
   ]
 }

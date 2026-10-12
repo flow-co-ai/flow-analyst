@@ -1,60 +1,44 @@
 {
   "client": "vous-physique",
   "clientName": "Vous Physique",
-  "generatedAt": "2026-10-05T20:14:50.159Z",
-  "weekOf": "September 8, 2026 – October 5, 2026",
-  "verdict": "Spend collapsed to $3.85 on the final day from a $13.63 daily average — the PCOS/postpartum campaign is effectively paused.",
-  "diagnosis": "Facebook is your only tracked channel this period, with $2,330 spent and no visible leads, bookings, or local presence data to judge return.",
+  "generatedAt": "2026-10-12T20:51:31.916Z",
+  "weekOf": "September 15, 2026 – October 12, 2026",
+  "verdict": "Spend has collapsed to near-zero with no visible leads — the campaign is effectively paused and needs intervention.",
+  "diagnosis": "Total spend of $2,330 over 28 days averages $13.63 daily, but the latest day dropped to $3.85 — well below viable thresholds.",
   "signals": [
     {
-      "headline": "Spend fell 72% to $3.85 daily",
-      "detail": "Latest day spend dropped from the $13.63 daily average, suggesting the campaign hit a budget cap or was throttled."
+      "headline": "Daily spend crashed to $3.85",
+      "detail": "Latest day sits far below the 28-day average of $13.63. Delivery has effectively stalled on the PCOS and postpartum campaign."
     },
     {
-      "headline": "$2,330 spent across 28 days",
-      "detail": "One active campaign targeting PCOS and postpartum personas. No lead or conversion data flowing back to measure outcome."
+      "headline": "Only 1 active campaign running",
+      "detail": "The persona campaign carries the whole account. No backup campaign exists to absorb budget or test alternative angles."
     },
     {
-      "headline": "Zero visibility on 4 channels",
-      "detail": "No Google Business Profile, organic social, CRM pipeline, or top performer data. Impossible to confirm leads are converting to trials."
+      "headline": "28-day spend totals $2,330",
+      "detail": "Below the $1,500 monthly floor many benchmarks cite for meaningful studio results. Volume is too thin to judge creative."
     },
     {
-      "headline": "Single campaign carries 100% of spend",
-      "detail": "No creative or audience diversification. One ad fatigue cycle or policy flag could zero out your pipeline overnight."
+      "headline": "Zero lead data visible this period",
+      "detail": "No conversion, pipeline, or booking data flowing in. Impossible to confirm whether spend is producing qualified prospects."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Fitness Facebook leads cost $27 median",
-      "body": "US health and fitness leads on Facebook run a median of $27 in 2026. Boutique and personal training studios skew higher at $32–$52. Fitness conversion rate averages roughly 8% on Meta lead campaigns."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "September historically a high-cost month",
-      "body": "Fitness cost per lead swings sharply month to month. September 2025 hit the yearly high near $61 before easing. Expect auction pressure to stay elevated through fall before January resolution season."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Boutique studios winning on niche community",
-      "body": "Studio check-ins rose 27% year-over-year versus 1% for big-box gyms. Niche positioning — like postpartum or PCOS — is exactly what boutique winners are doing. Your targeting matches the trend."
-    }
-  },
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Boutique studio leads run $25–$52\",\n\"body\": \"Premium and boutique studios on Meta typically pay between $25 and $52 per lead in 2026. <cite index=\"4-5\">Budget gyms sit at $8–$15, mid-range clubs $15–$30, and premium boutique studios $25–$52.</cite>\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Fall is a strong fitness window\",\n\"body\": \"<cite index=\"8-13\">The lowest fitness lead costs appear in April at $13.50, with July the peak at $48.33.</cite> September and October usually sit mid-range as back-to-routine demand returns.\"\n},\n\"competitor\": {\n\"label\": \"Category\",\n\"subheader\": \"Studios winning on community, not spend\",\n\"body\": \"<cite index=\"12-3\">Studio check-ins surged 27% year-over-year against just 1% for gyms,</cite> and retention now matters more than acquisition for growing studios in 2026.\"\n}\n}",
   "recommendations": [
     {
       "number": "1",
-      "title": "Investigate why daily spend dropped to $3.85",
-      "detail": "Check for budget caps, billing issues, or disapprovals. A 72% drop on the final day usually means the account is throttled, not that demand vanished."
+      "title": "Restore daily budget to at least $30–$50",
+      "detail": "Current pace of $3.85 per day cannot exit Meta's learning phase. Consider rebuilding to a minimum viable budget before judging creative or audience."
     },
     {
       "number": "2",
-      "title": "Connect lead tracking before spending more",
-      "detail": "Without CRM or form submission data, $2,330 is unmeasurable. Consider wiring lead events back so cost per lead can be benchmarked against the $27 fitness median."
+      "title": "Connect lead tracking before scaling further",
+      "detail": "No lead, booking, or pipeline data is visible this period. Worth confirming the lead form, CRM, and conversion events are firing correctly."
     },
     {
       "number": "3",
-      "title": "Test a second creative angle alongside PCOS/postpartum",
-      "detail": "One campaign is a single point of failure. Worth testing a short vertical video with a specific trial offer to protect against fatigue."
+      "title": "Test a second creative angle alongside PCOS persona",
+      "detail": "One campaign carries everything right now. Consider testing a general trial-class offer to compare cost per lead against the persona angle."
     }
   ]
 }
