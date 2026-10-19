@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-10-12T20:51:10.759Z",
-  "weekOf": "September 15, 2026 – October 12, 2026",
-  "verdict": "Spend of $7,221 produced only 2 leads this period; the main campaign is paused and conversions have collapsed.",
-  "diagnosis": "Cost per lead landed near $3,610 — roughly 25x the health and wellness benchmark — because the call campaign is paused and purchases stalled.",
+  "generatedAt": "2026-10-19T18:16:48.863Z",
+  "weekOf": "September 22, 2026 – October 19, 2026",
+  "verdict": "Spending $7,221 produced only 2 leads this period while the main search campaign sits paused — pipeline is effectively stalled.",
+  "diagnosis": "Cost per lead landed near $3,610 this period, roughly 10x the healthcare benchmark, driven by heavy spend against almost no conversions.",
   "signals": [
     {
-      "headline": "Only 2 leads from $7,221 spend",
-      "detail": "Lead volume is near zero this period. The pipeline cannot sustain itself at this cost per lead."
+      "headline": "Only 2 leads in 28 days",
+      "detail": "Spend reached $7,221 but produced just two leads. The paid funnel is not generating pipeline at a usable rate."
     },
     {
-      "headline": "Main search campaign is paused",
-      "detail": "The 'BWS - Search Campaign - Calls' is paused. That explains the collapse in impressions and clicks in recent days."
+      "headline": "Main call campaign paused mid-period",
+      "detail": "The retargeting call campaign is paused. That likely explains the collapse in impressions and clicks toward period end."
     },
     {
-      "headline": "9 purchases worth $5,897 recorded",
-      "detail": "Return on ad spend sits near $0.82 per dollar. Revenue is not covering media cost this period."
+      "headline": "9 purchases returned $5,897 in revenue",
+      "detail": "Purchases are the only bright spot, averaging $655 each. Shopping intent is converting even as lead flow dries up."
     },
     {
-      "headline": "Only 1 call click in 28 days",
-      "detail": "For a call-focused medical alert business, this is the most alarming number in the report."
+      "headline": "183 direction requests, 1 call click",
+      "detail": "The Google Business Profile drives foot-traffic intent but almost no phone calls. A call-tracking gap is likely."
     },
     {
-      "headline": "163 direction requests on Google profile",
-      "detail": "Local interest exists. The business profile is generating meaningful intent that paid media is not capturing."
+      "headline": "Click-through rate holding at 0.08%",
+      "detail": "Click-through is weak for search. Creative and keyword relevance need review before relaunching the paused campaign."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Health and wellness cost per lead",
-      "body": "Health and wellness consumer leads average around $98 to $142. Google search leads for medical categories typically run $30 to $150. Current spend produces leads far above both ranges."
+      "subheader": "Healthcare lead costs run $130–$350",
+      "body": "Industry data puts healthcare cost per lead at roughly $130–$350 in 2026, with consumer health and wellness closer to $98. Liferun's current cost per lead is far above both ranges."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "Fall is a strong window for seniors",
-      "body": "Open enrollment and holiday family conversations drive medical alert interest in October and November. Adult children often research devices for aging parents during this window."
+      "subheader": "Q4 Medicare window lifts senior demand",
+      "body": "Medicare Advantage open enrollment runs through December. Adult children researching medical alerts for aging parents peaks now — a window Liferun's paused campaigns are missing."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Market growing near 11% yearly",
-      "body": "The home medical alert market reached $4.93 billion in 2026, growing 11.9% from 2025. Bay Alarm, Lifeline, Life Alert, and Medical Guardian lead on fall detection and GPS features."
+      "subheader": "Apple Watch leads the category",
+      "body": "Apple Watch ranks as the most-used medical alert device among older adults, ahead of dedicated brands like Life Alert and Medical Guardian. Price and feature differentiation matters more than ever."
     }
   },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Relaunch the paused call campaign with tight budget caps",
-      "detail": "Consider restarting the search call campaign with a daily cap and conversion tracking on phone calls. The current pause is the single biggest reason leads stopped."
+      "number": "1",
+      "title": "Relaunch the paused call campaign before Medicare window closes",
+      "detail": "The retargeting call campaign is paused during peak senior shopping season. Consider restarting with a tighter budget cap and clear daily lead target."
     },
     {
-      "number": "02",
-      "title": "Shift budget toward call clicks, not clicks",
-      "detail": "Test call-only ads on mobile for 'life alert' and related terms. For this audience, a phone call is worth far more than a website click."
+      "number": "2",
+      "title": "Fix call tracking on the Google Business Profile",
+      "detail": "183 direction requests but only 1 call click suggests tracking is broken or the call button is buried. Worth auditing the profile this week."
     },
     {
-      "number": "03",
-      "title": "Capture Google Business Profile demand",
-      "detail": "163 direction requests this period shows local intent. Worth exploring call extensions, updated hours, and review requests to convert that interest into bookings."
+      "number": "3",
+      "title": "Shift budget toward purchase-driving ads",
+      "detail": "Purchases returned $5,897 on modest spend. Test reallocating budget from lead forms into the shopping funnel that is already converting."
     }
   ]
 }

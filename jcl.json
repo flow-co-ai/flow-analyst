@@ -1,48 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-10-12T20:50:46.894Z",
-  "weekOf": "September 15, 2026 – October 12, 2026",
-  "verdict": "Instagram leads flowing at roughly $23 each — well below legal benchmarks — but reviews and intake need attention.",
-  "diagnosis": "495 leads from $11,440 spend this period means about $23 per lead, far under the $72 Meta legal average and $131 search average.",
+  "generatedAt": "2026-10-19T18:16:25.779Z",
+  "weekOf": "September 22, 2026 – October 19, 2026",
+  "verdict": "Instagram lead campaign is working: 541 leads this period at a cost per lead well below legal industry averages.",
+  "diagnosis": "Spend of $11,963 produced 541 leads at roughly $22 each — a fraction of the $131 legal benchmark — but intake and reviews need attention.",
   "signals": [
     {
-      "headline": "495 leads at roughly $23 each",
-      "detail": "Instagram lead campaign is producing strong volume at a cost well below legal industry norms this period."
+      "headline": "541 leads at $22 each",
+      "detail": "Instagram lead campaign delivered strong volume this period, far cheaper than typical legal paid social costs."
     },
     {
-      "headline": "7,511 clicks, only 3,635 to site",
-      "detail": "About half of ad clicks never reach the landing page. Form drop-off or load issues worth investigating."
+      "headline": "7,992 clicks, 2,986 landing views",
+      "detail": "Roughly 37% of clicks reach the landing page. Tracking or page speed may be leaking traffic."
     },
     {
-      "headline": "203 phone calls from Google profile",
-      "detail": "Local listing drove meaningful call volume this period. Phone remains a primary intake channel for the firm."
+      "headline": "218 calls from Google profile",
+      "detail": "Google Business Profile is driving steady phone volume with only 26 direction requests — this is a call-driven channel."
     },
     {
-      "headline": "Average review rating slipped to 3.67",
-      "detail": "Latest period rating dropped from the 4.69 average. Three new reviews pulled the score down noticeably."
+      "headline": "Latest review rating dropped to 3.67",
+      "detail": "Recent reviews averaged 3.67 against a lifetime 4.69. Three new reviews pulled the trend down this period."
     },
     {
-      "headline": "Only 38 Instagram followers",
-      "detail": "Organic social presence is minimal despite heavy paid activity. No audience being built for retargeting or nurture."
+      "headline": "Only 333 website clicks from profile",
+      "detail": "Google profile sends more calls than clicks. Website is secondary to phone intake for this audience."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"BENCHMARK\", \"subheader\": \"Legal leads average $72 on Meta\", \"body\": \"<cite index=\"7-3,7-4\">Legal services average $72.40 cost per lead on Meta ads in 2026</cite>. <cite index=\"1-7\">Search ad legal lead costs average $131.63</cite>. Justice Consumer Law's roughly $23 per lead sits well below both.\"}, \"seasonal\": {\"label\": \"SEASONAL\", \"subheader\": \"Fall swings hit legal Meta costs\", \"body\": \"<cite index=\"7-13,7-14\">Legal services on Meta range from $67 to $254 per lead, with a $123 spike recorded between August and September 2025</cite>. Expect volatility heading into Q4.\"}, \"competitor\": {\"label\": \"COMPETITOR\", \"subheader\": \"Firms shifting to video and fast intake\", \"body\": \"<cite index=\"7-17,7-18\">Video ads improve lead quality because prospects watching 15 to 30 seconds are more qualified than static ad clickers</cite>. <cite index=\"18-10,18-11\">Response within five minutes beats slower competitors and drives signed case rates</cite>.\"}}",
+  "market_context": {
+    "benchmark": {
+      "label": "BENCHMARK",
+      "subheader": "Legal paid lead costs run high",
+      "body": "The legal category averages $131 per lead on search ads and roughly $180 on Meta per 2026 benchmark reports. Your $22 cost per lead this period is well under both."
+    },
+    "seasonal": {
+      "label": "SEASONAL",
+      "subheader": "Debt and credit stress rises in fall",
+      "body": "Consumer debt complaints typically climb heading into the holiday season. Collection harassment ads tend to perform well in September and October as household budgets tighten."
+    },
+    "competitor": {
+      "label": "COMPETITOR",
+      "subheader": "Firms shifting budget to Meta video",
+      "body": "Consumer law competitors are leaning into Meta video lead forms in 2026 because search costs keep climbing. Intake speed within 5 minutes is now the main differentiator among firms."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Investigate the click-to-landing-page drop-off",
-      "detail": "Half of ad clicks never register as landing page views this period. Test page load speed, mobile rendering, and tracking pixel setup to recover lost leads."
+      "title": "Protect the winning Instagram video ad",
+      "detail": "Video Ad 04 V4 is driving the $22 cost per lead. Consider shielding budget here and testing one new creative variant weekly rather than overhauling."
     },
     {
       "number": "02",
-      "title": "Launch a review request push to intake clients",
-      "detail": "Latest rating fell to 3.67 from a 4.69 average. Consider texting recent satisfied clients a direct review link to rebuild the star average."
+      "title": "Fix the review slide before it compounds",
+      "detail": "Latest reviews averaged 3.67 vs. 4.69 lifetime. Worth asking recent happy clients for reviews and responding publicly to any negative ones this week."
     },
     {
       "number": "03",
-      "title": "Test a second video creative against Ad 04 V4",
-      "detail": "The current video is carrying the campaign. A second variant on the same offer protects against fatigue and gives Meta more learning signal."
+      "title": "Test 5-minute intake response on form leads",
+      "detail": "Industry data shows 5-minute follow-up lifts conversion dramatically. Consider timing current response speed on the 541 leads and tightening where possible."
     }
   ]
 }

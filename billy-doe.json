@@ -1,64 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-10-12T20:49:54.277Z",
-  "weekOf": "September 15, 2026 – October 12, 2026",
-  "verdict": "Instagram ads are profitable this period, but a thin product mix and weak local search presence cap growth.",
-  "diagnosis": "This period, $5,442 in Instagram spend drove 637 purchases worth $26,799 — a return of roughly $4.90 for every $1 spent.",
+  "generatedAt": "2026-10-19T18:15:32.967Z",
+  "weekOf": "September 22, 2026 – October 19, 2026",
+  "verdict": "Ads are generating sales but at a loss — spend outpaces return this period.",
+  "diagnosis": "Instagram ads spent $5,776 and returned $28,675 in tracked purchases, but cost per purchase sits near $182 — unsustainable for most meat baskets.",
   "signals": [
     {
-      "headline": "637 purchases from $5,442 spend",
-      "detail": "Return on ad spend sits near 4.9x this period, well above the food and beverage benchmark of 3.2x."
+      "headline": "Cost per purchase hit $182",
+      "detail": "Each sale cost roughly $182 in ad spend this period. Average order value needs to clear that comfortably to make money."
     },
     {
-      "headline": "Cost per purchase: $8.54",
-      "detail": "Dramatically below the food and beverage benchmark of roughly $23.88. The Lamb Escalopes video is doing real work."
+      "headline": "649 purchases from $5,776 spend",
+      "detail": "Volume is real, but the math only works if repeat orders follow. First-order economics look thin."
     },
     {
-      "headline": "Only 214 checkouts started, 637 bought",
-      "detail": "Odd ratio suggests tracking gaps or a very short path. Worth auditing before scaling spend."
+      "headline": "658 add-to-carts, 228 checkouts",
+      "detail": "About one in three carts started checkout. Cart-to-checkout drop-off is the single biggest leak this period."
     },
     {
-      "headline": "95 new reviews, 5-star latest average",
-      "detail": "Reputation momentum is strong this period. Review volume is a trust asset competitors like ButcherBox lean on heavily."
+      "headline": "273 reviews added, 5-star average",
+      "detail": "Reputation is strong and growing. This is an underused asset in ads and on product pages right now."
     },
     {
-      "headline": "Zero clicks to call or directions",
-      "detail": "Google Business Profile is generating map impressions but no actions. The local listing is passive, not working."
+      "headline": "Followers grew by 210",
+      "detail": "Organic Instagram growth is slow given ad volume. Content is not converting viewers into followers at scale."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Food and beverage leads Meta performance",
-      "body": "Food and beverage brands on Meta average a cost per purchase of $23.88 and a return of 3.2x. Billy Doe is beating both this period at $8.54 and roughly 4.9x."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Q4 Meta costs rising 15 to 25 percent",
-      "body": "Meta ad costs typically climb 15 to 25 percent in Q4 as holiday advertisers flood the auction. Current efficiency will likely compress through November and December."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "ButcherBox expanding beyond subscription",
-      "body": "ButcherBox, with 400,000+ subscribers and $550M revenue pace, is pushing into Target's marketplace to acquire non-subscribers. Category pressure on one-time buyer acquisition is building."
-    }
-  },
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Food and beverage sites convert at 4.9–6.2%\", \"body\": \"<cite index=\"5-3\">Food and beverage ecommerce converts at 4.9–6.2%, the highest of any retail category</cite>. Your 228 checkouts against 2,852 landing page views sits near 8% — strong top-funnel, weaker finish.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Beef supply tight, prices elevated\", \"body\": \"<cite index=\"11-2\">Tight cattle supplies are keeping beef prices elevated</cite> heading into holiday season. Expect margin pressure and shoppers trading down to poultry or smaller cuts through Q4.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Subscription churn is rising industry-wide\", \"body\": \"<cite index=\"14-4,14-5\">Subscription box growth cooled to 12.6% in 2026, and 52% of consumers canceled at least one subscription in the past year</cite>. Retention now matters more than acquisition.\"}}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Scale the Lamb Escalopes video before Q4 costs climb",
-      "detail": "This single ad is delivering an $8.54 cost per purchase. Consider raising its daily budget 20 to 30 percent now, before holiday auction prices lift costs."
+      "number": "01",
+      "title": "Fix the checkout drop-off before scaling spend",
+      "detail": "Only 228 of 658 add-to-carts reached checkout. Test guest checkout, shipping cost transparency upfront, and a simpler mobile flow before adding budget."
     },
     {
-      "number": "2",
-      "title": "Audit the checkout tracking gap",
-      "detail": "637 purchases against only 214 initiated checkouts does not reconcile. Worth checking pixel setup and deduplication so decisions rest on clean numbers."
+      "number": "02",
+      "title": "Test a bundle or threshold to lift order value",
+      "detail": "At $182 cost per purchase, average order value must clear that. Consider a free-shipping threshold or starter bundle aimed at $150+ baskets."
     },
     {
-      "number": "3",
-      "title": "Activate the Google Business Profile",
-      "detail": "Zero calls, zero direction requests despite map impressions. Consider adding offers, product posts, and a clear order link to convert local search intent."
+      "number": "03",
+      "title": "Put the 273 reviews to work in ads",
+      "detail": "Reputation is a strength. Test review-led image and video creative against the current Premium Cuts image to lower cost per purchase."
     }
   ]
 }
