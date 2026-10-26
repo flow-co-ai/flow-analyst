@@ -1,64 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-10-19T18:16:25.779Z",
-  "weekOf": "September 22, 2026 – October 19, 2026",
-  "verdict": "Instagram lead campaign is working: 541 leads this period at a cost per lead well below legal industry averages.",
-  "diagnosis": "Spend of $11,963 produced 541 leads at roughly $22 each — a fraction of the $131 legal benchmark — but intake and reviews need attention.",
+  "generatedAt": "2026-10-26T18:09:28.286Z",
+  "weekOf": "September 29, 2026 – October 26, 2026",
+  "verdict": "Paid social is delivering leads below industry cost, but Google Business calls and local reviews are the real engine.",
+  "diagnosis": "This period produced 585 leads from Instagram ads at roughly $21 each, under the $27 Meta lead benchmark, while Google calls hit 233.",
   "signals": [
     {
-      "headline": "541 leads at $22 each",
-      "detail": "Instagram lead campaign delivered strong volume this period, far cheaper than typical legal paid social costs."
+      "headline": "585 leads generated this period",
+      "detail": "Instagram ads delivered 585 leads on $12,572 spend. Volume is healthy for a single creative concept."
     },
     {
-      "headline": "7,992 clicks, 2,986 landing views",
-      "detail": "Roughly 37% of clicks reach the landing page. Tracking or page speed may be leaking traffic."
+      "headline": "Cost per lead near $21",
+      "detail": "Below the $27 Meta benchmark for lead campaigns. The 'Paid Fees, But No Relief?' hook is working."
     },
     {
-      "headline": "218 calls from Google profile",
-      "detail": "Google Business Profile is driving steady phone volume with only 26 direction requests — this is a call-driven channel."
+      "headline": "233 phone calls from Google Profile",
+      "detail": "Local search is driving direct calls. This is the highest-intent channel in the mix right now."
     },
     {
-      "headline": "Latest review rating dropped to 3.67",
-      "detail": "Recent reviews averaged 3.67 against a lifetime 4.69. Three new reviews pulled the trend down this period."
+      "headline": "69 new reviews, 4.67 average rating",
+      "detail": "Strong review velocity this period. Social proof is compounding and lifting local pack visibility."
     },
     {
-      "headline": "Only 333 website clicks from profile",
-      "detail": "Google profile sends more calls than clicks. Website is secondary to phone intake for this audience."
+      "headline": "Instagram following stuck at 42",
+      "detail": "Organic social is flat. Paid is carrying the channel entirely with no owned audience build."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "BENCHMARK",
-      "subheader": "Legal paid lead costs run high",
-      "body": "The legal category averages $131 per lead on search ads and roughly $180 on Meta per 2026 benchmark reports. Your $22 cost per lead this period is well under both."
+      "label": "Benchmark",
+      "subheader": "Consumer law lead costs this period",
+      "body": "Meta lead campaigns for legal services average around $27 per lead and a 10.5% conversion rate. Google Ads for legal runs $131 per lead. Justice is well under the Meta figure."
     },
     "seasonal": {
-      "label": "SEASONAL",
-      "subheader": "Debt and credit stress rises in fall",
-      "body": "Consumer debt complaints typically climb heading into the holiday season. Collection harassment ads tend to perform well in September and October as household budgets tighten."
+      "label": "Seasonal",
+      "subheader": "Debt collection complaints rise in fall",
+      "body": "Post-summer credit card balances and holiday pressure push consumers to seek debt relief September through November. Timing favors the current 'harassed by collectors' creative angle."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "Firms shifting budget to Meta video",
-      "body": "Consumer law competitors are leaning into Meta video lead forms in 2026 because search costs keep climbing. Intake speed within 5 minutes is now the main differentiator among firms."
+      "label": "Category trend",
+      "subheader": "Firms shifting budget to video",
+      "body": "Video ads across Facebook and Instagram outperform static for legal, with CTRs between 1.9% and 3%. Competitors are also leaning harder on Instagram Stories for warm retargeting."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Protect the winning Instagram video ad",
-      "detail": "Video Ad 04 V4 is driving the $22 cost per lead. Consider shielding budget here and testing one new creative variant weekly rather than overhauling."
+      "title": "Test a second video creative against Ad 04",
+      "detail": "One ad is carrying the account. Consider launching a second video with a different hook (job calls, threats) to protect against fatigue and lower cost per lead further."
     },
     {
       "number": "02",
-      "title": "Fix the review slide before it compounds",
-      "detail": "Latest reviews averaged 3.67 vs. 4.69 lifetime. Worth asking recent happy clients for reviews and responding publicly to any negative ones this week."
+      "title": "Add call tracking to measure Google Profile value",
+      "detail": "233 calls came from the Business Profile. Worth tracking which calls become cases so local optimization gets fair credit against paid social."
     },
     {
       "number": "03",
-      "title": "Test 5-minute intake response on form leads",
-      "detail": "Industry data shows 5-minute follow-up lifts conversion dramatically. Consider timing current response speed on the 541 leads and tightening where possible."
+      "title": "Build a review request step into intake",
+      "detail": "Review velocity is already strong. Test a text-message review ask after case resolution to keep the 4.67 rating climbing and feed local pack rankings."
     }
   ]
 }

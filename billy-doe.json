@@ -1,48 +1,48 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-10-19T18:15:32.967Z",
-  "weekOf": "September 22, 2026 – October 19, 2026",
-  "verdict": "Ads are generating sales but at a loss — spend outpaces return this period.",
-  "diagnosis": "Instagram ads spent $5,776 and returned $28,675 in tracked purchases, but cost per purchase sits near $182 — unsustainable for most meat baskets.",
+  "generatedAt": "2026-10-26T18:08:43.453Z",
+  "weekOf": "September 29, 2026 – October 26, 2026",
+  "verdict": "Paid Instagram is profitable this period, but the local storefront and Google profile are quietly underperforming.",
+  "diagnosis": "Return on ad spend sits near 5x on $6,150 spend, strong for food & beverage, but zero calls or direction requests signal local demand leakage.",
   "signals": [
     {
-      "headline": "Cost per purchase hit $182",
-      "detail": "Each sale cost roughly $182 in ad spend this period. Average order value needs to clear that comfortably to make money."
+      "headline": "Return on ad spend near 5x",
+      "detail": "This period generated $30,739 in tracked purchase value against $6,150 spend. Healthy for a subscription meat brand."
     },
     {
-      "headline": "649 purchases from $5,776 spend",
-      "detail": "Volume is real, but the math only works if repeat orders follow. First-order economics look thin."
+      "headline": "663 purchases from Instagram ads",
+      "detail": "Image creative for Premium Cuts drove consistent sales. Add-to-cart volume of 711 shows the funnel is converting cleanly."
     },
     {
-      "headline": "658 add-to-carts, 228 checkouts",
-      "detail": "About one in three carts started checkout. Cart-to-checkout drop-off is the single biggest leak this period."
+      "headline": "Zero calls or direction requests",
+      "detail": "Google Business Profile drove no calls and no direction clicks this period. Local intent is not converting to foot traffic."
     },
     {
-      "headline": "273 reviews added, 5-star average",
-      "detail": "Reputation is strong and growing. This is an underused asset in ads and on product pages right now."
+      "headline": "276 reviews, 5-star latest rating",
+      "detail": "Review volume and quality are strong assets. The profile is working for trust but not for action."
     },
     {
-      "headline": "Followers grew by 210",
-      "detail": "Organic Instagram growth is slow given ad volume. Content is not converting viewers into followers at scale."
+      "headline": "1,900 new follows this period",
+      "detail": "Organic Instagram added followers steadily. Engagement rate on posts remains thin at 37 average interactions."
     }
   ],
-  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Food and beverage sites convert at 4.9–6.2%\", \"body\": \"<cite index=\"5-3\">Food and beverage ecommerce converts at 4.9–6.2%, the highest of any retail category</cite>. Your 228 checkouts against 2,852 landing page views sits near 8% — strong top-funnel, weaker finish.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Beef supply tight, prices elevated\", \"body\": \"<cite index=\"11-2\">Tight cattle supplies are keeping beef prices elevated</cite> heading into holiday season. Expect margin pressure and shoppers trading down to poultry or smaller cuts through Q4.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Subscription churn is rising industry-wide\", \"body\": \"<cite index=\"14-4,14-5\">Subscription box growth cooled to 12.6% in 2026, and 52% of consumers canceled at least one subscription in the past year</cite>. Retention now matters more than acquisition.\"}}",
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food & beverage outperforms general ecommerce\",\n\"body\": \"<cite index=\"18-11,18-12\">Food & beverage on Meta averages $8.14 cost per thousand impressions, $23.88 cost per purchase, and 3.2x return on ad spend.</cite> Billy Doe is beating the return-on-spend benchmark.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Q4 gifting window opening now\",\n\"body\": \"<cite index=\"19-3\">Consumers increasingly treat direct-to-consumer meat as a regular service rather than only a holiday gift,</cite> but November and December still drive peak gift-box demand for premium cuts.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Big players compete on scale, not local\",\n\"body\": \"<cite index=\"25-5\">ButcherBox sources grass-fed beef from Australia, not domestic farms,</cite> leaving a clear opening for a local Illinois halal brand to win on provenance and 30-mile delivery.\"\n}\n}",
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the checkout drop-off before scaling spend",
-      "detail": "Only 228 of 658 add-to-carts reached checkout. Test guest checkout, shipping cost transparency upfront, and a simpler mobile flow before adding budget."
+      "title": "Fix the Google Business Profile call-to-action",
+      "detail": "Zero calls and direction requests this period is a leak. Consider adding a prominent order link, phone button, and a weekly local post tied to delivery radius."
     },
     {
       "number": "02",
-      "title": "Test a bundle or threshold to lift order value",
-      "detail": "At $182 cost per purchase, average order value must clear that. Consider a free-shipping threshold or starter bundle aimed at $150+ baskets."
+      "title": "Test a gifting angle before Thanksgiving",
+      "detail": "Return on spend near 5x suggests room to scale. Worth testing a holiday gift-box creative against Premium Cuts to capture the Q4 gifting window."
     },
     {
       "number": "03",
-      "title": "Put the 273 reviews to work in ads",
-      "detail": "Reputation is a strength. Test review-led image and video creative against the current Premium Cuts image to lower cost per purchase."
+      "title": "Lean harder on local and halal provenance",
+      "detail": "National competitors source abroad. Test creative that names the Illinois farm, the Hoffman Estates butcher, and the Zabiha halal certification against the big brands."
     }
   ]
 }

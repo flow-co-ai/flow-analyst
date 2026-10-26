@@ -1,48 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-10-19T18:16:03.160Z",
-  "weekOf": "September 22, 2026 – October 19, 2026",
-  "verdict": "Cost per lead ran $135 this period — roughly triple the Meta benchmark for heating campaigns.",
-  "diagnosis": "88 leads from $11,853 spend works out to $134.69 per lead, well above the $45 blended Meta average for HVAC.",
+  "generatedAt": "2026-10-26T18:09:06.184Z",
+  "weekOf": "September 29, 2026 – October 26, 2026",
+  "verdict": "Instagram lead generation is producing leads at nearly double the industry cost, with weak call volume for peak heating season.",
+  "diagnosis": "You spent $12,255 for 104 leads this period — about $118 per lead — while industry benchmarks sit between $51 and $90.",
   "signals": [
     {
-      "headline": "88 leads at $134 each",
-      "detail": "Furnace instant-form campaign produced 88 leads this period. Cost per lead sits roughly 3x the Meta HVAC benchmark."
+      "headline": "104 leads at $118 each",
+      "detail": "Cost per lead runs well above the $51–$90 range most HVAC contractors see on paid channels this year."
     },
     {
-      "headline": "278,030 impressions, 1.24% click rate",
-      "detail": "Reach is strong at 237,193 people. Click-through is thin, suggesting the creative or offer isn't landing with cold audiences."
+      "headline": "91 phone calls from Google profile",
+      "detail": "Averages roughly 3 calls per day — low for October, which is typically the busiest HVAC service month."
     },
     {
-      "headline": "86 phone calls from Google profile",
-      "detail": "Google Business Profile drove 86 call clicks and 184 direction requests. Organic local presence is quietly outperforming paid."
+      "headline": "190 direction requests, 0 bookings",
+      "detail": "Strong local search interest is not converting into booked jobs through your profile."
     },
     {
-      "headline": "306 reviews, 5-star average",
-      "detail": "Review base is a real asset. Nothing in the current ad creative appears to use this social proof."
+      "headline": "294 new reviews, 5-star average",
+      "detail": "Review velocity is excellent and is your single strongest competitive asset right now."
     },
     {
-      "headline": "Only 142 website clicks total",
-      "detail": "Instant-form path dominates. Site traffic from ads is minimal, limiting retargeting pools and tracked conversions."
+      "headline": "3,592 clicks, 1,458 link clicks",
+      "detail": "Less than half of ad clicks reach your site — suggests form drop-off or slow load after tap."
     }
   ],
-  "market_context": "{\n  \"benchmark\": {\n    \"label\": \"Benchmark\",\n    \"subheader\": \"HVAC Meta leads average $45 blended\",\n    \"body\": \"<cite index=\"9-5\">Facebook Ads for HVAC in 2026 average $45 per lead blended and $115+ for system-replacement campaigns.</cite> Furnace install leads typically run $80–$150. Your $135 sits at the high end of that install range.\"\n  },\n  \"seasonal\": {\n    \"label\": \"Seasonal\",\n    \"subheader\": \"Heating demand ramping September to October\",\n    \"body\": \"<cite index=\"17-6\">Heating searches pick up in September and October, giving HVAC and plumbing contractors a second ramp-up window before winter.</cite> October is shoulder season — demand builds but hasn't peaked. January is the furnace emergency spike.\"\n  },\n  \"competitor\": {\n    \"label\": \"Category\",\n    \"subheader\": \"Google Local Services often cheaper\",\n    \"body\": \"<cite index=\"7-10\">Local Services Ads bring that down to roughly $60–$120 per lead, and branded search campaigns average closer to $34.</cite> Meta works best for pre-demand install promos, not emergency capture.\"\n  }\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "BENCHMARK",
+      "subheader": "HVAC leads typically cost $51–$90",
+      "body": "Google Local Services Ads averaged $51 per HVAC lead in 2026 across 888 contractors. Blended Google Ads sits near $85. Your $118 per Instagram lead runs above both channels."
+    },
+    "seasonal": {
+      "label": "SEASONAL",
+      "subheader": "October is peak HVAC service month",
+      "body": "Industry trip data shows October is the busiest HVAC month as furnaces reactivate and break down. First cold fronts drive urgent repair calls across heating equipment that sat idle all summer."
+    },
+    "competitor": {
+      "label": "COMPETITOR",
+      "subheader": "Residential replacement demand is soft",
+      "body": "Carrier assumes flat residential volumes in 2026 and sticker shock is pushing homeowners toward repairs over $12K replacements. Financing offers and tune-up entry points are winning share this season."
+    }
+  },
   "recommendations": [
     {
-      "number": "1",
-      "title": "Test a tune-up offer alongside furnace install",
-      "detail": "Tune-up form-fills run $35–$75 in shoulder season. Adding a $89 tune-up ad set could lower blended cost per lead and feed future replacement jobs."
+      "number": "01",
+      "title": "Test Google Local Services Ads alongside Instagram",
+      "detail": "Local Services Ads average $51 per HVAC lead nationally. Worth testing a small budget shift to see if your cost per lead drops at similar volume."
     },
     {
-      "number": "2",
-      "title": "Add Google Local Services Ads to the mix",
-      "detail": "Your Google profile already drives 86 calls and 184 direction requests unpaid. Local Services Ads typically deliver leads at $60–$120 — likely cheaper than current Meta cost."
+      "number": "02",
+      "title": "Audit the furnace form drop-off",
+      "detail": "Only 1,458 of 3,592 clicks became link clicks. Consider checking page load speed, form length, and whether the financing offer is visible above the fold."
     },
     {
-      "number": "3",
-      "title": "Refresh ad creative using customer reviews",
-      "detail": "Current click rate is 1.24% on 278,030 impressions. Worth testing before/after photos and short video featuring your 5-star reviews to lift engagement."
+      "number": "03",
+      "title": "Lead heating ads with tune-up offer",
+      "detail": "October furnace breakdowns drive urgent calls. Test a low-cost tune-up ad as an entry point, with financing on the install as the upsell."
     }
   ]
 }

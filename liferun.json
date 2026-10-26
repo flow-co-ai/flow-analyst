@@ -1,64 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-10-19T18:16:48.863Z",
-  "weekOf": "September 22, 2026 – October 19, 2026",
-  "verdict": "Spending $7,221 produced only 2 leads this period while the main search campaign sits paused — pipeline is effectively stalled.",
-  "diagnosis": "Cost per lead landed near $3,610 this period, roughly 10x the healthcare benchmark, driven by heavy spend against almost no conversions.",
+  "generatedAt": "2026-10-26T18:09:51.625Z",
+  "weekOf": "September 29, 2026 – October 26, 2026",
+  "verdict": "Spend is producing sales at a strong return, but the lead engine has nearly stalled this period.",
+  "diagnosis": "$7,220 in spend drove just 2 leads and 9 purchases worth $5,897 — purchases are carrying the account, not lead flow.",
   "signals": [
     {
-      "headline": "Only 2 leads in 28 days",
-      "detail": "Spend reached $7,221 but produced just two leads. The paid funnel is not generating pipeline at a usable rate."
-    },
-    {
-      "headline": "Main call campaign paused mid-period",
-      "detail": "The retargeting call campaign is paused. That likely explains the collapse in impressions and clicks toward period end."
+      "headline": "Only 2 leads from $7,220 spend",
+      "detail": "Cost per lead landed at roughly $3,610 this period. Far above any healthcare benchmark we can find."
     },
     {
       "headline": "9 purchases returned $5,897 in revenue",
-      "detail": "Purchases are the only bright spot, averaging $655 each. Shopping intent is converting even as lead flow dries up."
+      "detail": "Return on ad spend sits near 0.8x on purchases alone. Below breakeven before product and fulfillment costs."
     },
     {
-      "headline": "183 direction requests, 1 call click",
-      "detail": "The Google Business Profile drives foot-traffic intent but almost no phone calls. A call-tracking gap is likely."
+      "headline": "Main call campaign is paused",
+      "detail": "The Search Calls campaign shows paused status. Phone leads are the natural fit for a medical alert buyer."
     },
     {
-      "headline": "Click-through rate holding at 0.08%",
-      "detail": "Click-through is weak for search. Creative and keyword relevance need review before relaunching the paused campaign."
+      "headline": "196 direction requests, 1 call click",
+      "detail": "Local profile drove foot-traffic intent but almost no phone action. Mismatch for a nationwide alert device."
+    },
+    {
+      "headline": "4,652 clicks, 139 landing page views",
+      "detail": "Only 3% of clicks reached the landing page. Suggests tracking gaps or a slow, broken page experience."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Healthcare lead costs run $130–$350",
-      "body": "Industry data puts healthcare cost per lead at roughly $130–$350 in 2026, with consumer health and wellness closer to $98. Liferun's current cost per lead is far above both ranges."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Q4 Medicare window lifts senior demand",
-      "body": "Medicare Advantage open enrollment runs through December. Adult children researching medical alerts for aging parents peaks now — a window Liferun's paused campaigns are missing."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Apple Watch leads the category",
-      "body": "Apple Watch ranks as the most-used medical alert device among older adults, ahead of dedicated brands like Life Alert and Medical Guardian. Price and feature differentiation matters more than ever."
-    }
-  },
+  "market_context": "{\"benchmark\": {\"label\": \"Benchmark\", \"subheader\": \"Healthcare leads typically run $30–$140\", \"body\": \"Healthcare search cost per lead sits around <cite index=\"3-10\">$32–$134 depending on specialty</cite>. Even premium categories like <cite index=\"8-2\">mental health peak near $141</cite>. Liferun's $3,610 per lead this period is far above range.\"}, \"seasonal\": {\"label\": \"Seasonal\", \"subheader\": \"Q4 is peak senior-safety buying season\", \"body\": \"Adult children drive purchases around holiday visits. <cite index=\"14-11,14-12\">They research and often buy on their parents' behalf</cite>. Pausing the calls campaign in October leaves the strongest intent window uncovered.\"}, \"competitor\": {\"label\": \"Competitor\", \"subheader\": \"Category is crowded and tech-forward\", \"body\": \"<cite index=\"18-3\">Philips Lifeline, Medical Guardian, LifeFone, Connect America, and ADT</cite> lead the space. <cite index=\"11-12,11-13\">Fall detection, GPS, and wearable form factors are now baseline expectations</cite>, not differentiators.\"}}",
   "recommendations": [
     {
-      "number": "1",
-      "title": "Relaunch the paused call campaign before Medicare window closes",
-      "detail": "The retargeting call campaign is paused during peak senior shopping season. Consider restarting with a tighter budget cap and clear daily lead target."
+      "number": "01",
+      "title": "Reactivate the paused Search Calls campaign",
+      "detail": "Phone is the natural channel for this buyer. Consider restarting with a tight keyword list around 'medical alert' and 'life alert' before Q4 intent fades."
     },
     {
-      "number": "2",
-      "title": "Fix call tracking on the Google Business Profile",
-      "detail": "183 direction requests but only 1 call click suggests tracking is broken or the call button is buried. Worth auditing the profile this week."
+      "number": "02",
+      "title": "Audit the landing page and conversion tracking",
+      "detail": "Only 139 of 4,652 clicks registered as page views. Worth checking page load, mobile layout, and whether the lead pixel is firing correctly."
     },
     {
-      "number": "3",
-      "title": "Shift budget toward purchase-driving ads",
-      "detail": "Purchases returned $5,897 on modest spend. Test reallocating budget from lead forms into the shopping funnel that is already converting."
+      "number": "03",
+      "title": "Test an adult-child creative angle",
+      "detail": "Research shows adult children drive most purchases. Consider testing ad copy aimed at sons and daughters shopping for aging parents, not seniors themselves."
     }
   ]
 }
