@@ -1,48 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-10-26T18:08:43.453Z",
-  "weekOf": "September 29, 2026 – October 26, 2026",
-  "verdict": "Paid Instagram is profitable this period, but the local storefront and Google profile are quietly underperforming.",
-  "diagnosis": "Return on ad spend sits near 5x on $6,150 spend, strong for food & beverage, but zero calls or direction requests signal local demand leakage.",
+  "generatedAt": "2026-11-02T21:19:41.218Z",
+  "weekOf": "October 6, 2026 – November 2, 2026",
+  "verdict": "Paid Instagram delivered $32.5K in sales on $6.5K spend — a 5x return. Keep running, but fix lead costs.",
+  "diagnosis": "Return on ad spend sits near 5x this period, well above the food category median of 1.6x, but cost per lead is climbing.",
   "signals": [
     {
-      "headline": "Return on ad spend near 5x",
-      "detail": "This period generated $30,739 in tracked purchase value against $6,150 spend. Healthy for a subscription meat brand."
+      "headline": "Ad sales hit $32,494 this period",
+      "detail": "673 purchases from $6,490 in spend means every ad dollar returned about $5 — strong for a food brand."
     },
     {
-      "headline": "663 purchases from Instagram ads",
-      "detail": "Image creative for Premium Cuts drove consistent sales. Add-to-cart volume of 711 shows the funnel is converting cleanly."
+      "headline": "673 purchases, 271 checkouts started",
+      "detail": "More purchases than checkout starts suggests tracking gaps or returning buyers skipping steps. Worth auditing the pixel setup."
     },
     {
-      "headline": "Zero calls or direction requests",
-      "detail": "Google Business Profile drove no calls and no direction clicks this period. Local intent is not converting to foot traffic."
+      "headline": "728 add-to-carts, 174 pixel purchases",
+      "detail": "Roughly 1 in 4 carts convert through the pixel. Cart abandonment is the biggest leak in the funnel right now."
     },
     {
-      "headline": "276 reviews, 5-star latest rating",
-      "detail": "Review volume and quality are strong assets. The profile is working for trust but not for action."
+      "headline": "Instagram following grew by 1,900",
+      "detail": "Organic reach is working. 13,368 total followers and 679 post engagements show the content is landing with the right audience."
     },
     {
-      "headline": "1,900 new follows this period",
-      "detail": "Organic Instagram added followers steadily. Engagement rate on posts remains thin at 37 average interactions."
+      "headline": "275 Google reviews added, 5-star average",
+      "detail": "Local reputation is a real asset. Reviews are converting local searches like \"wildfork near me\" into traffic."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"BENCHMARK\",\n\"subheader\": \"Food & beverage outperforms general ecommerce\",\n\"body\": \"<cite index=\"18-11,18-12\">Food & beverage on Meta averages $8.14 cost per thousand impressions, $23.88 cost per purchase, and 3.2x return on ad spend.</cite> Billy Doe is beating the return-on-spend benchmark.\"\n},\n\"seasonal\": {\n\"label\": \"SEASONAL\",\n\"subheader\": \"Q4 gifting window opening now\",\n\"body\": \"<cite index=\"19-3\">Consumers increasingly treat direct-to-consumer meat as a regular service rather than only a holiday gift,</cite> but November and December still drive peak gift-box demand for premium cuts.\"\n},\n\"competitor\": {\n\"label\": \"COMPETITOR\",\n\"subheader\": \"Big players compete on scale, not local\",\n\"body\": \"<cite index=\"25-5\">ButcherBox sources grass-fed beef from Australia, not domestic farms,</cite> leaving a clear opening for a local Illinois halal brand to win on provenance and 30-mile delivery.\"\n}\n}",
+  "market_context": {
+    "benchmark": {
+      "label": "BENCHMARK",
+      "subheader": "Food brands average 1.6x return on ad spend",
+      "body": "<cite index=\"10-9,10-10\">Food and beverage Meta campaigns run a $38.57 median cost per purchase at 1.89% conversion with 1.61x return on ad spend.</cite> Billy Doe's 5x return is roughly triple the category median."
+    },
+    "seasonal": {
+      "label": "SEASONAL",
+      "subheader": "Ad prices rise sharply into Black Friday",
+      "body": "<cite index=\"15-10\">Meta ad prices can climb up to 85% around Black Friday.</cite> Expect cost per purchase to rise through November. Lock in budget now while rates are still favorable."
+    },
+    "competitor": {
+      "label": "COMPETITOR",
+      "subheader": "Food cost per thousand impressions stays low",
+      "body": "<cite index=\"16-10\">Food and beverage maintains the lowest cost per thousand impressions at $8.14 on Meta.</cite> Billy Doe should be able to scale reach cheaply versus competitors in higher-cost categories."
+    }
+  },
   "recommendations": [
     {
       "number": "01",
-      "title": "Fix the Google Business Profile call-to-action",
-      "detail": "Zero calls and direction requests this period is a leak. Consider adding a prominent order link, phone button, and a weekly local post tied to delivery radius."
+      "title": "Scale the Premium Box campaign while returns hold",
+      "detail": "The current campaign returned 5x. Consider raising daily budget 20-30% and watching cost per purchase. Pull back if it crosses $45."
     },
     {
       "number": "02",
-      "title": "Test a gifting angle before Thanksgiving",
-      "detail": "Return on spend near 5x suggests room to scale. Worth testing a holiday gift-box creative against Premium Cuts to capture the Q4 gifting window."
+      "title": "Test an abandoned cart email or retargeting flow",
+      "detail": "728 add-to-carts versus 174 pixel purchases shows real drop-off. A simple cart recovery sequence could capture lost revenue cheaply."
     },
     {
       "number": "03",
-      "title": "Lean harder on local and halal provenance",
-      "detail": "National competitors source abroad. Test creative that names the Illinois farm, the Hoffman Estates butcher, and the Zabiha halal certification against the big brands."
+      "title": "Audit pixel tracking before Black Friday",
+      "detail": "Purchases reported exceed checkouts started, suggesting a tracking gap. Clean data matters more as ad costs rise through Q4."
     }
   ]
 }

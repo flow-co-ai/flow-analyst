@@ -1,64 +1,32 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-10-26T18:09:28.286Z",
-  "weekOf": "September 29, 2026 – October 26, 2026",
-  "verdict": "Paid social is delivering leads below industry cost, but Google Business calls and local reviews are the real engine.",
-  "diagnosis": "This period produced 585 leads from Instagram ads at roughly $21 each, under the $27 Meta lead benchmark, while Google calls hit 233.",
+  "generatedAt": "2026-11-02T21:20:31.798Z",
+  "weekOf": "October 6, 2026 – November 2, 2026",
+  "verdict": "Paid social is punching above its weight; local reputation is a quiet asset you're underusing.",
+  "diagnosis": "Instagram leads campaign generated 612 leads at $13.24 each over 28 days — well below the $21 legal benchmark.",
   "signals": [
     {
-      "headline": "585 leads generated this period",
-      "detail": "Instagram ads delivered 585 leads on $12,572 spend. Volume is healthy for a single creative concept."
+      "headline": "612 leads at $13.24 each",
+      "detail": "The August Re-Launch campaign is delivering leads at roughly 37% below the current legal industry benchmark on Meta."
     },
     {
-      "headline": "Cost per lead near $21",
-      "detail": "Below the $27 Meta benchmark for lead campaigns. The 'Paid Fees, But No Relief?' hook is working."
+      "headline": "4.9-star average across 1,022 reviews",
+      "detail": "Reputation is a competitive moat. 72 new reviews this period signals active client advocacy worth amplifying publicly."
     },
     {
-      "headline": "233 phone calls from Google Profile",
-      "detail": "Local search is driving direct calls. This is the highest-intent channel in the mix right now."
+      "headline": "254 phone calls from Google profile",
+      "detail": "Google Business Profile drives nine calls a day. This is your highest-intent channel and runs on autopilot."
     },
     {
-      "headline": "69 new reviews, 4.67 average rating",
-      "detail": "Strong review velocity this period. Social proof is compounding and lifting local pack visibility."
+      "headline": "Only 43 Instagram followers",
+      "detail": "Paid works, but there's no organic audience to retarget or warm up. Social presence is effectively a billboard."
     },
     {
-      "headline": "Instagram following stuck at 42",
-      "detail": "Organic social is flat. Paid is carrying the channel entirely with no owned audience build."
+      "headline": "3,478 landing page views, 612 leads",
+      "detail": "Roughly 18% of visitors become leads. Solid, but the gap suggests the page could capture more intent."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Consumer law lead costs this period",
-      "body": "Meta lead campaigns for legal services average around $27 per lead and a 10.5% conversion rate. Google Ads for legal runs $131 per lead. Justice is well under the Meta figure."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Debt collection complaints rise in fall",
-      "body": "Post-summer credit card balances and holiday pressure push consumers to seek debt relief September through November. Timing favors the current 'harassed by collectors' creative angle."
-    },
-    "competitor": {
-      "label": "Category trend",
-      "subheader": "Firms shifting budget to video",
-      "body": "Video ads across Facebook and Instagram outperform static for legal, with CTRs between 1.9% and 3%. Competitors are also leaning harder on Instagram Stories for warm retargeting."
-    }
-  },
-  "recommendations": [
-    {
-      "number": "01",
-      "title": "Test a second video creative against Ad 04",
-      "detail": "One ad is carrying the account. Consider launching a second video with a different hook (job calls, threats) to protect against fatigue and lower cost per lead further."
-    },
-    {
-      "number": "02",
-      "title": "Add call tracking to measure Google Profile value",
-      "detail": "233 calls came from the Business Profile. Worth tracking which calls become cases so local optimization gets fair credit against paid social."
-    },
-    {
-      "number": "03",
-      "title": "Build a review request step into intake",
-      "detail": "Review velocity is already strong. Test a text-message review ask after case resolution to keep the 4.67 rating climbing and feed local pack rankings."
-    }
-  ]
+  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal Meta ads: ~$21 per lead in 2026\",\n\"body\": \"<cite index=\"11-5\">Law firm cost per lead on Meta is projected around $21 in 2026, up from $18.17 in 2025.</cite> Your $13.24 is meaningfully below that.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Q4 debt and collections inquiries rise\",\n\"body\": \"Holiday spending and year-end credit card balances typically push consumer debt harassment complaints up. Expect intent to climb through December, then spike again in January.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Legal ad competition is intensifying\",\n\"body\": \"<cite index=\"11-3,11-4\">Law firm click-through rates slipped as more firms adopt Meta's automated tools, saturating audiences.</cite> Creative differentiation matters more than it did a year ago.\"\n}\n}",
+  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Scale budget on the winning video ad\", \"detail\": \"Video - Ad 04 V4 is beating benchmarks by a wide margin. Consider raising daily spend 20-30% and watching cost per lead for drift.\"},\n{\"number\": \"2\", \"title\": \"Turn reviews into ad creative\", \"detail\": \"72 fresh five-star reviews this period. Test short video ads featuring real client quotes — social proof typically lifts conversion in legal.\"},\n{\"number\": \"3\", \"title\": \"Build an intake speed benchmark\", \"detail\": \"<cite index=\"2-4\">Responding within five minutes makes conversion 21x more likely than a 30-minute wait.</cite> Worth measuring your current response time.\"}\n]"
 }
