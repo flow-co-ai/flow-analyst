@@ -1,64 +1,64 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-11-02T21:20:59.651Z",
-  "weekOf": "October 6, 2026 – November 2, 2026",
-  "verdict": "Lead flow has collapsed to near zero; the primary call campaign is paused and needs immediate attention.",
-  "diagnosis": "Spend of $7,220 produced only 2 leads this period while the main search campaign sits paused, starving the pipeline.",
+  "generatedAt": "2026-11-09T21:53:59.821Z",
+  "weekOf": "October 13, 2026 – November 9, 2026",
+  "verdict": "Spend is running but leads have stalled — only 2 leads from $7,220 this period.",
+  "diagnosis": "The main call campaign is paused while a retargeting ad still spends, producing a cost per lead near $3,600 — far above healthcare norms.",
   "signals": [
     {
       "headline": "Only 2 leads from $7,220 spend",
-      "detail": "Cost per lead landed near $3,610 this period, far above any healthcare benchmark. Tracking or campaign setup likely broken."
+      "detail": "Lead volume collapsed this period. Spend continues but the primary call campaign is paused, leaving no active top-of-funnel engine."
     },
     {
-      "headline": "Main search campaign paused",
-      "detail": "The BWS Search Calls campaign is off. Zero impressions on the latest day explain the lead drought."
+      "headline": "9 purchases worth $5,897 tracked",
+      "detail": "Return on ad spend sits near 5x on tracked purchases, but the sample is tiny and not a reliable signal yet."
     },
     {
-      "headline": "9 purchases worth $5,897 recorded",
-      "detail": "Sales are still coming through at roughly $655 per order, suggesting demand exists when ads actually run."
+      "headline": "4,653 clicks but 139 landing views",
+      "detail": "Click-to-landing drop-off is severe. Either tracking is broken or the landing page is failing to load for most visitors."
     },
     {
-      "headline": "Only 1 call click in 28 days",
-      "detail": "Google Business Profile is driving directions (205) but almost no phone calls, unusual for a medical alert buyer."
+      "headline": "208 direction requests, 1 call click",
+      "detail": "Google Business Profile drives map interest but almost no phone calls, unusual for a medical alert brand targeting seniors."
     },
     {
-      "headline": "Click-through rate at 0.08%",
-      "detail": "Well below the 4.95% medical device search benchmark. Creative or keyword match quality needs a hard look."
+      "headline": "Average cost per click near $2.08",
+      "detail": "Click cost is reasonable for healthcare search. The problem is downstream conversion, not auction pricing."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Healthcare search leads average $66",
-      "body": "Healthcare search ads average $66 per lead, with top performers near $30. Google health and wellness click costs sit around $1.63. Liferun's $2.08 average click cost is competitive; the lead count is not."
+      "subheader": "Healthcare leads typically cost $27 to $67",
+      "body": "Health and wellness Google Ads average $26 to $67 per lead this year. Specialty medical runs $80 to $200. Liferun's current cost per lead is far above both ranges."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "November is peak senior safety buying",
-      "body": "Adult children researching medical alerts for aging parents peak heading into holidays and winter fall-risk season. Pausing the call campaign now misses the strongest intent window of the year."
+      "subheader": "Q4 is senior-safety buying season",
+      "body": "Adult children researching gifts and winter fall risk peak in November and December. Pausing the main call campaign now forfeits the strongest quarter for medical alert purchases."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Bay Alarm, Medical Alert, Aloe Care active",
-      "body": "Ten major brands including Bay Alarm Medical, Medical Alert, LogicMark and Aloe Care are actively marketing smartwatch and fall-detection devices this month. Category is crowded and competing on wearables."
+      "subheader": "Category shifting to wearables and fall detection",
+      "body": "The home medical alert market reached $4.93B in 2026, growing 11.6% yearly. Competitors push GPS wearables and fall detection as standard features, raising ad creative expectations."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Turn the paused Search Calls campaign back on",
-      "detail": "This is the single biggest fix. Confirm billing, budget caps, and policy status before relaunch. Expect lead volume to recover within days once impressions resume."
+      "title": "Reactivate the paused call campaign immediately",
+      "detail": "The search call campaign is paused during peak senior-gifting season. Consider turning it back on with a modest daily cap while you audit performance."
     },
     {
       "number": "02",
-      "title": "Audit lead tracking before adding spend",
-      "detail": "Only 2 leads against 4,653 clicks suggests a pixel or form issue. Verify Facebook pixel, call tracking, and form submissions fire before scaling budget."
+      "title": "Audit the click-to-landing-page drop-off",
+      "detail": "Only 139 landing views from 4,653 clicks suggests a tracking break or slow page. Worth testing the pixel and mobile load speed this week."
     },
     {
       "number": "03",
-      "title": "Test smartwatch creative against pendant messaging",
-      "detail": "Category is shifting to wearables and fall detection. Worth testing a watch-forward ad like the Medical Alert Watch against classic pendant creative to match 2026 buyer intent."
+      "title": "Test adult-children messaging for Q4 gifting",
+      "detail": "Research shows adult children are the most motivated buyer segment. Consider a short creative test framing the watch as a holiday gift for aging parents."
     }
   ]
 }

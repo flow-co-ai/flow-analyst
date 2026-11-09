@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-11-02T21:19:41.218Z",
-  "weekOf": "October 6, 2026 – November 2, 2026",
-  "verdict": "Paid Instagram delivered $32.5K in sales on $6.5K spend — a 5x return. Keep running, but fix lead costs.",
-  "diagnosis": "Return on ad spend sits near 5x this period, well above the food category median of 1.6x, but cost per lead is climbing.",
+  "generatedAt": "2026-11-09T21:52:53.176Z",
+  "weekOf": "October 13, 2026 – November 9, 2026",
+  "verdict": "Strong revenue this period, but cost per purchase is 4x category norm — fix checkout friction before holiday peak.",
+  "diagnosis": "Spent $6,820 generating $33,792 in purchases this period, but cost per purchase of $182 runs roughly 4x the food category benchmark.",
   "signals": [
     {
-      "headline": "Ad sales hit $32,494 this period",
-      "detail": "673 purchases from $6,490 in spend means every ad dollar returned about $5 — strong for a food brand."
+      "headline": "Cost per purchase hit $182 this period",
+      "detail": "Roughly 4x the $38.57 food and beverage benchmark on Meta. The Premium Box awareness ad is driving traffic but not closing sales efficiently."
     },
     {
-      "headline": "673 purchases, 271 checkouts started",
-      "detail": "More purchases than checkout starts suggests tracking gaps or returning buyers skipping steps. Worth auditing the pixel setup."
+      "headline": "Return on ad spend reached 4.9x",
+      "detail": "$33,792 in purchases on $6,820 spend. Strong on paper and above the 1.61 category median, but driven by a $257 average order value."
     },
     {
-      "headline": "728 add-to-carts, 174 pixel purchases",
-      "detail": "Roughly 1 in 4 carts convert through the pixel. Cart abandonment is the biggest leak in the funnel right now."
+      "headline": "759 add-to-carts, only 284 checkouts",
+      "detail": "A 63% drop between cart and checkout points to friction at shipping, payment, or account creation. Biggest single lever to improve."
     },
     {
-      "headline": "Instagram following grew by 1,900",
-      "detail": "Organic reach is working. 13,368 total followers and 679 post engagements show the content is landing with the right audience."
+      "headline": "1,901 new Instagram follows this period",
+      "detail": "Organic growth is healthy on a 13,369 follower base. Reels content including the butcher-wrapped lamb post is landing with the audience."
     },
     {
-      "headline": "275 Google reviews added, 5-star average",
-      "detail": "Local reputation is a real asset. Reviews are converting local searches like \"wildfork near me\" into traffic."
+      "headline": "278 reviews added at 5-star latest rating",
+      "detail": "Google Business Profile reputation is a tailwind. Worth surfacing in paid creative to reduce the trust barrier meat buyers face."
     }
   ],
   "market_context": {
     "benchmark": {
-      "label": "BENCHMARK",
-      "subheader": "Food brands average 1.6x return on ad spend",
-      "body": "<cite index=\"10-9,10-10\">Food and beverage Meta campaigns run a $38.57 median cost per purchase at 1.89% conversion with 1.61x return on ad spend.</cite> Billy Doe's 5x return is roughly triple the category median."
+      "label": "Benchmark",
+      "subheader": "Meat category cost per purchase runs $38",
+      "body": "<cite index=\"12-8\">Food and beverage ecommerce brands on Meta hit a median $38.57 cost per purchase at a 1.61 return on ad spend</cite>. Billy Doe sits at $182 cost per purchase this period — far above category norm."
     },
     "seasonal": {
-      "label": "SEASONAL",
-      "subheader": "Ad prices rise sharply into Black Friday",
-      "body": "<cite index=\"15-10\">Meta ad prices can climb up to 85% around Black Friday.</cite> Expect cost per purchase to rise through November. Lock in budget now while rates are still favorable."
+      "label": "Seasonal",
+      "subheader": "November drives peak fresh meat demand",
+      "body": "<cite index=\"20-4,20-5,20-6\">November generated $9.2 billion in meat department sales last year, with pound sales up 2.9% driven by fresh meat up 4.1%</cite>. Holiday weeks ahead are the strongest buying window."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "Food cost per thousand impressions stays low",
-      "body": "<cite index=\"16-10\">Food and beverage maintains the lowest cost per thousand impressions at $8.14 on Meta.</cite> Billy Doe should be able to scale reach cheaply versus competitors in higher-cost categories."
+      "label": "Competitor",
+      "subheader": "Subscription meat boxes dominate category",
+      "body": "<cite index=\"19-20\">ButcherBox sells a replenishment meat subscription at $129–$149 monthly</cite>. <cite index=\"23-10\">36% of consumers now buy through repeat or subscription models</cite>. Billy Doe's premium box concept fits this demand."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Scale the Premium Box campaign while returns hold",
-      "detail": "The current campaign returned 5x. Consider raising daily budget 20-30% and watching cost per purchase. Pull back if it crosses $45."
+      "title": "Shift budget toward holiday Reels before Thanksgiving",
+      "detail": "Fresh meat demand peaks in the next three weeks. Consider concentrating spend on the Premium Box ad during pre-holiday windows when buying intent is highest."
     },
     {
       "number": "02",
-      "title": "Test an abandoned cart email or retargeting flow",
-      "detail": "728 add-to-carts versus 174 pixel purchases shows real drop-off. A simple cart recovery sequence could capture lost revenue cheaply."
+      "title": "Test a subscription offer against one-time box",
+      "detail": "Replenishment models dominate the category. Worth testing a subscription angle on the Premium Box creative to lift repeat value and offset the current $182 cost per purchase."
     },
     {
       "number": "03",
-      "title": "Audit pixel tracking before Black Friday",
-      "detail": "Purchases reported exceed checkouts started, suggesting a tracking gap. Clean data matters more as ad costs rise through Q4."
+      "title": "Fix the gap between add-to-cart and purchase",
+      "detail": "759 add-to-carts produced 682 purchases but only 284 checkouts started. Worth auditing the checkout flow — shipping cost or account creation likely blocking conversions."
     }
   ]
 }

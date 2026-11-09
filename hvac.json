@@ -1,64 +1,64 @@
 {
   "client": "hvac",
   "clientName": "HVAC",
-  "generatedAt": "2026-11-02T21:20:04.975Z",
-  "weekOf": "October 6, 2026 – November 2, 2026",
-  "verdict": "Instagram lead ads delivered 109 leads this period, but cost per lead sits well above healthy furnace benchmarks.",
-  "diagnosis": "You spent $12,512 for 109 leads — roughly $115 each — just as heating demand enters its December peak window.",
+  "generatedAt": "2026-11-09T21:53:14.594Z",
+  "weekOf": "October 13, 2026 – November 9, 2026",
+  "verdict": "Lead costs are tracking on target for winter, but call volume and site conversion are soft spots.",
+  "diagnosis": "Instagram delivered 115 leads at roughly $111 each this period, close to industry norms, while Google Business Profile calls dropped to 95.",
   "signals": [
     {
-      "headline": "109 leads at $115 each",
-      "detail": "Instagram furnace form generated real volume, but cost per lead runs above the $30–$90 healthy range for HVAC."
+      "headline": "115 leads generated this period",
+      "detail": "Furnace campaign produced steady lead flow from $12,784 spend. Volume supports the fall heating push."
     },
     {
-      "headline": "295 reviews averaging 5 stars",
-      "detail": "Google Business Profile is a trust asset. Reviews like Brian James's convert cold shoppers better than any ad creative."
+      "headline": "Cost per lead near $111",
+      "detail": "Sits inside the typical HVAC range for paid social. Acceptable for furnace season but worth tightening."
     },
     {
-      "headline": "93 call clicks, 235 direction requests",
-      "detail": "Google profile drove more booked-intent actions than paid clicks did. Local search is punching above its weight."
+      "headline": "Only 95 phone calls booked",
+      "detail": "Direct calls from Google profile are the highest-converting channel. Volume looks low versus 239 direction requests."
     },
     {
-      "headline": "1,482 link clicks, zero tracked purchases",
-      "detail": "No purchase conversions firing from the pixel. You cannot see which leads become jobs right now."
+      "headline": "295 reviews, perfect 5-star average",
+      "detail": "Reputation is a genuine asset. Reviewers specifically praise technicians by name, which builds trust with new searchers."
     },
     {
-      "headline": "Follower base grew by 20",
-      "detail": "Organic Instagram added 20 followers and 6,673 reached accounts. Small but free compounding audience for winter."
+      "headline": "Zero tracked purchases from ads",
+      "detail": "Pixel is not recording installs or bookings. Without revenue tracking, true return on ad spend is invisible."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "BENCHMARK",
-      "subheader": "Healthy HVAC lead cost: $30–$90",
-      "body": "Industry data puts HVAC lead costs at $30–$90 on high-intent channels, with blended Google Ads around $104 and non-branded search near $149. Your $115 sits mid-pack but has room to improve."
+      "subheader": "HVAC lead costs sit $51 to $230",
+      "body": "Local Services Ads average $51 per lead with a 44% booking rate. Non-branded Google search averages $149. Meta lead ads typically land near $115, placing this account within range."
     },
     "seasonal": {
       "label": "SEASONAL",
-      "subheader": "Heating searches peak December–January",
-      "body": "Furnace repair searches spike up to 594% from August through December. November is pre-peak — the right moment to shift budget toward high-intent heating keywords before January."
+      "subheader": "Furnace searches spike in January",
+      "body": "Furnace repair searches climb 137% in January, and heating queries typically rise from September through winter. Demand for this campaign should strengthen over the next eight weeks."
     },
     "competitor": {
-      "label": "COMPETITOR",
-      "subheader": "Local Services Ads undercut Instagram",
-      "body": "Google Local Services Ads average $51 per HVAC lead with a 44% booking rate. Seven in ten contractors now use them, pushing costs up but still beating social lead forms."
+      "label": "CATEGORY",
+      "subheader": "76% of HVAC firms report rising demand",
+      "body": "91% of HVAC contractors are booked or nearly full this year, and 19% of homeowners plan a new system install. Competition for paid leads is heavy during this window."
     }
   },
   "recommendations": [
     {
       "number": "01",
-      "title": "Test Google Local Services Ads for heating calls",
-      "detail": "Local Services Ads averaged $51 per HVAC lead this year. Worth exploring a small test budget before December peak to compare against your $115 Instagram leads."
+      "title": "Test Google Local Services Ads for furnace calls",
+      "detail": "Local Services Ads average $51 per HVAC lead with 44% booking, well under current paid social cost. Worth running alongside Instagram this winter."
     },
     {
       "number": "02",
-      "title": "Tighten the Instagram furnace form or pause it",
-      "detail": "Consider adding a qualifying question (home ownership, system age) to filter low-intent form fills. If cost per lead stays above $100, redirect that budget."
+      "title": "Fix conversion tracking on the website",
+      "detail": "No purchases are being recorded against ad spend. Consider installing booking and call tracking so true return on each campaign becomes visible."
     },
     {
       "number": "03",
-      "title": "Fix purchase tracking before December",
-      "detail": "Zero return on ad spend is a measurement problem, not a performance one. Test the Facebook pixel purchase event so you can see which leads become jobs."
+      "title": "Convert direction requests into booked calls",
+      "detail": "239 people asked for directions but only 95 called. Test adding a click-to-call button and booking link on the Google profile."
     }
   ]
 }

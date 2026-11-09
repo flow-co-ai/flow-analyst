@@ -1,32 +1,64 @@
 {
   "client": "jcl",
   "clientName": "Justice Consumer Law",
-  "generatedAt": "2026-11-02T21:20:31.798Z",
-  "weekOf": "October 6, 2026 – November 2, 2026",
-  "verdict": "Paid social is punching above its weight; local reputation is a quiet asset you're underusing.",
-  "diagnosis": "Instagram leads campaign generated 612 leads at $13.24 each over 28 days — well below the $21 legal benchmark.",
+  "generatedAt": "2026-11-09T21:53:37.357Z",
+  "weekOf": "October 13, 2026 – November 9, 2026",
+  "verdict": "Lead volume is solid at 642 this period, but cost per lead has crept above benchmark on the latest day.",
+  "diagnosis": "Instagram campaign drove 642 leads on $13,625 spend, averaging $21 per lead — below legal norms, but latest-day cost per lead jumped to $20.63.",
   "signals": [
     {
-      "headline": "612 leads at $13.24 each",
-      "detail": "The August Re-Launch campaign is delivering leads at roughly 37% below the current legal industry benchmark on Meta."
+      "headline": "642 leads from $13,625 spend",
+      "detail": "Instagram's Leads campaign delivered strong volume this period at roughly $21 per lead, well under legal category norms."
     },
     {
-      "headline": "4.9-star average across 1,022 reviews",
-      "detail": "Reputation is a competitive moat. 72 new reviews this period signals active client advocacy worth amplifying publicly."
+      "headline": "Cost per lead rose to $20.63",
+      "detail": "Latest-day cost per lead sits above the 28-day average of $13.05. Watch for creative fatigue on Video Ad 04."
     },
     {
-      "headline": "254 phone calls from Google profile",
-      "detail": "Google Business Profile drives nine calls a day. This is your highest-intent channel and runs on autopilot."
+      "headline": "71 reviews added, 4.9 stars",
+      "detail": "Google Business Profile picked up strong review velocity with a near-perfect rating. Reputation is a real asset right now."
     },
     {
-      "headline": "Only 43 Instagram followers",
-      "detail": "Paid works, but there's no organic audience to retarget or warm up. Social presence is effectively a billboard."
+      "headline": "264 call clicks, 62 directions",
+      "detail": "Local profile is generating meaningful phone intent. Intake responsiveness decides whether these convert to signed cases."
     },
     {
-      "headline": "3,478 landing page views, 612 leads",
-      "detail": "Roughly 18% of visitors become leads. Solid, but the gap suggests the page could capture more intent."
+      "headline": "Only 46 Instagram followers",
+      "detail": "Organic social presence is thin. Paid is carrying the entire channel with no owned audience to fall back on."
     }
   ],
-  "market_context": "{\n\"benchmark\": {\n\"label\": \"Benchmark\",\n\"subheader\": \"Legal Meta ads: ~$21 per lead in 2026\",\n\"body\": \"<cite index=\"11-5\">Law firm cost per lead on Meta is projected around $21 in 2026, up from $18.17 in 2025.</cite> Your $13.24 is meaningfully below that.\"\n},\n\"seasonal\": {\n\"label\": \"Seasonal\",\n\"subheader\": \"Q4 debt and collections inquiries rise\",\n\"body\": \"Holiday spending and year-end credit card balances typically push consumer debt harassment complaints up. Expect intent to climb through December, then spike again in January.\"\n},\n\"competitor\": {\n\"label\": \"Competitor\",\n\"subheader\": \"Legal ad competition is intensifying\",\n\"body\": \"<cite index=\"11-3,11-4\">Law firm click-through rates slipped as more firms adopt Meta's automated tools, saturating audiences.</cite> Creative differentiation matters more than it did a year ago.\"\n}\n}",
-  "recommendations": "[\n{\"number\": \"1\", \"title\": \"Scale budget on the winning video ad\", \"detail\": \"Video - Ad 04 V4 is beating benchmarks by a wide margin. Consider raising daily spend 20-30% and watching cost per lead for drift.\"},\n{\"number\": \"2\", \"title\": \"Turn reviews into ad creative\", \"detail\": \"72 fresh five-star reviews this period. Test short video ads featuring real client quotes — social proof typically lifts conversion in legal.\"},\n{\"number\": \"3\", \"title\": \"Build an intake speed benchmark\", \"detail\": \"<cite index=\"2-4\">Responding within five minutes makes conversion 21x more likely than a 30-minute wait.</cite> Worth measuring your current response time.\"}\n]"
+  "market_context": {
+    "benchmark": {
+      "label": "Benchmark",
+      "subheader": "Legal cost per lead averages $131",
+      "body": "<cite index=\"1-4\">The 2026 attorneys and legal services benchmark for average cost per lead is $131.63</cite>. Your $21 average this period sits far below that, suggesting efficient targeting — or leads that need qualification."
+    },
+    "seasonal": {
+      "label": "Seasonal",
+      "subheader": "Bilingual demand is rising in legal",
+      "body": "<cite index=\"18-13\">Bilingual marketing is flagged as a 2026 growth area for law firms</cite>. Your Spanish-language search traffic (consumer protection queries) supports testing Spanish ad creative."
+    },
+    "competitor": {
+      "label": "Competitor",
+      "subheader": "Speed-to-lead decides who wins",
+      "body": "<cite index=\"19-6\">67% of prospective clients hire whichever firm responds first</cite>. With 264 call clicks this period, intake speed likely matters more than ad spend adjustments."
+    }
+  },
+  "recommendations": [
+    {
+      "number": "01",
+      "title": "Refresh Video Ad 04 before cost per lead climbs further",
+      "detail": "Latest-day cost per lead hit $20.63 versus $13 average. Consider testing a new hook or second creative variant to counter fatigue on the top-performing ad."
+    },
+    {
+      "number": "02",
+      "title": "Test a Spanish-language version of your top ad",
+      "detail": "Organic traffic shows Spanish consumer-protection searches reaching your site. Worth exploring a translated Video Ad 04 to capture an underserved segment cheaply."
+    },
+    {
+      "number": "03",
+      "title": "Audit intake speed on the 264 call clicks",
+      "detail": "Phone intent is strong this period. Confirm every call is answered live within 60 seconds — missed calls are the biggest hidden leak for law firms."
+    }
+  ]
 }
