@@ -1,64 +1,64 @@
 {
   "client": "billy-doe",
   "clientName": "Billy Doe Meats",
-  "generatedAt": "2026-11-09T21:52:53.176Z",
-  "weekOf": "October 13, 2026 – November 9, 2026",
-  "verdict": "Strong revenue this period, but cost per purchase is 4x category norm — fix checkout friction before holiday peak.",
-  "diagnosis": "Spent $6,820 generating $33,792 in purchases this period, but cost per purchase of $182 runs roughly 4x the food category benchmark.",
+  "generatedAt": "2026-11-16T21:34:05.027Z",
+  "weekOf": "October 20, 2026 – November 16, 2026",
+  "verdict": "Instagram ads are paying back roughly $5 for every $1 spent heading into Thanksgiving week.",
+  "diagnosis": "$7,159 in Instagram spend drove 693 purchases and $36,875 in revenue this period — strong returns, but checkout drop-off is the next lever.",
   "signals": [
     {
-      "headline": "Cost per purchase hit $182 this period",
-      "detail": "Roughly 4x the $38.57 food and beverage benchmark on Meta. The Premium Box awareness ad is driving traffic but not closing sales efficiently."
+      "headline": "Return on ad spend hit 5.1x",
+      "detail": "$36,875 revenue on $7,159 spend. Well above the 2.7x median for food and beverage brands on Meta."
     },
     {
-      "headline": "Return on ad spend reached 4.9x",
-      "detail": "$33,792 in purchases on $6,820 spend. Strong on paper and above the 1.61 category median, but driven by a $257 average order value."
+      "headline": "789 add-to-carts, only 297 checkouts",
+      "detail": "Roughly 6 in 10 shoppers abandon between cart and checkout. A clear recovery opportunity before Thanksgiving."
     },
     {
-      "headline": "759 add-to-carts, only 284 checkouts",
-      "detail": "A 63% drop between cart and checkout points to friction at shipping, payment, or account creation. Biggest single lever to improve."
+      "headline": "Cost per purchase around $10",
+      "detail": "693 purchases at $7,159 spend is efficient for a premium meat box. Room to scale spend before returns compress."
     },
     {
-      "headline": "1,901 new Instagram follows this period",
-      "detail": "Organic growth is healthy on a 13,369 follower base. Reels content including the butcher-wrapped lamb post is landing with the audience."
+      "headline": "Reach of 370,706 this period",
+      "detail": "Frequency at 1.37 means most people saw the ad once. Audience is not fatigued yet."
     },
     {
-      "headline": "278 reviews added at 5-star latest rating",
-      "detail": "Google Business Profile reputation is a tailwind. Worth surfacing in paid creative to reduce the trust barrier meat buyers face."
+      "headline": "97 new reviews landed this period",
+      "detail": "Google review velocity is strong and supports local trust signals right before the holiday rush."
     }
   ],
   "market_context": {
     "benchmark": {
       "label": "Benchmark",
-      "subheader": "Meat category cost per purchase runs $38",
-      "body": "<cite index=\"12-8\">Food and beverage ecommerce brands on Meta hit a median $38.57 cost per purchase at a 1.61 return on ad spend</cite>. Billy Doe sits at $182 cost per purchase this period — far above category norm."
+      "subheader": "Food and beverage converts higher than most categories",
+      "body": "Food and beverage ecommerce typically converts at 4.9–6.2%, roughly double the DTC average. Median Meta return on ad spend sits near 2.7x. Billy Doe's 5.1x is well above category norms."
     },
     "seasonal": {
       "label": "Seasonal",
-      "subheader": "November drives peak fresh meat demand",
-      "body": "<cite index=\"20-4,20-5,20-6\">November generated $9.2 billion in meat department sales last year, with pound sales up 2.9% driven by fresh meat up 4.1%</cite>. Holiday weeks ahead are the strongest buying window."
+      "subheader": "Thanksgiving falls November 26 this year",
+      "body": "Fresh turkey orders peak the Tuesday before Thanksgiving. Alternative mains like duck, ham and lamb see sharp lift as families skip traditional birds. The current Reels caption is aligned with this shift."
     },
     "competitor": {
       "label": "Competitor",
-      "subheader": "Subscription meat boxes dominate category",
-      "body": "<cite index=\"19-20\">ButcherBox sells a replenishment meat subscription at $129–$149 monthly</cite>. <cite index=\"23-10\">36% of consumers now buy through repeat or subscription models</cite>. Billy Doe's premium box concept fits this demand."
+      "subheader": "Butchers and BBQ shops selling holiday bundles",
+      "body": "Regional butchers and barbecue brands are pushing pre-order holiday packages — whole smoked turkeys, half-turkey kits and multi-meat platters priced $175–$299 — competing directly for the premium holiday table spend."
     }
   },
   "recommendations": [
     {
-      "number": "01",
-      "title": "Shift budget toward holiday Reels before Thanksgiving",
-      "detail": "Fresh meat demand peaks in the next three weeks. Consider concentrating spend on the Premium Box ad during pre-holiday windows when buying intent is highest."
+      "number": "1",
+      "title": "Fix the cart-to-checkout drop before Thanksgiving week",
+      "detail": "297 checkouts from 789 add-to-carts means 62% abandon. Consider a cart reminder email, guest checkout, and a visible holiday delivery cutoff date."
     },
     {
-      "number": "02",
-      "title": "Test a subscription offer against one-time box",
-      "detail": "Replenishment models dominate the category. Worth testing a subscription angle on the Premium Box creative to lift repeat value and offset the current $182 cost per purchase."
+      "number": "2",
+      "title": "Push more budget into the winning Premium Box ad",
+      "detail": "At 5.1x return and 1.37 frequency, the audience is not saturated. Worth testing a 25–40% budget lift through the Tuesday before Thanksgiving."
     },
     {
-      "number": "03",
-      "title": "Fix the gap between add-to-cart and purchase",
-      "detail": "759 add-to-carts produced 682 purchases but only 284 checkouts started. Worth auditing the checkout flow — shipping cost or account creation likely blocking conversions."
+      "number": "3",
+      "title": "Launch a retargeting ad for alternative holiday mains",
+      "detail": "The duck, Cornish hen and lamb angle in the current Reel is on-trend. Test a retargeting set aimed at the 789 cart adders who did not buy."
     }
   ]
 }

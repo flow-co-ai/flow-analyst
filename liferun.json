@@ -1,64 +1,48 @@
 {
   "client": "liferun",
   "clientName": "Liferun",
-  "generatedAt": "2026-11-09T21:53:59.821Z",
-  "weekOf": "October 13, 2026 – November 9, 2026",
-  "verdict": "Spend is running but leads have stalled — only 2 leads from $7,220 this period.",
-  "diagnosis": "The main call campaign is paused while a retargeting ad still spends, producing a cost per lead near $3,600 — far above healthcare norms.",
+  "generatedAt": "2026-11-16T21:35:20.513Z",
+  "weekOf": "October 20, 2026 – November 16, 2026",
+  "verdict": "Main campaign is paused and spend has collapsed to near zero, stalling lead flow this period.",
+  "diagnosis": "Only 2 leads generated on $7,221 spend over 28 days, with the primary call campaign sitting in PAUSED status.",
   "signals": [
     {
-      "headline": "Only 2 leads from $7,220 spend",
-      "detail": "Lead volume collapsed this period. Spend continues but the primary call campaign is paused, leaving no active top-of-funnel engine."
+      "headline": "Only 2 leads in 28 days",
+      "detail": "Lead volume is critically low. The paused call campaign is the likely cause of the drop-off."
     },
     {
-      "headline": "9 purchases worth $5,897 tracked",
-      "detail": "Return on ad spend sits near 5x on tracked purchases, but the sample is tiny and not a reliable signal yet."
+      "headline": "Spend totaled $7,221 this period",
+      "detail": "Money is still flowing but producing almost no leads. Cost per lead landed at roughly $3,610."
     },
     {
-      "headline": "4,653 clicks but 139 landing views",
-      "detail": "Click-to-landing drop-off is severe. Either tracking is broken or the landing page is failing to load for most visitors."
+      "headline": "9 purchases worth $5,897",
+      "detail": "E-commerce side is working, delivering roughly $5 back for every $1 spent on tracked purchases."
     },
     {
-      "headline": "208 direction requests, 1 call click",
-      "detail": "Google Business Profile drives map interest but almost no phone calls, unusual for a medical alert brand targeting seniors."
+      "headline": "220 direction requests, 1 call",
+      "detail": "Google Business Profile drives map interest but almost no phone calls, a weak signal for a life-alert buyer."
     },
     {
-      "headline": "Average cost per click near $2.08",
-      "detail": "Click cost is reasonable for healthcare search. The problem is downstream conversion, not auction pricing."
+      "headline": "Click-through rate at 5%",
+      "detail": "Clicks are healthy when ads do run. The problem is volume, not creative or targeting quality."
     }
   ],
-  "market_context": {
-    "benchmark": {
-      "label": "Benchmark",
-      "subheader": "Healthcare leads typically cost $27 to $67",
-      "body": "Health and wellness Google Ads average $26 to $67 per lead this year. Specialty medical runs $80 to $200. Liferun's current cost per lead is far above both ranges."
-    },
-    "seasonal": {
-      "label": "Seasonal",
-      "subheader": "Q4 is senior-safety buying season",
-      "body": "Adult children researching gifts and winter fall risk peak in November and December. Pausing the main call campaign now forfeits the strongest quarter for medical alert purchases."
-    },
-    "competitor": {
-      "label": "Competitor",
-      "subheader": "Category shifting to wearables and fall detection",
-      "body": "The home medical alert market reached $4.93B in 2026, growing 11.6% yearly. Competitors push GPS wearables and fall detection as standard features, raising ad creative expectations."
-    }
-  },
+  "market_context": "{\"benchmark\":{\"label\":\"BENCHMARK\",\"subheader\":\"Healthcare lead costs sit near $66\",\"body\":\"<cite index=\"7-1\">Healthcare averages $66 per lead on Google Ads from a $5.64 cost per click and 8% conversion rate.</cite> Liferun's $3,610 per lead this period is far above that.\"},\"seasonal\":{\"label\":\"SEASONAL\",\"subheader\":\"Q4 is peak senior-safety buying\",\"body\":\"<cite index=\"11-9\">Fall detection and 24/7 GPS monitoring are now baseline buyer expectations in 2026.</cite> Holiday months typically drive family gift purchases for aging parents, making a paused campaign costly.\"},\"competitor\":{\"label\":\"COMPETITOR\",\"subheader\":\"Category is consolidating fast\",\"body\":\"<cite index=\"15-4\">Medical Guardian acquired MobileHelp to expand senior healthcare with emergency response and remote monitoring technologies.</cite> Larger players are bundling monitoring features Liferun should highlight in ad copy.\"}}",
   "recommendations": [
     {
       "number": "01",
       "title": "Reactivate the paused call campaign immediately",
-      "detail": "The search call campaign is paused during peak senior-gifting season. Consider turning it back on with a modest daily cap while you audit performance."
+      "detail": "The BWS Search Call Campaign is sitting in PAUSED status. Consider turning it back on before Q4 gift-buying demand fades after December."
     },
     {
       "number": "02",
-      "title": "Audit the click-to-landing-page drop-off",
-      "detail": "Only 139 landing views from 4,653 clicks suggests a tracking break or slow page. Worth testing the pixel and mobile load speed this week."
+      "title": "Shift budget toward the purchase funnel",
+      "detail": "Purchases returned roughly 5x on spend this period. Worth testing more budget into e-commerce ads while lead campaigns are rebuilt."
     },
     {
       "number": "03",
-      "title": "Test adult-children messaging for Q4 gifting",
-      "detail": "Research shows adult children are the most motivated buyer segment. Consider a short creative test framing the watch as a holiday gift for aging parents."
+      "title": "Fix phone tracking on Google Business Profile",
+      "detail": "Only 1 call click against 220 direction requests looks like a tracking gap. Test a dedicated call extension and verify phone conversions fire."
     }
   ]
 }
